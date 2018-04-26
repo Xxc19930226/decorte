@@ -1,0 +1,375 @@
+<html>
+<body>
+	<style type="text/css">
+		.point_color{
+			background: black;
+			cursor: pointer;
+		}
+		.point_color:hover{
+			background: rgb(240,206,108);
+		}
+		.long_img{
+		  width: 800px;
+		}
+		.offline_img{
+		  width: 1200px;
+		  display: block;
+		}
+		.offline_img2{
+		    display: none;
+		}
+		@media screen and (max-width: 736px) {
+			.long_img{
+			    width: 100%;
+			}
+			.offline_img{
+			    display: none;
+			}
+			.offline_img2{
+			    display: block;
+			    width: 100%;
+			}
+		}
+	</style>
+	<div class="offline_img" style="text-align:center;margin:0 auto;position:relative">
+		<img src="/images/home/footer/map.jpg" style="width:100%;margin-top:50px">
+		<div id="bj" class="point_color" style="position:absolute;top: 358px;left: 476px;border-radius: 15px;width: 8px;height: 8px;background-color:rgb(240, 206, 108)">
+
+		</div>
+	<!--
+		<div id="bjzg" style="border: 1px solid black;width: 115px;line-height: 150%;padding: 5px 15px;position: absolute;top: 300px;left: 499px;">
+			<div id="bj1" style="cursor:pointer">>北京汉光专柜</div>
+			<div id="bj2" style="cursor:pointer">>北京SKP专柜</div>
+			<div id="bj3" style="cursor:pointer">>北京双安专柜</div>
+		</div>
+	-->
+
+		<div id="ty" class="point_color" style="position:absolute;top: 379px;left: 440px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+	<!--
+		<div id="tyzg" style="border: 1px solid black;width: 130px;line-height: 150%;padding: 5px 15px;position: absolute;top: 356px;left: 225px;">
+			<div id="ty1" style="cursor:pointer">>太原王府井专柜</div>
+		</div>
+	-->
+
+		<div id="nj" class="point_color" style="position:absolute;top: 453px;left: 515px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+	<!--
+		<div id="njzg" style="border: 1px solid black;width: 210px;line-height: 150%;padding: 5px 15px;position: absolute;top: 465px;left: 208px;">
+			<div id="nj1" style="cursor:pointer">>南京金鹰国际购物中心专柜</div>
+		</div>
+	-->
+
+		<div id="hz" class="point_color" style="position:absolute;top: 480px;left: 523px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+	<!--
+		<div id="hzzg" style="border: 1px solid black;width: 115px;line-height: 150%;padding: 5px 15px;position: absolute;top: 513px;left: 360px;">
+			<div id="hz1" style="cursor:pointer">>杭州大厦专柜</div>
+		</div>
+	-->
+
+		<div id="sh" class="point_color" style="position:absolute;top: 461px;left: 541px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+	<!--
+		<div id="shzg" style="border: 1px solid black;width: 180px;line-height: 150%;padding: 5px 15px;position: absolute;top: 395px;left: 434px;text-align: left;">
+			<div id="sh1" style="cursor:pointer">>上海梅龙镇伊势丹专柜</div>
+			<div id="sh2" style="cursor:pointer">>上海虹桥友谊专柜</div>
+		</div>
+	-->
+		<div id="wh" class="point_color" style="position:absolute;top: 477px;left: 462px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+
+		<div id="tj" class="point_color" style="position:absolute;top: 367px;left: 485px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+		<!--
+            <div id="tjzg" style="border: 1px solid black;width: 180px;line-height: 150%;padding: 5px 15px;position: absolute;top: 395px;left: 434px;text-align: left;">
+                <div id="sh1" style="cursor:pointer">>天津伊势丹专柜</div>
+            </div>
+        -->
+		<div id="heb" class="point_color" style="position:absolute;top: 277px;left: 555px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+		<!--
+            <div id="hebzg" style="border: 1px solid black;width: 180px;line-height: 150%;padding: 5px 15px;position: absolute;top: 395px;left: 434px;text-align: left;">
+                <div id="sh1" style="cursor:pointer">>哈尔滨专柜</div>
+            </div>
+        -->
+		<div id="cd" class="point_color" style="position:absolute;top: 484px;left: 360px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+		<!--
+            <div id="cdzg" style="border: 1px solid black;width: 180px;line-height: 150%;padding: 5px 15px;position: absolute;top: 395px;left: 434px;text-align: left;">
+                <div id="sh1" style="cursor:pointer">>成都伊势丹专柜</div>
+            </div>
+        -->
+		<div id="xa" class="point_color" style="position:absolute;top: 439px;left: 415px;border-radius: 15px;width: 8px;height: 8px;">
+
+		</div>
+		<!--
+            <div id="xazg" style="border: 1px solid black;width: 180px;line-height: 150%;padding: 5px 15px;position: absolute;top: 395px;left: 434px;text-align: left;">
+                <div id="sh1" style="cursor:pointer">>西安SKP黛珂专柜</div>
+            </div>
+        -->
+
+		<div style="position:absolute;width:298px;top:210px;left:653px;background-color:rgb(245,245,245)">
+			<div id="share" style="width:298px;padding:5px 0">
+				<div style="width:100%;text-align:left;">
+					<img src="/images/home/footer/dk_logo.png" style="width:100px;padding:0 5px">
+				</div>
+				<div id="detail" style="margin:5px;font-size:14px">
+					<div id="bj_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer">
+						北京
+					</div>
+					<div id="sh_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer">
+						上海
+					</div>
+					<div id="nj_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer">
+						南京
+					</div>
+					<div id="hz_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer">
+						杭州
+					</div>
+					<div id="ty_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer;">
+						太原
+					</div>
+					<div id="wh_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer;margin-top:10px">
+						武汉
+					</div>
+					<div id="tj_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer;margin-top:10px">
+						天津
+					</div>
+					<div id="heb_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer;margin-top:10px">
+						哈尔滨
+					</div>
+					<div id="cd_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer;margin-top:10px">
+						成都
+					</div>
+					<div id="xa_btn" style="border-radius: 15px;border: 1px solid rgb(201,201,201);padding: 3px 8px;float:left;margin-right: 7px;cursor:pointer;margin-top:10px">
+						西安
+					</div>
+					<div style="clear:both"></div>
+					<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>北京SKP专柜<br>北京市朝阳区建国路87号北京SKP一层<br>电话：010-65307709</div><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>北京双安专柜<br>北京市海淀区北三环西路38号双安百货一层<br>电话：010-82148137</div><div style='padding:5px 0'>北京汉光专柜<br>北京市西城区西北大街176号汉光百货一层<br>电话：010-66032016</div>
+					</div>
+				<!--
+					<img id="share_img" src="/images/home/footer/shoplist.jpg" style="width:298px;height:268px">
+				-->
+				</div>
+				<img src="/images/home/footer/share.jpg" style="width:100%;margin-top:5px">
+			</div>
+		</div>
+	</div>
+
+	<div class="offline_img2" style="text-align:center;margin:0 auto;">
+		<img src="/images/home/footer/map2.jpg" style="width:100%;margin-top:50px">
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#bj_btn").click(function(){
+				$("#address").remove();
+				$("#bj").css("background","rgb(240,206,108)");
+				$("#sh").css("background","black");
+				$("#nj").css("background","black");
+				$("#hz").css("background","black");
+				$("#ty").css("background","black");
+				$("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+				$("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>北京SKP专柜<br>北京市朝阳区建国路87号北京SKP一层<br>电话：010-65307709</div><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>北京双安专柜<br>北京市海淀区北三环西路38号双安百货一层<br>电话：010-82148137</div><div style='padding:5px 0'>北京汉光专柜<br>北京市西城区西北大街176号汉光百货一层<br>电话：010-66032016</div>");
+			});
+			$("#sh_btn").click(function(){
+				$("#address").remove();
+				$("#bj").css("background","black");
+				$("#sh").css("background","rgb(240,206,108)");
+				$("#nj").css("background","black");
+				$("#hz").css("background","black");
+				$("#ty").css("background","black");
+				$("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+				$("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>上海梅龙镇伊势丹专柜<br>上海市静安区南京西路1038号伊势丹百货一层<br>电话：021-62189023</div><div style='padding:5px 0'>上海虹桥友谊专柜<br>上海市长宁区遵义南路6号虹桥友谊商城一层<br>电话：021-52110697</div>");
+			});
+			$("#nj_btn").click(function(){
+				$("#address").remove();
+				$("#bj").css("background","black");
+				$("#sh").css("background","black");
+				$("#nj").css("background","rgb(240,206,108)");
+				$("#hz").css("background","black");
+				$("#ty").css("background","black");
+				$("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+				$("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='padding:5px 0'>南京金鹰国际购物中心专柜<br>南京市秦淮区汉中路89号金鹰国际购物中心B馆一层<br>电话：025-86801500</div>");
+			});
+			$("#hz_btn").click(function(){
+				$("#address").remove();
+				$("#bj").css("background","black");
+				$("#sh").css("background","black");
+				$("#nj").css("background","black");
+				$("#hz").css("background","rgb(240,206,108)");
+				$("#ty").css("background","black");
+				$("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+				$("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='padding:5px 0'>杭州大厦专柜<br>杭州市下城区环城北路武林广场1号A座一层<br>电话：0571-85196803</div>");
+			});
+			$("#ty_btn").click(function(){
+				$("#address").remove();
+				$("#bj").css("background","black");
+				$("#sh").css("background","black");
+				$("#nj").css("background","black");
+				$("#hz").css("background","black");
+				$("#wh").css("background","black");
+				$("#ty").css("background","rgb(240,206,108)");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+				$("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='padding:5px 0'>太原王府井专柜<br>山西省太原市小店区亲贤北街99号王府井百货一层<br>电话：0351-7887118</div>");
+			});
+			$("#wh_btn").click(function(){
+				$("#address").remove();
+				$("#bj").css("background","black");
+				$("#sh").css("background","black");
+				$("#nj").css("background","black");
+				$("#hz").css("background","black");
+				$("#ty").css("background","black");
+				$("#wh").css("background","rgb(240,206,108)");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+				$("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='padding:5px 0'>武汉武商广场专柜<br>武汉市江汉区解放大道688号武商广场一层<br>电话：027-85573775</div>");
+			});
+            $("#tj_btn").click(function(){
+                $("#address").remove();
+                $("#bj").css("background","black");
+                $("#sh").css("background","black");
+                $("#nj").css("background","black");
+                $("#hz").css("background","black");
+                $("#ty").css("background","black");
+                $("#wh").css("background","black");
+                $("#tj").css("background","rgb(240,206,108)");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+                $("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>天津伊势丹专柜<br>天津市和平区南京路108号伊势丹一层<br>电话：022-27188238</div>");
+            });
+            $("#heb_btn").click(function(){
+                $("#address").remove();
+                $("#bj").css("background","black");
+                $("#sh").css("background","black");
+                $("#nj").css("background","black");
+                $("#hz").css("background","black");
+                $("#ty").css("background","black");
+                $("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","rgb(240,206,108)");
+                $("#cd").css("background","black");
+                $("#xa").css("background","black");
+                $("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>哈尔滨专柜<br>黑龙江省哈尔滨市南岗区果戈里大街378号一层<br>电话：0451-53626700</div>");
+            });
+            $("#cd_btn").click(function(){
+                $("#address").remove();
+                $("#bj").css("background","black");
+                $("#sh").css("background","black");
+                $("#nj").css("background","black");
+                $("#hz").css("background","black");
+                $("#ty").css("background","black");
+                $("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","rgb(240,206,108)");
+                $("#xa").css("background","black");
+                $("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>成都伊势丹专柜<br>成都市锦江区大科甲巷8号伊势丹百货一层</div>");
+            });
+            $("#xa_btn").click(function(){
+                $("#address").remove();
+                $("#bj").css("background","black");
+                $("#sh").css("background","black");
+                $("#nj").css("background","black");
+                $("#hz").css("background","black");
+                $("#ty").css("background","black");
+                $("#wh").css("background","black");
+                $("#tj").css("background","black");
+                $("#heb").css("background","black");
+                $("#cd").css("background","black");
+                $("#xa").css("background","rgb(240,206,108)");
+                $("#detail").append("<div id='address' style='padding:5px;text-align: left;line-height: 200%;font-size:12px;margin:5px 0;max-height: 250px;overflow: auto;'><div style='border-bottom:1px solid rgb(201,201,201);padding:5px 0'>西安SKP黛珂专柜<br>西安市碑林区长安北路261号西安SKP一层<br>电话：029-83699709</div>");
+            });
+		/*
+			$("#bj1").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>北京汉光专柜<br>北京市西城区西北大街176号汉光百货一层<br>电话：010-66032016</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#bj2").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>北京SKP专柜<br>北京市朝阳区建国路87号北京SKP一层<br>电话：010-65307709</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#bj3").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>北京双安专柜<br>北京市海淀区北三环西路38号双安百货一层<br>电话：010-82148137</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#ty1").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>太原王府井专柜<br>太原市小店区亲贤北街99号王府井百货一层<br>电话：010-82148137</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#nj1").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:100px 0;font-size:14px;line-height:150%'>南京金鹰国际购物中心专柜<br>南京市秦淮区汉中路89号金鹰国际购物中心B馆一层<br>电话：025-86801500</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#hz1").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>杭州大厦专柜<br>杭州市下城区环城北路武林广场1号A座一层<br>电话：0571-85196803</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#sh1").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>上海梅龙镇伊势丹专柜<br>上海市静安区南京西路1038号伊势丹百货一层<br>电话：021-62189023</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+			$("#sh2").hover(function(){
+			    $("#share_img").css("display","none");
+			    $("#share").append("<div id='share_address' style='border:1px solid rgb(201,201,201);width:298px;height:268px'><div style='padding:105px 0;font-size:14px;line-height:150%'>上海虹桥友谊专柜<br>上海市长宁区遵义南路6号虹桥友谊商城一层<br>电话：021-52110697</div></div>");
+			},function(){
+			    $("#share_address").remove();
+			    $("#share_img").css("display","block");
+			});
+		*/
+		})
+	</script>
+</body>
+</html>
