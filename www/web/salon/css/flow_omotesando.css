@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+/*----------------------------------------------------
+  Layout
+----------------------------------------------------*/
+
+#wrap{
+width:100%;
+text-align:center;
+}
+
+* html body{
+behavior:url("/css/csshover3.htc");
+}
+
+/*----------------------------------------------------
+  Slide
+----------------------------------------------------*/
+
+
+.panel h2.title { 
+margin:0;
+padding:0;
+font-size:100%;
+display:none;
+}
+
+.coda-slider-wrapper { 
+padding:0 0 30px;
+overflow:hidden; 
+}
+
+.coda-slider {
+background:#FFFFFF;
+}
+
+.coda-slider-no-js .coda-slider { 
+overflow:hidden; 
+}
+
+
+.coda-slider { 
+width:645px;
+height:570px;
+diplay:block;
+overflow:hidden;
+margin: 0 0 30px;
+padding:0;
+} 
+
+.coda-slider .panel {
+width:645px;
+height:570px;
+overflow:hidden;
+position:relative;
+}
+
+.coda-slider-wrapper.arrows .coda-slider, 
+.coda-slider-wrapper.arrows .coda-slider .panel {
+width:645px ;
+height:570px;
+overflow:hidden; 
+}
+
+.coda-slider-wrapper.arrows .coda-slider { 
+margin:0;
+}
+
+.coda-nav-left, .coda-nav-right{ 
+height:574px; 
+width:15px; 
+}
+.coda-nav-left a, .coda-nav-right a { 
+padding:0; 
+outline: none; 
+}
+
+.coda-nav ul li a.current {
+}
+
+.coda-slider .panel-wrapper {
+padding:0;
+}
+
+.coda-slider p.loading {
+padding:20px;
+text-align:center;
+}
+
+/* Tabbed nav */
+.coda-nav ul {
+margin-left:11px;
+display:block; 
+margin-bottom:10px;
+}
+
+*:first-child+html  .coda-nav ul {
+
+}
+
+
+.coda-nav ul li {
+float:left;
+margin-right:1px;
+}
+
+.coda-nav ul li a {
+outline: none; 
+}
+
+
+/* Miscellaneous */
+.coda-slider-wrapper {
+lear:both;
+overflow:hidden;
+}
+
+.coda-slider {
+float:left;
+overflow:hidden;
+position:relative;
+}
+
+.coda-slider .panel {
+display:block;
+float:left;
+}
+
+.coda-slider .panel-container {
+position:relative;
+}
+
+.coda-nav-left, 
+.coda-nav-right { 
+float:left;
+}
+
+.coda-nav-left a, 
+.coda-nav-right a {
+display:block;
+text-align:center;
+text-decoration:none;
+}
+
+/* Styling for specific sliders */
+#coda-nav-left-5 {
+margin:0 1px 0 135px;
+}
+
+#coda-nav-left-5, 
+#coda-nav-5, 
+#coda-nav-right-5 {
+float:left;
+}
+
+#coda-nav-5 ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#coda-nav-5 a {
+margin:0;
+padding:4px;
+list-style:none;
+margin-right:1px;
+}
+
+#coda-nav-5 li {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#coda-nav-left-5 a,
+#coda-nav-right-5 a {
+padding:4px;
+width:20px;
+}
+
+#coda-slider-5 {
+clear:both;
+}
+
+.coda-nav-left{
+clear:both;
+}
+
+
+#SalonContents {
+	padding:0;
+	width:733px;
+	}
+
+
+.flow {
+    margin: 0 29px;
+	}
+
+
+.coda-slider .panel p.txt{
+	padding:10px;
+	font-size:12px;
+    height: 2em;
+}
+
+.coda-slider .panel ul li{
+	text-align:center;
+	
+}
+
+.coda-nav-left a {
+	width: 20px;
+	height: 474px;
+	margin: 0;
+	display: block;
+	background: url(/salon/images/20130201/flow/arrow.png) no-repeat 0 50% #FFFFFF;
+	position: absolute;
+	top: 90px;
+    left: 25px;
+	z-index: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-transition: all .3s ease;
+	}
+	
+
+.coda-nav-right a {
+	width: 20px;
+	height: 474px;
+	margin: 0;
+	display: block;
+	background: url(/salon/images/20130201/flow/arrow.png) no-repeat 0 50% #FFFFFF;
+	position: absolute;
+	top: 90px;
+	z-index: 0;
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-transition: all .3s ease;
+    background-position: 100% 50%;
+    right: 25px;
+}
+
+#coda-slider .innerfade li img{
+	margin-left:10px;
+	}

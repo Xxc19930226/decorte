@@ -1,0 +1,26 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+all:
+  # 管理画面で「本番反映」を選択した時に反映先となるDB
+  livedb:
+    class: sfDoctrineDatabase
+    param:
+      dsn: mysql:host=127.0.0.1;dbname=cosmedecorte
+      username: cosmedecorte
+      password: Databasepass@2017
+      attributes:
+        use_native_enum: true
+        default_table_collate: utf8_unicode_ci
+        default_table_charset: utf8
+
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: mysql:host=127.0.0.1;dbname=cosmedecorte
+      username: cosmedecorte
+      password: Databasepass@2017
+      attributes:
+        use_native_enum: true
+        default_table_collate: utf8_unicode_ci
+        default_table_charset: utf8

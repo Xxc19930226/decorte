@@ -1,0 +1,90 @@
+<?php slot('description', 'フィトチューン ラインコンセプト。肌チューニングの先に広がる、未知の美しさ。フィトチューン。コスメデコルテ。') ?>
+<?php slot('keywords', 'フィトチューン,スキンケア,コスメデコルテ,コーセー,クレンジング,乳液,化粧,美容液,クリーム,保湿,毛穴,吹き出物／ニキビケア,くすみ,皮脂') ?>
+<?php slot('title', 'ラインコンセプト &#124; Phytotune') ?>
+<?php use_stylesheet('phytotune-concept.css') ?>
+<?php use_stylesheet('lineconcept_footer.css') ?>
+<script type="text/javascript">
+
+(function($, window) {
+    $(function() {
+        $("#dispItemList").load('/product/liposome/skincare/list');
+    });
+}(jQuery, window));
+</script>
+
+
+<div class="linehead">
+    <div class="l-container">
+        <p class="linehead__back"><a href="./"><img src="/images/linetop/back_gray.png" alt=""></a></p>
+    </div>
+</div>
+<article class="moisuture_concept">
+    <div class="keyvisual">
+        <div class="keyvisual__container">
+            <div class="keyvisual__movie">
+                <div class="keyvisual__movie__container">
+                    <?php include_partial('global/flvmp4', array('flashFile' => '/movies/phytotune_WEB_Product_1.swf', 'mp4File' => '/movies/cosmedecorte_phytotune_150525.mp4', 'poster' => '/images/phytotune/sp/movie_image_2.jpg', 'controls' => 'false')) ?>
+                    <div class="keyvisual__movie__coat">
+                      <div class="keyvisual__movie__coat__arrow"> <img src="/images/parts/arrow_movie_slide.png" alt="" /> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg1">
+        <div class="moisuture_concept__top"> <img class="sp sp_bg" alt="" src="/images/phytotune/sp/bg_concept_moisture_02.jpg">
+            <header class="moisuture_concept__title">
+                <p class="moisuture_concept__title__logo"><img src="/images/phytotune/logo.png" alt="フィトチューン"></p>
+                <h1 class="moisuture_concept__title__text">ラインコンセプト</h1>
+            </header>
+        </div>
+        <section class="moisuture_concept__message">
+            <div class="l-container">
+                <p class="moisuture_concept__message__lead">肌チューニングの先に広がる、<br>
+                    未知の美しさ。</p>
+                <h2 class="moisuture_concept__message__copy">太古の熟成植物成分<br class="sp">
+                    「フムスエキス」配合、<br>
+                    フィトチューン。</h2>
+                <p class="moisuture_concept__message__text">心までほぐれるような、やわらかな使い心地。<br>
+                    植物の生命力を吹き込み、調子を崩しやすい<br>
+                    アンバランス肌をチューニング。<br>
+                    乾燥や、毛穴の目立ち、くすみ <span>※</span>を<br class="sp">
+                    繰り返す肌の基礎を整え、<br>
+                    未来へ続く美しさをかなえます。<br>
+                    さあ、見たことがないほど、輝く肌に。<br>
+                    <span>※乾燥やキメの乱れによる</span></p>
+            </div>
+        </section>
+    </div>
+    <section class="moisuture_concept__seibun">
+        <div class="l-container">
+            <h1 class="moisuture_concept__seibun__title">神秘の力、<br>
+                フムスエキス<span>※1</span>配合</h1>
+            <p class="moisuture_concept__seibun__text">数千万年の歳月をかけて、<br class="sp">植物などが海底に堆積した土壌から抽出。<br>
+                ごく限られた地域にしか存在しない貴重な成分です。<br>
+                さらに、採取から約2年もの歳月を費やし、<br>
+                丁寧に精製してエキスを取り出します。<br>
+                植物の生命力があふれる、フルボ酸・ミネラル・アミノ酸など<br>
+                豊富な成分をバランスよく含有。<br>
+                はかり知れない効果があることが明らかになり、<br>
+                いまなお研究が重ねられる、有望な成分です。</p>
+        </div>
+        <div class="moisture_concept__seibun__herb">
+            <div class="l-container">
+                <h1 class="moisture_concept__seibun__herb__title">ハーブの恵み、<br class="sp">
+                    ハーバルコンプレックス<span>※2</span></h1>
+                <p class="moisture_concept__seibun__herb__text">厳選された3種のハーブで、<br class="sp">
+                    美肌への生まれ変わりをサポート。</p>
+                <ul>
+                    <li class="herb01">シソ葉エキス</li>
+                    <li class="herb02">ローズマリーエキス</li>
+                    <li class="herb03">ローズヒップオイル<br>
+                        ［カニナバラ果実油］</li>
+                </ul>
+                <p class="moisture_concept__seibun__herb__text__note"> ※1腐植土抽出物・グリセリン（保湿）<br>
+                    ※2シソ葉エキス・ローズマリーエキス・ローズヒップオイル・グリセリン（保湿） </p>
+                <p class="productLink"><a href="./?category=skincare">View All Products</a></p>
+            </div>
+        </div>
+    </section>
+</article>

@@ -1,0 +1,571 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+.lineindex {
+    @include clearfix;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    top: 50px;
+    width: 1140px;
+    &__title {
+        font-family: $mincho;
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .note {
+        font-size: 12px;
+        padding-top: 60px;
+        text-align: right;
+    }
+}
+.effect-container {
+    @include clearfix;
+    margin-left: -40px;
+}
+.effect {
+    @include clearfix;
+    float: left;
+    padding-top: 100px;
+    &.hadahirou {
+        float: right;
+    }
+
+    &__name {
+        border-bottom: 1px solid #000;
+        color: #333333;
+        font-family: $mincho;
+        margin-left: 40px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+
+        small {
+            font-size: .7em;
+        }
+    }
+}
+.line {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    position: relative;
+    width: 255px;
+
+    &__image {
+        position: relative;
+    }
+    &__name {
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 50px;
+        overflow: hidden;
+        position: absolute;
+        text-indent: 200%;
+        top: 60px;
+        white-space: nowrap;
+        width: 100%;
+
+        text-indent: 0\9;
+        text-align: center;
+        left: auto;
+        right: auto;
+
+
+        .text {
+            display: none\9;
+        }
+        .logo {
+            height: 100%;
+            width: auto;
+        }
+
+    }
+    &__copy {
+        font-size: 12px;
+        line-height: 21px;
+        position: absolute;
+        text-align: center;
+        top: 135px;
+        width: 100%;
+    }
+    &__categorylist {
+        position: absolute;
+        text-align: center;
+        top: 210px;
+        width: 100%;
+        &__item {
+            color: #999;
+            display: inline-block;
+            font-size: 10px;
+            margin: 0 5px;
+        }
+    }
+
+    .m-hover {
+        -webkit-transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        -ms-transition: opacity .5s ease-out;
+        transition: opacity .5s ease-out;
+        background-color: rgba(255,255,255,0.9);
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 255px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+        @include opacity(0);
+        display: none\9;
+
+    }
+    &:hover .m-hover {
+        @include opacity(1);
+        display: block\9;
+        background-color: #FFFFFF\9;
+    }
+
+    &.absolutequality {
+        background-color: #000;
+        height: 255px;
+        float: left;
+        margin-bottom: 30px;
+        width: 550px;
+        .line {
+            &__name {
+                background-image: image-url('line/aq.png');
+                height: 100px;
+                top: 22px;
+            }
+            &__copy {
+                color: #FFF;
+                top: 128px;
+                font-size: 12px;
+                line-height: 21px;
+            }
+        }
+    }
+    &.aq_mw ,
+    &.aq_meliority {
+        height: auto;
+        width: 550px;
+        .line {
+            &__name {
+                height: 100px;
+                top: 130px;
+            }
+            &__copy {
+                font-size: 22px;
+                line-height: 34px;
+                top: 275px;
+            }
+            &__categorylist {
+                position: relative;
+                text-align: left;
+                top: auto;
+                &__item {
+                    background-color: #999;
+                    border-radius: 5px;
+                    color: #FFF;
+                    display: inline-block;
+                    font-size: 10px;
+                    margin: 10px 0 0;
+                    padding: 3px 5px 2px 5px;
+                }
+            }
+        }
+        .m-hover {
+            height: 550px;
+        }
+    }
+    &.aq_meliority {
+        float: left;
+        .line {
+            &__name {
+                background-image: image-url('line/aq_meliority_flat.png');
+                background-image: none\9;
+            }
+        }
+    }
+    &.aq_mw .line__name {
+        background-image: image-url('line/aq_mw.png');
+        background-image: none\9;
+    }
+
+    &.aq {
+        .line__name {
+            background-image: image-url('line/aq.png');
+            background-image: none\9;
+        }
+    }
+    &.cellgenie {
+        width: 550px;
+        .line__image {
+            img {
+                width: 100%;
+            }
+        }
+        .line__name {
+            background-image: image-url('line/cellgenie.png');
+            background-image: none\9;
+        }
+    }
+    &.clayblanc .line__name {
+        background-image: image-url('line/clay_blanc.png');
+        background-image: none\9;
+    }
+    &.cyclic_key {
+      .line__name {
+          background-image: image-url('line/cyclic_key.png');
+          background-image: none\9;
+      }
+    }
+    &.de_la_vie .line__name {
+        background-image: image-url('line/de_la_vie.png');
+        background-image: none\9;
+    }
+    &.even_perfect .line__name {
+        background-image: image-url('line/even_perfect.png');
+        background-image: none\9;
+    }
+    &.ever_crystal .line__name {
+        background-image: image-url('line/ever_crystal.png');
+        background-image: none\9;
+    }
+    &.honeydew .line__name {
+        background-image: image-url('line/honeydew.png');
+        background-image: none\9;
+    }
+    &.lacouture .line__name {
+        background-image: image-url('line/lacouture.png');
+        background-image: none\9;
+    }
+    &.liposome {
+        width: 550px;
+        .line__image {
+            img {
+                width: 100%;
+            }
+        }
+        .line__name {
+            background-image: image-url('line/liposome.png');
+            background-image: none\9;
+        }
+    }
+    &.maquiexpert .line__name {
+        background-image: image-url('line/maquiexpert.png');
+        background-image: none\9;
+    }
+    &.moisture_liposome {
+        width: 550px;
+        .line__image {
+            img {
+                width: 100%;
+            }
+        }
+        .line__name {
+            background-image: image-url('line/moisture_liposome.png');
+            background-image: none\9;
+        }
+    }
+    &.phytotune {
+        width: 550px;
+        .line__image {
+            img {
+                width: 100%;
+            }
+        }
+        .line__name {
+            background-image: image-url('line/phytotune.png');
+            background-image: none\9;
+        }
+    }
+    &.prime_latte .line__name {
+        background-image: image-url('line/prime_latte.png');
+        background-image: none\9;
+    }
+    &.vice_virtue .line__name {
+        background-image: image-url('line/vice_virtue_n.png');
+        background-image: none\9;
+    }
+    &.vita_de_reve .line__name {
+        background-image: image-url('line/vita_de_reve.png');
+        background-image: none\9;
+    }
+    &.whitelogist .line__name {
+        background-image: image-url('line/whitelogist.png');
+        background-image: none\9;
+    }
+    &.ip_shot {
+        width: 550px;
+        .line__image {
+            img {
+                height: 255px;
+            }
+        }
+        .line__name {
+            background-image: image-url('line/ip_shot.png');
+            background-image: none\9;
+        }
+    }
+
+
+}
+
+
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+
+.lineindex {
+    @include clearfix;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    top: 36px;
+    width: 95%;
+    &__title {
+        font-family: $mincho;
+        font-size: 30px;
+        margin-top: 43px;
+        text-align: center;
+    }
+
+    .note {
+        font-size: 9px;
+        padding-top: 35px;
+        text-align: left;
+    }
+}
+.effect-container {
+    @include clearfix;
+    margin-left: -2%;
+}
+.group {
+    @include clearfix;
+    &:first-child {
+        border: none;
+    }
+    
+}
+.opener {
+    color: #999999;
+    background-image: image-url('lineindex/closer.png');
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-size: 11.5px auto;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-right: 15px;
+    text-align: right;
+
+    &.m--active { background-image: image-url('lineindex/opener.png'); }
+}
+.effect {
+    float: left;
+    padding-top: 30px;
+    width: 100%;
+
+    &__name {
+        color: #333333;
+        font-family: $mincho;
+        margin-left: auto;
+        text-align: center;
+
+        small {
+            font-size: .7em;
+        }
+    }
+}
+.single {
+    margin-left: 2%;
+    width: 48%;
+    .line {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+.wide {
+    margin-left: 2%;
+    width: 100%;
+    .line {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+.line {
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    position: relative;
+    width: 48%;
+
+    &__image {
+        position: relative;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+    &__name {
+        background-position: center 50%;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        display: inline-block;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        text-indent: 0;
+        top: 0;
+        white-space: nowrap;
+        width: auto;
+        a {
+            color: #000;
+            font-family: $gothic-bold;
+            font-size: 9px;
+            .logo {
+                display: none;
+            }
+        }
+    }
+    &__copy {
+        display: none;
+    }
+    &__categorylist {
+        margin-top: 2px;
+        position: relative;
+        text-align: left;
+        top: 0;
+        vertical-align: top;
+        width: auto;
+
+        &__item {
+            color: #808080;
+            display: inline-block;
+            font-size: 8px;
+            vertical-align: top;
+            margin-left: 0;
+            margin-right: 5px;
+        }
+    }
+    .m-hover {
+        -webkit-transition: opacity .5s ease-out;
+        -moz-transition: opacity .5s ease-out;
+        -ms-transition: opacity .5s ease-out;
+        transition: opacity .5s ease-out;
+
+        background-color: rgba(255,255,255,0.9);
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+        border: none;
+        box-sizing: border-box;
+        opacity: 1;
+    }
+    &:hover .m-hover {
+        opacity: 1;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        filter: alpha(opacity=100);	/* IE lt 8 */
+        -ms-filter: "alpha(opacity=100)"; /* IE 8 */
+    }
+
+    &.aq_mw ,
+    &.aq_meliority {
+        float: none;
+        height: auto;
+        width: 100%;
+        .line {
+            &__name {
+                height: auto;
+                top: 0;
+            }
+            &__copy {
+                display: none;
+            }
+            &__categorylist {
+                top: 0;
+                &__item {
+                    margin-top: 0;
+                    font-size: 8px;
+                }
+            }
+        }
+        .m-hover {
+            height: auto;
+        }
+    }
+    &.aq_mw {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    &.cellgenie {
+        width: 100%;
+    }
+    &.phytotune {
+        width: 100%;
+    }
+    &.phytotune {
+        width: 100%;
+    }
+    &.liposome {
+        width: 100%;
+    }
+    &.moisture_liposome {
+        width: 100%;
+    }
+    &.ip_shot {
+        width: 100%;
+        .line__image img {
+            height: auto;
+        }
+    }
+
+
+    &.aq_mw ,
+    &.aq_meliority ,
+    &.cellgenie ,
+    &.aq ,
+    &.clayblanc ,
+    &.cyclic_key ,
+    &.de_la_vie ,
+    &.even_perfect ,
+    &.ever_crystal ,
+    &.honeydew ,
+    &.lacouture ,
+    &.liposome ,
+    &.maquiexpert ,
+    &.moisture_liposome ,
+    &.phytotune ,
+    &.prime_latte ,
+    &.vice_virtue ,
+    &.vita_de_reve ,
+    &.whitelogist,
+    &.ip_shot {
+        .line__name {
+            background-image: none;
+        }
+    }
+
+
+}
+
+
+}

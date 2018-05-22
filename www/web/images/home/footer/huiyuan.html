@@ -1,0 +1,27 @@
+<html>
+<body>
+	<div class="long_img" style="text-align:center;margin:0 auto;margin-top:50px;position:relative">
+		<img id="bg" src="/images/home/footer/huiyuan.jpg" style="width:100%;">
+		<a href="http://club.cn-cosmedecorte.com/">
+			<div id="btn" style="position: absolute;">
+				<!--
+			<div id="btn" style="position: absolute;width: 256px; left: 272px; top: 877.896px; height: 32.04px;">
+			-->
+				
+			</div>
+		</a>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var bg_w = $("#bg").width();
+			var bg_h = $("#bg").height();
+
+			$("#btn").css("width",bg_w * 0.32);
+			$("#btn").css("left",bg_w * 0.34);
+			$("#btn").css("top",bg_h * 0.2055);
+			$("#btn").css("height",bg_h * 0.0075);
+		})
+	</script>
+</body>
+</html>

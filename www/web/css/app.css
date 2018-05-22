@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* smartphone layout break point*/
+/* max width device : iPhone6 plus(Landscape) */
+/* line 8, ../sass/app.scss */
+.app {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  top: 50px;
+  width: 1200px;
+}
+/* line 16, ../sass/app.scss */
+.app__title {
+  font-family: hy;
+  font-size: 30px;
+  margin-top: 100px;
+  text-align: center;
+}
+/* line 22, ../sass/app.scss */
+.app__about {
+  background-image: url(../images/app/iphone.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 2;
+  margin: 20px auto 0;
+  min-height: 330px;
+  padding-top: 30px;
+  width: 800px;
+}
+/* line 33, ../sass/app.scss */
+.app__about p {
+  width: calc(100% - 250px);
+}
+/* line 36, ../sass/app.scss */
+.app__about .update_message {
+  color: #FF0000;
+  margin-bottom: 20px;
+}
+/* line 40, ../sass/app.scss */
+.app__about .downloadlink {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 30px;
+}
+/* line 43, ../sass/app.scss */
+.app__about .downloadlink__item {
+  float: left;
+  margin-right: 10px;
+}
+/* line 46, ../sass/app.scss */
+.app__about .downloadlink__item a img {
+  height: 40px;
+}
+/* line 52, ../sass/app.scss */
+.app__image {
+  margin-top: 75px;
+}
+/* line 54, ../sass/app.scss */
+.app__image__title {
+  border-bottom: 1px solid #000;
+  font-family: hy;
+  font-size: 18px;
+  padding-bottom: 12px;
+}
+/* line 60, ../sass/app.scss */
+.app__image__list {
+  margin-top: 50px;
+  text-align: center;
+}
+/* line 63, ../sass/app.scss */
+.app__image__list__item {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 20px;
+  text-align: center;
+}
+/* line 68, ../sass/app.scss */
+.app__image__list__item img {
+  display: block;
+  margin-top: 30px;
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@media screen and (max-width: 736px) {
+  /* line 86, ../sass/app.scss */
+  .app {
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    top: 50px;
+    width: auto;
+  }
+  /* line 95, ../sass/app.scss */
+  .app__title {
+    font-family: hy;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  /* line 100, ../sass/app.scss */
+  .app__about {
+    background-image: url(../images/app/iphone.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 50px auto 0;
+    min-height: inherit;
+    padding-top: 0;
+    width: 95%;
+  }
+  /* line 112, ../sass/app.scss */
+  .app__about p {
+    font-size: 12px;
+    width: calc(100% - 130px);
+  }
+  /* line 116, ../sass/app.scss */
+  .app__about .downloadlink {
+    overflow: hidden;
+    *zoom: 1;
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* line 120, ../sass/app.scss */
+  .app__about .downloadlink__item {
+    display: inline-block;
+    float: none;
+    margin-right: 10px;
+  }
+  /* line 124, ../sass/app.scss */
+  .app__about .downloadlink__item a img {
+    height: 40px;
+  }
+  /* line 130, ../sass/app.scss */
+  .app__image {
+    margin: 25px auto 0;
+    width: 95%;
+  }
+  /* line 133, ../sass/app.scss */
+  .app__image__title {
+    border-bottom: 1px solid #000;
+    font-family: hy;
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+  /* line 139, ../sass/app.scss */
+  .app__image__list {
+    background-color: #e6e6e6;
+    margin-top: 25px;
+    padding: 10px 0;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* line 145, ../sass/app.scss */
+  .app__image__list__item {
+    display: table-cell;
+    font-size: 14px;
+    margin: 0 20px;
+    text-align: center;
+    width: 130px;
+  }
+  /* line 151, ../sass/app.scss */
+  .app__image__list__item img {
+    display: block;
+    margin: 0 5px;
+    width: 140px;
+  }
+}

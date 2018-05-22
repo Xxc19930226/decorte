@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}*/
+
+p.logo img{
+	zoom:50%;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+	margin:10px;
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #382070;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0;
+}
+
+	
+.btn img{
+	width:100%;
+	}
+
+.ttl02{
+	text-align:center;	
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	}
+
+section{
+	padding-bottom:30px;
+	text-align:center;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	color:#382070;
+	text-align:center;
+	}
+	
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+
+.ttl02 img{
+	width:90%;
+	max-width:538px;
+	}
+	
+
+section.page01 .sub {
+	margin-bottom:1em;	
+}
+
+img.fit100{
+	width:100%;
+	max-width:640px;
+	}
+
+section.page01 .txt01,
+section.page01 .txt02,
+section.page01 .txt03{
+	text-align:left;
+	}
+
+section.page01 .yumi01{
+	float:right;
+	margin-left:10px;
+	width:25%;
+}
+
+section.page01 .lesson01{
+	margin-top:25px;
+	}
+
+section.page01 .ageing{
+	background-color:#e3ecf8;
+	text-align:left;
+	padding:10px 0;
+}
+
+section.page01 .chart{
+	width:40%;
+	float:right;
+	
+	}
+
+section.page01 .sub03{
+	padding:10px 0;
+	font-size:16px;
+	color:#382070;
+	}
+
+section.page02 .txt01{
+	text-align:left;
+	
+	}
+section.page02 .item{
+	text-align:left;
+	background:URL(/images/sp/recipe/20121201/page02_itembg.jpg) 0 0 #f7f2ff no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+	}
+	
+section.page02 .item01 img,
+section.page02 .item02 img,
+section.page02 .item03 img,
+section.page02 .item04 img,
+section.page02 .item05 img{
+	width:85%;
+}
+
+section.page02 .item p{
+	width:100%;
+	}
+	
+section.page02 .item02 img{
+	margin-bottom:10px;
+}
+section.page02 .item05 img{
+	margin-bottom:30px;
+}
+
+section.page03 .qa{
+	background-color:#d7e9f0;
+	padding-bottom:20px;
+}
+
+section.page03 .q01{
+	padding:10px 0 5px 0;
+	background:URL(/images/sp/recipe/20121201/page03_bg01.jpg) 0 0 transparent no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+}
+
+section.page03 .q02{
+	padding:30px 0 0 0;
+	background:URL(/images/sp/recipe/20121201/page03_bg02.jpg) 0 0 transparent no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+}
+
+section.page03 .q03{
+	padding:10px 0 30px 0;
+	background:URL(/images/sp/recipe/20121201/page03_bg03.jpg) 0 0 transparent no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+}
+
+section.page03 .answer{
+	text-align:left;
+	background:URL(/images/sp/recipe/20121201/page03_a.png) 0 0 transparent no-repeat;
+	padding-left:40px;
+	margin-left:20px;
+	
+	}
+	
+
+section.page03 .item{
+	text-align:left;
+	padding-left:10px;
+	margin-bottom:50px;
+}
+
+section.page03 .item img{
+	width:55%;
+}
+
+section.page03 .chart img{
+	width:60%;	
+	}
+
+section.page03 .chart{
+	text-align:center;
+	}
+
+section.page03 .change{
+	text-align:left;
+	background-color:#ffffff;
+	margin:10px;
+	padding:10px;
+	}
+
+section.page03 .sub01{
+	color:#6f94cd;
+	font-size:16px;
+	}
+
+
+section.page04 .fleft,
+section.page04 .fright{
+	width:49%;
+	text-align:center;
+	}
+	
+section.page04 .center{
+	width:49%;
+	text-align:center;
+	margin:0 auto;
+	}
+	
+section.page04 .fleft img,
+section.page04 .fright img,
+section.page04 .center img{
+	width:90%;
+	}
+	
+section.page04 .fleft p.txt01,
+section.page04 .fright p.txt01,
+section.page04 .center p.txt01{
+	text-align:left;
+	color:#65aadd;
+	}
+	
+section.page04 .fleft{
+	float:left;
+	}
+	
+section.page04 .fright{
+	float:right;
+	}
+
+section.page04 .fleft p.txt02,
+section.page04 .fright p.txt02,
+section.page04 .center p.txt02{
+	text-align:left;
+	color:#ef857d;
+	}
+
+section.page04 .heart{
+	text-align:left;	
+	color:#e8334a;
+	}
+
+section.page05 .txt01 {
+	text-align:left;
+}
+section.page05 .item{
+	background-color:#fef2f1;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	}
+
+section.page05 .cotton{
+	padding:10px 0;
+	text-align:left;
+	background-color:#e3ecf8;
+}
+
+section.page05 .item05{
+	width:24%;
+	float:right;
+	margin-left:10px;
+}
+
+
+section.page05 .sub{
+	font-size:16px;
+	color:#422c78;
+}

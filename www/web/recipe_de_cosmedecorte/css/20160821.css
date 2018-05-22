@@ -1,0 +1,255 @@
+@charset "utf-8";
+
+
+/* tab */
+
+.coda-nav{
+	text-align:center;
+}
+
+.coda-nav ul{
+width:900px;
+margin:0 auto 40px;
+text-align: center;
+}
+
+
+.coda-nav ul li{
+	display:inline-block;
+	float:none;
+}
+
+.coda-nav ul li a{
+display:inline-block;
+color:#000000;
+border-top:1px solid #FFFFFF;
+padding:12px 4px;
+margin-right:10px;
+}
+
+.coda-nav ul li.tab6 a{
+margin-right:0;
+}
+
+
+.coda-nav ul li a:hover{
+border-top:1px solid #a53e91;
+color:#a53e91;
+}
+
+.coda-nav ul li a.current{
+border-top:1px solid #a53e91;	
+color:#a53e91;
+}
+
+
+/* anchor */
+
+
+.p1 a,
+.p2 a,
+.p3 a,
+.p4 a,
+.p5 a,
+.p6 a{
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+/*	background-color:#000000;
+	opacity:0.5;*/
+}
+
+.p1 a:hover,
+.p2 a:hover,
+.p3 a:hover,
+.p4 a:hover,
+.p5 a:hover,
+.p6 a:hover{
+	background-color:#000000;
+	opacity:0.4;
+}
+
+
+.p2 a.JGKD{
+	width:76px;
+	height:60px;
+	left:344px;
+	top:415px;
+}
+
+.p2 a.JGOL{
+	width:72px;
+	height:47px;
+	left:484px;
+	top:654px;
+}
+.p2 a.JGBH{
+	width:83px;
+	height:47px;
+	left:565px;
+	top:654px;
+}
+
+
+.p3 a.JVWN{
+	width:69px;
+	height:55px;
+	left:337px;
+	top:297px;
+	}
+
+.p3 a.JGEI{
+	width:69px;
+	height:55px;
+    top: 455px;
+   left: 208px;
+	}
+.p3 a.JGRX{
+	width:69px;
+	height:55px;
+    top: 616px;
+   left: 328px;
+	}
+
+.p3 a.JGRO{
+    height: 45px;
+    width:  82px;
+    top: 606px;
+   left: 485px;
+	}
+	
+.p3 a.JGAN{
+    height: 45px;
+    width:  82px;
+    top: 655px;
+   left: 485px;
+	}
+
+.p3 a.JGZY{
+    height: 45px;
+    width:  82px;
+    top: 606px;
+   left: 577px;
+	}
+	
+.p3 a.JGBH{
+    height: 45px;
+    width:  82px;
+    top: 655px;
+   left: 577px;
+	}
+
+
+.p4 a.JGBH{
+	width:80px;
+	height:49px;
+	left:259px;
+	top:382px;
+	}
+
+.p4 a.JGBJ{
+	width:63px;
+	height:38px;
+    top: 401px;
+   left: 346px;
+	}
+.p4 a.JGBU{
+    height: 49px;
+    width:  77px;
+    top: 611px;
+   left: 244px;
+	}
+
+.p4 a.JIRT{
+    height: 43px;
+    width:  105px;
+    top: 617px;
+   left: 328px;
+	}
+.p4 a.JGAG{
+    height: 41px;
+    width:  102px;
+    top: 358px;
+   left: 754px;
+}
+
+.p4 a.JKLI{
+    height: 53px;
+    width:  99px;
+    top: 524px;
+   left: 752px;
+}
+
+.p4 a.JBLG{
+    height: 36px;
+    width:  114px;
+    top: 634px;
+   left: 501px;
+	}
+	
+.p4 a.JQCK{
+    height: 25px;
+    width:  85px;
+    top: 648px;
+   left: 745px;
+	}	
+	
+.p5 a.JIZC{
+    height:33px;
+    width:69px;
+    top:442px;
+   left:219px;
+	}
+	
+.p5 a.JGIU{
+    width:69px;
+    height:66px;
+    top:411px;
+   left:362px;
+	}
+.p5 a.JGFH{
+    width:113px;
+    height:70px;
+    top:558px;
+   left:33px;
+	}
+.p5 a.JGGO{
+    width:113px;
+    height:64px;
+    top:638px;
+   left:33px;
+	}
+
+.p5 a.JGDQ{
+    width:100px;
+    height:42px;
+    top:626px;
+   left:504px;
+	}
+
+
+.p5 a.JKEE{
+    width:112px;
+    height:65px;
+    top:613px;
+   left:681px;
+	}
+
+
+.p6 a.JVYL{
+    height:41px;
+    width:  110px;
+    top: 634px;
+   left: 288px;
+	}
+
+
+.p6 a.JVYL_movie{
+    height:63px;
+    width:  63px;
+    top: 594px;
+   left: 103px;
+	}
+
+	

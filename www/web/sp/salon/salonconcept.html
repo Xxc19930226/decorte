@@ -1,0 +1,41 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'Salon de beaute') ?>
+<?php slot('page_id', 'salon_concept') ?>
+<?php slot('back_link', '/sp/salon/') ?>
+<?php use_javascript('sp/jquery.innerfade.js') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<?php use_stylesheet('sp/salon/common.css') ?>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		resizeTopImage();
+		imagefador();
+	});
+	$( window ).resize(function() {
+		resizeTopImage();
+	});
+</script>
+
+
+		<section class="concept">  <p class="logo"><a href="/sp/salon/"><img src="/images/sp/salon/logo.png" alt=""></a></p>
+			<h2 class="title">サロンコンセプト</h2>
+				<div class="main">
+                <img class="fador" src="/images/sp/salon/concept_image.jpg" alt="">
+                </div>
+			<div class="paragraph">
+				<p>skin to skinコミュニケーション<br />
+				─肌から肌へ伝える、人の手のぬくもり。<br />
+				それが、あなたの肌に、美しさを育むチカラを呼び覚まします。</p>
+				<p>サロンド　ボーテ　コスメデコルテのメゾッドは動脈・静脈・リンパの働きをすこやかな状態に導き、血液の循環を促しながら、免疫力や活力を高める
+『血流促進』理論に基づいています。<br />
+肌はもちろんのこと、全身に、そして心にエナジーを吹き込み、内からみなぎる美しさを開花させるための方法論です。</p>
+				<p>そして、大切なお一人お一人をお迎えする、血の通ったホスピタリティ。<br />
+				あなたをもてなすその時間、私たちもまたゆたかな心地よさを感じることでしょう。</p>
+				<p>一歩踏み込んだ瞬間から、<br />
+あなたの非日常のストーリーは始まっています。
+</p>
+<p class="btn"><a href="flow.html">ご来店からの流れ</a></p>
+			</div>
+            
+		</section>

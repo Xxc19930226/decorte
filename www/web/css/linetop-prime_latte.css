@@ -1,0 +1,185 @@
+.mainContainer {
+    padding-top: 50px;
+}/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/prime_latte/kv.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 1200px;
+	height: 700px
+}
+*/
+
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+}
+.concept__message__lead{
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 50px;
+	text-align: center;
+  display: block;
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+}
+
+.concept {
+    margin: 0;
+    padding: 150px 0;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fff1f7', endColorstr = '#f1d8df');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fff1f7', endColorstr = '#f1d8df')";
+    background-image: -moz-linear-gradient(top, #fff1f7, #f1d8df);
+    background-image: -ms-linear-gradient(top, #fff1f7, #f1d8df);
+    background-image: -o-linear-gradient(top, #fff1f7, #f1d8df);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#fff1f7), to(#f1d8df));
+    background-image: -webkit-linear-gradient(top, #fff1f7, #f1d8df);
+    background-image: linear-gradient(top, #fff1f7, #f1d8df);
+}
+.concept .l-container {
+    margin: 0 auto auto;
+    color: #000;
+    padding: 0;
+}
+.concept__message__lead {
+  font-size: 32px;
+  line-height: 50px;
+  margin-bottom: 70px;
+}
+.concept__message__note {
+  font-size: 10px;
+  text-align: right;
+  margin-right: 200px;
+}
+
+.concept__oil {
+  overflow: hidden;
+  width: 760px;
+  margin: 100px auto 0;
+}
+.concept__oil__image {
+  float: left;
+  width: 250px;
+}
+.concept__oil__image img {
+  width: 100%;
+}
+.concept__oil__message {
+  float: right;
+}
+.concept__oil__message__title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.concept__oil__message__point {
+  font-size: 12px;
+	line-height: 21px;
+  margin-bottom: 20px;
+  list-style: disc;
+}
+.concept__oil__message__note {
+  font-size: 10px;
+	line-height: 16px;
+}
+
+
+
+.product {
+}
+.product .l-container {
+    border-top: none;
+}
+.product .itemlist__item {
+    margin: 50px auto 0;
+    float: none;
+}
+
+
+@media screen and (max-width: 736px) {
+.concept {
+    padding: 80px 0;
+}
+.l-container {
+    margin-top: 0;
+    width: 100%;
+}
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+.concept__message__title{
+	font-size: 20px;
+  line-height: normal;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+
+.concept__message__lead{
+	font-size: 20px;
+  margin: 0 auto 50px;
+  width: 90%;
+}
+.concept__message__text{
+	font-size: 14px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.concept__oil {
+  overflow: visible;
+  width: 90%;
+  margin: 100px auto 0;
+}
+.concept__oil__image {
+  float: none;
+  margin-bottom: 50px;
+  width: auto;
+}
+.concept__oil__message {
+  float: none;
+}
+.concept__oil__message__title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.concept__oil__message__point {
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    margin-left: 1.5em;
+    padding-top: 15px;
+}
+.concept__oil__message__note {
+  font-size: 10px;
+	line-height: 16px;
+  text-indent: -1em;
+    margin: 0 10px;
+
+}
+
+.text-align-right {
+    float: right;
+}
+
+}

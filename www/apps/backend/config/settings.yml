@@ -1,0 +1,48 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/04-Settings
+
+prod:
+  .settings:
+    no_script_name:         true
+    logging_enabled:        false
+
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  false
+    no_script_name:         false
+    etag:                   false
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         false
+    etag:                   false
+
+all:
+  .settings:
+    login_module:           main
+    login_action:           login
+    secure_module:          main
+    secure_action:          secure
+
+    # Form security secret (CSRF protection)
+    csrf_secret:            ca77486bf7fcf91aea2dca1aa7f819fb8f5d6b24
+
+    # Output escaping settings
+    escaping_strategy:      true
+    escaping_method:        ESC_SPECIALCHARS
+
+    # Enable the database manager
+    use_database:           true
+
+    # Helpers included in all templates by default
+    standard_helpers:       [Partial, Cache, jQuery]
+
+    jquery_core:            jquery-1.8.3.min.js
+
+    i18n:                   true
+    default_culture:        ja

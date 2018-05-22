@@ -1,0 +1,166 @@
+SubCategory:
+  cleansing:
+    name: クレンジング
+    priority: 10
+    slug: cleansing
+    Category: skincare
+  washing:
+    name: 洗顔料
+    priority: 20
+    slug: washing
+    Category: skincare
+  emulsion:
+    name: 乳液
+    priority: 30
+    slug: emulsion
+    Category: skincare
+  lotion:
+    name: 化粧水
+    priority: 40
+    slug: lotion
+    Category: skincare
+  serum:
+    name: 美容液
+    priority: 50
+    slug: serum
+    Category: skincare
+  cream:
+    name: クリーム
+    priority: 60
+    slug: cream
+    Category: skincare
+  mask:
+    name: マスク
+    priority: 70
+    slug: mask
+    Category: skincare
+  massage:
+    name: マッサージ
+    priority: 80
+    slug: massage
+    Category: skincare
+  sun_products:
+    name: サンプロダクツ
+    priority: 90
+    slug: sun_products
+    Category: skincare
+  foundation:
+    name: ファンデーション
+    priority: 10
+    slug: foundation
+    Category: basemake
+  base:
+    name: 化粧下地
+    priority: 20
+    slug: base
+    Category: basemake
+  face_powder:
+    name: フェイスパウダー
+    priority: 30
+    slug: face_powder
+    Category: basemake
+  concealer:
+    name: コンシーラー
+    priority: 40
+    slug: concealer
+    Category: basemake
+  control_color:
+    name: コントロールカラー
+    priority: 50
+    slug: control_color
+    Category: basemake
+  face_color:
+    name: フェイスカラー
+    priority: 10
+    slug: face_color
+    Category: pointmake
+  eye_color:
+    name: アイカラー
+    priority: 20
+    slug: eye_color
+    Category: pointmake
+  eye_brow:
+    name: アイブロウ
+    priority: 30
+    slug: eye_brow
+    Category: pointmake
+  eye_liner:
+    name: アイライナー
+    priority: 40
+    slug: eye_liner
+    Category: pointmake
+  mascara:
+    name: マスカラ
+    priority: 50
+    slug: mascara
+    Category: pointmake
+  lip_color:
+    name: リップカラー
+    priority: 60
+    slug: lip_color
+    Category: pointmake
+  nail_color:
+    name: ネイルカラー
+    priority: 70
+    slug: nail_color
+    Category: pointmake
+  point_make_remover:
+    name: リムーバー
+    priority: 80
+    slug: point_make_remover
+    Category: pointmake
+  eau_de_toilette:
+    name: オードトワレ
+    priority: 10
+    slug: eau_de_toilette
+    Category: fragrance
+  eau_de_parfum:
+    name: パルファム
+    priority: 20
+    slug: eau_de_parfum
+    Category: fragrance
+  hair_care:
+    name: ヘアケア
+    priority: 10
+    slug: hair_care
+    Category: hair_body
+  styling:
+    name: スタイリング
+    priority: 20
+    slug: styling
+    Category: hair_body
+  scalp_care:
+    name: 頭皮ケア
+    priority: 30
+    slug: scalp_care
+    Category: hair_body
+  body_care:
+    name: ボディケア
+    priority: 40
+    slug: body_care
+    Category: hair_body
+  hand_care:
+    name: ハンドケア
+    priority: 50
+    slug: hand_care
+    Category: hair_body
+  skincare_accessory:
+    name: スキンケア用
+    priority: 10
+    slug: skincare_accessory
+    Category: accessory
+  basemake_accessory:
+    name: ベースメイク用
+    priority: 20
+    slug: basemake_accessory
+    Category: accessory
+  pointmake_accessory:
+    name: ポイントメイク用
+    priority: 30
+    slug: pointmake_accessory
+    Category: accessory
+  other_accessory:
+    name: その他化粧雑貨
+    priority: 40
+    slug: other_accessory
+    Category: accessory

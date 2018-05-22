@@ -1,0 +1,136 @@
+/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/even_perfect/kv.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 1200px;
+	height: 700px
+}
+*/
+.mainContainer {
+    padding-top: 50px;
+}
+
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+}
+.concept__message__lead{
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 50px;
+	text-align: center;
+  display: block;
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+}
+
+.concept {
+  margin: 0;
+  padding: 150px 0;
+	background-image: url('/images/even_perfect/bg_concept_01.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+  min-width: 1200px;
+}
+
+.concept .l-container {
+  margin: 0 auto auto;
+  color: #000;
+  padding: 0;
+}
+.concept__message__lead {
+  font-size: 32px;
+  line-height: 50px;
+  margin: 100px 0 50px;
+  width: 600px;
+  text-align: right;
+}
+.concept__message__text{
+  width: 600px;
+  text-align: right;
+  line-height: 28px;
+}
+.product {
+}
+.product .l-container {
+  border-top: none;
+}
+.product .itemlist {
+  width: 900px;
+  margin: 0 auto;
+}
+.product__category__item {
+    border-bottom: solid 1px #000000;
+}
+
+
+@media screen and (max-width: 736px) {
+.l-container {
+    margin-top: 0;
+    width: 90%;
+}
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+.concept {
+  margin: 0;
+	background-image: url('/images/even_perfect/sp/bg_concept_01.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+  background-size: 100% auto;
+  min-width: inherit;
+  padding: 80px 0 95%;
+}
+
+.concept__message__title{
+	font-size: 20px;
+  line-height: normal;
+  width: 80%;
+  margin: 0 auto 20px;
+}
+
+.concept__message__lead{
+	font-size: 20px;
+  margin: 0 auto 20px;
+  width: 100%;
+  text-align: center;
+}
+.concept__message__text{
+	font-size: 14px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.product__category {
+    margin-top: 30px;
+}
+.product .itemlist {
+  width: auto;
+  margin: 0 auto;
+}
+
+}

@@ -1,0 +1,2316 @@
+@charset "UTF-8";
+/* smartphone layout break point*/
+/* max width device : iPhone6 plus(Landscape) */
+/* line 8, ../sass/home.scss */
+.mainContainer {
+  padding-top: 50px;
+}
+
+/* line 13, ../sass/home.scss */
+.fascia .fascia__container {
+  position: relative;
+}
+/* line 17, ../sass/home.scss */
+.fascia .fascia__container .fascia__carousel__container {
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 23, ../sass/home.scss */
+.fascia .fascia__container .fascia__carousel__node {
+  left: 0;
+  opacity: .01;
+  position: absolute;
+  top: 0;
+}
+/* line 30, ../sass/home.scss */
+.fascia .fascia__container .fascia__carousel__node__image {
+  width: 100%;
+}
+/* line 37, ../sass/home.scss */
+.fascia .fascia__container .fascia__controller {
+  bottom: 16px;
+  left: 0;
+  padding: 16px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+/* line 45, ../sass/home.scss */
+.fascia .fascia__container .fascia__controller .fascia__controller__switch {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  background-color: #ffffff;
+  cursor: pointer;
+  height: 8px;
+  margin: 0 8px;
+  width: 8px;
+}
+/* line 54, ../sass/home.scss */
+.fascia .fascia__container .fascia__controller .fascia__controller__switch.m--current {
+  background-color: #000000;
+}
+
+/* line 62, ../sass/home.scss */
+.bestcosme {
+  background-color: #000;
+}
+/* line 64, ../sass/home.scss */
+.bestcosme img {
+  width: 100%;
+  height: auto;
+  max-height: 700px;
+  margin: auto;
+}
+
+/* line 74, ../sass/home.scss */
+.bitrivia__container {
+  background-image: url('/images/home/bi-trivia/bg.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 420px;
+  padding-top: 80px;
+}
+/* line 82, ../sass/home.scss */
+.bitrivia__logo {
+  background-image: url('/images/home/bi-trivia/title.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 163px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-indent: -200%;
+  white-space: nowrap;
+  width: 440px;
+  margin-bottom: 57px;
+  background-image: none\9;
+  text-indent: 0\9;
+}
+/* line 96, ../sass/home.scss */
+.bitrivia__logo img {
+  display: none;
+  display: block\9;
+  height: auto\9;
+  width: 100% \9;
+}
+/* line 104, ../sass/home.scss */
+.bitrivia__link {
+  margin-top: -15px;
+  text-align: center;
+}
+/* line 107, ../sass/home.scss */
+.bitrivia__link a {
+  border: 1px solid #000;
+  color: #000;
+  display: inline-block;
+  font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 20px;
+  padding: 13px 30px;
+}
+/* line 114, ../sass/home.scss */
+.bitrivia__link a:hover {
+  opacity: .5;
+}
+
+/* 新着 */
+/* line 123, ../sass/home.scss */
+.left_first .l--poster {
+  /*        &:nth-child(2n) {
+              .l--poster__container {
+                  .l--poster__text {
+                      text-align: right;
+                      right           : 64px;
+                      left: auto;
+                      &__copy {
+                          margin-right: -0.5em;
+                      }
+                  }
+              }
+          }*/
+}
+/* line 125, ../sass/home.scss */
+.left_first .l--poster .l--poster__container .l--poster__text {
+  text-align: left;
+  left: 64px;
+}
+/* line 144, ../sass/home.scss */
+.left_first .l--poster.news__20160516a .l--poster__container .l--poster__text {
+  text-align: right;
+  right: 64px;
+  left: auto;
+}
+/* line 148, ../sass/home.scss */
+.left_first .l--poster.news__20160516a .l--poster__container .l--poster__text__copy {
+  margin-right: -0.5em;
+}
+/* line 156, ../sass/home.scss */
+.left_first .l--poster.news__20160616c .l--poster__container .l--poster__text {
+  text-align: right;
+  right: 64px;
+  left: auto;
+}
+/* line 160, ../sass/home.scss */
+.left_first .l--poster.news__20160616c .l--poster__container .l--poster__text__copy {
+  margin-right: -0.5em;
+}
+
+/* line 169, ../sass/home.scss */
+.right_first .l--poster {
+  /*        &:nth-child(2n) {
+              .l--poster__container {
+                  .l--poster__text {
+                      text-align: left;
+                      left           : 64px;
+                      right: auto;
+                  }
+              }
+          }*/
+}
+/* line 171, ../sass/home.scss */
+.right_first .l--poster .l--poster__container .l--poster__text {
+  text-align: right;
+  right: 64px;
+}
+/* line 187, ../sass/home.scss */
+.right_first .l--poster.news__20161001a .l--poster__container .l--poster__text {
+  text-align: left;
+  left: 64px;
+  right: auto;
+}
+/* line 196, ../sass/home.scss */
+.right_first .l--poster.news__20161001c .l--poster__container .l--poster__text {
+  text-align: left;
+  left: 64px;
+  right: auto;
+}
+
+/* line 208, ../sass/home.scss */
+.l--poster:nth-child(1), .l--poster:nth-child(2), .l--poster:nth-child(3), .l--poster:nth-child(4) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 217, ../sass/home.scss */
+.l--poster:nth-child(1) {
+  background-image: url("/images/home/news/news_bg_20160715a.jpg");
+}
+/* line 218, ../sass/home.scss */
+.l--poster:nth-child(2) {
+  background-image: url("/images/home/news/news_bg_20161016a.jpg");
+}
+/* line 219, ../sass/home.scss */
+.l--poster:nth-child(3) {
+  background-image: url("/images/home/news/news_bg_20161016c.jpg");
+}
+/* line 220, ../sass/home.scss */
+.l--poster:nth-child(4) {
+  background-image: url("/images/home/news/news_bg_20160715a.jpg");
+}
+/* line 223, ../sass/home.scss */
+.l--poster .l--poster__container {
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  height: 600px;
+  position: relative;
+}
+/* line 231, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text {
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  /*
+  display             : table;
+  */
+  margin-bottom: auto;
+  margin-top: auto;
+  overflow: hidden;
+  position: absolute;
+  table-layout: fixed;
+  top: 0;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#000000ff,EndColorStr=#000000ff);
+}
+/* line 246, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text .l--poster__text__container {
+  /*
+  display         : table-cell;
+  */
+  padding: 0 16px;
+  vertical-align: middle;
+}
+/* line 253, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__type {
+  display: inline-block;
+  font-family: hy;
+  font-size: 30px;
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 1.3;
+}
+/* line 263, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__copy {
+  font-family: hy;
+  font-size: 35px;
+  margin-top: 30px;
+  line-height: 60px;
+}
+/* line 269, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__subcopy {
+  font-family: hy;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 1.7;
+}
+/* line 274, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__subcopy span {
+  font-size: 0.5em;
+  position: absolute;
+  margin-top: -1em;
+  margin-left: -3.5em;
+}
+/* line 281, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__name {
+  font-family: hy;
+  font-size: 20px;
+  margin-top: 28px;
+  line-height: 40px;
+}
+/* line 287, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__link {
+  font-family: hy;
+  margin-top: 50px;
+}
+/* line 290, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__link a {
+  border: 1px solid #000;
+  display: inline-block;
+  font-size: 20px;
+  padding: 13px 30px;
+}
+/* line 295, ../sass/home.scss */
+.l--poster .l--poster__container .l--poster__text__link a:hover {
+  opacity: .5;
+}
+/* line 303, ../sass/home.scss */
+.l--poster.white .l--poster__container {
+  color: #ffffff;
+}
+/* line 306, ../sass/home.scss */
+.l--poster.white .l--poster__container .l--poster__text__type {
+  border-color: #FFF;
+}
+/* line 310, ../sass/home.scss */
+.l--poster.white .l--poster__container .l--poster__text__link a {
+  border-color: #FFF;
+  color: #FFF;
+}
+/* line 319, ../sass/home.scss */
+.l--poster.black .l--poster__container {
+  color: #000;
+}
+/* line 322, ../sass/home.scss */
+.l--poster.black .l--poster__container .l--poster__text__type {
+  border-color: #000;
+}
+/* line 326, ../sass/home.scss */
+.l--poster.black .l--poster__container .l--poster__text__link a {
+  border-color: #000;
+  color: #000;
+}
+
+/* line 336, ../sass/home.scss */
+.image-base {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* list news */
+/* line 352, ../sass/home.scss */
+.news .ie8 {
+  display: none;
+  display: block\9;
+}
+/* line 356, ../sass/home.scss */
+.news__list {
+  overflow: hidden;
+  *zoom: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 1200px;
+}
+/* line 363, ../sass/home.scss */
+.news__list__item {
+  background-size: cover;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  float: left;
+  height: 237px;
+  position: relative;
+  width: 380px;
+}
+/* line 372, ../sass/home.scss */
+.news__list__item:nth-child(n + 2) {
+  margin-left: 30px;
+}
+/* line 375, ../sass/home.scss */
+.news__list__item:hover {
+  opacity: .5;
+}
+/* line 379, ../sass/home.scss */
+.news__list__item a {
+  bottom: 25px;
+  color: #000;
+  display: block;
+  font-family: hy;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  right: 20px;
+  text-align: right;
+}
+/* line 389, ../sass/home.scss */
+.news__list__item a .type {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  font-size: 18px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+/* setting poster news  'image' and 'position' and 'width'*/
+/* line 406, ../sass/home.scss */
+.news__20161201a .image-base {
+  background-image: url("/images/home/news/news_bg_20161201a.jpg");
+}
+/* line 410, ../sass/home.scss */
+.news__20161201a .l--poster__container .l--poster__text {
+  height: 420px;
+  width: 700px;
+}
+/* line 413, ../sass/home.scss */
+.news__20161201a .l--poster__container .l--poster__text__copy .mgn-r_m06 {
+  margin-right: -0.6em;
+}
+
+/* line 420, ../sass/home.scss */
+.news__20161016a .image-base {
+  background-image: url("/images/home/news/news_bg_20161016a.jpg");
+}
+/* line 424, ../sass/home.scss */
+.news__20161016a .l--poster__container .l--poster__text {
+  height: 420px;
+  width: 700px;
+}
+/* line 427, ../sass/home.scss */
+.news__20161016a .l--poster__container .l--poster__text__copy .mgn-r_m06 {
+  margin-right: -0.6em;
+}
+
+/* line 434, ../sass/home.scss */
+.news__20161016c .image-base {
+  background-image: url("/images/home/news/news_bg_20161016c.jpg");
+}
+/* line 438, ../sass/home.scss */
+.news__20161016c .l--poster__container .l--poster__text {
+  height: 360px;
+  width: 700px;
+}
+/* line 441, ../sass/home.scss */
+.news__20161016c .l--poster__container .l--poster__text__copy .mgn-r_m06 {
+  margin-right: -0.6em;
+}
+
+/* line 448, ../sass/home.scss */
+.news__20161001a .image-base {
+  background-image: url("/images/home/news/news_bg_20161001a.jpg");
+}
+/* line 452, ../sass/home.scss */
+.news__20161001a .l--poster__container .l--poster__text {
+  height: 360px;
+  width: 700px;
+}
+/* line 455, ../sass/home.scss */
+.news__20161001a .l--poster__container .l--poster__text__copy .mgn-r_m06 {
+  margin-right: -0.6em;
+}
+
+/* line 462, ../sass/home.scss */
+.news__20161001b .image-base {
+  background-image: url("/images/home/news/news_bg_20161001b.jpg");
+}
+/* line 466, ../sass/home.scss */
+.news__20161001b .l--poster__container .l--poster__text {
+  height: 360px;
+  width: 700px;
+}
+/* line 469, ../sass/home.scss */
+.news__20161001b .l--poster__container .l--poster__text__copy .mgn-r_m06 {
+  margin-right: -0.6em;
+}
+
+/* line 476, ../sass/home.scss */
+.news__20161001c .image-base {
+  background-image: url("/images/home/news/news_bg_20161001c.jpg");
+}
+/* line 480, ../sass/home.scss */
+.news__20161001c .l--poster__container .l--poster__text {
+  height: 360px;
+  width: 700px;
+}
+/* line 483, ../sass/home.scss */
+.news__20161001c .l--poster__container .l--poster__text__copy .mgn-r_m06 {
+  margin-right: -0.6em;
+}
+
+/* line 490, ../sass/home.scss */
+.news__20160901a .image-base {
+  background-image: url("/images/home/news/news_bg_20160901a.jpg");
+}
+/* line 494, ../sass/home.scss */
+.news__20160901a .l--poster__container .l--poster__text {
+  height: 270px;
+  width: 700px;
+}
+/* line 497, ../sass/home.scss */
+.news__20160901a .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+/* line 500, ../sass/home.scss */
+.news__20160901a .l--poster__container .l--poster__text__name {
+  font-size: 28px;
+  line-height: 50px;
+}
+
+/* line 508, ../sass/home.scss */
+.news__20160901b .image-base {
+  background-image: url("/images/home/news/news_bg_20160901b.jpg");
+}
+/* line 512, ../sass/home.scss */
+.news__20160901b .l--poster__container .l--poster__text {
+  height: 420px;
+  width: 700px;
+}
+/* line 515, ../sass/home.scss */
+.news__20160901b .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+
+/* line 522, ../sass/home.scss */
+.news__20160901c .image-base {
+  background-image: url("/images/home/news/news_bg_20160901c.jpg");
+}
+/* line 526, ../sass/home.scss */
+.news__20160901c .l--poster__container .l--poster__text {
+  height: 420px;
+  width: 700px;
+}
+/* line 529, ../sass/home.scss */
+.news__20160901c .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+
+/* line 536, ../sass/home.scss */
+.news__20160801a .image-base {
+  background-image: url("/images/home/news/news_bg_20160801a.jpg");
+}
+/* line 540, ../sass/home.scss */
+.news__20160801a .l--poster__container .l--poster__text {
+  height: 380px;
+  width: 700px;
+}
+/* line 543, ../sass/home.scss */
+.news__20160801a .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+
+/* line 550, ../sass/home.scss */
+.news__20160801b .image-base {
+  background-image: url("/images/home/news/news_bg_20160801b.jpg");
+}
+/* line 554, ../sass/home.scss */
+.news__20160801b .l--poster__container .l--poster__text {
+  height: 340px;
+  width: 700px;
+}
+/* line 557, ../sass/home.scss */
+.news__20160801b .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+
+/* line 564, ../sass/home.scss */
+.news__20160801c .image-base {
+  background-image: url("/images/home/news/news_bg_20160801c.jpg");
+}
+/* line 568, ../sass/home.scss */
+.news__20160801c .l--poster__container .l--poster__text {
+  height: 460px;
+  width: 700px;
+}
+/* line 571, ../sass/home.scss */
+.news__20160801c .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+
+/* line 578, ../sass/home.scss */
+.news__20160715a .image-base {
+  background-image: url("/images/home/news/news_bg_20160715a.jpg");
+}
+/* line 582, ../sass/home.scss */
+.news__20160715a .l--poster__container .l--poster__text {
+  height: 400px;
+  width: 700px;
+}
+/* line 585, ../sass/home.scss */
+.news__20160715a .l--poster__container .l--poster__text__copy span {
+  margin-right: -0.6em;
+}
+
+/* setting list news 'image' */
+/* line 596, ../sass/home.scss */
+.news__list__item.news__20161001a {
+  background-image: url(../images/home/news/list_item/news_bg_20161001a.png);
+  background-image: none\9;
+}
+/* line 599, ../sass/home.scss */
+.news__list__item.news__20161001a img {
+  height: auto;
+  width: 380px;
+}
+/* line 604, ../sass/home.scss */
+.news__list__item.news__20161001b {
+  background-image: url(../images/home/news/list_item/news_bg_20161001b.png);
+  background-image: none\9;
+}
+/* line 607, ../sass/home.scss */
+.news__list__item.news__20161001b img {
+  height: auto;
+  width: 380px;
+}
+/* line 611, ../sass/home.scss */
+.news__list__item.news__20161001b a {
+  color: #fff;
+}
+/* line 613, ../sass/home.scss */
+.news__list__item.news__20161001b a .type {
+  border-bottom: 1px solid #fff;
+}
+/* line 618, ../sass/home.scss */
+.news__list__item.news__20161001c {
+  background-image: url(../images/home/news/list_item/news_bg_20161001c.png);
+  background-image: none\9;
+}
+/* line 621, ../sass/home.scss */
+.news__list__item.news__20161001c img {
+  height: auto;
+  width: 380px;
+}
+/* line 627, ../sass/home.scss */
+.news__list__item.news__20161016a {
+  background-image: url(../images/home/news/list_item/news_bg_20161016a.jpg);
+  background-image: none\9;
+  background-color: #000;
+}
+/* line 631, ../sass/home.scss */
+.news__list__item.news__20161016a img {
+  height: auto;
+  width: 380px;
+}
+/* line 635, ../sass/home.scss */
+.news__list__item.news__20161016a a {
+  color: #fff;
+  bottom: auto;
+  top: 20px;
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+/* line 642, ../sass/home.scss */
+.news__list__item.news__20161016a a .type {
+  border-color: #fff;
+}
+/* line 647, ../sass/home.scss */
+.news__list__item.news__20161016b {
+  background-image: url(../images/home/news/list_item/news_bg_20161016b.jpg);
+  background-image: none\9;
+  background-color: #000;
+}
+/* line 651, ../sass/home.scss */
+.news__list__item.news__20161016b img {
+  height: auto;
+  width: 380px;
+}
+/* line 655, ../sass/home.scss */
+.news__list__item.news__20161016b a {
+  color: #fff;
+  bottom: auto;
+  top: 20px;
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+/* line 662, ../sass/home.scss */
+.news__list__item.news__20161016b a .type {
+  border-color: #fff;
+}
+/* line 667, ../sass/home.scss */
+.news__list__item.news__20161016c {
+  background-image: url(../images/home/news/list_item/news_bg_20161016c.jpg);
+  background-image: none\9;
+}
+/* line 670, ../sass/home.scss */
+.news__list__item.news__20161016c img {
+  height: auto;
+  width: 380px;
+}
+/* line 674, ../sass/home.scss */
+.news__list__item.news__20161016c a {
+  color: #fff;
+  bottom: auto;
+  top: 20px;
+  left: auto;
+  right: 20px;
+  text-align: right;
+}
+/* line 681, ../sass/home.scss */
+.news__list__item.news__20161016c a .type {
+  border-color: #fff;
+}
+/* line 688, ../sass/home.scss */
+.news__list__item.news__20160901a {
+  background-image: url(../images/home/news/list_item/news_bg_20160901a.jpg);
+  background-image: none\9;
+}
+/* line 691, ../sass/home.scss */
+.news__list__item.news__20160901a img {
+  height: auto;
+  width: 380px;
+}
+/* line 696, ../sass/home.scss */
+.news__list__item.news__20160901b {
+  background-image: url(../images/home/news/list_item/news_bg_20160901b.jpg);
+  background-image: none\9;
+}
+/* line 699, ../sass/home.scss */
+.news__list__item.news__20160901b img {
+  height: auto;
+  width: 380px;
+}
+/* line 704, ../sass/home.scss */
+.news__list__item.news__20160901c {
+  background-image: url(../images/home/news/list_item/news_bg_20160901c.jpg);
+  background-image: none\9;
+}
+/* line 707, ../sass/home.scss */
+.news__list__item.news__20160901c img {
+  height: auto;
+  width: 380px;
+}
+/* line 711, ../sass/home.scss */
+.news__list__item.news__20160901c a {
+  color: #fff;
+}
+/* line 713, ../sass/home.scss */
+.news__list__item.news__20160901c a .type {
+  border-color: #fff;
+}
+/* line 718, ../sass/home.scss */
+.news__list__item.news__20160801a {
+  background-image: url(../images/home/news/list_item/news_bg_20160801a.jpg);
+  background-image: none\9;
+}
+/* line 721, ../sass/home.scss */
+.news__list__item.news__20160801a img {
+  height: auto;
+  width: 380px;
+}
+/* line 726, ../sass/home.scss */
+.news__list__item.news__20160801b {
+  background-image: url(../images/home/news/list_item/news_bg_20160801b.jpg);
+  background-image: none\9;
+  background-color: #000;
+}
+/* line 730, ../sass/home.scss */
+.news__list__item.news__20160801b img {
+  height: auto;
+  width: 380px;
+}
+/* line 734, ../sass/home.scss */
+.news__list__item.news__20160801b a {
+  color: #ffffff;
+}
+/* line 736, ../sass/home.scss */
+.news__list__item.news__20160801b a span {
+  border-color: #ffffff;
+}
+/* line 741, ../sass/home.scss */
+.news__list__item.news__20160801c {
+  background-image: url(../images/home/news/list_item/news_bg_20160801c.jpg);
+  background-image: none\9;
+}
+/* line 744, ../sass/home.scss */
+.news__list__item.news__20160801c img {
+  height: auto;
+  width: 380px;
+}
+/* line 749, ../sass/home.scss */
+.news__list__item.news__20160701a {
+  background-image: url(../images/home/news/list_item/news_bg_20160701a.jpg);
+  background-image: none\9;
+}
+/* line 752, ../sass/home.scss */
+.news__list__item.news__20160701a img {
+  height: auto;
+  width: 380px;
+}
+/* line 757, ../sass/home.scss */
+.news__list__item.news__20160701b {
+  background-image: url(../images/home/news/list_item/news_bg_20160701b.jpg);
+  background-image: none\9;
+}
+/* line 760, ../sass/home.scss */
+.news__list__item.news__20160701b img {
+  height: auto;
+  width: 380px;
+}
+/* line 765, ../sass/home.scss */
+.news__list__item.news__20160701c {
+  background-image: url(../images/home/news/list_item/news_bg_20160701c.jpg);
+  background-image: none\9;
+}
+/* line 768, ../sass/home.scss */
+.news__list__item.news__20160701c img {
+  height: auto;
+  width: 380px;
+}
+
+/* line 775, ../sass/home.scss */
+.whatsNewLink {
+  background-color: #000000;
+}
+/* line 778, ../sass/home.scss */
+.whatsNewLink .whatsNewLink__container {
+  text-align: center;
+}
+/* line 781, ../sass/home.scss */
+.whatsNewLink .whatsNewLink__container a {
+  color: #ffffff;
+  display: block;
+  font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 20px;
+  line-height: 96px;
+  position: relative;
+  text-decoration: none;
+}
+/* line 790, ../sass/home.scss */
+.whatsNewLink .whatsNewLink__container a:after {
+  border-bottom: 0.3em solid transparent;
+  border-left: 0.6em solid #ffffff;
+  border-top: 0.3em solid transparent;
+  content: '';
+  left: 50%;
+  margin-left: -120px;
+  margin-top: -0.3em;
+  position: absolute;
+  top: 50%;
+}
+/* line 802, ../sass/home.scss */
+.whatsNewLink .whatsNewLink__container a:hover {
+  opacity: .5;
+}
+
+/* line 812, ../sass/home.scss */
+.line__container {
+  padding-top: 64px;
+}
+/* line 816, ../sass/home.scss */
+.line__title {
+  font-family: hy;
+  font-size: 40px;
+  padding: 16px;
+  text-align: center;
+}
+/* line 825, ../sass/home.scss */
+.line__menu__container {
+  margin: 0 auto;
+  padding: 16px 0;
+  position: relative;
+  text-align: center;
+  width: 1200px;
+}
+/* line 833, ../sass/home.scss */
+.line__menu__triggers {
+  font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+/* line 836, ../sass/home.scss */
+.line__menu__triggers.m--select {
+  display: none;
+}
+/* line 843, ../sass/home.scss */
+.line__menu__list .line__menu__trigger {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 11px;
+}
+/* line 850, ../sass/home.scss */
+.line__menu__list .line__menu__trigger.m--active {
+  border-bottom: solid 1px #888888;
+}
+/* line 857, ../sass/home.scss */
+.line__display {
+  overflow: hidden;
+  padding-bottom: 32px;
+  width: 100%;
+}
+/* line 865, ../sass/home.scss */
+.line__display__movie__image {
+  width: 100%;
+}
+/* line 869, ../sass/home.scss */
+.line__display__movie .l--embed-player__container {
+  height: 280px;
+}
+/* line 875, ../sass/home.scss */
+.line__contents {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+/* line 881, ../sass/home.scss */
+.line__contents__container {
+  max-width: 1232px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 887, ../sass/home.scss */
+.line__contents__arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: 32px;
+}
+/* line 894, ../sass/home.scss */
+.line__contents__arrow.m--left {
+  left: 0;
+}
+/* line 898, ../sass/home.scss */
+.line__contents__arrow.m--right {
+  right: 0;
+}
+/* line 905, ../sass/home.scss */
+.line__contents__arrow.m--left:after {
+  border-bottom: 16px solid transparent;
+  border-right: 16px solid #ddd;
+  border-top: 16px solid transparent;
+}
+/* line 911, ../sass/home.scss */
+.line__contents__arrow.m--left:hover {
+  background-color: #ddd;
+}
+/* line 915, ../sass/home.scss */
+.line__contents__arrow.m--left:hover:after {
+  border-right: 16px solid #fff;
+}
+/* line 923, ../sass/home.scss */
+.line__contents__arrow.m--right:after {
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid #ddd;
+  border-top: 16px solid transparent;
+}
+/* line 929, ../sass/home.scss */
+.line__contents__arrow.m--right:hover {
+  background-color: #ddd;
+}
+/* line 933, ../sass/home.scss */
+.line__contents__arrow.m--right:hover:after {
+  border-left: 16px solid #fff;
+}
+/* line 939, ../sass/home.scss */
+.line__contents__arrow:after {
+  content: '';
+  height: 0;
+  left: 8px;
+  margin-top: -8px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+/* line 953, ../sass/home.scss */
+.l--product-block {
+  position: absolute;
+}
+/* line 959, ../sass/home.scss */
+.l--product-block__image img {
+  max-width: 100%;
+  width: 100%;
+}
+/* line 964, ../sass/home.scss */
+.l--product-block.bl-hover {
+  opacity: .5;
+}
+
+/* line 970, ../sass/home.scss */
+.l--product-block__text {
+  font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 16px;
+  margin-top: 5px;
+}
+/* line 974, ../sass/home.scss */
+.l--product-block__text .kana {
+  display: block;
+  font-size: 14px;
+  padding-top: 5px;
+}
+/* line 979, ../sass/home.scss */
+.l--product-block__text a {
+  color: #000;
+}
+
+/* line 985, ../sass/home.scss */
+.information__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  width: 1200px;
+}
+/* line 991, ../sass/home.scss */
+.information__title {
+  font-family: hy;
+  font-size: 40px;
+  text-align: center;
+}
+/* line 996, ../sass/home.scss */
+.information__list {
+  overflow: hidden;
+  *zoom: 1;
+  padding-top: 100px;
+  margin-left: -40px;
+}
+/* line 1000, ../sass/home.scss */
+.information__list__item {
+  float: left;
+  font-size: 16px;
+  height: 340px;
+  margin-left: 40px;
+}
+/* line 1005, ../sass/home.scss */
+.information__list__item .banner {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: block;
+  height: 270px;
+  width: 580px;
+}
+/* line 1011, ../sass/home.scss */
+.information__list__item .banner:hover {
+  opacity: .5;
+}
+/* line 1015, ../sass/home.scss */
+.information__list__item a {
+  color: #000;
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 1020, ../sass/home.scss */
+.information__list__item.m--imcube .banner {
+  background-image: url('/images/home/information/imcube.jpg');
+}
+/* line 1023, ../sass/home.scss */
+.information__list__item.m--event .banner {
+  background-image: url('/images/home/information/event.jpg');
+}
+/* line 1026, ../sass/home.scss */
+.information__list__item.m--fansite .banner {
+  background-image: url('/images/home/information/fansite.jpg');
+}
+/* line 1029, ../sass/home.scss */
+.information__list__item.m--shop .banner {
+  background-image: url('/images/home/information/shop.jpg');
+}
+/* line 1032, ../sass/home.scss */
+.information__list__item.m--discover .banner {
+  background-image: url('/images/home/information/discover.jpg');
+}
+/* line 1035, ../sass/home.scss */
+.information__list__item.m--salon .banner {
+  background-image: url('/images/home/information/salon_s.jpg');
+}
+/* line 1041, ../sass/home.scss */
+.information__salon a {
+  display: block;
+  background-image: url('/images/home/information/salon.jpg');
+  color: #000;
+  height: 270px;
+  text-indent: 200%;
+  width: 1200px;
+  white-space: nowrap;
+}
+/* line 1049, ../sass/home.scss */
+.information__salon a:hover {
+  opacity: .5;
+}
+
+/* line 1056, ../sass/home.scss */
+.ranking {
+  color: #FFF;
+  background-color: #000;
+  padding-bottom: 70px;
+}
+/* line 1060, ../sass/home.scss */
+.ranking__container {
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding-top: 100px;
+  width: 100%;
+}
+/* line 1067, ../sass/home.scss */
+.ranking__title {
+  font-family: hy;
+  font-size: 40px;
+  text-align: center;
+}
+/* line 1072, ../sass/home.scss */
+.ranking__category {
+  margin-top: 50px;
+  text-align: center;
+}
+/* line 1075, ../sass/home.scss */
+.ranking__category__item {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+/* line 1080, ../sass/home.scss */
+.ranking__category__item.m--current {
+  border-bottom: 1px solid #FFF;
+}
+/* line 1083, ../sass/home.scss */
+.ranking__category__item a {
+  color: #ffffff;
+}
+/* line 1090, ../sass/home.scss */
+.ranking__menu__triggers.m--select {
+  display: none;
+}
+/* line 1092, ../sass/home.scss */
+.ranking__list {
+  height: 542px;
+  position: relative;
+}
+/* line 1096, ../sass/home.scss */
+.ranking__list__item {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 25% 15px;
+  left: 100%;
+  top: 0;
+  width: 100%;
+}
+/* line 1104, ../sass/home.scss */
+.ranking__list__item:nth-child(1) {
+  left: 0%;
+}
+/* line 1108, ../sass/home.scss */
+.ranking__list__item .image {
+  display: block;
+  height: 480px;
+  padding-top: 40px;
+  text-align: center;
+}
+/* line 1113, ../sass/home.scss */
+.ranking__list__item .image img {
+  height: auto;
+  width: 480px;
+}
+/* line 1118, ../sass/home.scss */
+.ranking__list__item .name {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  margin-left: 246px;
+}
+/* line 1123, ../sass/home.scss */
+.ranking__list__item .name__line {
+  margin-bottom: 10px;
+}
+/* line 1128, ../sass/home.scss */
+.ranking__list__item .name a {
+  color: #FFF;
+}
+/* line 1130, ../sass/home.scss */
+.ranking__list__item .name a span {
+  display: block;
+  font-size: 16px;
+}
+/* line 1136, ../sass/home.scss */
+.ranking__list__item.m--no_1 {
+  background-image: url('/images/home/ranking/no_1.png');
+}
+/* line 1139, ../sass/home.scss */
+.ranking__list__item.m--no_2 {
+  background-image: url('/images/home/ranking/no_2.png');
+}
+/* line 1142, ../sass/home.scss */
+.ranking__list__item.m--no_3 {
+  background-image: url('/images/home/ranking/no_3.png');
+}
+/* line 1147, ../sass/home.scss */
+.ranking__nav {
+  text-align: center;
+}
+/* line 1149, ../sass/home.scss */
+.ranking__nav__item {
+  border-radius: 10px;
+  background-color: #323232;
+  cursor: pointer;
+  display: inline-block;
+  height: 10px;
+  margin: 0 15px;
+  overflow: hidden;
+  text-indent: 200%;
+  white-space: nowrap;
+  width: 10px;
+}
+/* line 1160, ../sass/home.scss */
+.ranking__nav__item.m--current {
+  background-color: #FFF;
+}
+
+/* override */
+/* line 1167, ../sass/home.scss */
+.andmore {
+  background-image: url('/images/home/footer/bg.jpg');
+  background-position: center top;
+  margin-top: 100px;
+  padding: 50px 0 210px 0;
+}
+/* line 1174, ../sass/home.scss */
+.andmore__container {
+  overflow: hidden;
+  *zoom: 1;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  position: relative;
+  width: 1100px;
+}
+/* line 1185, ../sass/home.scss */
+.andmore__list, .andmore__icon {
+  box-sizing: border-box;
+  float: left;
+  width: 500px;
+}
+/* line 1192, ../sass/home.scss */
+.andmore__preview {
+  left: 300px;
+  height: 200px;
+  position: absolute;
+  top: 48px;
+  width: 200px;
+}
+/* line 1200, ../sass/home.scss */
+.andmore__preview img {
+  width: 100%;
+}
+/* line 1202, ../sass/home.scss */
+.andmore__list {
+  border-right: 1px solid #e6e6e6;
+}
+/* line 1205, ../sass/home.scss */
+.andmore__list__item {
+  padding: 0 0 33px;
+}
+/* line 1209, ../sass/home.scss */
+.andmore__list__item a {
+  color: #000;
+  font-size: 16px;
+}
+/* line 1212, ../sass/home.scss */
+.andmore__list__item a:hover {
+  opacity: .5;
+}
+/* line 1215, ../sass/home.scss */
+.andmore__list__item a small {
+  font-size: .8em;
+}
+/* line 1219, ../sass/home.scss */
+.andmore__list__item.recipide, .andmore__list__item.maison {
+  padding-bottom: 17px;
+}
+/* line 1225, ../sass/home.scss */
+.andmore__icon {
+  overflow: hidden;
+  *zoom: 1;
+  margin-left: 50px;
+  width: 450px;
+}
+/* line 1230, ../sass/home.scss */
+.andmore__icon__item {
+  float: left;
+  padding-top: 53px;
+  text-align: center;
+  vertical-align: middle;
+  width: 25%;
+}
+/* line 1236, ../sass/home.scss */
+.andmore__icon__item .icon_circle {
+  background-color: #000;
+  border-radius: 50%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -20px;
+}
+/* line 1247, ../sass/home.scss */
+.andmore__icon__item .icon_circle .icon {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 40px;
+}
+/* line 1252, ../sass/home.scss */
+.andmore__icon__item .icon_circle .icon.text {
+  font-family: hy;
+}
+/* line 1258, ../sass/home.scss */
+.andmore__icon__item a {
+  color: #000;
+  display: block;
+  font-size: 16px;
+  height: 100px;
+  position: relative;
+}
+/* line 1264, ../sass/home.scss */
+.andmore__icon__item a:hover {
+  opacity: .5;
+}
+/* line 1269, ../sass/home.scss */
+.andmore__icon__item a img {
+  display: block;
+  height: auto;
+  left: 50%;
+  margin: auto;
+  margin-left: -20px;
+  position: absolute;
+  top: 50px;
+  width: 40px;
+}
+/* line 1282, ../sass/home.scss */
+.andmore__icon__item:nth-child(3) a span {
+  position: relative;
+  top: -.5em;
+}
+/* line 1290, ../sass/home.scss */
+.andmore__notice {
+  clear: both;
+  padding-top: 60px;
+  font-size: 12px;
+  line-height: 1.6;
+  width: 62%;
+  margin: 0 auto;
+}
+/* line 1297, ../sass/home.scss */
+.andmore__notice a {
+  color: #000;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+/* line 1305, ../sass/home.scss */
+.globalFooter {
+  margin-top: 0;
+  position: relative;
+}
+/* line 1310, ../sass/home.scss */
+.globalFooter__pagetop {
+  left: 50%;
+  margin-left: -40px;
+  position: absolute;
+  top: -120px;
+}
+/* line 1317, ../sass/home.scss */
+.globalFooter__nav {
+  margin-top: 0;
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@media screen and (max-width: 736px) {
+  /* line 1334, ../sass/home.scss */
+  .fascia .fascia__container .fascia__controller {
+    padding: 0;
+  }
+
+  /* line 1338, ../sass/home.scss */
+  .bestcosme {
+    background-color: #000;
+  }
+  /* line 1340, ../sass/home.scss */
+  .bestcosme img {
+    width: auto;
+    height: 240px;
+    margin: auto;
+  }
+
+  /* line 1348, ../sass/home.scss */
+  .bitrivia__container {
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: 92px auto;
+    background-image: url('/images/home/bi-trivia/sp/bg.jpg');
+    box-sizing: border-box;
+    height: 170px;
+    padding-top: 32px;
+  }
+  /* line 1358, ../sass/home.scss */
+  .bitrivia__logo {
+    background-image: url('/images/home/bi-trivia/title.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 204px auto;
+    height: 85px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-indent: -200%;
+    white-space: nowrap;
+    width: 254px;
+  }
+  /* line 1372, ../sass/home.scss */
+  .bitrivia__link {
+    margin-top: 5px;
+    text-align: center;
+  }
+  /* line 1375, ../sass/home.scss */
+  .bitrivia__link a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+    font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  /* 新着 */
+  /* line 1389, ../sass/home.scss */
+  .left_first .l--poster {
+    /*        &:nth-child(2n) {
+                .l--poster__container {
+                    .l--poster__text {
+                        text-align: right;
+                        right: 10px;
+                        left: auto;
+                        &__copy {
+                            margin-right: -0.5em;
+                        }
+                    }
+                }
+            }*/
+  }
+  /* line 1391, ../sass/home.scss */
+  .left_first .l--poster .l--poster__container .l--poster__text {
+    text-align: left;
+    left: 10px;
+  }
+
+  /* line 1411, ../sass/home.scss */
+  .right_first .l--poster {
+    /*        &:nth-child(2n) {
+                .l--poster__container {
+                    .l--poster__text {
+                        text-align: left;
+                        left: 10px;
+                        right: auto;
+                    }
+                }
+            }*/
+  }
+  /* line 1413, ../sass/home.scss */
+  .right_first .l--poster .l--poster__container .l--poster__text {
+    text-align: right;
+    right: 10px;
+  }
+  /* line 1429, ../sass/home.scss */
+  .right_first .l--poster.news__20161001a .l--poster__container .l--poster__text {
+    text-align: left;
+    left: 10px;
+    right: auto;
+  }
+  /* line 1438, ../sass/home.scss */
+  .right_first .l--poster.news__20161001c .l--poster__container .l--poster__text {
+    text-align: left;
+    left: 10px;
+    right: auto;
+  }
+
+  /* line 1448, ../sass/home.scss */
+  .l--poster .l--poster__container {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 240px;
+    position: relative;
+  }
+  /* line 1456, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text {
+    bottom: 0;
+    width: auto;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+    overflow: hidden;
+    position: absolute;
+    table-layout: fixed;
+    /*
+    text-indent         : 200%;
+    white-space         : nowrap;
+    */
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#000000ff,EndColorStr=#000000ff);
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  /* line 1477, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text .l--poster__text__container {
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+  }
+  /* line 1482, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__type {
+    display: inline-block;
+    font-family: hy;
+    font-size: 10px;
+    border-bottom: 1px solid #FFF;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  /* line 1491, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__copy {
+    font-family: hy;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  /* line 1496, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__copy .right-margin {
+    margin-right: 0.5em;
+  }
+  /* line 1500, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__subcopy {
+    font-family: hy;
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  /* line 1505, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__subcopy span {
+    font-size: 0.5em;
+    position: absolute;
+    margin-top: -1em;
+    margin-left: -3.5em;
+  }
+  /* line 1512, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__name {
+    font-family: hy;
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  /* line 1518, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__link {
+    font-family: hy;
+    margin-top: 10px;
+  }
+  /* line 1521, ../sass/home.scss */
+  .l--poster .l--poster__container .l--poster__text__link a {
+    border: 1px solid #000;
+    display: inline-block;
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+  /* line 1531, ../sass/home.scss */
+  .l--poster.white .l--poster__container {
+    color: #ffffff;
+  }
+  /* line 1534, ../sass/home.scss */
+  .l--poster.white .l--poster__container .l--poster__text__type {
+    border-color: #FFF;
+  }
+  /* line 1538, ../sass/home.scss */
+  .l--poster.white .l--poster__container .l--poster__text__link a {
+    border-color: #FFF;
+    color: #FFF;
+  }
+  /* line 1547, ../sass/home.scss */
+  .l--poster.black .l--poster__container {
+    color: #000;
+  }
+  /* line 1550, ../sass/home.scss */
+  .l--poster.black .l--poster__container .l--poster__text__type {
+    border-color: #000;
+  }
+  /* line 1554, ../sass/home.scss */
+  .l--poster.black .l--poster__container .l--poster__text__link a {
+    border-color: #000;
+    color: #000;
+  }
+  /* line 1563, ../sass/home.scss */
+  .l--poster.black_sp .l--poster__container {
+    color: #000;
+  }
+  /* line 1566, ../sass/home.scss */
+  .l--poster.black_sp .l--poster__container .l--poster__text__type {
+    border-color: #000;
+  }
+  /* line 1570, ../sass/home.scss */
+  .l--poster.black_sp .l--poster__container .l--poster__text__link a {
+    border-color: #000;
+    color: #000;
+  }
+
+  /* line 1579, ../sass/home.scss */
+  .image-base {
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  /* setting list news 'image' */
+  /* line 1597, ../sass/home.scss */
+  .news__list__item.news__20161001a {
+    background-image: url(../images/home/news/list_item/sp/news_bg_20161001a.png);
+    background-position: -20px center;
+  }
+  /* line 1600, ../sass/home.scss */
+  .news__list__item.news__20161001a a {
+    height: 55px;
+    top: 10px;
+  }
+  /* line 1605, ../sass/home.scss */
+  .news__list__item.news__20161001b {
+    background-image: url(../images/home/news/list_item/sp/news_bg_20161001b.png);
+    background-position: -20px center;
+    background-color: #000;
+  }
+  /* line 1609, ../sass/home.scss */
+  .news__list__item.news__20161001b a {
+    top: 10px;
+    color: #fff;
+  }
+  /* line 1612, ../sass/home.scss */
+  .news__list__item.news__20161001b a .type {
+    border-color: #fff;
+  }
+  /* line 1617, ../sass/home.scss */
+  .news__list__item.news__20161001c {
+    background-image: url(../images/home/news/list_item/sp/news_bg_20161001c.png);
+    background-position: -20px center;
+  }
+  /* line 1620, ../sass/home.scss */
+  .news__list__item.news__20161001c a {
+    top: 10px;
+  }
+
+  /* line 1631, ../sass/home.scss */
+  .meliority .l--poster__container .l--poster__text,
+  .marcel .l--poster__container .l--poster__text {
+    bottom: auto;
+    height: auto;
+    width: auto;
+  }
+
+  /* line 1648, ../sass/home.scss */
+  .news__20160715a .l--poster__container .l--poster__text,
+  .news__20160801a .l--poster__container .l--poster__text,
+  .news__20160801b .l--poster__container .l--poster__text,
+  .news__20160801c .l--poster__container .l--poster__text,
+  .news__20160901a .l--poster__container .l--poster__text,
+  .news__20160901b .l--poster__container .l--poster__text,
+  .news__20160901c .l--poster__container .l--poster__text,
+  .news__20161001a .l--poster__container .l--poster__text,
+  .news__20161001b .l--poster__container .l--poster__text,
+  .news__20161001c .l--poster__container .l--poster__text {
+    height: 240px;
+    bottom: 10px;
+  }
+
+  /* line 1653, ../sass/home.scss */
+  .news__20160416b .image-base {
+    background-size: 100%;
+    background-position: 0;
+    background-color: #000;
+  }
+
+  /* list news */
+  /* line 1661, ../sass/home.scss */
+  .news__list {
+    overflow: hidden;
+    *zoom: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+    width: auto;
+  }
+  /* line 1668, ../sass/home.scss */
+  .news__list__item {
+    background-size: auto 100%;
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-sizing: border-box;
+    float: left;
+    height: 120px;
+    position: relative;
+    width: 100%;
+  }
+  /* line 1681, ../sass/home.scss */
+  .news__list__item:nth-child(n + 2) {
+    margin-left: 0;
+  }
+  /* line 1684, ../sass/home.scss */
+  .news__list__item:hover {
+    opacity: .5;
+  }
+  /* line 1688, ../sass/home.scss */
+  .news__list__item a {
+    bottom: 0;
+    color: #000;
+    display: block;
+    font-family: hy;
+    font-size: 11px;
+    height: 75px;
+    left: 8%;
+    line-height: 1.5;
+    margin-left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    position: absolute;
+    top: 0;
+  }
+  /* line 1702, ../sass/home.scss */
+  .news__list__item a .type {
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    font-size: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  /* line 1710, ../sass/home.scss */
+  .news__list__item.news__20160801a a {
+    height: 105px;
+  }
+  /* line 1713, ../sass/home.scss */
+  .news__list__item.news__20160901c {
+    background-color: #000;
+  }
+  /* line 1715, ../sass/home.scss */
+  .news__list__item.news__20160901c a {
+    color: #fff;
+  }
+  /* line 1717, ../sass/home.scss */
+  .news__list__item.news__20160901c a .type {
+    border-color: #fff;
+  }
+
+  /* line 1728, ../sass/home.scss */
+  .whatsNewLink {
+    background-color: #000000;
+  }
+  /* line 1731, ../sass/home.scss */
+  .whatsNewLink .whatsNewLink__container {
+    text-align: center;
+  }
+  /* line 1734, ../sass/home.scss */
+  .whatsNewLink .whatsNewLink__container a {
+    color: #ffffff;
+    display: block;
+    font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 12px;
+    line-height: 50px;
+    position: relative;
+    text-decoration: none;
+  }
+  /* line 1743, ../sass/home.scss */
+  .whatsNewLink .whatsNewLink__container a:after {
+    border-bottom: 0.3em solid transparent;
+    border-left: 0.6em solid #ffffff;
+    border-top: 0.3em solid transparent;
+    content: '';
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -0.3em;
+    position: absolute;
+    top: 50%;
+  }
+
+  /* line 1761, ../sass/home.scss */
+  .line__title {
+    font-size: 20px;
+  }
+  /* line 1765, ../sass/home.scss */
+  .line__container {
+    padding-top: 32px;
+  }
+  /* line 1769, ../sass/home.scss */
+  .line__menu {
+    width: auto;
+  }
+  /* line 1773, ../sass/home.scss */
+  .line__menu__container {
+    width: auto;
+  }
+  /* line 1777, ../sass/home.scss */
+  .line__menu__list {
+    display: none;
+  }
+  /* line 1783, ../sass/home.scss */
+  .line__menu__triggers.m--list {
+    display: none;
+  }
+  /* line 1787, ../sass/home.scss */
+  .line__menu__triggers.m--select {
+    display: block;
+    font-family: hy;
+    font-size: 13px;
+  }
+  /* line 1793, ../sass/home.scss */
+  .line__menu__triggers.m--select .line__menu__select {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("/images/sp/arrow_down_small.png");
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-size: 6px auto;
+    border: none;
+    border-bottom: solid 1px #dddddd;
+    font-family: hy;
+    font-size: 13px;
+    padding-right: 10px;
+  }
+  /* line 1823, ../sass/home.scss */
+  .line__contents .l--product-block__text {
+    font-family: hy, "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: .8em;
+  }
+  /* line 1828, ../sass/home.scss */
+  .line__contents .l--product-block__text .kana {
+    display: block;
+    font-size: .8em;
+    padding-top: 5px;
+  }
+
+  /* line 1837, ../sass/home.scss */
+  .ranking {
+    color: #FFF;
+    background-color: #000;
+    padding-bottom: 32px;
+  }
+  /* line 1841, ../sass/home.scss */
+  .ranking__container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 95%;
+  }
+  /* line 1847, ../sass/home.scss */
+  .ranking__title {
+    font-family: hy;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* line 1852, ../sass/home.scss */
+  .ranking__category {
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* line 1855, ../sass/home.scss */
+  .ranking__category__item {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  /* line 1860, ../sass/home.scss */
+  .ranking__category__item.m--current {
+    border-bottom: 1px solid #FFF;
+  }
+  /* line 1867, ../sass/home.scss */
+  .ranking__menu__triggers.m--select {
+    display: block;
+    font-family: hy;
+    font-size: 13px;
+    padding: 32px 0px;
+    text-align: center;
+  }
+  /* line 1875, ../sass/home.scss */
+  .ranking__menu__triggers.m--select .ranking__menu__select {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-bottom: solid 1px #999999;
+    color: #ffffff;
+    font-family: hy;
+    font-size: 13px;
+    background-image: url("/images/sp/arrow_down_small-white.png");
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-size: 6px auto;
+    background-color: transparent;
+    padding-right: 10px;
+  }
+  /* line 1892, ../sass/home.scss */
+  .ranking__menu__triggers.m--select .ranking__menu__select option {
+    background-color: #000;
+  }
+  /* line 1897, ../sass/home.scss */
+  .ranking__menu__triggers.m--list {
+    display: none;
+  }
+  /* line 1899, ../sass/home.scss */
+  .ranking__list {
+    height: 212px;
+  }
+  /* line 1901, ../sass/home.scss */
+  .ranking__list__item {
+    background-repeat: no-repeat;
+    background-position: 10% 15px;
+    background-size: auto 120px;
+  }
+  /* line 1905, ../sass/home.scss */
+  .ranking__list__item .image {
+    text-align: center;
+    padding-top: 0;
+  }
+  /* line 1908, ../sass/home.scss */
+  .ranking__list__item .image img {
+    height: auto;
+    width: 180px;
+  }
+  /* line 1913, ../sass/home.scss */
+  .ranking__list__item .name {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+  /* line 1920, ../sass/home.scss */
+  .ranking__list__item .name__line {
+    margin-bottom: 10px;
+  }
+  /* line 1925, ../sass/home.scss */
+  .ranking__list__item .name a {
+    color: #FFF;
+  }
+  /* line 1927, ../sass/home.scss */
+  .ranking__list__item .name a span {
+    display: block;
+    font-size: 10px;
+  }
+  /* line 1933, ../sass/home.scss */
+  .ranking__list__item.m--no_1 {
+    background-image: url('/images/home/ranking/no_1.png');
+  }
+  /* line 1936, ../sass/home.scss */
+  .ranking__list__item.m--no_2 {
+    background-image: url('/images/home/ranking/no_2.png');
+  }
+  /* line 1939, ../sass/home.scss */
+  .ranking__list__item.m--no_3 {
+    background-image: url('/images/home/ranking/no_3.png');
+  }
+  /* line 1944, ../sass/home.scss */
+  .ranking__nav {
+    text-align: center;
+    margin-top: 25px;
+  }
+  /* line 1947, ../sass/home.scss */
+  .ranking__nav__item {
+    border-radius: 10px;
+    background-color: #323232;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 0 15px;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+    width: 10px;
+  }
+  /* line 1958, ../sass/home.scss */
+  .ranking__nav__item.m--current {
+    background-color: #FFF;
+  }
+
+  /* line 1968, ../sass/home.scss */
+  .information__container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    width: 95%;
+  }
+  /* line 1974, ../sass/home.scss */
+  .information__title {
+    font-family: hy;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* line 1979, ../sass/home.scss */
+  .information__list {
+    overflow: hidden;
+    *zoom: 1;
+    padding-top: 25px;
+    margin-left: -3%;
+  }
+  /* line 1983, ../sass/home.scss */
+  .information__list__item {
+    float: left;
+    font-size: 10px;
+    height: auto;
+    width: 47%;
+    margin-left: 3%;
+    padding-bottom: 10px;
+  }
+  /* line 1991, ../sass/home.scss */
+  .information__list__item .banner {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: block;
+    height: auto;
+    width: auto;
+  }
+  /* line 1997, ../sass/home.scss */
+  .information__list__item .banner img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 2002, ../sass/home.scss */
+  .information__list__item a {
+    color: #000;
+    display: inline-block;
+    margin-top: 7px;
+  }
+  /* line 2007, ../sass/home.scss */
+  .information__list__item.m--imcube .banner {
+    background-image: none;
+  }
+  /* line 2010, ../sass/home.scss */
+  .information__list__item.m--event .banner {
+    background-image: none;
+  }
+  /* line 2013, ../sass/home.scss */
+  .information__list__item.m--fansite .banner {
+    background-image: none;
+  }
+  /* line 2016, ../sass/home.scss */
+  .information__list__item.m--shop .banner {
+    background-image: none;
+  }
+  /* line 2019, ../sass/home.scss */
+  .information__list__item.m--discover {
+    float: none;
+    width: 100%;
+  }
+  /* line 2023, ../sass/home.scss */
+  .information__list__item.m--discover .banner {
+    background-image: none;
+  }
+  /* line 2026, ../sass/home.scss */
+  .information__list__item.m--salon {
+    float: none;
+    width: 100%;
+  }
+  /* line 2030, ../sass/home.scss */
+  .information__list__item.m--salon .banner {
+    background-image: none;
+  }
+  /* line 2036, ../sass/home.scss */
+  .information__salon a {
+    display: block;
+    background-image: none;
+    color: #000;
+    height: auto;
+    text-indent: 0;
+    width: auto;
+    white-space: nowrap;
+  }
+  /* line 2045, ../sass/home.scss */
+  .information__salon a img {
+    height: auto;
+    width: 100%;
+  }
+
+  /* line 2052, ../sass/home.scss */
+  .andmore {
+    background-image: url('/images/home/footer/sp/bg.jpg');
+    background-size: 100% auto;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 115px;
+  }
+  /* line 2058, ../sass/home.scss */
+  .andmore__container {
+    overflow: hidden;
+    *zoom: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 16px 0;
+    width: auto;
+  }
+  /* line 2065, ../sass/home.scss */
+  .andmore__list, .andmore__icon {
+    box-sizing: border-box;
+    height: auto;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 56%;
+  }
+  /* line 2074, ../sass/home.scss */
+  .andmore__preview {
+    display: none;
+  }
+  /* line 2078, ../sass/home.scss */
+  .andmore__list {
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    width: 85%;
+  }
+  /* line 2082, ../sass/home.scss */
+  .andmore__list__item {
+    padding: 4px 0 20px;
+    text-align: center;
+  }
+  /* line 2086, ../sass/home.scss */
+  .andmore__list__item a {
+    color: #000;
+    display: block;
+    font-size: 10px;
+  }
+  /* line 2091, ../sass/home.scss */
+  .andmore__list__item.recipide {
+    padding-bottom: 8px;
+  }
+  /* line 2096, ../sass/home.scss */
+  .andmore__icon {
+    overflow: hidden;
+    *zoom: 1;
+  }
+  /* line 2099, ../sass/home.scss */
+  .andmore__icon__item {
+    float: left;
+    padding-top: 23px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+  }
+  /* line 2105, ../sass/home.scss */
+  .andmore__icon__item .icon_circle {
+    background-color: #000;
+    border-radius: 50%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -15px;
+  }
+  /* line 2116, ../sass/home.scss */
+  .andmore__icon__item .icon_circle .icon {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  /* line 2120, ../sass/home.scss */
+  .andmore__icon__item .icon_circle .icon.text {
+    font-family: hy;
+  }
+  /* line 2126, ../sass/home.scss */
+  .andmore__icon__item a {
+    color: #000;
+    display: block;
+    font-size: 10px;
+    height: 60px;
+    position: relative;
+  }
+  /* line 2133, ../sass/home.scss */
+  .andmore__icon__item a img {
+    display: block;
+    height: auto;
+    left: 50%;
+    margin: auto;
+    margin-left: -15px;
+    position: absolute;
+    top: 30px;
+    width: 30px;
+  }
+  /* line 2146, ../sass/home.scss */
+  .andmore__notice {
+    clear: both;
+    padding-top: 30px;
+    font-size: 10px;
+    line-height: 1.6;
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  /* line 2158, ../sass/home.scss */
+  .globalFooter__pagetop {
+    margin-left: -25px;
+    top: -65px;
+  }
+}
+/* sp */
+/* sp width_370px */
+@media screen and (max-width: 414px) {
+  /* 新着 */
+  /* setting poster news  'image' and 'position' and 'width'*/
+  /* line 2178, ../sass/home.scss */
+  .news__20161201a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20161201a.jpg");
+  }
+
+  /* line 2183, ../sass/home.scss */
+  .news__20161016a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20161016a.jpg");
+  }
+
+  /* line 2188, ../sass/home.scss */
+  .news__20161016c .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20161016c.jpg");
+  }
+
+  /* line 2193, ../sass/home.scss */
+  .news__20161001a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20161001a.jpg");
+  }
+
+  /* line 2198, ../sass/home.scss */
+  .news__20161001b .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20161001b.jpg");
+  }
+
+  /* line 2203, ../sass/home.scss */
+  .news__20161001c .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20161001c.jpg");
+  }
+
+  /* line 2208, ../sass/home.scss */
+  .news__20160901a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160901a.jpg");
+  }
+
+  /* line 2213, ../sass/home.scss */
+  .news__20160901b .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160901b.jpg");
+  }
+
+  /* line 2218, ../sass/home.scss */
+  .news__20160901c .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160901c_2.jpg");
+  }
+
+  /* line 2223, ../sass/home.scss */
+  .news__20160801a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160801a.jpg");
+  }
+
+  /* line 2228, ../sass/home.scss */
+  .news__20160801b .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160801b.jpg");
+  }
+
+  /* line 2233, ../sass/home.scss */
+  .news__20160801c .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160801c.jpg");
+  }
+
+  /* line 2238, ../sass/home.scss */
+  .news__20160715a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160715a.jpg");
+  }
+
+  /* line 2243, ../sass/home.scss */
+  .news__20160701a .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160701a.jpg");
+  }
+
+  /* line 2248, ../sass/home.scss */
+  .news__20160701b .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160701b.jpg");
+  }
+
+  /* line 2253, ../sass/home.scss */
+  .news__20160701c .image-base {
+    background-image: url("/images/home/news/sp/news_bg_20160701c.jpg");
+  }
+}

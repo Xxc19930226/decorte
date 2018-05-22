@@ -1,0 +1,376 @@
+.mainContainer {
+    padding-top: 50px;
+}
+.keyvisual{
+	background-color:#000000;
+	position:relative;
+}
+
+/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/cellgenie/kv.jpg?1457673566');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size:100% auto;
+	width: 100%;
+	max-width: 1200px;
+	height: 700px;
+}
+*/
+
+.keyvisual .l-container{
+	position:relative;
+}
+
+
+.keyvisual .award{
+    height: 150px;
+    left: 11%;
+    position: absolute;
+    top: 74%;
+    width: 150px;
+}
+
+.keyvisual .award img{
+	width:100%;
+	height:auto;
+}
+
+
+.concept__title {
+    font-family: hy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.concept__list {
+    margin-top: 50px;
+}
+.concept__list__item {
+    height: 360px;
+    width: 570px;
+}
+.concept__list__item:nth-child(n+2) {
+    margin-left: 60px;
+}
+
+
+.concept__list__item span {
+	display:block;
+	color: #FFFFFF;
+	text-align:center;
+    font-family: hy;
+	margin-top:15px;
+}
+
+.concept__list__item span.title {
+	font-size:30px;
+	margin-top:220px
+}
+.concept__list__item a {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 200px;
+	margin: 20px auto 0;
+	line-height: 2;
+}
+
+
+.concept__list__item.a_itemconcept {
+	background-image: url('/images/cellgenie/bg_concept_aging.jpg?1457673776');
+  background-position: center top;
+}
+.concept__list__item.w_itemconcept {
+	background-image: url('/images/cellgenie/bg_concept_whitening.jpg?1457673776');
+  background-position: center top;
+}
+
+.news .news-201604_shower {
+	background-image: url('/images/aq_mw/news_01.jpg?1457673949')
+}
+.news .news-201604_shower a {
+	margin-left: 533px;
+	margin-top: 130px
+}
+.news .news-201604_shower a .title {
+	font-size: 25px
+}
+.news .news-201604_shower a .lead {
+	font-size: 35px;
+	line-height: 57px
+}
+.news .news-201604_ardeflule {
+	background-image: url('/images/aq_mw/news_02.jpg?1457673949')
+}
+.news .news-201604_ardeflule a {
+	margin-top: 345px
+}
+.news .news-201604_neckrenew {
+	background-image: url('/images/aq_mw/news_03.jpg?1457673949')
+}
+.news .news-201604_neckrenew a {
+	margin-top: 345px
+}
+
+.steplink .l-steplink__container {
+    background-image: url(../images/cellgenie/bg_system.gif);
+    height: 334px
+}
+
+.steplink__title-personal {
+    left: 15px;
+    top: 239px
+}
+
+.steplink .l-step1__head {
+    left: 11px;
+    top: 37px
+}
+
+.steplink .l-step2__head {
+    left: 239px;
+    top: 37px
+}
+
+.steplink .l-step3__head {
+    left: 466px;
+    top: 37px
+}
+
+.steplink .l-step4__head {
+    left: 692px;
+    top: 37px
+}
+
+.steplink .l-step1__link1 {
+    left: 41px;
+    top: 84px
+}
+
+.steplink .l-step1__link1 a {
+    padding-top: 25px !important
+}
+
+.steplink .l-step1__link2 {
+    left: 157px;
+    top: 242px
+}
+
+.steplink .l-step2__link1 {
+    left: 267px;
+    top: 84px
+}
+
+.steplink .l-step2__link2 {
+    left: 377px;
+    top: 242px
+}
+
+.steplink .l-step3__link1 {
+    left: 493px;
+    top: 84px
+}
+
+.steplink .l-step3__link2 {
+    left: 595px;
+    top: 242px
+}
+
+.steplink .l-step4__link1 {
+    left: 719px;
+    top: 84px
+}
+
+.steplink .l-all__link1 {
+    left: 748px;
+    top: 242px
+}
+
+@media screen and (max-width: 736px) {
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+
+.keyvisual .award{
+    height: 75px;
+	width: 75px;
+    right: 66%;
+	top:75%;
+    position: absolute;
+}
+
+.keyvisual .award img{
+	width:100%;
+	height:auto;
+}
+
+.concept__title {
+    font-size: 20px;
+}
+
+.concept__list__item {
+    height: auto;
+    width: 100%;
+}
+
+.concept__list__item.a_itemconcept {
+	background-image: none;
+}
+.concept__list__item.w_itemconcept {
+	background-image: none;
+}
+.concept__list__item:nth-child(n+2) {
+    margin-left: 0;
+}
+.concept__list__item span {
+	display:block;
+	position:absolute;
+	margin-top:0;
+    width: 100%;
+	left:0;
+	text-align:center;
+	
+}
+
+.concept__list__item span.title {
+	font-size:20px;
+	margin-top:0;
+	top:45%;
+}
+
+.concept__list__item span.copy {
+	font-size:13px;
+	top:60%;	
+
+}
+
+.concept__list__item a {
+    width: 50%;
+	left:25%;
+}
+
+
+.news .news-201604_shower {
+	background-image: none;
+	height: auto;
+	padding-top: 0
+}
+.news .news-201604_shower a {
+	margin-left: 0;
+	margin-top: inherit
+}
+.news .news-201604_shower a .title {
+	font-size: 17.5px
+}
+.news .news-201604_shower a .lead {
+	font-size: 22.5px;
+	line-height: 1.1
+}
+.news .news-201604_ardeflule {
+	background-image: none
+}
+.news .news-201604_ardeflule a {
+	margin-top: 0
+}
+.news .news-201604_neckrenew {
+	background-image: none
+}
+.news .news-201604_neckrenew a {
+	margin-top: 0
+}
+
+.steplink .l-steplink__container {
+    background-image: url(../images/cellgenie/sp/bg_system.gif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 500px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.steplink__title-personal {
+    left: 0;
+    top: 0
+}
+
+.steplink .l-step1__head {
+    left: 10px;
+    top: 28px
+}
+
+.steplink .l-step2__head {
+    left: 10px;
+    top: 138px
+}
+
+.steplink .l-step3__head {
+    left: 10px;
+    top: 237px
+}
+
+.steplink .l-step4__head {
+    left: 10px;
+    top: 353px
+}
+
+.steplink .l-step1__link1 {
+    left: 10px;
+    top: 45px
+}
+
+.steplink .l-step1__link1 a {
+    padding-top: 15px !important
+}
+
+.steplink .l-step1__link2 {
+    left: 150px;
+    top: 100px
+}
+
+.steplink .l-step2__link1 {
+    left: 10px;
+    top: 155px
+}
+
+.steplink .l-step2__link2 {
+    left: 150px;
+    top: 202px
+}
+
+.steplink .l-step3__link1 {
+    left: 10px;
+    top: 254px
+}
+
+.steplink .l-step3__link2 {
+    left: 150px;
+    top: 315px
+}
+
+.steplink .l-step4__link1 {
+    left: 10px;
+    top: 370px
+}
+
+.steplink .l-all__link1 {
+    left: 150px;
+    top: 412px
+}
+}

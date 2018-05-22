@@ -1,0 +1,3 @@
+CREATE TABLE product_search_right_word (id BIGINT AUTO_INCREMENT, word VARCHAR(255) NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, UNIQUE INDEX word_idx (word), PRIMARY KEY(id)) DEFAULT CHARACTER SET UTF8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+CREATE TABLE product_search_wrong_word (id BIGINT AUTO_INCREMENT, right_word_id BIGINT NOT NULL, word VARCHAR(255) NOT NULL, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, UNIQUE INDEX word_idx (word), INDEX right_word_id_idx (right_word_id), PRIMARY KEY(id)) DEFAULT CHARACTER SET UTF8 COLLATE utf8_unicode_ci ENGINE = INNODB;
+ALTER TABLE product_search_wrong_word ADD CONSTRAINT prpi FOREIGN KEY (right_word_id) REFERENCES product_search_right_word(id) ON DELETE CASCADE;

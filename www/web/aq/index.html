@@ -1,0 +1,192 @@
+<?php slot('description', 'DECORTE AQのご紹介。最先端の皮膚科学に立脚した素材、処方、製法により、肌と心に響く、最高の品質をお届けいたします。コスメデコルテ。') ?>
+<?php slot('keywords', 'AQ,コスメデコルテ,コーセー,スキンケア,コスメデコルテ,コーセー,クレンジング,乳液,化粧,美容液,クリーム,保湿,毛穴,ニキビ,美白,SPF') ?>
+<?php slot('title', 'AQ') ?>
+<?php use_stylesheet('linetop.css') ?>
+<?php use_stylesheet('linetop-aq.css') ?>
+<script type="text/javascript">
+    var _dispItemList = '/product/aq/skincare/list';
+</script>
+<!--<div class="linehead">
+    <div class="l-container">
+        <ul class="linehead__share">
+            <li class="linehead__share__facebook"><img src="/images/linetop/face_gray.png" alt=""></li>
+            <li class="linehead__share__twitter"><img src="/images/linetop/twitter_gray.png" alt=""></li>
+        </ul>
+    </div>
+</div>-->
+<article>
+  <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+    <div class="l-container">
+      <h1><img src="/images/aq/sp/kv.jpg" alt="AQ" class="sp"><img src="/images/aq/kv.jpg" alt="AQ" class="pc"></h1>
+    </div>
+  </div>
+  <section class="concept l--fixed-submenu-anchor" data-name="Concept">
+    <div class="l-container">
+      <h1 class="concept__message__title">理念</h1>
+      <p class="concept__message__lead"><span>黛珂AQ ,如同孕育一件艺术臻品，</span><span>倾注了理性与感性的精华。</span></p>
+      <p class="concept__message__text"> Absolute Quality——她的名字意味着当您的双手触及她的瞬间，<br>
+        便仿佛见证一场盛宴的开始。<br>
+        立足于先端皮肤科学的素材、处方和制法，<br>
+        给予您的肌肤梦境般的触感、悦动及气息。<br>
+        她追求的是无以比拟的永恒醇美，难以追随的心灵悦动。<br>
+        如同孕育一件艺术臻品，倾注了理性与感性的精华。<br>
+        请和AQ一起，享受这犹如梦境般的优雅醇美。</p>
+    </div>
+  </section>
+  <section class="product l--fixed-submenu-anchor" data-name="Products">
+    <div class="l-container">
+      <h1 class="product__title">产品</h1>
+
+        <div class="product__triggers" data-url="/product/aq/">
+            <div class="product__category m--select">
+                <select class="product__category__select">
+                    <option value="skincare">护肤</option>
+                    <!--<option value="basemake">底妆</option>
+                    <option value="pointmake">重点彩妆</option>-->
+                </select>
+                <span>View More</span>
+            </div>
+            <div class="product__category m--list">
+                <ul class="product__category__list">
+                    <li class="product__category__item m--active" data-type="skincare">护肤</li>
+                    <!--<li class="product__category__item" data-type="basemake">底妆</li>
+                    <li class="product__category__item" data-type="pointmake">重点彩妆</li>-->
+                </ul>
+            </div>
+        </div>
+      <div id="dispItemList"></div>
+    </div>
+  </section>
+  <section class="skincaresystem l--fixed-submenu-anchor" data-name="Skin Care System">
+    <div class="l-container">
+      <h1 class="skincaresystem__title">护肤系统</h1>
+
+            <section class="steplink">
+                <div class="l-steplink__container">
+                    <h1 class="steplink__title"><span class="steplink__title-basic">基础保养</span><span class="steplink__title-personal">特别保养</span></h1>
+                    <div class="step l-step1">
+                        <div class="step__head l-step1__head">
+                            <p class="step__head__num">STEP1</p>
+                            <p class="step__head__cat">洁净肌肤</p>
+                        </div>
+                        <ul class="step__shortcut">
+                            <li class="step__shortcut__item m-basic l-step1__link1">
+                                <p class="basic">基础保养</p>
+                                <a href="#skincaresystem_step1">净化<br>洗面奶</a></li>
+                            <li class="step__shortcut__item m-personal l-step1__link2">
+                                <p class="personal">特别保养</p>
+                                <a href="#skincaresystem_step1-personal">美容液･按摩</a></li>
+                        </ul>
+                    </div>
+                    <div class="step l-step2">
+                        <div class="step__head l-step2__head">
+                            <p class="step__head__num">STEP2</p>
+                            <p class="step__head__cat">柔软肌肤</p>
+                        </div>
+                        <ul class="step__shortcut">
+                            <li class="step__shortcut__item m-basic l-step2__link1">
+                                <p class="basic">基础保养</p>
+                                <a href="#skincaresystem_step2">乳液</a></li>
+                            <!--<li class="step__shortcut__item m-personal l-step2__link2">
+                                <p class="personal">特别保养</p>
+                                <a href="#skincaresystem_step2-personal">面膜</a></li>-->
+                        </ul>
+                    </div>
+                    <div class="step l-step3">
+                        <div class="step__head l-step3__head">
+                            <p class="step__head__num">STEP3</p>
+                            <p class="step__head__cat">平衡（皮肤调理）</p>
+                        </div>
+                        <ul class="step__shortcut">
+                            <li class="step__shortcut__item m-basic l-step3__link1">
+                                <p class="basic">基础保养</p>
+                                <a href="#skincaresystem_step3">化妆水</a></li>
+                            <li class="step__shortcut__item m-personal l-step3__link2">
+                                <p class="personal">特别保养</p>
+                                <a href="#skincaresystem_step3-personal">美容液</a></li>
+                        </ul>
+                    </div>
+                    <!--
+                    <div class="step l-step4">
+                        <div class="step__head l-step4__head">
+                            <p class="step__head__num">STEP4</p>
+                            <p class="step__head__cat">保湿</p>
+                        </div>
+                        <ul class="step__shortcut">
+                            <li class="step__shortcut__item m-basic l-step4__link1">
+                                <p class="basic">基础保养</p>
+                                <a href="#skincaresystem_step4">精华</a></li>
+                        </ul>
+                    </div>
+                    -->
+                </div>
+            </section>
+
+
+      <section class="skincaresystem__step next" id="skincaresystem_step1">
+        <header class="skincaresystem__step__header">
+          <h2>STEP1</h2>
+          <p>洁净肌肤</p>
+        </header>
+        <div class="skincaresystem__step__row next">
+          <p class="skincaresystem__step__row__item noimage"><span>净化</span></p>
+        </div>
+        <div class="skincaresystem__step__row next">
+          <p class="skincaresystem__step__row__item noimage"><span>洗面奶</span></p>
+        </div>
+        <div class="skincaresystem__step__row personal" id="skincaresystem_step1-personal">
+          <h3 class="personal__title">特别保养</h3>
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGOO"><span class="cat">按摩</span><span class="icon"><i class="icon-night"></i></span><img src="/images/product/aq/square/JGOO.png" alt=""><span class="name">AQ舒颜净透按摩油</span></a></p>
+          <!--<p class="skincaresystem__step__row__item"><a href="/product/aq/JGMG"><span class="cat">マッサージ</span><span class="icon"><i class="icon-night"></i></span><img src="/images/product/aq/square/JGMG.png" alt=""><span class="name">オールコンフォート <br>マッサージクリーム</span></a></p>-->
+        </div>
+      </section>
+      <section class="skincaresystem__step next" id="skincaresystem_step2">
+        <header class="skincaresystem__step__header">
+          <h2>STEP2</h2>
+          <p>柔软肌肤</p>
+        </header>
+        <div class="skincaresystem__step__row next">
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGEL"><span class="cat">乳液</span><span class="icon"><i class="icon-night"></i><i class="icon-day"></i></span><img src="/images/product/aq/square/JGEL.png" alt=""><span class="name">AQ 活力循环乳<br>AQ 活力循环乳（滋润型</span></a></p>
+        </div>
+        <!--
+        <div class="skincaresystem__step__row personal" id="skincaresystem_step2-personal">
+          <h3 class="personal__title">特别保养</h3>
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGMV"><span class="cat">面膜</span><span class="icon"><i class="icon-night"></i></span><img src="/images/product/aq/square/JGMV.png" alt=""><span class="name">オールセルライザー</span></a></p>
+        </div>
+        -->
+      </section>
+      <section class="skincaresystem__step next" id="skincaresystem_step3">
+        <header class="skincaresystem__step__header">
+          <h2>STEP3</h2>
+          <p>平衡（皮肤调理）</p>
+        </header>
+        <div class="skincaresystem__step__row next">
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGLK"><span class="cat">化妆水</span><span class="icon"><i class="icon-night"></i><i class="icon-day"></i></span><img src="/images/product/aq/square/JGLK.png" alt=""><span class="name">AQ 活力循环露<br>AQ 活力循环露（滋润型）</span></a></p>
+          <!--
+          <p class="skincaresystem__step__row__or">or</p>
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGTN"><span class="cat">化粧水</span><span class="icon"><i class="icon-day"></i></span><img src="/images/product/aq/square/JGTN.png" alt=""><span class="name">トーニング ローション</span></a></p>
+        -->
+        <!--</div>-->
+        <!--<div class="skincaresystem__step__row personal" id="skincaresystem_step3-personal">-->
+          <!--<h3 class="personal__title">特别保养</h3>-->
+          <!--<p class="skincaresystem__step__row__item"><a href="/product/aq/JGNX"><span class="cat">乳液</span><span class="icon"><i class="icon-night"></i><i class="icon-day"></i></span><img src="/images/product/aq/square/JGNX.png" alt=""><span class="name">AQ 修颜紧致菁华乳</span></a></p>-->
+        <!--</div>-->
+      </section>
+      <!--
+      <section class="skincaresystem__step" id="skincaresystem_step4">
+        <header class="skincaresystem__step__header">
+          <h2>STEP4</h2>
+          <p><span>保湿</span></p>
+        </header>
+        <div class="skincaresystem__step__row">
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGCA"><span class="cat">精华</span><span class="icon"><i class="icon-night"></i></span><img src="/images/product/aq/square/JGCA.png" alt=""><span class="name">ニュートリティブ クリーム</span></a></p>
+          <p class="skincaresystem__step__row__or">or</p>
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGFC"><span class="cat">精华</span><span class="icon"><i class="icon-night"></i></span><img src="/images/product/aq/square/JGFC.png" alt=""><span class="name">リペアクリーム ホワイト</span></a></p>
+          <p class="skincaresystem__step__row__or l--vertical">or</p>
+          <p class="skincaresystem__step__row__item"><a href="/product/aq/JGDE"><span class="cat">精华</span><span class="icon"><i class="icon-night"></i></span><img src="/images/product/aq/square/JGDE.png" alt=""><span class="name">クリーム アブソリュート G</span></a></p>
+        </div>
+      </section>
+      -->
+    </div>
+  </section>
+</article>

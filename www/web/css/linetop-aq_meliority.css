@@ -1,0 +1,323 @@
+
+
+.mainContainer {
+    background: #000000;
+	color:#FFFFFF;
+    padding-top: 50px;
+	}
+
+.news>.l-container {
+    border-top: none;
+    
+}
+
+.skincaresystem{
+	background-color:#FFFFFF;
+	color:#000000;
+}
+.news .news-201604_cleansingkit {
+	background-image: url('/images/aq_mw/news_01.jpg?1457673949')
+}
+.news .news-201604_cleansingkit a {
+	margin-left: 533px;
+	margin-top: 130px
+}
+.news .news-201604_cleansingkit a .title {
+	font-size: 25px
+}
+.news .news-201604_cleansingkit a .lead {
+	font-size: 35px;
+	line-height: 57px
+}
+.news-container {
+    color: #000;
+
+}
+#l--embed-player__video {
+    display: block;
+    width: 100%;
+}
+.concept{
+    background: url('/images/aq_meliority/bg_concept.jpg?1457673949') no-repeat 50% 100%;
+    padding-bottom: 50%;
+    background-size: 100% auto;
+
+
+}
+
+.concept__title {
+    font-family: hy;
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.concept__list {
+    margin-top: 50px;
+}
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+}
+
+.concept__message__lead{
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 110px;
+	text-align: center
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+}
+
+.concept__message__text span{
+		font-size: 12px;
+}
+
+
+.product__category__select {
+    color: #ffffff;
+}
+.product__category__item.m--active {
+    border-bottom: solid 1px #ffffff;
+}
+.product {
+    padding-bottom: 150px;
+}
+.skincaresystem {
+}
+.skincaresystem .l-container ,
+.skincaresystem__title {
+        margin-top: 0;
+}
+
+.steplink .l-steplink__container {
+    background-image: url(../images/aq_meliority/bg_system.gif);
+    height: 334px
+}
+
+.steplink__title-personal {
+    left: 15px;
+    top: 239px
+}
+
+.steplink .l-step1__head {
+    left: 11px;
+    top: 37px
+}
+
+.steplink .l-step2__head {
+    left: 239px;
+    top: 37px
+}
+
+.steplink .l-step3__head {
+    left: 466px;
+    top: 37px
+}
+
+.steplink .l-step4__head {
+    left: 692px;
+    top: 37px
+}
+
+.steplink .l-step1__link1 {
+    left: 41px;
+    top: 84px
+}
+
+.steplink .l-step1__link1 a {
+    padding-top: 25px !important
+}
+
+.steplink .l-step1__link2 {
+    left: 157px;
+    top: 242px
+}
+
+.steplink .l-step2__link1 {
+    left: 267px;
+    top: 84px
+}
+
+.steplink .l-step2__link2 {
+    left: 377px;
+    top: 242px
+}
+
+.steplink .l-step3__link1 {
+    left: 493px;
+    top: 84px
+}
+
+.steplink .l-step3__link2 {
+    left: 595px;
+    top: 242px
+}
+
+.steplink .l-step4__link1 {
+    left: 719px;
+    top: 84px
+}
+
+.steplink .l-step4__link2 {
+    left: 748px;
+    top: 242px
+}
+
+
+@media screen and (max-width: 736px)
+{
+.keyvisual .l--embed-player__container {
+    height: 272px;
+}
+.keyvisual .l--embed-player__container video {
+    height      : auto;
+    max-height  : 100%;
+    max-width   : 100%;
+    width       : 100%;
+}
+
+.news .news-201604_cleansingkit {
+	background-image: none;
+	height: auto;
+	padding-top: 0
+}
+.keyvisual .keyvisual__container {
+    height: auto;
+}
+.news .news-201604_cleansingkit a {
+	margin-left: 0;
+	margin-top: inherit
+}
+.news .news-201604_cleansingkit a .title {
+	font-size: 17.5px
+}
+.news .news-201604_cleansingkit a .lead {
+	font-size: 22.5px;
+	line-height: 1.1
+}
+
+.concept{
+	background: url('/images/aq_meliority/sp/bg_concept.jpg?1457673949') no-repeat 50% 100%;
+	background-size:100% auto;
+	padding-bottom:100%;
+}
+
+.concept__message__title{
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.concept__message__lead{
+	font-size: 18px;
+	margin-top: 60px;
+}
+
+.concept__message__lead span{
+	display:inline-block;
+	padding-bottom:0.5em;
+}
+
+.concept__message__text{
+	font-size: 12px;
+	margin-top: 35px;
+}
+.concept__message__text span{
+	font-size: 8px;
+}
+.product__category.m--select .product__category__select {
+    background-image: url('/images/sp/arrow_down_small-white.png');
+}
+.product__category.m--select .product__category__select option {
+    background-color: #000;
+}
+.steplink .l-steplink__container {
+    background-image: url(../images/aq_meliority/sp/bg_system.gif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 500px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.steplink__title-personal {
+    left: 0;
+    top: 0
+}
+
+.steplink .l-step1__head {
+    left: 10px;
+    top: 28px
+}
+
+.steplink .l-step2__head {
+    left: 10px;
+    top: 138px
+}
+
+.steplink .l-step3__head {
+    left: 10px;
+    top: 237px
+}
+
+.steplink .l-step4__head {
+    left: 10px;
+    top: 353px
+}
+
+.steplink .l-step1__link1 {
+    left: 10px;
+    top: 45px
+}
+
+.steplink .l-step1__link1 a {
+    padding-top: 15px !important
+}
+
+.steplink .l-step1__link2 {
+    left: 150px;
+    top: 100px
+}
+
+.steplink .l-step2__link1 {
+    left: 10px;
+    top: 155px
+}
+
+.steplink .l-step2__link2 {
+    left: 150px;
+    top: 202px
+}
+
+.steplink .l-step3__link1 {
+    left: 10px;
+    top: 254px
+}
+
+.steplink .l-step3__link2 {
+    left: 150px;
+    top: 315px
+}
+
+.steplink .l-step4__link1 {
+    left: 10px;
+    top: 370px
+}
+
+.steplink .l-step4__link2 {
+    left: 150px;
+    top: 412px
+}
+
+
+}

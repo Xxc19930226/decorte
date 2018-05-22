@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* ******************************************************
+Title: structure.css
+Created: 2010-09-23
+Last Modified: 2010-09-23
+****************************************************** */
+html ,
+body {
+}
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+
+
+
+
+/* ========== pankuzu ========== */
+#pankuzu {
+    color: #999999;
+    font-size: 0.9em;
+    margin: 15px auto;
+    width: 950px;
+	text-align:left;
+}
+
+/* コンテンツエリア */
+#contents {
+	width: 950px;
+	margin: 20px auto 40px;
+}
+

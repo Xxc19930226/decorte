@@ -1,0 +1,204 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:     /
+  param:   { module: main, action: index }
+
+sitemap_xml:
+  url:     /sitemap.xml
+  param:   { module: main, action: showSitemapXml }
+
+mode_pc_set:
+  url:     /mode/pc/set
+  param:   { module: main, action: setPcMode }
+
+mode_pc_reset:
+  url:     /mode/pc/reset
+  param:   { module: main, action: resetPcMode }
+
+product_ranking:
+  url:     /product/ranking/:category_slug
+  param:   { module: product, action: showRanking }
+
+product_show_by_slug:
+  url:     /product/:line_slug/:slug
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object, method: findBySlugParams }
+  param:   { module: product, action: show }
+
+product_show_ingredient:
+  url:     /product/:line_slug/:slug/ingredient
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object, method: findBySlugParams }
+  param:   { module: product, action: showIngredient }
+
+process_list_line:
+  url:     /product/:line_slug/all/list
+  param:   { module: product, action: listInLine }
+
+product_list_line_category:
+  url:     /product/:line_slug/:category_slug/list
+  param:   { module: product, action: listInLineCategory }
+
+product_list_line_subcategory:
+  url:     /product/:line_slug/:category_slug/:subcategory_slug/list
+  param:   { module: product, action: listInLineSubCategory }
+
+product_checked:
+  url:     /product/checked
+  param:   { module: product, action: showChecked }
+
+product_recommended:
+  url:     /product/recommended
+  param:   { module: product, action: showRecommended }
+
+product_search:
+  url:     /product/search
+  param:   { module: product, action: search }
+
+contact_notes:
+  url:     /contact/notes
+  param:   { module: contact, action: notes }
+
+contact_input:
+  url:     /contact/input
+  param:   { module: contact, action: input }
+
+contact_confirm:
+  url:     /contact/confirm
+  param:   { module: contact, action: confirm }
+
+contact_complete:
+  url:     /contact/complete
+  param:   { module: contact, action: complete }
+
+# サロン ド ボーテ コスメデコルテ WEB予約 20130118
+reserve_notes:
+  url:     /salon/reservation/
+  param:   { module: reserve, action: notes }
+
+reserve_shop:
+  url:     /reserve/shop
+  param:   { module: reserve, action: selectShop }
+
+reserve_input:
+  url:     /reserve/input
+  param:   { module: reserve, action: input }
+
+reserve_salon_date:
+  url:     /reserve/salon_date/:id
+  param:   { module: reserve, action: showSalonShopHopeDate }
+
+reserve_salon_menu:
+  url:     /reserve/salon_menu/:id
+  param:   { module: reserve, action: showSalonShopMenu }
+
+reserve_confirm:
+  url:     /reserve/confirm
+  param:   { module: reserve, action: confirm }
+
+reserve_complete:
+  url:     /reserve/complete
+  param:   { module: reserve, action: complete }
+# サロン ド ボーテ コスメデコルテ WEB予約 20130118
+
+faq_top:
+  url:     /faq
+  param:   { module: faq, action: index }
+
+faq_top2:
+  url:     /faq/
+  param:   { module: faq, action: index }
+
+faq_contact:
+  url:     /contact
+  param:   { module: faq, action: contact }
+
+faq_popular:
+  url:     /faq/popular
+  param:   { module: faq, action: showPopular }
+
+faq_category:
+  url:     /faq/category/:id
+  class:   sfDoctrineRoute
+  options: { model: FaqCategory, type: object }
+  param:   { module: faq, action: showCategory }
+
+faq_subcategory:
+  url:     /faq/subcategory/:id
+  class:   sfDoctrineRoute
+  options: { model: FaqSubCategory, type: object }
+  param:   { module: faq, action: showSubCategory }
+
+faq_content:
+  url:     /faq/question/:id
+  class:   sfDoctrineRoute
+  options: { model: FaqContent, type: object }
+  param:   { module: faq, action: showContent }
+
+faq_qadetail:
+  url:     /faq/qadetail/:id
+  class:   sfDoctrineRoute
+  options: { model: FaqDetail, type: object }
+  param:   { module: faq, action: showDetail }
+
+faq_search:
+  url:     /faq/result
+  param:   { module: faq, action: search }
+
+static_file:
+  url:     /*
+  param:   { module: main, action: showStaticFile }
+
+product_square_image:
+  url:     /images/product/:line_slug/square/:slug.png
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: 'png', width: 300, height: 300, back: 000000, back_alpha: 127 }
+
+product_wide_image:
+  url:     /images/product/:line_slug/wide/:slug.jpg
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: 'jpg', width: 1200, height: 630, back: ffffff }
+
+product_ranking_image:
+  url:     /images/product/:line_slug/ranking/:slug.png
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: 'png', width: 600, height: 600, back: 000000, back_alpha: 127 }
+
+product_large_thumbnail:
+  url:     /images/product/:line_slug/large/:slug.jpg
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: 'jpg', width: 126, height: 126, back: ffffff }
+
+product_middle_thumbnail:
+  url:     /images/product/:line_slug/middle/:slug.jpg
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: jpg, width: 98, height: 98, back: ffffff }
+
+product_small_thumbnail:
+  url:     /images/product/:line_slug/small/:slug.png
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: png, width: 68, height: 68, back: 000000, back_alpha: 127 }
+
+product_minimum_thumbnail:
+  url:     /images/product/:line_slug/minimum/:slug.jpg
+  class:   sfDoctrineRoute
+  options: { model: Product, type: object }
+  param:   { module: product, action: showThumbnail, suffix: 'jpg', width: 58, height: 58, back: ffffff }
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+#
+#default:
+#  url:   /:module/:action/*

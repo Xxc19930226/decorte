@@ -1,0 +1,46 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'Marcel Wanders Collection コスメデコルテ　フェイスパウダーのご紹介。デザインの奇才、マルセル・ワンダースから、数量限定フェイスパウダーを、特別なあなたへ。') ?>
+<?php slot('keywords', 'Marcel Wanders,マルセル・ワンダース,ベースメイク,コスメデコルテ,コーセー,フェイスパウダー,透明感,カバー力,キメ,化粧もち') ?>
+<?php slot('title', 'Marcel Wanders Collection') ?>
+<?php slot('page_id', 'marcelwanders_collection') ?>
+<?php slot('back_link', '/sp/marcelwanders_collection/') ?>
+<?php use_javascript('sp/jquery.innerfade.js') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		resizeTopImage();
+		imagefador();
+	});
+	$( window ).resize(function() {
+		resizeTopImage();
+	});
+</script>
+
+<section class="line">
+  <p class="logo"><a href="/sp/marcelwanders_collection/"><img src="/images/sp/line/concept/marcelwanders_collection/logo.png" alt=""></a></p>
+  <div class="fador">
+    <ul>
+      <li><img src="/images/sp/line/concept/marcelwanders_collection/2011/top_main01.png" alt="" /></li>
+      <li><img src="/images/sp/line/concept/marcelwanders_collection/2011/top_main02.png" alt="" /></li>
+    </ul>
+  </div>
+  <!--<h2 class="image title"><img src="/images/sp/line/top/marcel_wandars_collection/linetop.jpg" alt=""></h2>-->
+  <div class="menu">
+    <ul>
+      <li><a href="/sp/marcelwanders_collection/2011/concept.html">それは魔法のランプのように<em><br />
+        &nbsp;The House of the Powder Genie</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2011/inspiration.html">ひらめきの源。<br />
+        それは、美しい女性のエッセンス<em><br />
+        &nbsp;Inspiration</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2011/item01.html">クリスタルガラスと、<br />
+        マルセル・ワンダースの感性が出逢う<em><br />
+        &nbsp;Crystal Glass × Marcel Wanders</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2011/item02.html">触れた瞬間、魔法にかかる<em><br />
+        &nbsp;Magic Powder for Your Wish</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2011/item03.html">アイテム<em><br />
+        &nbsp;Item</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/archive.html">過去のマルセル・ワンダース コレクション<em><br />
+        &nbsp;Archive</em></a></li>     
+    </ul>
+  </div>
+</section>

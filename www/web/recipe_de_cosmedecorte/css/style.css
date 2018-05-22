@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/*----------------------------------------------------
+  Layout
+----------------------------------------------------*/
+
+#wrap{
+width:100%;
+text-align:center;
+}
+
+* html body{
+behavior:url("/css/csshover3.htc");
+}
+
+#contents{
+width:1000px;
+margin:130px auto 0;
+}
+
+#header{
+	text-align:center;
+	padding-bottom:100px;
+}
+
+#header h1 span{
+	display: block;
+	padding: 10px 0;
+	font-size:18px;
+}
+
+
+
+/*----------------------------------------------------
+  Slide
+----------------------------------------------------*/
+
+
+
+#recipe{
+	width:990px;
+	margin:0 auto;
+	}
+
+.panel h2.title { 
+margin:0;
+padding:0;
+font-size:100%;
+display:none;
+}
+
+.coda-slider-wrapper { 
+padding:0;
+overflow:hidden; 
+}
+
+.coda-slider {
+background:#FFFFFF;
+}
+
+.coda-slider-no-js .coda-slider { 
+overflow:hidden; 
+}
+
+
+.coda-slider { 
+width:902px;
+height:736px;
+diplay:block;
+overflow:hidden;
+margin:0;
+padding:0;
+border:1px solid #cccccc;
+} 
+
+.coda-slider .panel {
+width:900px;
+height:736px;
+overflow:hidden;
+position:relative;
+}
+
+.coda-slider-wrapper.arrows .coda-slider, 
+.coda-slider-wrapper.arrows .coda-slider .panel {
+width:900px ;
+height:736px;
+overflow:hidden; 
+}
+
+.coda-slider-wrapper.arrows .coda-slider { 
+margin:0;
+}
+
+.coda-nav-left, .coda-nav-right{ 
+height:736px; 
+width:36px; 
+}
+.coda-nav-left a, .coda-nav-right a { 
+padding:0; 
+outline: none; 
+}
+
+.coda-nav ul li a.current {
+}
+
+.coda-slider .panel-wrapper {
+padding:0;
+}
+
+.coda-slider p.loading {
+padding:20px;
+text-align:center;
+}
+
+/* Tabbed nav */
+.coda-nav ul {
+margin-left:37px;
+display:block; 
+margin-bottom:10px;
+}
+
+*:first-child+html  .coda-nav ul {
+
+}
+
+
+.coda-nav ul li {
+float:left;
+margin-right:1px;
+}
+
+.coda-nav ul li a {
+outline: none; 
+}
+
+
+/* Miscellaneous */
+.coda-slider-wrapper {
+lear:both;
+overflow:hidden;
+}
+
+.coda-slider {
+float:left;
+overflow:hidden;
+position:relative;
+}
+
+.coda-slider .panel {
+display:block;
+float:left;
+}
+
+.coda-slider .panel-container {
+position:relative;
+}
+
+.coda-nav-left, 
+.coda-nav-right { 
+float:left;
+}
+
+.coda-nav-left a, 
+.coda-nav-right a {
+display:block;
+text-align:center;
+text-decoration:none;
+}
+
+/* Styling for specific sliders */
+#coda-nav-left-5 {
+margin:0 1px 0 135px;
+}
+
+#coda-nav-left-5, 
+#coda-nav-5, 
+#coda-nav-right-5 {
+float:left;
+}
+
+#coda-nav-5 ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#coda-nav-5 a {
+margin:0;
+padding:4px;
+list-style:none;
+margin-right:1px;
+}
+
+#coda-nav-5 li {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+#coda-nav-left-5 a,
+#coda-nav-right-5 a {
+padding:4px;
+width:20px;
+}
+
+#coda-slider-5 {
+clear:both;
+}
+
+.coda-nav-left{
+clear:both;
+}
+
+
+.backnum{
+width:100% ;
+margin-top:110px;
+margin-bottom:135px;
+padding-top:10px;
+padding-bottom:10px;
+border-top:1px solid #e5e5e5;
+	}
+	
+.backnum .b_ttl{
+margin-top:110px;
+padding-bottom:60px;
+font-family: hy;
+font-size: 36px;
+text-align:center;
+	}
+
+.backnum ul {
+width:700px;
+margin: 0 auto;
+border-top:1px solid #e5e5e5;
+	}
+
+.backnum ul li span{
+	display:inline-block;
+	width:150px;
+}
+
+
+
+.backnum ul li{
+border-bottom:1px solid #e5e5e5;
+padding-left:30px;
+padding-top:20px;
+padding-bottom:20px;
+text-align:left;
+}
+
+.backnum ul li a{
+	display: block;
+	color: #000000;
+	text-decoration:none;
+	background-image:url(/recipe_de_cosmedecorte/images/backnum_link_arrow.png);
+	background-position: center right;
+	background-repeat:no-repeat;
+}
+
+
+
+
+
+

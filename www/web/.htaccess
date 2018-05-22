@@ -1,0 +1,56 @@
+Options +FollowSymLinks +ExecCGI
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Decorte CLOSE START
+  #RewriteCond %{REMOTE_ADDR} !^219\.118\.163\.25$
+  #RewriteCond %{REMOTE_ADDR} !^219\.118\.163\.31$
+  #RewriteRule ^maintenance/.*$ - [L]
+
+  #RewriteCond %{REMOTE_ADDR} !^219\.118\.163\.25$
+  #RewriteCond %{REMOTE_ADDR} !^219\.118\.163\.31$
+  #RewriteRule ^.*$ maintenance/index.html [NS,L]
+  # Decorte CLOSE END
+
+  # uncomment the following line, if you are having trouble
+  # getting no_script_name to work
+  #RewriteBase /
+
+  # we skip all files with .something
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteCond %{REQUEST_URI} !\.html$
+  RewriteCond %{REQUEST_URI} !\.gif$
+  RewriteCond %{REQUEST_URI} !\.jpg$
+  RewriteCond %{REQUEST_URI} !\.png$
+  RewriteRule .* - [L]
+
+  # PRIME LATTE Campaign Close
+  RewriteCond %{REQUEST_URI} !/?campaign/prime_latte/sampling/index.html
+  RewriteRule ^campaign/login.*$ http://%{HTTP_HOST}/campaign/prime_latte/sampling/index.html [L,R]
+  RewriteRule ^campaign/enquete.*$ http://%{HTTP_HOST}/campaign/prime_latte/sampling/index.html [L,R]
+  #RewriteRule ^campaign/member.*$ https://%{HTTP_HOST}/member/new/input [L,R]
+
+  # TGC Campaign Close
+  RewriteCond %{REQUEST_URI} !/?campaign/tgc2013/index.html
+  RewriteRule ^campaign/member.*$ http://%{HTTP_HOST}/campaign/tgc2013/index.html [L,R]
+  RewriteRule ^campaign/entry.*$ http://%{HTTP_HOST}/campaign/tgc2013/index.html [L,R]
+
+  # salon do vote Add from.Namekawa
+  RewriteRule ^salon/reservation$ /salon/reservation/ [R=301,L]
+
+  # Redirects for product deleted
+  RewriteRule ^product/aq_mw/JGDR http://%{HTTP_HOST}/product/aq_mw/JGDQ [L,R]
+
+  # no, so we redirect to our front web controller
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+C3Engine On
+C3ConvText Off
+C3CacheControl Off
+C3ConvIHTML Off
+
+AddType text/x-component .htc
+
+php_flag short_open_tag Off

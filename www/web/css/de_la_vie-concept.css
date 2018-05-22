@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/* smartphone layout break point*/
+/* max width device : iPhone6 plus(Landscape) */
+/* line 7, ../scss/de_la_vie-concept.scss */
+.mainContainer {
+  padding-top: 50px;
+}
+
+/* line 10, ../scss/de_la_vie-concept.scss */
+body {
+  background-color: #fef7f8;
+  background-image: url(../images/de_la_vie/bg_concept_02.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 18, ../scss/de_la_vie-concept.scss */
+.concept {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+/* line 24, ../scss/de_la_vie-concept.scss */
+.concept__title__logo {
+  padding-top: 150px;
+  text-align: center;
+}
+/* line 28, ../scss/de_la_vie-concept.scss */
+.concept__title__text {
+  padding-top: 30px;
+  font-family: hy;
+  font-size: 32px;
+  text-align: center;
+}
+/* line 36, ../scss/de_la_vie-concept.scss */
+.concept__message {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 105px;
+  padding-top: 45px;
+}
+/* line 40, ../scss/de_la_vie-concept.scss */
+.concept__message__image {
+  text-align: center;
+  width: 268px;
+}
+/* line 44, ../scss/de_la_vie-concept.scss */
+.concept__message__body {
+  width: 624px;
+}
+/* line 47, ../scss/de_la_vie-concept.scss */
+.concept__message__title {
+  font-family: hy;
+  font-size: 32px;
+}
+/* line 51, ../scss/de_la_vie-concept.scss */
+.concept__message__lead {
+  font-family: hy;
+  font-size: 32px;
+  line-height: 1.56;
+  margin-top: 20px;
+}
+/* line 57, ../scss/de_la_vie-concept.scss */
+.concept__message__text {
+  font-size: 12px;
+  line-height: 1.75;
+  margin-top: 25px;
+}
+/* line 63, ../scss/de_la_vie-concept.scss */
+.concept__message.haircare .concept__message__image {
+  float: left;
+}
+/* line 66, ../scss/de_la_vie-concept.scss */
+.concept__message.haircare .concept__message__body {
+  float: right;
+  text-align: left;
+}
+/* line 72, ../scss/de_la_vie-concept.scss */
+.concept__message.bodycare .concept__message__image {
+  float: right;
+}
+/* line 75, ../scss/de_la_vie-concept.scss */
+.concept__message.bodycare .concept__message__body {
+  float: left;
+  text-align: right;
+}
+/* line 83, ../scss/de_la_vie-concept.scss */
+.concept .productLink {
+  clear: both;
+  margin-top: 150px;
+  text-align: center;
+}
+/* line 88, ../scss/de_la_vie-concept.scss */
+.concept .productLink a {
+  border: 1px solid #000;
+  color: #000;
+  display: inline-block;
+  font-family: hy;
+  font-size: 16px;
+  padding: 20px 30px;
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@media screen and (max-width: 736px) {
+  /* line 105, ../scss/de_la_vie-concept.scss */
+  body {
+    background-image: url(../images/de_la_vie/sp/bg_concept_02.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+  }
+
+  /* line 112, ../scss/de_la_vie-concept.scss */
+  .concept {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  /* line 118, ../scss/de_la_vie-concept.scss */
+  .concept__title__logo {
+    padding-top: 70px;
+    text-align: center;
+  }
+  /* line 121, ../scss/de_la_vie-concept.scss */
+  .concept__title__logo img {
+    width: 142px;
+  }
+  /* line 125, ../scss/de_la_vie-concept.scss */
+  .concept__title__text {
+    padding-top: 17px;
+    font-family: hy;
+    font-size: 17px;
+    text-align: center;
+  }
+  /* line 133, ../scss/de_la_vie-concept.scss */
+  .concept__message {
+    overflow: hidden;
+    *zoom: 1;
+    background-size: 100% auto;
+    margin-top: 25px;
+    padding-top: 20px;
+  }
+  /* line 138, ../scss/de_la_vie-concept.scss */
+  .concept__message__image {
+    text-align: center;
+    width: auto;
+  }
+  /* line 141, ../scss/de_la_vie-concept.scss */
+  .concept__message__image img {
+    height: auto;
+    width: 70px;
+  }
+  /* line 146, ../scss/de_la_vie-concept.scss */
+  .concept__message__body {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  /* line 152, ../scss/de_la_vie-concept.scss */
+  .concept__message__title {
+    font-family: hy;
+    font-size: 18px;
+    text-align: center;
+  }
+  /* line 157, ../scss/de_la_vie-concept.scss */
+  .concept__message__lead {
+    font-family: hy;
+    font-size: 16px;
+    line-height: 1.56;
+    margin-top: 20px;
+  }
+  /* line 163, ../scss/de_la_vie-concept.scss */
+  .concept__message__text {
+    font-size: 12px;
+    line-height: 1.75;
+    margin-top: 10px;
+  }
+  /* line 169, ../scss/de_la_vie-concept.scss */
+  .concept__message.haircare .concept__message__image {
+    float: none;
+  }
+  /* line 172, ../scss/de_la_vie-concept.scss */
+  .concept__message.haircare .concept__message__body {
+    float: none;
+    text-align: left;
+  }
+  /* line 177, ../scss/de_la_vie-concept.scss */
+  .concept__message.bodycare {
+    background-image: url(../images/de_la_vie/sp/bg_concept_03.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 20px;
+  }
+  /* line 182, ../scss/de_la_vie-concept.scss */
+  .concept__message.bodycare .concept__message__image {
+    float: none;
+  }
+  /* line 185, ../scss/de_la_vie-concept.scss */
+  .concept__message.bodycare .concept__message__body {
+    float: none;
+    text-align: left;
+  }
+  /* line 192, ../scss/de_la_vie-concept.scss */
+  .concept .productLink {
+    margin-top: 60px;
+  }
+  /* line 195, ../scss/de_la_vie-concept.scss */
+  .concept .productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=de_la_vie-concept.css.map */

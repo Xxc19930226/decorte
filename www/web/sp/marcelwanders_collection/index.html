@@ -1,0 +1,41 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'Marcel Wanders Collection コスメデコルテ　フェイスパウダーのご紹介。デザインの奇才、マルセル・ワンダースから、数量限定フェイスパウダーを、特別なあなたへ。') ?>
+<?php slot('keywords', 'DECORTE,Marcel Wanders,マルセル・ワンダース,ベースメイク,コスメデコルテ,コーセー,フェイスパウダー,透明感,カバー力,キメ,化粧もち,2016') ?>
+<?php slot('title', 'Marcel Wanders Collection') ?>
+<?php slot('page_id', 'marcelwanders_collection') ?>
+<?php slot('back_link', '/') ?>
+<?php use_javascript('sp/jquery.innerfade.js') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+/*resizeTopImage();*/
+imagefador();
+});
+$( window ).resize(function() {
+resizeTopImage();
+});
+</script>
+
+<section class="line">
+	<p class="logo"><a href="/sp/marcelwanders_collection/"><img src="/images/sp/line/concept/marcelwanders_collection/2016/logo.png" alt=""></a></p>
+
+  <p class="release_date" style="text-align:center;">2016年12月1日　数量限定発売</p>
+
+	<div class="fador">
+		<ul>
+			<li><img src="/images/sp/line/concept/marcelwanders_collection/2016/top_main01.png" alt="" /></li>
+		</ul>
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="/sp/marcelwanders_collection/2016/inspiration.html">Inspiration</a></li>
+			<li><a href="/sp/marcelwanders_collection/2016/story.html">“The Wandering Grace” Story</a></li>
+			<li><a href="/sp/marcelwanders_collection/2016/composition.html">Ingredients</a></li>
+			<li><a href="/sp/marcelwanders_collection/2016/facepowder.html">The Amazing Face Powder</a></li>
+			<li><a href="/sp/marcelwanders_collection/2016/technique.html">Soft Press Formula</a></li>
+			<li><a href="/sp/marcelwanders_collection/2016/profile.html">Marcel Wanders Profile</a></li>
+			<li><a href="/sp/marcelwanders_collection/2016/item.html">Item</a></li>
+			<li><a href="/sp/marcelwanders_collection/archive.html">過去のマルセル・ワンダース コレクション</a></li>
+		</ul>
+	</div>
+</section>

@@ -1,0 +1,41 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           RedirectUrl
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          redirect_url
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        source: { label: 転送元URL }
+        destination: { label: 転送先URL(PC) }
+        destination_sp: { label: 転送先URL(SP) }
+        destination_mb: { label: 転送先URL(MB) }
+        destinations: { label: 転送先URL }
+        updated_at: { label: 更新日 }
+      list:
+        title: 転送URL 一覧
+        display: [ source, destinations, updated_at ]
+        object_actions:
+          _edit:   { label: 編集 }
+          _delete: { label: 削除, confirm: "本当に削除してもよろしいですか?" }
+      filter:
+        display: [ source, destination ]
+      form:
+        display: [ source, destination, destination_sp, destination_mb ]
+        fields:
+          source: { help: ※http:// または https:// から入力してください。 }
+          destination: { help: ※http:// または https:// から入力してください。 }
+          destination_sp: { help: ※http:// または https:// から入力してください。PCと異なる場合のみ入力してください。 }
+          destination_mb: { help: ※http:// または https:// から入力してください。PCと異なる場合のみ入力してください。 }
+      edit:
+        title: 転送URL 編集
+      new:
+        title: 転送URL 新規作成

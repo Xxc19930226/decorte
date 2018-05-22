@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+
+
+.btn a.ui-link {
+    letter-spacing: 0;
+}
+
+
+p.logo img{
+	zoom:50%;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+/*	margin:10px;*/
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #623828;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0;
+}
+
+
+
+.ttl02{
+	font-size:20px;
+	color:#da4612;
+	font-weight:bold;
+	text-align:center;	
+	padding-top:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:640px;
+	}
+
+img.fit100{
+		width:100%;
+		max-width:640px;
+	}
+
+section{
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	width:70%;
+	max-width:450px;
+	color:#666666;
+	text-align:left;
+	margin:0 auto 20px;
+	}
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+section .top{
+	margin:0;
+	padding:0;
+}
+
+/*section .fleft{
+	float:left;
+	margin:10px;
+	}
+
+section .fright{
+	float:right;
+	margin:10px;
+	}*/
+
+section .acenter{
+	text-align:center;
+	}
+
+section.page01,
+section.page02{
+	background:url(/images/sp/recipe/20131201/background.gif);
+	}
+
+section.page01 .wrap{
+	width:95%;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+}
+
+section.page01 img{
+	max-width:605px;
+}
+
+section.page01 .profile{
+	width:68%;
+	max-width:439px;
+	margin:0 auto 30px;
+	}
+
+section.page02 .lead{
+	width:80%;
+	max-width:512px;
+}
+
+section.page02 .chart{
+	width:95%;
+	max-width:605px;
+	margin:0 auto;
+	padding:20px 0;
+	border-radius:10px;
+	background-color:#FFFFFF;
+    border-color: #FFFFFF;
+	}
+section.page02 .lineup{
+	text-align:right;
+	padding:10px;
+	color:#ea5404;
+	}
+
+section.page03 .basic{
+	width:92%;
+	max-width:590px;
+	margin:0 auto;
+	padding:20px 0;
+	background-color:#f6f3ea;
+	}
+
+section.page03 .basic_img{
+	margin-bottom:10px;
+}
+
+section.page03 .basic_txt{
+	margin:10px 20px;
+}
+
+section.page03 .staff{
+	text-align:center;
+	}
+
+section.page03 .staff img{
+	width:82%;
+	max-width:527px;
+	margin: 10px auto 0;
+}
+
+
+section.page03_2 .howto,
+section.page04_2 .howto{
+	text-align:center;
+	
+	}
+
+
+section.page03_2 .howto_img img,
+section.page04_2 .howto_img img{
+	width:41%;
+	max-width:265px;
+	marin:0 auto;
+	}
+
+section.page03_2 .howto_txt,
+section.page04_2 .howto_txt{
+	width:80%;
+	max-width:512px;
+	margin:10px auto;
+	text-align:left;
+	}
+	
+section.page03_2 .howto_txt span{
+	color:#ea5404;
+	}
+	
+	
+	
+section.page03_2 .massage{
+	width:92%;
+	max-width:590px;
+	margin:40px auto 0;
+	padding:20px 0;
+	background-color:#fbf8d8;
+	border-radius:10px;
+	
+	}
+
+section.page03_2 .sub{
+	width:37%;
+	max-width:242px;
+	margin-top:-30px;
+	margin-left:10px;
+	
+	}
+
+section.page03_2 .sub_ttl{
+	width:80%;
+	max-width:512px;
+	margin:10px auto;
+	text-align:center;
+	color:#6a4331;
+	font-size:1.4em;
+	}
+
+section.page04 .lead{
+	width:80%;
+	max-width:512px;
+	margin-bottom:20px;
+}
+section.page04 .item{
+	margin-top:20px;
+	text-align:center;
+	}
+
+
+
+section.page04 .item img{
+	width:57%;	
+	max-width:366px;
+	margin:0 auto;
+}
+
+
+section.page04_2 .lead{
+	width:80%;
+	max-width:512px;
+}
+
+
+section.page04_2 img.use{
+	float:right;
+	width:17%;
+	max-width:111px;
+	
+	}
+
+section.page04_2 .night{
+	width:92%;
+	max-width:590px;
+	margin:40px auto 0;
+	padding:20px 0;
+	background-color:#fbf8d8;
+	border-radius:10px;
+	
+	}
+
+section.page04_2 .sub{
+	width:37%;
+	max-width:242px;
+	margin-top:-30px;
+	margin-left:10px;
+	
+	}
+
+section.page04_2 .sub_ttl{
+	width:80%;
+	max-width:512px;
+	margin:10px auto;
+	text-align:center;
+	color:#6a4331;
+	font-size:1.4em;
+	}
+
+
+
+section.page04_2 .fleft{
+	float:left;
+	width:31%;
+	max-width:204px;
+
+	}
+
+section.page04_2 .fleft img{
+width:100%;
+	}
+
+section.page04_2 .fright{
+	width:98%;
+	padding-top:5%;
+}
+
+section.page04_2 .fright span{
+	color:#2cad6d;
+}
+
+
+section.page05 .item01{
+	background:url(/images/sp/recipe/20131201/page05_img01.png) center center no-repeat #fff3d8;
+	background-size:100% auto;
+	}
+section.page05 .item01 .link{
+    margin-top: 54%;
+	margin-left:5%;
+	padding-bottom:5%;
+}
+
+
+section.page05 .ttl {
+	padding-bottom:0;
+}
+
+
+section.page05 .lead{
+	width:80%;
+	max-width:512px;
+}
+
+section.page05 .item01 span,
+section.page05 .item02 span{
+	color:#72478f;
+}
+
+
+section.page05 .item02{
+	background:url(/images/sp/recipe/20131201/page05_img02.png) center top no-repeat #e9d6ae;
+	background-size:100% auto;
+	}
+section.page05 .item02 .link{
+    padding-top: 69%;
+	padding-left:5%;
+	padding-bottom:5%;
+}
+
+
+section.page05_2 .lead{
+	width:80%;
+	max-width:512px;
+}
+
+
+section.page05_2 .eye_img{
+	text-align:center;
+	}
+
+section.page05_2 .eye_img img{
+	text-align:center;
+	max-width:427px;
+	width:66%;
+	margin:0 auto;
+	}
+
+section.page05_2 .sub_txt{
+	width:90%;
+	max-width:576px;
+	margin:10px auto;
+}
+
+section.page05_2 .howto,
+section.page05_2 .check{
+	margin-top:20px;
+}
+
+
+section.page05_2 .howto_img{
+	width:68%;
+	max-width:439px;
+	margin:10px auto;
+}
+
+section.page05_2 .howto_img img{
+	width:100%;
+}
+
+
+section.page05_2 .howto_txt{
+	width:90%;
+	max-width:576px;
+	margin:10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,776 @@
+.keyvisual .l--embed-player__container {
+    height: 675px;
+}
+
+.moisuture_concept {
+	background-image: url('/images/phytotune/bg_concept_aging_02.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#140408;
+	color:#FFFFFF;
+}
+.moisuture_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.moisuture_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.moisuture_concept__title__logo {
+	padding-top: 158px
+}
+.moisuture_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:258px
+}
+.moisuture_concept__title__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center
+}
+.moisuture_concept__message {
+	height: 480px;
+	margin-top: 152px;
+	text-align: center;
+	padding-bottom:78px;
+}
+.moisuture_concept__message__title {
+	font-family: hy;
+	font-size: 22px;
+	width: 800px
+}
+.moisuture_concept__message__lead {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	width: 800px;
+	line-height:1.6em;
+	position:relative;
+}
+
+.moisuture_concept__message__lead  span.rubi{
+	font-size: 10px;
+	position:absolute;
+	display:block;
+	left:493px;
+	top:-28px;
+}
+
+.moisuture_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+	width: 800px
+}
+
+.moisuture_concept__message__text span{
+	font-size:12px;
+}
+
+
+
+.moisuture_concept__seibun {
+	background-image: url('/images/phytotune/bg_concept_aging_03.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	padding-bottom: 138px;
+*zoom:1
+}
+.moisuture_concept__seibun .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.moisuture_concept__seibun__title {
+	width:600px;
+	float:right;
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	margin-top: 110px;
+	text-align: left;
+}
+.moisuture_concept__seibun__lead {
+	width:600px;
+	float:right;
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 30px;
+	line-height:1.6em;
+}
+
+.moisuture_concept__seibun__lead span {
+	font-size: 12px;
+}
+
+.moisuture_concept__seibun__text {
+	width:600px;
+	float:right;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 40px;
+}	
+	
+.moisuture_concept__seibun__text span{
+	font-size: 10px;
+}
+
+
+.moisuture_concept__mechanism {
+	background-image: url('/images/phytotune/bg_concept_aging_04.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	padding-bottom: 138px;
+*zoom:1
+}
+.moisuture_concept__mechanism .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px
+}
+.moisuture_concept__mechanism__title {
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.moisuture_concept__mechanism01{
+	background-image: url('/images/phytotune/aging_mechanism_01.jpg?1457850323');
+	background-position: top top;
+	background-repeat: no-repeat;
+}
+
+.moisuture_concept__mechanism02{
+	background-image: url('/images/phytotune/aging_mechanism_02.jpg?1457850323');
+	background-position: top top;
+	background-repeat: no-repeat;
+}
+
+
+
+.moisuture_concept__mechanism__lead {
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 110px;
+	line-height:1.6em;
+	text-align: center;
+}
+
+.moisuture_concept__mechanism__lead span {
+	font-size: 12px;
+}
+
+.moisuture_concept__mechanism__text {
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 40px;
+	margin-left:350px;
+	height:151px;
+}	
+	
+.moisuture_concept__mechanism__text span{
+	font-size: 9px;
+}
+
+@media screen and (max-width: 736px) {
+.moisuture_concept {
+	background-image: none
+}
+.moisuture_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+.moisuture_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.moisuture_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 45px;
+	width: 100%
+}
+.moisuture_concept__title__logo {
+	padding-top: 10px
+}
+.moisuture_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 115px
+}
+.moisuture_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+
+.moisuture_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom:45px;
+}
+.moisuture_concept__message__title {
+	font-family: hy;
+	font-size: 25px;
+	width: auto
+}
+.moisuture_concept__message__lead {
+	font-family: hy;
+	font-size: 20px;
+	margin-top: 45px;
+	width: auto
+}
+
+.moisuture_concept__message__lead span.rubi {
+    left: 41%;
+	top:13%;
+	font-size:8px
+}
+
+.moisuture_concept__message__text {
+	font-family: hy;
+	font-size: 13px;
+	line-height: 30px;
+	margin-top: 25px;
+	width: auto
+}
+
+.moisuture_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+	background-color: #f1fbff;
+	background-image: url('/images/phytotune/sp/bg_concept_aging_03.jpg?1457853504');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+	padding-bottom: 100px
+}
+.moisuture_concept__seibun .l-container {
+	border: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+.moisuture_concept__seibun__title {
+	width:auto;
+	float:none;
+	font-size: 25px;
+	line-height: 48px;
+	margin-top: 60px;
+	text-align: center;
+}
+.moisuture_concept__seibun__lead {
+	width:auto;
+	float:none;
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.moisuture_concept__seibun__lead span {
+	font-size: 12px;
+}
+
+.moisuture_concept__seibun__text {
+	float:none;
+	font-size: 12px;
+	margin-top: 40px auto;
+	width:80%;
+}	
+	
+.moisuture_concept__seibun__text span{
+	font-size: 10px;
+}
+
+.moisuture_concept__seibun__text span.rubi{
+	font-size: 9px;
+	position:absolute;
+	display:block;
+}
+
+
+moisuture_concept__mechanism {
+	background-image: url('/images/phytotune/bg_concept_aging_05.jpg?1457850323');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+}
+.moisuture_concept__mechanism .l-container {
+	width: auto
+}
+.moisuture_concept__mechanism__title {
+	font-family: hy;
+	font-size: 25px;
+	line-height:33px;
+
+}
+
+.moisuture_concept__mechanism01{
+	background-image: url('/images/phytotune/aging_mechanism_01.jpg?1457850323');
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+.moisuture_concept__mechanism02{
+	background-image: url('/images/phytotune/aging_mechanism_02.jpg?1457850323');
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+
+
+.moisuture_concept__mechanism__lead {
+	font-family: hy;
+	font-size: 20px;
+	margin-top: 60px;
+	line-height:1.6em;
+	text-align: center;
+}
+
+.moisuture_concept__mechanism__lead span {
+	font-size: 12px;
+}
+
+.moisuture_concept__mechanism__text {
+	font-size: 12px;
+	height:auto;
+	width:80%;
+	margin:0 auto;
+	padding:180px 10px 10px;
+}	
+	
+.moisuture_concept__mechanism__text span{
+	font-size: 9px;
+}
+
+}
+
+.whitening_concept {
+	background-image: url('/images/phytotune/bg_concept_whitening_02.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	color:#000000;
+	background-color:#000000;
+}
+.whitening_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.whitening_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.whitening_concept__title__logo {
+	padding-top: 158px
+}
+.whitening_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:258px
+}
+.whitening_concept__title__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+.whitening_concept__message {
+	height: 480px;
+	margin-top: 152px;
+	text-align: center;
+	padding-bottom:78px;
+	color:#FFFFFF;
+}
+
+
+
+.whitening_concept__message__title {
+	font-family: hy;
+	font-size: 22px;
+	width: 596px;
+	float: right;
+	
+}
+.whitening_concept__message__lead {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 20px;
+	width: 596px;
+	float: right;
+	line-height:1.4em;
+}
+
+.whitening_concept__message__lead__text{
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 20px;
+	width: 596px;
+	float: right;
+	line-height:1.6em;
+}
+
+.whitening_concept__message__lead__text span{
+	font-size: 12px;
+}
+
+
+.whitening_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+	width: 596px;
+	float: right;
+}
+
+.whitening_concept__message__text span{
+	font-size:12px;
+}
+
+.whitening_concept__seibun {
+	background-image: url('/images/phytotune/bg_concept_whitening_03.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#e3f0fc;
+	overflow: hidden;
+	padding-bottom: 138px;
+*zoom:1
+}
+.whitening_concept__seibun .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.whitening_concept__seibun__title {
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	margin-top: 20px;
+	text-align: center;
+}
+.whitening_concept__seibun__title span {
+	font-size: 16px;
+}
+
+
+.whitening_concept__seibun__lead {
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 200px;
+	line-height:1.6em;
+	text-align: center;
+}
+
+.whitening_concept__seibun__lead__text{
+	font-family: hy;
+	font-size:16px;
+	margin-top: 10px;
+	line-height:1.6em;
+	text-align: center;
+}
+
+.whitening_concept__seibun__lead span {
+	font-size: 12px;
+}
+
+.whitening_concept__seibun__text {
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 40px;
+	text-align: center;
+}	
+	
+.whitening_concept__seibun__text span{
+	font-size: 10px;
+}
+
+
+.whitening_concept__mechanism {
+	background-image: url('/images/phytotune/bg_concept_whitening_04.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#e3f0fc;
+	overflow: hidden;
+	padding-bottom: 138px;
+*zoom:1
+}
+.whitening_concept__mechanism .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px
+}
+.whitening_concept__mechanism__title {
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	margin-top: 110px;
+	text-align: center;
+}
+
+.whitening_concept__mechanism01{
+	background-image: url('/images/phytotune/whitening_mechanism_01.jpg?1457850323');
+	background-position: top top;
+	background-repeat: no-repeat;
+}
+
+.whitening_concept__mechanism02{
+	background-image: url('/images/phytotune/whitening_mechanism_02.jpg?1457850323');
+	background-position: top top;
+	background-repeat: no-repeat;
+}
+
+
+
+.whitening_concept__mechanism__lead {
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 110px;
+	line-height:1.6em;
+	text-align: center;
+}
+
+.whitening_concept__mechanism__lead span {
+	font-size: 12px;
+}
+
+.whitening_concept__mechanism__text {
+	font-size: 12px;
+
+	line-height: 21px;
+	margin-top: 40px;
+	margin-left:350px;
+	height:151px;
+}	
+	
+.whitening_concept__mechanism__text span{
+	font-size: 9px;
+}
+
+@media screen and (max-width: 736px)
+{
+
+.keyvisual .l--embed-player__container {
+    height: 272px;
+}
+.keyvisual .l--embed-player__container video {
+    height      : auto;
+    max-height  : 100%;
+    max-width   : 100%;
+    width       : 100%;
+}
+.whitening_concept {
+	background-image: none
+}
+.whitening_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+.whitening_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.whitening_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 45px;
+	width: 100%
+}
+.whitening_concept__title__logo {
+	padding-top: 10px
+}
+.whitening_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 115px
+}
+.whitening_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+.whitening_concept__message {
+@inlude clearfix;
+	height: 400px;
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom:78px;
+	color:#FFFFFF;
+}
+
+
+
+.whitening_concept__message__title {
+	font-size: 22px;
+	width: auto;
+	float: none;
+	
+}
+.whitening_concept__message__lead {
+	font-size: 25px;
+	margin-top: 20px;
+	width: auto;
+	float: none;
+}
+
+.whitening_concept__message__lead__text{
+	font-size: 13px;
+	margin-top: 20px;
+	width: auto;
+	float: none;
+}
+
+
+.whitening_concept__message__text {
+	font-size: 13px;
+	margin-top: 20px;
+	width: auto;
+	float: none;
+}
+
+
+.whitening_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+	background-color: #f1fbff;
+	background-image: url('/images/phytotune/sp/bg_concept_whitening_03.jpg?1457850323');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.whitening_concept__seibun .l-container {
+	border: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+.whitening_concept__seibun__title {
+	width:auto;
+	float:none;
+	font-size: 25px;
+	line-height: 48px;
+	margin-top: 60px;
+	text-align: center;
+}
+.whitening_concept__seibun__lead {
+	width:auto;
+	float:none;
+	font-size: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.whitening_concept__seibun__lead span {
+	font-size: 12px;
+}
+
+.whitening_concept__seibun__text {
+	float:none;
+	font-size: 12px;
+	margin: 40px auto;
+	width:80%;
+}	
+	
+.whitening_concept__seibun__text span{
+	font-size: 10px;
+}
+whitening_concept__mechanism {
+	background-image: url('/images/phytotune/sp/bg_concept_whitening_05.jpg?1457850323');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+}
+.whitening_concept__mechanism .l-container {
+	width: auto
+}
+.whitening_concept__mechanism__title {
+	font-family: hy;
+	font-size: 25px;
+	line-height:33px;
+
+}
+
+.whitening_concept__mechanism01{
+	background-image: url('/images/phytotune/whitening_mechanism_01.jpg?1457850323');
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+.whitening_concept__mechanism02{
+	background-image: url('/images/phytotune/whitening_mechanism_02.jpg?1457850323');
+	background-position: top center;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+}
+
+
+
+.whitening_concept__mechanism__lead {
+	font-family: hy;
+	font-size: 20px;
+	margin-top: 60px;
+	line-height:1.6em;
+	text-align: center;
+}
+
+.whitening_concept__mechanism__lead span {
+	font-size: 12px;
+}
+
+.whitening_concept__mechanism__text {
+	font-size: 12px;
+	height:auto;
+	width:80%;
+	margin:0 auto;
+	padding:180px 10px 10px;
+}	
+	
+.whitening_concept__mechanism__text span{
+	font-size: 9px;
+}
+
+}
+
+
+
+
+/*body {
+	background-image: url('/images/phytotune/bg_concept_base_02.jpg?1457857842');
+	background-position: center top;
+	background-repeat: no-repeat
+}
+*/

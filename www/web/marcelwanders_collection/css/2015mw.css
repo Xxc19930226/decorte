@@ -1,0 +1,79 @@
+@charset "utf-8";
+/*------------------
+2015 marcel wandars
+------------------*/
+
+#header h1 {
+	text-align: center;
+	margin-bottom: 90px;
+}
+#contents {
+	width: 100%;
+}
+.slider {
+	width: 1200px;
+	margin: 0 auto;
+}
+.coda-nav ul {
+	text-align: center;
+}
+.coda-nav ul li {
+	display: inline-block;
+}
+.coda-nav ul li a {
+	border-top: 1px solid #000000;
+	display: block;
+	overflow: hidden;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+	margin-left: 15px;
+	padding: 10px 0;
+
+}
+.coda-nav ul li a.current {
+	border-top: 1px solid #FFFFFF;
+}
+
+.coda-nav ul li a:hover img {
+	visibility: hidden;
+}
+.coda-nav ul li a:hover {
+	border-top: 1px solid #FFFFFF;
+}
+.coda-nav ul {
+	position: relative;
+	text-align: center;
+	width: 1190px;
+	margin: 0 auto 60px;
+	top: 0;
+	left: 0;
+}
+.coda-slider-wrapper {
+	width: 1220px;
+}
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel {
+	overflow: hidden;
+	width: 1045px;
+}
+.archive {
+	text-align: center;
+}
+.archive p {
+	background-image: none;
+}
+.archive p a {
+	display: block;
+	font-family: hy;
+	border: 1px solid #FFFFFF;
+	padding: 20px 15px;
+	color: #FFFFFF;
+	margin: 60px auto 0;
+	font-size: 16px;
+	width: 420px;
+	height: auto;
+	text-decoration: none;
+}
+.archive p a:hover {
+	background-color: #333333;
+}

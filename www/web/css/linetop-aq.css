@@ -1,0 +1,231 @@
+.mainContainer {
+    padding-top: 50px;
+}
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+}
+
+.concept__message__lead{
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 110px;
+	text-align: center
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+}
+
+
+.skincaresystem__step__row__item.noimage{
+    display: inline-block;
+    height: 180px;
+    width: 180px;
+	background:url("/images/aq/no-image.png") no-repeat 50% 50%;
+}
+
+.skincaresystem__step__row__item.noimage span{
+	display:block;
+	margin-top:83px;
+}
+
+.steplink .l-steplink__container {
+    background-image: url(../images/aq/bg_system.gif);
+    height: 334px
+}
+
+.steplink__title-personal {
+    left: 15px;
+    top: 239px
+}
+
+.steplink .l-step1__head {
+    left: 11px;
+    top: 37px
+}
+
+.steplink .l-step2__head {
+    left: 239px;
+    top: 37px
+}
+
+.steplink .l-step3__head {
+    left: 466px;
+    top: 37px
+}
+
+.steplink .l-step4__head {
+    left: 692px;
+    top: 37px
+}
+
+.steplink .l-step1__link1 {
+    left: 41px;
+    top: 84px
+}
+
+.steplink .l-step1__link1 a {
+    padding-top: 25px !important
+}
+
+.steplink .l-step1__link2 {
+    left: 157px;
+    top: 242px
+}
+
+.steplink .l-step2__link1 {
+    left: 267px;
+    top: 84px
+}
+
+.steplink .l-step2__link2 {
+    left: 377px;
+    top: 242px
+}
+
+.steplink .l-step3__link1 {
+    left: 493px;
+    top: 84px
+}
+
+.steplink .l-step3__link2 {
+    left: 595px;
+    top: 242px
+}
+
+.steplink .l-step4__link1 {
+    left: 719px;
+    top: 84px
+}
+
+.steplink .l-all__link1 {
+    left: 748px;
+    top: 242px
+}
+
+
+@media screen and (max-width: 736px) {
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+.concept__message__title{
+	font-size: 18px;
+}
+
+.concept__message__lead{
+	font-size: 18px;
+	margin-top: 60px;
+}
+
+.concept__message__lead span{
+	display:inline-block;
+	padding-bottom:0.5em;
+}
+
+.concept__message__text{
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.skincaresystem__step__row__item.noimage span{
+	font-size: 12px;
+}
+
+.steplink .l-steplink__container {
+    background-image: url(../images/aq/sp/bg_system.gif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 460px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.steplink__title-personal {
+    left: 0;
+    top: 0
+}
+
+.steplink .l-step1__head {
+    left: 10px;
+    top: 28px
+}
+
+.steplink .l-step2__head {
+    left: 10px;
+    top: 138px
+}
+
+.steplink .l-step3__head {
+    left: 10px;
+    top: 237px
+}
+
+.steplink .l-step4__head {
+    left: 10px;
+    top: 353px
+}
+
+.steplink .l-step1__link1 {
+    left: 10px;
+    top: 45px
+}
+
+.steplink .l-step1__link1 a {
+    padding-top: 15px !important
+}
+
+.steplink .l-step1__link2 {
+    left: 150px;
+    top: 100px
+}
+
+.steplink .l-step2__link1 {
+    left: 10px;
+    top: 155px
+}
+
+.steplink .l-step2__link2 {
+    left: 150px;
+    top: 202px
+}
+
+.steplink .l-step3__link1 {
+    left: 10px;
+    top: 254px
+}
+
+.steplink .l-step3__link2 {
+    left: 150px;
+    top: 315px
+}
+
+.steplink .l-step4__link1 {
+    left: 10px;
+    top: 370px
+}
+
+.steplink .l-all__link1 {
+    left: 150px;
+    top: 412px
+}
+}

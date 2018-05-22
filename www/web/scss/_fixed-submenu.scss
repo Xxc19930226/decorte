@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@include min-screen(737px)
+{
+
+.l--fixed-submenu
+{
+    color   : #ffffff;
+    position: fixed;
+    right   : 0;
+    top     : 50%;
+    z-index : -1;
+
+    &__container
+    {
+        padding : 16px;
+        position: relative;
+    }
+    &__head
+    {
+        &__container
+        {
+            display: none;
+        }
+    }
+    &__names
+    {
+        background-color: rgba(0,0,0,.5);
+        display : none;
+        filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#50000000,EndColorStr=#50000000);
+        padding : 16px 0;
+        position: absolute;
+        right   : 0;
+        top     : 2px;
+
+        &__name
+        {
+            cursor      : pointer;
+            font-size   : .8em;
+            font-family : $mincho;
+            padding     : 8px 3em;
+            text-align  : right;
+            white-space : nowrap;
+        }
+    }
+    &__dots
+    {
+        padding : 16px 0;
+        position: absolute;
+        right   : 0;
+        top     : 0;
+
+        &__dot
+        {
+            cursor      : pointer;
+            height      : .8em;
+            margin-right: 8px;
+            padding     : 8px 0;
+            width       : .8em;
+
+            img { height: 100%; }
+
+            .m--black { @include inline-block; }
+            .m--white { display: none; }
+
+            &.m--active
+            {
+                .m--black { display: none; }
+                .m--white { @include inline-block; }
+            }
+        }
+    }
+}
+.l--fixed-submenu-trigger,
+.l--fixed-submenu__close
+{
+    display: none;
+}
+
+}
+
+@include max-screen(736px)
+{
+    .l--fixed-submenu-trigger
+    {
+        background-image: url(../images/parts/open_linemenu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom      : 20px;
+        cursor      : pointer;
+        display     : table;
+        height      : 40px;
+        left        : 3.4%;
+        position    : fixed;
+        table-layout: fixed;
+        width       : 40px;
+        z-index     : 8;
+
+        &__container
+        {
+            display: none;
+        }
+        &__text {
+            letter-spacing: 0.2em;
+        }
+
+    }
+    .l--fixed-submenu
+    {
+        background-color: rgba(0,0,0,.5);
+        cursor: pointer;
+        display         : none;
+        filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#50000000,EndColorStr=#50000000);
+        height          : 100%;
+        left            : 0%;
+        position        : fixed;
+        top             : 0;
+        width           : 100%;
+        z-index         : 20;
+
+        &__container
+        {
+            background-color: #000000;
+            height          : 100%;
+            left            : -100%;
+            margin-right    : 64px;
+            position        : relative;
+            overflow        : auto;
+        }
+        &__head
+        {
+            &__container
+            {
+                border-bottom   : solid 1px #ffffff;
+                color           : #ffffff;
+                cursor          : pointer;
+                padding         : 16px 0;
+                text-indent     : 1em;
+                text-align      : center;
+            }
+        }
+        &__names
+        {
+            cursor          : pointer;
+            display         : block;
+            padding         : 0;
+            text-indent     : 1em;
+
+            &__name
+            {
+                border-bottom   : solid 1px #ffffff;
+                color           : #ffffff;
+                padding         : 16px 0;
+            }
+        }
+        &__dots
+        {
+            display: none;
+
+            &__dot
+            {
+            }
+        }
+        &__close
+        {
+            cursor      : pointer;
+            display     : none;
+            padding     : 8px 0;
+            position    : absolute;
+            right       : 0;
+            text-align  : center;
+            top         : 0;
+            width       : 64px;
+
+            img { width: 80%;  }
+        }
+    }
+}

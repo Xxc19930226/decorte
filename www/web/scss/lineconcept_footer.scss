@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+.globalFooter {
+    margin-top: 0;
+    position: relative;
+
+    &__pagetop {
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        top: -110px;
+    }
+    
+    &__nav {
+        margin-top: 0;
+    }
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+.globalFooter {
+    &__pagetop {
+        margin-left: -20px;
+        top: -55px;
+    }
+}
+
+
+}

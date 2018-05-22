@@ -1,0 +1,135 @@
+.mainContainer {
+    padding-top: 50px;
+}
+/*
+ .keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/maquiexpert/kv.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 1200px;
+	height: 700px
+}
+*/
+
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+  color: #fff;
+}
+.concept__message__lead{
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 50px;
+	text-align: center;
+  display: block;
+  color: #fff;
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+  color: #fff;
+}
+
+.concept {
+  margin: 0;
+  padding: 150px 0;
+	background-image: url('/images/maquiexpert/bg_concept.jpg');
+	background-repeat: no-repeat;
+	background-position: center bottom;
+  background-color: #000;
+}
+
+.concept .l-container {
+  margin: 0 auto auto;
+  color: #000;
+  padding: 0;
+}
+.concept__message__lead {
+  font-size: 32px;
+  line-height: 50px;
+  margin: 100px 0 50px;
+  width: 600px;
+  text-align: left;
+  margin-left: 600px;
+}
+.concept__message__text{
+  width: 600px;
+  text-align: left;
+  line-height: 28px;
+  margin-left: 600px;
+}
+.product {
+}
+.product .l-container {
+  border-top: none;
+}
+.product .itemlist {
+  width: 900px;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 736px) {
+.l-container {
+    margin-top: 0;
+}
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+.concept {
+    margin: 0;
+    padding: 350px 0 50px;
+    background-image: url(../images/maquiexpert/sp/concept_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 320px auto;
+}
+
+.concept__message__title{
+    font-size: 20px;
+    line-height: normal;
+    width: 80%;
+    margin: 0 auto 30px;
+}
+
+.concept__message__lead{
+	font-size: 17px;
+  width: 80%;
+  text-align: center;
+      margin: 0 auto 30px;
+      line-height: 1.7;
+}
+.concept__message__text{
+	font-size: 14px;
+  margin: 0 auto;
+  width: 95%;
+  text-align: center;
+}
+
+.product .itemlist {
+  width: auto;
+  margin: 0 auto;
+}
+
+}

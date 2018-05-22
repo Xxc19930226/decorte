@@ -1,0 +1,241 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:     /
+  param:   { module: main, action: index }
+
+member:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Member
+    module:               member
+    prefix_path:          /member
+    column:               id
+    with_wildcard_routes: true
+
+member_maillist_output:
+  url:   /member/mail_list
+  param: { module: member, action: outputMailList }
+
+line:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Line
+    module:               line
+    prefix_path:          /line
+    column:               id
+    with_wildcard_routes: true
+
+category:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Category
+    module:               category
+    prefix_path:          /category
+    column:               id
+    with_wildcard_routes: true
+
+sub_category:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SubCategory
+    module:               sub_category
+    prefix_path:          /sub_category
+    column:               id
+    with_wildcard_routes: true
+
+effect:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Effect
+    module:               effect
+    prefix_path:          /effect
+    column:               id
+    with_wildcard_routes: true
+
+product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Product
+    module:               product
+    prefix_path:          /product
+    column:               id
+    with_wildcard_routes: true
+
+product_delete_ingredient:
+  url:   /product/delete_ingredient/:ingredient_id
+  param: { module: product, action: deleteIngredient }
+
+product_add_ingredient:
+  url:   /product/:id/add_ingredient/:index
+  param: { module: product, action: addIngredient }
+
+child_product:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ChildProduct
+    module:               child_product
+    prefix_path:          /child_product
+    column:               id
+    with_wildcard_routes: true
+
+faq_detail:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                FaqDetail
+    module:               faq_detail
+    prefix_path:          /faq_detail
+    column:               id
+    with_wildcard_routes: true
+
+product_search_right_word:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ProductSearchRightWord
+    module:               product_search_word
+    prefix_path:          /product_search_word
+    column:               id
+    with_wildcard_routes: true
+
+statistics:
+  url:   /statistics
+  param: { module: statistics, action: index }
+
+statistics_download:
+  url:   /statistics/download/:yyyy/:mm
+  param: { module: statistics, action: download }
+
+redirect_url:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                RedirectUrl
+    module:               redirect_url
+    prefix_path:          /redirect_url
+    column:               id
+    with_wildcard_routes: true
+
+files:
+  url:   /files
+  param: { module: files, action: index }
+
+files_tree:
+  url:   /files/tree
+  param: { module: files, action: showTree }
+
+files_add:
+  url:   /files/add
+  param: { module: files, action: addElement }
+
+files_remove:
+  url:   /files/remove
+  param: { module: files, action: removeElement }
+
+files_liveup:
+  url:   /files/liveup
+  param: { module: files, action: liveupElements }
+
+login:
+  url:   /login
+  param: { module: main, action: login }
+
+logout:
+  url:   /logout
+  param: { module: main, action: logout }
+
+
+# salon de beaute add 2013.03.01
+salon_login_list:
+  url:   /login/list
+  param: { module: salon_login_edit, action: index }
+
+salon_login_show_cre:
+  url:     /login/:user_name/showcre
+  class:   sfDoctrineRoute
+  options: { model: AdminUser, type: object }
+  param:   { module: salon_login_edit, action: show }
+
+salon_login_del:
+  url:     /login/:user_name/del
+  class:   sfDoctrineRoute
+  options: { model: AdminUser, type: object }
+  param:   { module: salon_login_edit, action: delete }
+
+salon_login_show_pass:
+  url:     /login/:user_name/showpass
+  class:   sfDoctrineRoute
+  options: { model: AdminUser, type: object }
+  param:   { module: salon_login_edit, action: showpass }
+
+salon_login_new:
+  url:   /login/new
+  param: { module: salon_login_edit, action: new }
+
+salon_login_cre:
+  url:   /login/editcre
+  param: { module: salon_login_edit, action: editcre }
+
+salon_login_pass:
+  url:   /login/editpass
+  param: { module: salon_login_edit, action: editpass }
+
+
+salon_reserve_list:
+  url:   /reserve/list
+  param: { module: salon_reserve, action: index }
+
+salon_reserve_show:
+  url:     /reserve/:id/show
+  class:   sfDoctrineRoute
+  options: { model: SalonReserve, type: object }
+  param:   { module: salon_reserve, action: show }
+  requirements:
+    id: \d+
+
+salon_reserve_decision:
+  url:   /reserve/decision
+  param: { module: salon_reserve, action: decision }
+
+salon_reserve_mailform:
+  url:   /reserve/mailform
+  param: { module: salon_reserve, action: mailform }
+
+salon_reserve_mailbottom_unlock:
+  url:   /reserve/mailbottom_unlock
+  param: { module: salon_reserve, action: unlockMailBottom }
+
+salon_reserve_mailconfirm:
+  url:   /reserve/mailconfirm
+  param: { module: salon_reserve, action: mailconfirm }
+
+salon_reserve_mailcomplete:
+  url:   /reserve/mailcomplete
+  param: { module: salon_reserve, action: mailcomplete }
+
+salon_shop:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SalonShop
+    module:               salon_shop
+    prefix_path:          /salon_shop
+    column:               id
+    with_wildcard_routes: true
+
+salon_shop_menu:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                SalonShopMenu
+    module:               salon_shop_menu
+    prefix_path:          /salon_shop_menu
+    column:               id
+    with_wildcard_routes: true
+
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+#
+#default:
+#  url:   /:module/:action/*

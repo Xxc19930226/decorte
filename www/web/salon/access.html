@@ -1,0 +1,144 @@
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'サロン ド ボーテ　コスメデコルテ') ?>
+<?php use_stylesheet('/salon/css/clearfix.css') ?>
+<?php use_stylesheet('/salon/css/structure.css') ?>
+<?php use_stylesheet('/salon/css/linecommon.css?20130201') ?>
+<?php use_stylesheet('/salon/css/shadowbox.css') ?>
+<?php use_javascript('/salon/js/shadowbox.js') ?>
+<?php use_javascript('/salon/js/contentsfade.js') ?>
+<?php use_javascript('/salon/js/lineCommons.js') ?>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAUhKWE0UF_NoyZtNIIrA_ypfVh3EcUo6Q"></script>
+<script>
+var map;
+function initialize() {
+  var mapOptions = {
+    zoom: 18,
+    scaleControl: true,
+    center: new google.maps.LatLng(35.67402967, 139.76575971)
+  };
+  map = new google.maps.Map(document.getElementById('map-ginza'),
+      mapOptions);
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(35.67402967, 139.76575971),
+    map: map,
+    title: 'サロン ド ボーテ　コスメデコルテ　プランタン銀座店'
+  })
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+<script>
+var map;
+function initialize() {
+  var mapOptions = {
+    center: new google.maps.LatLng(35.6681683, 139.7073501),
+    zoom: 17,
+    mapTypeControl: false,
+    scaleControl: false,
+};
+  map = new google.maps.Map(document.getElementById('map-omotesando'),
+      mapOptions);
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(35.6681683, 139.7073501),
+    map: map,
+    title: 'サロン ド ボーテ　コスメデコルテ　表参道店'
+  })
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+
+<script type="text/javascript">
+   Shadowbox.init({
+	       language: 'en',
+	       players:  ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'],
+	       handleOversize:     "drag",
+	       displayNav:         true,
+	       handleUnsupported:  "remove",
+	       autoplayMovies:     false
+	   });
+</script>
+
+<div id="pankuzu"><a href="/">DECORTE TOP</a>　＞　<a href="/salon/">サロン ド ボーテ　コスメデコルテ</a>　＞　<strong>アクセス</strong></div>
+<!-- /#pankuzu -->
+
+<div id="contents">
+  <div id="lineMenu">
+    <p><a href="/salon/" class="selected"><img src="/salon/images/logo.gif" alt="" /></a></p>
+    <div id="lineNavi" class="salonmenu">
+      <dl id="lineList">
+        <dt class="list_news"><a href="/salon/news.html">新着情報</a></dt>
+        <dd></dd>
+        <dt class="list_salon">サロン ド ボーテ　コスメデコルテとは</dt>
+        <dd>
+          <p class="sub_salon_concept"><a href="/salon/salonconcept.html">サロンコンセプト</a></p>
+          <p class="sub_salon_flow"><a href="/salon/flow.html">ご来店からの流れ</a></p>
+        </dd>
+        <dt class="list_course">コースメニュー</dt>
+        <dd>
+          <dl class="course">
+            <dt class="list_facial">フェイシャル</dt>
+            <dd>
+              <p class="sub_salon_course_aqme"><a href="/salon/course_aqme.html">AQ ミリオリティコース</a></p>
+              <p class="sub_salon_course_basic"><a href="/salon/course_basic.html">コスメデコルテ ベーシックコース</a></p>
+              <p class="sub_salon_course_healing"><a href="/salon/course_healing.html">コスメデコルテ ヒーリングコース</a></p>
+              <p class="sub_salon_course_ml"><a href="/salon/course_ml.html">モイスチュアリポソームコース</a></p>
+              <p class="sub_salon_course_first"><a href="/salon/course_first.html">ファースト コスメデコルテコース</a></p>
+              <p class="sub_salon_course_option"><a href="/salon/course_option.html">オプション</a></p>
+              <p class="sub_salon_course_bridal"><a href="/salon/course_bridal.html">ブライダルコース</a></p>
+            </dd>
+            <dt class="list_body"><a href="/salon/course_body.html">ボディ</a></dt>
+            <dd></dd>
+          </dl>
+        </dd>
+        <dt class="list_member">メンバーサービス</dt>
+        <dd>
+          <p class="sub_salon_member_new"><a href="/salon/member_new.html">入会初年度特典</a></p>
+          <p class="sub_salon_member_program"><a href="/salon/member_program.html">メンバーズプログラム</a></p>
+        </dd>
+        <dt class="list_access"><a href="/salon/access.html" class="selected">アクセス</a></dt>
+        <dd></dd>
+        <dt class="list_reserve"><a href="/salon/reservation">WEB予約</a></dt>
+        <dd></dd>
+      </dl>
+    </div>
+    <!-- /#lineNavi -->
+    <?php include ("/salon/include/banner.html"); ?>
+  </div>
+  <!-- /#lineMenu -->
+  <div id="SalonContents" class="salon20130201">
+    <div class="access">
+      <div class="omotesando">
+        <p class="ttl"><img src="/salon/images/20140201/access/ttl_omotesando.gif?1116" alt="プランタン表参道店" /></p>
+        <p class="detail"><img src="/salon/images/20140201/access/detail_omotesando.gif?0228" alt="＜お電話でのご予約・お問い合わせ＞ 
+                03-3403-1560
+                営業時間 月曜～土曜 午前11時～午後21時
+日曜　　　 午前11時～午後20時
+住 所
+〒150-0001 
+東京都渋谷区神宮前4-25-15エスポワール表参道Ｂ1階" /></p>
+        <p class="notice"><img src="/salon/images/20140201/access/notice.gif" alt="※コースメニューにより最終受付時間が異なります。ご予約の際に担当スタッフまでご確認ください。" /></p>
+        <div id="map-omotesando" class="map"></div>
+      </div>
+      <div class="giza">
+        <p class="ttl"><img src="/salon/images/20140201/access/ttl_ginza.gif?1116" alt="プランタン銀座店" /></p>
+        <p class="detail"><img src="/salon/images/20140201/access/detail_ginza.gif?0316" alt="＜お電話でのご予約・お問い合わせ＞ 営業時間 午前11時～午後20時
+金曜・土曜は午後21時まで
+
+住 所
+〒104-0061 
+東京都中央区銀座3-2-1
+プランタン銀座 アネックス3F" /></p>
+        <p class="notice"><img src="/salon/images/20140201/access/notice.gif" alt="※コースメニューにより最終受付時間が異なります。ご予約の際に担当スタッフまでご確認ください。" /></p>
+        <div id="map-ginza" class="map"></div>
+      </div>
+    </div>
+  </div>
+  <!-- /#lineContents --> 
+  
+</div>
+<!-- /#contents --> 

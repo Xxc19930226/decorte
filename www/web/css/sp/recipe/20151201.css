@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+
+
+.btn a.ui-link {
+    letter-spacing: 0;
+}
+
+
+p.logo img{
+	width:83%;
+	height:auto;
+	max-width:530px;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+/*	margin:10px;*/
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #CCCCCC;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0 0 3px;
+}
+
+
+
+.ttl02{
+	font-size:20px;
+	color:#da4612;
+	font-weight:bold;
+	text-align:center;	
+	padding-top:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:640px;
+	}
+
+img.fit100{
+		width:100%;
+		max-width:640px;
+	}
+
+section{
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	width:70%;
+	max-width:450px;
+	color:#666666;
+	text-align:left;
+	margin:0 auto 20px;
+	}
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+section .top{
+	margin:0;
+	padding:0;
+}
+
+/*section .fleft{
+	float:left;
+	margin:10px;
+	}
+
+section .fright{
+	float:right;
+	margin:10px;
+	}*/
+
+section .acenter{
+	text-align:center;
+	}
+
+
+
+section div.content img{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+	}
+
+
+/*div.content{
+	position:relative;
+	}*/
+
+
+.page01 div.content a,
+.page02 div.content a,
+.page03 div.content a,
+.page04 div.content a,
+.page05 div.content a,
+.page06 div.content a{
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+/*	background-color:#666666;
+	opacity:0.6;*/
+}
+
+
+.page01_1,
+.page01_2{
+	position:relative;
+}
+
+
+.page01_1 a.JVYL{
+    height: 29%;
+    left: 56%;
+    top: 34%;
+    width: 36%;
+}
+
+.page01_1 a.JYEA{
+    height: 31%;
+    left: 9%;
+    top: 65%;
+    width: 38%;
+}
+
+.page01_2 a.JGOL{
+    height: 37%;
+    left: 15%;
+    top: 10%;
+    width: 29%;
+}
+
+
+.page01_2 a.JGRH{
+    height: 43.5%;
+    left: 44%;
+    top: 49.5%;
+    width: 45%;
+	}
+
+
+.page02_1,
+.page02_2{
+	position:relative;
+	}
+
+.page02_1 a.JNBF{
+    height: 7%;
+    left: 62%;
+    top: 53%;
+    width: 13%;
+	}
+
+.page02_1 a.JBGC{
+    height: 8%;
+    left: 82%;
+    top: 65%;
+    width: 13%;
+	}
+
+.page02_2 a.JBEA{
+    height: 16%;
+    left: 63%;
+    top: 2%;
+    width: 12%;
+	}
+
+.page02_2 a.JVYL{
+    height: 16%;
+    left: 81%;
+    top: 14%;
+    width: 12%;
+	}
+	
+.page02_2 a.JGKN{
+    height: 14%;
+    left: 63%;
+    top: 66%;
+    width: 13%;
+	}
+	
+.page02_2 a.JYEA{
+    height: 16.5%;
+    left: 81%;
+    top: 77%;
+    width: 13%;
+	}
+
+.page03_2{
+	position:relative;
+	}
+
+.page03_2 a.JVWA{
+    height: 18%;
+    left: 16%;
+    top: 28%;
+    width: 14%;
+}
+
+.page03_2{
+	position:relative;
+}
+
+.page03_2 a.JVYL{
+    height: 59%;
+    left: 1%;
+    top: 15%;
+    width: 98%;
+}
+
+.page04_1,
+.page04_2{
+	position:relative;
+}
+
+.page04_1 a.salon{
+    height: 14%;
+    left: 62%;
+    top: 46%;
+    width: 33%;
+}
+
+.page04_1 a.JGCX{
+    height: 14%;
+    left: 63%;
+    top: 61%;
+    width: 26%;
+}
+
+.page04_1 a.mw{
+    height: 14%;
+    left: 16%;
+    top: 83%;
+    width: 22%;
+}
+
+.page04_2 a.JISF{
+    height: 11%;
+    left: 63%;
+    top: 3%;
+    width: 25%;
+	}
+
+.page04_2 a.JGKE{
+    height: 20%;
+    left: 60%;
+    top: 23%;
+    width: 17%;
+	}
+	
+.page04_2 a.JLWT{
+    height: 19%;
+    left: 19%;
+    top: 68%;
+    width: 15%;
+	}
+
+.page04_2 a.JBEA{
+    height: 22%;
+    left: 60%;
+    top: 65%;
+    width: 18%;
+	}
+
+.page04_2 a.trivia{
+    height: 6%;
+    left: 34%;
+    top: 89%;
+    width: 60%;
+	}
+
+.page05_1,
+.page05_2{
+	position:relative;
+	}
+	
+.page05_1 a.JEMB{
+    height: 35%;
+    left: 1%;
+    top: 33%;
+    width: 48%;
+	}
+
+
+.page05_1 a.JGBU{
+    height: 25%;
+    left: 31%;
+    top: 68%;
+    width: 55%;
+	}
+
+.page05_2 a.JGMY{
+    height: 47%;
+    left: 20%;
+    top: 0;
+    width: 44%;
+	}
+
+.page05_2 a.JNHA{
+    height: 39%;
+    left: 65%;
+    top: 58%;
+    width: 26%;
+	}
+
+
+.page05_2 a.JNHM{
+    height: 35%;
+    left: 38%;
+    top: 62%;
+    width: 27%;
+	}
+
+.page06_1{
+	position:relative;
+}
+
+.page06_1 a.JGNH{
+    height: 27%;
+    left: 0;
+    top: 15.5%;
+    width: 44%;
+	}
+
+.page06_1 a.JLHA{
+    height: 28%;
+    left: 54%;
+    top: 40.5%;
+    width: 46%;
+	}
+
+.page06_1 a.JGRO{
+    height: 28%;
+    left: 1%;
+    top: 66%;
+    width: 44%;
+	}
+

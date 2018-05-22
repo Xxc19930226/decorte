@@ -1,0 +1,73 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'Salon de beaute') ?>
+<?php slot('page_id', 'salon_course_aqmw') ?>
+<?php slot('back_link', '/sp/salon/') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<?php use_stylesheet('sp/salon/common.css') ?>
+
+<script type="text/javascript">
+$(function() {
+	var n = window.location.href.slice(window.location.href.indexOf('?') + 4);
+	if(n.length < $("#option div").size()) {
+		var p = $("#option div").eq(n).offset().top;
+		$('html,body').animate({ scrollTop: p }, 'slow');
+		return false;
+	}
+});
+
+</script>
+
+<section class="line salon saloncourse">  <p class="logo"><a href="/sp/salon/"><img src="/images/sp/salon/logo.png" alt=""></a></p>
+  <h2 class="title">オプション</h2>
+  <div id="saloncourse">
+   <div class="paragraph" id="option" style="margin-bottom:100px;">
+  <h3>オプション（フェイシャル）</h3>
+   <div>
+       <p class="subsub"> 肌悩みや状態に合わせてコースに組み込むことができます。<br />
+よりパーソナルなプログラムをご提供します。 </p>
+      <h4>《頭皮ケア》</h4>
+      <p class="subsub">◆ スカルプリフレッシュ</p>
+      <p class="txt">頭から首、肩、そして上腕にかけてのコリをほぐし、トリートメント効果を高めるのはもちろん、めぐりを促しながら肌色の明るいシャープな印象へ導きます。<br />
+15分　税抜3,000円</p>
+      <h4>《バックケア》</h4>
+      <p class="subsub">◆ バックコンセントレイション</p>
+      <p class="txt">普段お手入れを怠りやすい背中を集中的にケアします。ざらつきをなめらかに整え、背中の広い筋肉をほぐし、緊張をゆるめます。さらにマスクを行い、内側からやわらかく輝くような美しいバックラインに整えます。<br />
+        30分　税抜7,000円</p>
+      <p class="subsub">◆ バックマスク</p>
+      <p class="txt"> ホワイトニング効果、美肌効果の高いマスクの2種からお選び頂き、しなやかでハリのある透明感の高い肌に整えます。<br />
+15分　税抜5,000円</p>
+      <p class="subsub">◆ バックトリートメント</p>
+      <p class="txt">疲労がたまり、硬くなりやすい腰から肩、首、上腕にかけて背中全体をていねいにほぐします。肌の調子を整え、リラクゼーション効果・トリートメント効果をさらに高めます。<br />
+15分　税抜3,000円</p>
+      <h4>《ネック・ブレストマスク》</h4>
+      <p class="subsub">◆ ナリシング（米ぬか）パック</p>
+      <p class="txt">乾燥・皮脂分泌過剰などが原因の肌トラブルをケアし、首から胸元にかけての若々しい美しさを維持します。<br />
+        税抜5,000円</p>
+      <p class="subsub">◆ ホワイトマスク</p>
+      <p class="txt">ホワイトニング効果のあるマスクを使用し、日やけによるシミ・ソバカスや色素沈着などを軽減させ、透明感あふれる肌に導きます。<br />
+税抜5,000円</p>
+      <h4>《マスク》</h4>
+      <p class="subsub">◆ 石膏マスク</p>
+      <p class="txt">温熱効果で疲労した肌に活力を与えるだけでなく、リフトアップ効果にすぐれているため、健康的な弾力ある肌に導きます。<br />
+        税抜5,000円</p>
+      <p class="subsub">◆ ミネラルマスク</p>
+      <p class="txt">冷却効果で肌を鎮静させ、老廃物の排出を促し、肌そのものを安定させます。<br />
+税抜5,000円</p>
+      <h4>《フェイシャルオイル》</h4>
+      <p class="subsub">※コース設定のマッサージクリームとの入れ替えになります。</p>
+      <p class="subsub">◆ フェイシャルオイル</p>
+      <p class="txt">25種の100%ボタニカルオイルを使用し、エイジングケアをしながら保湿力の高い肌を目指します。<br />
+       税抜3,000円</p>
+       </div>
+  <h3>オプション（ボディ）</h3>
+<div>
+      <p class="subsub">◆ バック ブライトネス</p>
+      <p class="txt">肩から腰にかけて、気になるざらつきやくすみを取り除き、さらに美肌効果の高いマスクで集中的にケアします。<br />
+リラグゼーション効果が高まるだけでなく、なめらかで美しいバックラインに整えます。<br />
+※フェイシャルコースにはつけられません。<br />
+      税抜7,000円</p></div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+.marcelwanders {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    
+    &__title {
+        font-family: $mincho;
+        font-size: 32px;
+        padding-top: 200px;
+    }
+    &__body {
+        @include clearfix;
+        margin-top: 30px;
+    }
+    &__name {
+        float: left;
+        font-family: $mincho;
+        font-size: 22px;
+    }
+    &__image {
+        float: right;
+    }
+    &__profile {
+        float: left;
+        font-size: 12px;
+        line-height: 1.75;
+        padding-top: 50px;
+        width: 460px;
+    }
+}
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+
+
+.marcelwanders {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    
+    &__title {
+        font-family: $mincho;
+        font-size: 16px;
+        padding-top: 100px;
+        text-align: center;
+    }
+    &__body {
+        @include clearfix;
+        margin-top: 15px;
+    }
+    &__name {
+        float: none;
+        font-family: $mincho;
+        font-size: 17px;
+        text-align: center;
+    }
+    &__image {
+        float: none;
+        text-align: center;
+    }
+    &__profile {
+        float: none;
+        font-size: 12px;
+        line-height: 1.75;
+        padding-top: 25px;
+        text-align: justify;
+        width: auto;
+    }
+}
+
+
+
+}
+
+

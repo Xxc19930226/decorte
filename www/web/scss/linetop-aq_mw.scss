@@ -1,0 +1,534 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+.mainContainer {
+    padding-top: 50px;
+}
+.concept__title {
+    font-family: hy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.concept__list {
+    margin-top: 50px;
+}
+.concept {
+    &__list {
+        &__item {
+            position: relative;
+            .title ,
+            .copy {
+                color: #FFF;
+                display: block;
+                font-family: $mincho;
+                text-align: center;
+                width: 100%;
+            }
+            .title {
+                font-size: 25px;
+                margin-top:220px;
+            }
+            .copy {
+                font-size: 15px;
+                margin-top: 15px;
+            }
+            &.s_itemconcept {
+                background-image: image-url("aq_mw/bg_concept_skincare.jpg");
+            }
+            &.b_itemconcept {
+                background-image: image-url("aq_mw/bg_concept_base.jpg");
+            }
+            &.m_itemconcept {
+                background-image: image-url("aq_mw/bg_concept_point.jpg");
+            }
+            a {
+                border: 1px solid #fff;
+                color: #fff;
+                width: 200px;
+                margin: 20px auto 0;
+                line-height: 2;
+            }
+        }
+    }
+}
+
+
+
+/* concept */
+
+.news {
+    .news-201604_shower {
+        background-image: image-url("aq_mw/news_01.jpg");
+        a {
+            margin-left: 533px;
+            margin-top: 130px;
+            .title {
+                font-size: 25px;
+            }
+            .lead {
+                font-size: 35px;
+                line-height: 57px;
+            }
+        }
+    }
+    .news-201604_ardeflule {
+        background-image: image-url("aq_mw/news_02.jpg");
+        a {
+            margin-top: 345px;
+        }
+    }
+    .news-201604_neckrenew {
+        background-image: image-url("aq_mw/news_03.jpg");
+        a {
+            margin-top: 345px;
+        }
+    }
+}
+/* news */
+.makeuppattern {
+    &__theme {
+        font-family: $mincho;
+        font-size: 24px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    &__list {
+        @include clearfix;
+        margin-top: 70px;
+        text-align: center;
+        &__item {
+            display: inline-block;
+            margin: 0 40px;
+            text-align: center;
+
+            font-family: $mincho;
+            font-size: 14px;
+            em {
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            span {
+                border: 1px solid #e6e6e6;
+                display: block;
+                margin-top: 10px;
+                img {
+                    vertical-align: bottom;
+                }
+            }
+        }
+    }
+}
+.dispModal {
+    background-color: #FFF;
+    .maketheme {
+        @include clearfix;
+        border: 1px solid #e6e6e6;
+        box-sizing: border-box;
+        padding: 50px;
+        width: 1140px;
+        &__title {
+            font-family: $mincho;
+            font-size: 18px;
+            text-align: center;
+            line-height: 30px;
+            margin-bottom: 50px;
+            em {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+        }
+        .l-left {
+            float: left;
+        }
+        .l-right {
+            float: right;
+        }
+        .abouttheme {
+            width: 362px;
+
+            &__image {
+                border: 1px solid #e6e6e6;
+                display: block;
+                img {
+                    vertical-align: bottom;
+                }
+            }
+
+            &__text {
+                font-size: 12px;
+                line-height: 20px;
+                margin-top: 27px;
+            }
+        }
+        .abouteyecolor {
+            @include clearfix;
+            width: 640px;
+            &__image {
+                width: 323px;
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 20px;
+                width: 310px;
+            }
+        }
+        .makedata {
+            @include clearfix;
+            margin-top: 80px;
+            &__title {
+                border-bottom: 1px solid #000;
+                font-size: 12px;
+                line-height: 30px;
+                text-align: center;
+            }
+            &__cat {
+                font-size: 12px;
+                margin-top: 20px;
+                width: 320px;
+            }
+            &__list {
+                width: 320px;
+                &__item {
+                    font-size: 12px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* skincaresystem steplink */
+.steplink {
+    .l-steplink__container {
+        background-image: url(../images/aq_mw/bg_system.gif);
+        height: 334px;
+    }
+    &__title-personal {
+        left: 15px;
+        top: 239px;
+    }
+    .l-step1__head {
+        left: 11px;
+        top: 37px;
+    }
+    .l-step2__head {
+        left: 239px;
+        top: 37px;
+    }
+    .l-step3__head {
+        left: 466px;
+        top: 37px;
+    }
+    .l-step4__head {
+        left: 692px;
+        top: 37px;
+    }
+    .l-step1__link1 {
+        left: 41px;
+        top: 84px;
+        a {
+            padding-top: 25px !important;
+        }
+    }
+    .l-step1__link2 {
+        left: 157px;
+        top: 242px;
+    }
+    .l-step2__link1 {
+        left: 267px;
+        top: 84px;
+    }
+    .l-step2__link2 {
+        left: 377px;
+        top: 242px;
+    }
+    .l-step3__link1 {
+        left: 493px;
+        top: 84px;
+    }
+    .l-step3__link2 {
+        left: 595px;
+        top: 242px;
+    }
+    .l-step4__link1 {
+        left: 719px;
+        top: 84px;
+        a {
+            padding-top: 25px !important;
+        }
+    }
+    .l-all__link1 {
+        left: 748px;
+        top: 242px;
+    }
+}
+/* / skincaresystem steplink */
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+
+.keyvisual {
+    .l-container {
+        width: auto;
+    }
+    h1 {
+        background-image: none;
+        text-indent: 0;
+        height: auto;
+        width: 100%;
+        img {
+            height: auto;
+            width: 100%;
+        }
+    }
+}
+/* keyvisual */
+
+.concept {
+    &__title {
+        font-size: 20px;
+    }
+    &__list {
+        margin-top: 20px;
+        &__item {
+            position: relative;
+            .title ,
+            .copy {
+                color: #FFF;
+                display: block;
+                font-family: $mincho;
+                position: absolute;
+                text-align: center;
+                width: 100%;
+            }
+            .title {
+                width: 100%;
+                margin-top: 0;
+                font-size: 20px;
+                top: 45%;
+            }
+            .copy {
+                margin-top: 0;
+                width: 100%;
+                left: 0;
+                text-align: center;
+                font-size: 13px;
+                top: 60%;
+            }
+            a {
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                left: 0;
+                right: 0;
+                bottom: 20px;
+            }
+
+            &.s_itemconcept {
+                background-image: none;
+            }
+            &.b_itemconcept {
+                background-image: none;
+            }
+            &.m_itemconcept {
+                background-image: none;
+            }
+        }
+    }
+}
+/* concept */
+
+
+.makeuppattern {
+    &__theme {
+        font-family: $mincho;
+        font-size: 17px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    &__list {
+        @include clearfix;
+        margin-top: 35px;
+        text-align: center;
+        &__item {
+            display: inline-block;
+            margin: 0;
+            text-align: center;
+            width: 45%;
+            a {
+                color: #000;
+                font-family: $mincho;
+                font-size: 12px;
+                em {
+                    font-size: 14px;
+                    line-height: 2;
+                }
+            }
+            span {
+                display: block;
+                margin-top: 10px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+.dispModal {
+    display: none;
+    .maketheme {
+        @include clearfix;
+        padding: 20px;
+        width: auto;
+        &__title {
+            font-size: 13px;
+            margin-bottom: 20px;
+            em {
+            }
+        }
+        .l-left {
+            float: none;
+        }
+        .l-right {
+            float: none;
+            margin-top: 30px;
+        }
+        .abouttheme {
+            width: auto;
+
+            &__image {
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;
+                img {
+                    height: auto;
+                    width: 100%;
+                }
+            }
+
+            &__text {
+            }
+        }
+        .abouteyecolor {
+            @include clearfix;
+            width: auto;
+            &__image {
+                width: auto;
+            }
+            &__text {
+                width: auto;
+            }
+        }
+        .makedata {
+            @include clearfix;
+            margin-top: 40px;
+            &__title {
+            }
+            &__cat {
+                width: auto;
+            }
+            &__list {
+                width: auto;
+                &__item {
+                }
+            }
+        }
+        .news__detail__body__close {
+            border: 1px solid #000;
+            width: 50%;
+            margin: 10px auto 0;
+            cursor: pointer;
+        }
+    }
+}
+
+/* skincaresystem steplink */
+.steplink {
+    .l-steplink__container {
+        background-image: url(../images/aq_mw/sp/bg_system.gif);
+        background-position: center top;
+        background-repeat:no-repeat;
+        background-size: 100% auto;
+        height: 500px;
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__title-personal {
+        left: 0;
+        top: 0;
+    }
+
+    .l-step1__head {
+        left: 10px;
+        top: 28px;
+    }
+    .l-step2__head {
+        left: 10px;
+        top: 138px;
+    }
+    .l-step3__head {
+        left: 10px;
+        top: 237px;
+    }
+    .l-step4__head {
+        left: 10px;
+        top: 353px;
+    }
+    .l-step1__link1 {
+        left: 10px;
+        top: 45px;
+        a {
+            padding-top: 15px !important;
+        }
+    }
+    .l-step1__link2 {
+        left: 150px;
+        top: 100px;
+    }
+    .l-step2__link1 {
+        left: 10px;
+        top: 155px;
+    }
+    .l-step2__link2 {
+        left: 150px;
+        top: 202px;
+    }
+    .l-step3__link1 {
+        left: 10px;
+        top: 254px;
+    }
+    .l-step3__link2 {
+        left: 150px;
+        top: 315px;
+    }
+    .l-step4__link1 {
+        left: 10px;
+        top: 370px;
+        a {
+            padding-top: 15px !important;
+        }
+    }
+    .l-all__link1 {
+        left: 150px;
+        top: 412px;
+    }
+}
+/* / skincaresystem steplink */
+
+
+}

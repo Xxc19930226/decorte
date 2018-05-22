@@ -1,0 +1,7 @@
+Line:
+  prime_latte:
+    name: '牛油果乳液'
+    skincare_system_flag: false
+    major_flag: false
+    priority: 180
+    slug: prime_latte

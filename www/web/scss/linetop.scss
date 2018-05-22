@@ -1,0 +1,921 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+.l-container {
+    margin: auto;
+    width: 1200px;
+    padding-top: 150px;
+}
+
+
+.skincaresystem ,
+.news ,
+.product ,
+.makeuppattern ,
+.howtomakeup {
+
+    >.l-container {
+    }
+
+
+    &__title {
+        font-family: $mincho;
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+
+
+
+.linehead {
+    @include clearfix;
+    position: absolute;
+    width: 1200px;
+    left: 50%;
+    margin-left: -600px;
+    .l-container {
+        margin-top: 0;
+    }
+    &__back {
+        float: left;
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    &__share {
+        float: right;
+        margin-right: 25px;
+        margin-top: 30px;
+        &__facebook ,
+        &__twitter {
+            display: inline-block;
+        }
+    }
+}
+.keyvisual {
+    .l-container {
+        margin-top: 0px;
+        padding-top: 0;
+        min-width: 1200px;
+        position: relative;
+        width: 100%;
+        .bestcosme {
+            position: absolute;
+            a {
+                display: block;
+                width: 130px;
+                img {
+                    height: auto;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            height: auto;
+            width: 100%;
+        }
+    }
+    &__movie
+    {
+        &__container
+        {
+            overflow: hidden;
+            position: relative;
+            width   : 100%;
+        }
+        &__coat
+        {
+            height  : 100%;
+            left    : 0;
+            position: absolute;
+            top     : 0;
+            width   : 100%;
+            z-index : 3;
+
+            &__arrow
+            {
+                bottom      : 128px;
+                cursor      : pointer;
+                height      : 16px;
+                left        : 50%;
+                margin-right: -20px;
+                position    : absolute;
+                width       : 40px;
+            }
+        }
+    }
+    &__image
+    {
+        &__container
+        {
+            overflow: hidden;
+            width   : 100%;
+        }
+    }
+}
+
+.news {
+    .news-container {
+        margin-top: 50px;
+    }
+}
+
+.concept {
+    margin-top: 0;
+    &__list {
+        @include clearfix;
+        &__item {
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            float: left;
+            height: 360px;
+            width: 360px;
+
+            &:nth-child(n+2) {
+                margin-left: 60px;
+            }
+
+            a {
+                box-sizing: border-box;
+                border: 2px solid #FFF;
+                color: #FFF;
+                display: block;
+                font-family: $mincho;
+                line-height: 50px;
+                margin: 280px auto 0;
+                text-align: center;
+                text-decoration: none;
+                width: 300px;
+            }
+        }
+    }
+}
+
+.news {
+    &__list {
+        @include clearfix;
+        margin-left: -30px;
+        margin-top: 20px;
+        &__item {
+            box-sizing: border-box;
+            display: block;
+            float: left;
+            height: 380px;
+            margin-left: 30px;
+            margin-top: 24px;
+            width: 585px;
+
+            &.w_wide {
+                width: 1200px;
+            }
+            &.f_black a {
+                color: #000;
+            }
+            &.f_white a {
+                color: #FFF;
+            }
+            a {
+                display: block;
+                font-size: 20px;
+                font-family: $mincho;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.product {
+    &__category {
+        margin-top: 40px;
+        text-align: center;
+
+        &.m--select,
+        &.m--single
+        {
+            display: none;
+        }
+        &__item {
+            cursor: pointer;
+            display: inline-block;
+            font-family: $gothic;
+            padding: 10px 35px;
+            
+            &.m--active
+            {
+                border-bottom: solid 1px #000000;
+            }
+        }
+    }
+    .itemlist {
+        @include clearfix;
+        &__item {
+            float: left;
+            margin-top: 50px;
+            width: 300px;
+            &__photo {
+                height: 270px;
+                a {
+                    display: block;
+                    text-align: center;
+                    img {
+                        height: auto;
+                        width: 230px;
+                    }
+                }
+            }
+            &__txt {
+                font-size: 14px;
+                height: 80px;
+                line-height: 18px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                word-break: normal;
+                width: 90%;
+                .line_name {
+                    display: block;
+                }
+                .product_name {
+                    span {
+                        display: inline-block;
+                        white-space: pre;
+                        /*
+                        padding-right: 0.3em;
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                        &.d_space {
+                            padding-right: 0;
+                        }
+                        */
+                    }
+                }
+            }
+            &__cat {
+                color: #999999;
+                font-size: 10px;
+                margin-top: 15px;
+                text-align: center;
+            }
+        }
+    }
+    .categoryname {
+        display: none;
+    }
+}
+
+
+.steplink {
+    display: none;
+    .l-steplink__container {
+        background-position: 0 bottom;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 900px;
+    }
+    &__title {
+        font-size: 12px;
+        &-personal {
+            position: absolute;
+        }
+    }
+    .step {
+        &__head {
+            position: absolute;
+            &__num {
+                display: inline-block;
+                font-size: 12px;
+                vertical-align: middle;
+            }
+            &__cat {
+                display: inline-block;
+                font-size: 10px;
+                margin-left: 5px;
+                vertical-align: middle;
+            }
+        }
+        &__shortcut {
+            &__item {
+                position: absolute;
+                text-align: center;
+
+                .basic,.personal {
+                    display: none;
+                }
+                .all {
+                    font-size: 10px;
+                    margin-bottom: 3px;
+                }
+                a {
+                    background-color: #FFF;
+                    background-image: image-url('linetop/skincaresystem_down.png');
+                    background-position: center 90%;
+                    background-repeat: no-repeat;
+                    border: 1px solid #000;
+                    box-sizing: border-box;
+                    color: #000;
+                    display: block;
+                    font-family: $gothic-bold;
+                    font-size: 14px;
+                    line-height: 1.57;
+                    width: 140px;
+                }
+                &.m-basic {
+                    a {
+                        height: 111px;
+                        padding-top: 35px;
+                    }
+                }
+                &.m-personal ,
+                &.m-all {
+                    a {
+                        height: 80px;
+                        padding-top: 23px;
+                    }
+                }
+                &.m-all {
+                    margin-top: -13px;
+                }
+            }
+        }
+    }
+}
+
+.skincaresystem {
+    &__step {
+        margin: 76px auto 0;
+        width: 900px;
+
+        &.next {
+            background-image: image-url("linetop/arrow_system_black.png");
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            padding-bottom: 80px;
+        }
+
+        &__header {
+            text-align: center;
+            h2 {
+                font-family: $mincho;
+                font-size: 24px;
+            }
+            p {
+                border-top: 1px solid #000;
+                font-family: $mincho;
+                font-size: 14px;
+                padding-top: 5px;
+                margin-top: 5px;
+            }
+        }
+        &__row {
+            margin-top: 80px;
+            text-align: center;
+            &.next {
+                background-image: image-url("linetop/arrow_system_gray.jpg");
+                background-position: center bottom;
+                background-repeat: no-repeat;
+                padding-bottom: 80px;
+            }
+            &__item {
+                display: inline-block;
+                vertical-align: top;
+                width: 180px;
+                word-break: normal;
+                a {
+                    color: #000;
+                    display: block;
+                    font-size: 12px;
+                    position: relative;
+
+                    img {
+                        display: block;
+                        height: 150px;
+                        margin: 5px auto;
+                        width: auto;
+                    }
+
+                    .icon {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+    
+                        &-day {
+                            @include replace-text-with-dimensions("linetop/icon_system_day.png");
+                            float: right;
+                            display: block;
+                            margin-left: 5px;
+                        }
+    
+                        &-night {
+                            @include replace-text-with-dimensions("linetop/icon_system_night.png");
+                            float: right;
+                            display: block;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+            &__or {
+                display: inline-block;
+                line-height: 180px;
+                vertical-align: top;
+                width: 160px;
+            }
+            &.personal {
+                border: 1px solid #000;
+                box-sizing: border-box;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 30px;
+                width: 800px;
+
+                .personal__title {
+                    font-size: 18px;
+                    margin-top: 40px;
+                }
+                .skincaresystem__step__row__item {
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    margin-top: 30px;
+                }
+
+            }
+        }
+    }
+}
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+.l-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding-top: 50px;
+    width: 95%;
+}
+
+.news ,
+.product ,
+.makeuppattern ,
+.howtomakeup ,
+.skincaresystem {
+
+    .l-container {
+        /*
+        border-top: 1px solid #e6e6e6;
+        */
+    }
+
+    &__title {
+        font-family: $mincho;
+        font-size: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+.keyvisual {
+    .l-container {
+        margin-top: 0;
+    }
+}
+
+.keyvisual {
+    .l-container {
+        margin-top: 0px;
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+    }
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            height: auto;
+            width: 100%;
+        }
+    }
+}
+
+
+.news {
+    .news__title {
+        margin-bottom: 50px;
+    }
+    .news-container {
+        margin-top: 0;
+    }
+}
+
+
+
+.concept {
+    margin-top: 0;
+    .l-container {
+        margin-top: 0;
+    }
+    &__list {
+        @include clearfix;
+
+        &__item {
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            box-sizing: border-box;
+            float: none;
+            height: auto;
+            margin-top: 15px;
+            position: relative;
+            width: auto;
+
+            &:nth-child(n+2) {
+                margin-left: 0;
+            }
+            img {
+                height: auto;
+                width: 100%;
+            }
+
+            a {
+                box-sizing: border-box;
+                border: 1px solid #FFF;
+                bottom: 35px;
+                color: #FFF;
+                display: block;
+                font-family: $mincho;
+                font-size: 13px;
+                left: 50%;
+                line-height: 2;
+                margin-left: -27.5%;
+                position: absolute;
+                text-align: center;
+                text-decoration: none;
+                width: 55%;
+            }
+        }
+    }
+}
+
+.news {
+    &__list {
+        @include clearfix;
+            margin-left: 0;
+            margin-top: 0;
+        &__item {
+            box-sizing: border-box;
+            display: block;
+            float: none;
+            height: auto;
+            margin-left: 0;
+            margin-top: 15px;
+            padding-top: 0;
+            position: relative;
+            width: auto;
+
+            &.w_wide {
+                width: auto;
+            }
+            &.f_black a {
+                color: #000;
+            }
+            &.f_white a {
+                color: #FFF;
+            }
+            img {
+                height: auto;
+                width: 100%
+            }
+            a {
+                bottom: 15px;
+                display: block;
+                font-size: 10px;
+                font-family: $mincho;
+                position: absolute;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.product {
+    &__category {
+        margin-top: 40px;
+        text-align: center;
+
+        &.m--list
+        {
+            display: none;
+        }
+        &.m--select,
+        &.m--single
+        {
+            display: block;
+        }
+        &.m--select
+        {
+            .product__category__select
+            {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background  : none;
+                background-image: image-url('sp/arrow_down_small.png');
+                background-position: right 50%;
+                background-repeat: no-repeat;
+                background-size: 6px auto;
+
+                border      : none;
+                border-bottom: solid 1px #aaaaaa;
+                border-radius: 0;
+                font-family: $gothic;
+                padding-right: 15px;
+                span {
+                font-family: $gothic;
+                }
+            }
+            span {
+                font-family: $gothic;
+                font-size: 12px;
+            }
+        }
+        &__item {
+            cursor: pointer;
+            display: inline-block;
+            font-family: $gothic;
+            font-size: 12px;
+            padding: 5px 15px;
+            border-bottom: 1px solid #000;
+        }
+    }
+    .itemlist {
+        @include clearfix;
+        padding-top: 0;
+        &__item {
+            float: left;
+            margin-bottom: 60px;
+            width: 50%;
+            &__photo {
+                height: 150px;
+                text-align: center;
+                a {
+                    display: block;
+                    img {
+                        height: auto;
+                        width: 150px;
+                    }
+                }
+            }
+            &__txt {
+                font-size: 10px;
+                line-height: 1.5;
+                text-align: center;
+                height: 60px;
+            }
+            &__cat {
+            }
+        }
+    }
+    .categoryname {
+        display: none;
+        margin-top:0;
+    }
+}
+
+
+
+
+.steplink {
+    .l-steplink__container {
+        background-position: 0 bottom;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        position: relative;
+        width: auto;
+    }
+    &__title {
+        font-size: 12px;
+        &-basic ,
+        &-personal {
+            float: left;
+            font-size: 12px;
+            position: relative;
+            text-align: center;
+            width: 50%;
+        }
+    }
+    .step {
+        &__head {
+            position: absolute;
+            &__num {
+                display: inline-block;
+                font-size: 10px;
+                vertical-align: middle;
+            }
+            &__cat {
+                display: none;
+            }
+        }
+        &__shortcut {
+            &__item {
+                position: absolute;
+                text-align: center;
+
+                .basic,.personal {
+                    display: none;
+                }
+                .all {
+                    display: none;
+                }
+                a {
+                    background-color: #FFF;
+                    background-image: image-url('linetop/sp/skincaresystem_down.png');
+                    background-position: center 90%;
+                    background-repeat: no-repeat;
+                    background-size: 11px auto;
+                    border: 1px solid #000;
+                    box-sizing: border-box;
+                    color: #000;
+                    display: block;
+                    font-family: $gothic;
+                    font-size: 11px;
+                    line-height: 1.57;
+                    width: 120px;
+                }
+                &.m-personal ,
+                &.m-all ,
+                &.m-basic {
+                    margin-top: 0;
+                    a {
+                        height: 70px;
+                        padding-top: 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.skincaresystem {
+    &__step {
+        margin: 60px auto 0;
+        width: auto;
+        &.next {
+            background-image: image-url("linetop/arrow_system_black.png");
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: 10px auto;
+            padding-bottom: 60px;
+        }
+
+        &__header {
+            text-align: center;
+            h2 {
+                font-family: $mincho;
+                font-size: 17px;
+            }
+            p {
+                border-top: 1px solid #000;
+                font-family: $mincho;
+                font-size: 12px;
+                padding-top: 5px;
+                margin-top: 5px;
+                span {
+                    display: inline-block;
+                }
+            }
+        }
+        &__row {
+            margin-top: 0;
+            text-align: center;
+            &.next {
+                background-image: image-url("linetop/arrow_system_gray.jpg");
+                background-position: center bottom;
+                background-repeat: no-repeat;
+                background-size: 10px auto;
+                padding-bottom: 60px;
+            }
+            &__item {
+                display: inline-block;
+                width: 135px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 60px;
+
+                a {
+                    color: #000;
+                    display: block;
+                    font-size: 10px;
+                    position: relative;
+                    text-align: center;
+
+                    img {
+                        display: inline-block;
+                        height: auto;
+                        width: 70%;
+                    }
+                    .cat ,
+                    .name {
+                        display: block;
+                        text-align: center;
+                    }
+
+                    .icon {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+    
+                        &-day {
+                            @include replace-text-with-dimensions-retina("linetop/icon_system_day.png");
+                            float: right;
+                            display: block;
+                            margin-left: 5px;
+                            width: 15px;
+                            height: 15px;
+                            background-size: contain;
+                        }
+    
+                        &-night {
+                            @include replace-text-with-dimensions("linetop/icon_system_night.png");
+                            float: right;
+                            display: block;
+                            margin-left: 5px;
+                            width: 15px;
+                            height: 15px;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+            &__or {
+                display: inline-block;
+                font-size: 12px;
+                line-height: 1;
+                margin-top: 110px;
+                vertical-align: top;
+                width: auto;
+                &.l--vertical {
+                    font-size: 12px;
+                    display: block;
+                    margin-top: 50px;
+                    text-align: center;
+                }
+            }
+            &.personal {
+                border: 1px solid #000;
+                box-sizing: border-box;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 60px;
+                padding-bottom: 60px;
+                width: auto;
+
+                .personal__title {
+                    font-size: 12px;
+                    margin-top: 30px;
+                }
+                .skincaresystem__step__row__item {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 60px;
+                }
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,501 @@
+﻿.mainContainer {
+    padding-top: 50px;
+}
+.concept .bg1{
+	background-image: url(../images/honeydew/bg_concept_02.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.concept__title__logo {
+	padding-top: 158px
+}
+.concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:258px
+}
+.concept__title__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+  text-align: center;
+}
+.concept__message {
+    margin-top: 53px;
+    padding-bottom: 150px;
+}
+.concept__message__title {
+	font-family: hy;
+	font-size: 32px;
+  line-height: 1.6em;
+	width: 600px;
+	margin-top: 30px;
+}
+.concept__message__lead {
+	font-family: hy;
+	font-size: 22px;
+	width: 600px;
+	position:relative;
+}
+.concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 50px;
+	width: 600px;
+}
+.concept__message .l-container {
+    overflow: hidden;
+    width: 853px;
+}
+.concept__message .l-container .image{
+    float: left;
+    padding-top: 95px;
+    text-align: center;
+    width: 403px;
+}
+.concept__message .l-container .right {
+    float: right;
+    width: 403px;
+    padding-top: 95px;
+    background-image:url(../images/honeydew/concept_illust.png);
+    background-position: 144px 0;
+    background-repeat: no-repeat;
+}
+
+.concept__message__text span{
+	font-size:12px;
+}
+
+
+
+.concept__seibun {
+    padding-bottom: 300px;
+}
+.concept__seibun .l-container {
+}
+.concept__seibun__herbs {
+  overflow: hidden;
+  width: 1160px;
+  padding-bottom: 50px;
+}
+.concept__seibun__herbs__message {
+  float: left;
+}
+.concept__seibun__herbs__message__title {
+	width:600px;
+	font-family: hy;
+	font-size: 32px;
+	line-height: 60px;
+	margin-top: 110px;
+	text-align: center;
+}
+.concept__seibun__herbs__message__lead {
+	width:600px;
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 50px;
+	line-height:1.6em;
+  text-align: center;
+}
+
+.concept__seibun__herbs__message__text {
+	width:600px;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 30px;
+  text-align: center;
+}
+
+.concept__seibun__herbs__message__text span{
+	font-size: 10px;
+}
+.concept__seibun__herbs__list {
+  width: 500px;
+  float: right;
+  margin-top: 110px;
+}
+
+.concept__seibun__herbs__list__herb1 {
+	background-image: url('/images/honeydew/herbs_01.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 150px;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 30px 50px 0;
+}
+.concept__seibun__herbs__list__herb2 {
+	background-image: url('/images/honeydew/herbs_02.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 150px;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 30px 50px 0;
+}
+.concept__seibun__herbs__list__herb3 {
+	background-image: url('/images/honeydew/herbs_03.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 150px;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 30px 50px 0;
+}
+.concept__seibun__herbs__list__herb4 {
+	background-image: url('/images/honeydew/herbs_04.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 150px;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 30px 50px 0;
+}
+
+
+
+
+.concept__seibun__herbs__note {
+  width: 1160px;
+  padding-left: 620px;
+  margin-top: 50px;
+  float: left;
+}
+
+.concept__seibun__herbs__note__text {
+  font-size: 10px;
+}
+
+.concept__seibun__herbs__note__text span {
+    border: 1px solid #000;
+    margin: 30px auto 0;
+    padding: 0 5px;
+    box-sizing: border-box;
+    line-height: 18px;
+}
+.concept__seibun__honey {
+  overflow: hidden;
+  width: 1160px;
+  height: 480px;
+  padding-bottom: 50px;
+	background-image: url('/images/honeydew/honey.jpg');
+	background-position: 50px top;
+	background-repeat: no-repeat;
+}
+.concept__seibun__honey__title {
+	width:600px;
+  float:right;
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 150px;
+}
+.concept__seibun__honey__title span {
+  font-size: 16px;
+  padding-left: 30px;
+}
+
+.concept__seibun__honey__text {
+	width:600px;
+	float:right;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 30px;
+}
+
+.productLink {
+    clear: both;
+    margin-top: 0;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+
+
+@media screen and (max-width: 736px) {
+
+.concept .bg1{
+	background-image: none;
+}
+
+.concept {
+	background-image: none;
+    position: relative;
+}
+.concept__title {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.concept__title__logo {
+    padding-top: 20%;
+}
+.concept__title__logo img {
+    width: 162px;
+}
+.concept__title__text {
+    font-size: 17.5px;
+    margin-top: 5px;
+}
+
+
+.concept .l-container {
+  width: auto;
+}
+
+.concept .sp_bg {
+  height: auto;
+  width: 100%;
+}
+
+.concept__message {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.concept__message .l-container .image {
+    display: none;
+}
+.concept__message .l-container .right {
+    float: none;
+    width: auto;
+    background-position: center 0;
+}
+
+.concept__message__title {
+	font-family: hy;
+	font-size: 20px;
+  line-height: 1.6em;
+	width: auto;
+	margin-top: 30px;
+  float: none;
+}
+.concept__message__lead {
+	font-family: hy;
+	font-size: 17px;
+	width: auto;
+	position:relative;
+  float: none;
+}
+.concept__message__text {
+	font-family: hy;
+	font-size: 12px;
+	line-height: 1.6;
+	margin-top: 50px;
+	width: auto;
+  float: none;
+}
+
+.concept__message__text span{
+	font-size:12px;
+}
+
+
+.concept__seibun {
+    padding-bottom: 150px;
+}
+.concept__seibun__herbs {
+  overflow: visible;
+  width: auto;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.concept__seibun__herbs__message {
+  float: none;
+	width: 80%;
+  margin: 0 auto;
+}
+.concept__seibun__herbs__message__title {
+	width: auto;
+	font-family: hy;
+	font-size: 20px;
+	line-height: 1.8;
+	margin-top: 0;
+	text-align: center;
+}
+.concept__seibun__herbs__message__lead {
+	width: auto;
+	font-family: hy;
+	font-size: 17px;
+	margin-top: 50px;
+	line-height:1.6em;
+  text-align: center;
+}
+
+.concept__seibun__herbs__message__text {
+	width: auto;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 30px;
+  text-align: center;
+}
+
+.concept__seibun__herbs__message__text span{
+	font-size: 10px;
+}
+.concept__seibun__herbs__list {
+  overflow: hidden;
+  width: auto;
+  float: none;
+  margin-top: 110px;
+}
+.concept__seibun__herbs__list__herb1 {
+	background-image: url('/images/honeydew/herbs_01.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 0 50px;
+}
+.concept__seibun__herbs__list__herb2 {
+	background-image: url('/images/honeydew/herbs_02.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 0 50px;
+}
+.concept__seibun__herbs__list__herb3 {
+	background-image: url('/images/honeydew/herbs_03.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 0 50px;
+}
+.concept__seibun__herbs__list__herb4 {
+	background-image: url('/images/honeydew/herbs_04.png');
+	background-position: center top;
+	background-repeat: no-repeat;
+  width: 50%;
+  float: left;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  padding: 110px 0 0;
+  margin: 0 0 50px;
+}
+
+.concept__seibun__herbs__note {
+  width: 80%;
+  padding-left: 0;
+  margin: 50px auto 0;
+  float: none;
+}
+
+.concept__seibun__herbs__note__text {
+  font-size: 10px;
+}
+
+.concept__seibun__herbs__note__text span {
+    border: 1px solid #000;
+    margin: 30px auto 0;
+    padding: 0 5px;
+    box-sizing: border-box;
+    line-height: 18px;
+}
+
+.concept__seibun__honey {
+    overflow: visible;
+    width: auto;
+    height: auto;
+    padding-bottom: 380px;
+    background-image: url('/images/honeydew/honey.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.concept__seibun__honey__title {
+	width: 80%;
+  margin: 0 auto;
+  float: none;
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 100px;
+}
+.concept__seibun__honey__title span {
+  font-size: 16px;
+  padding-left: 0px;
+  margin-top: 20px;
+  display: block;
+}
+
+.concept__seibun__honey__text {
+	width: 80%;
+  margin: 0 auto;
+	float: none;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 30px;
+}
+
+.productLink {
+    margin-top: 0px;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*body {
+	background-image: url('/images/cellgenie/bg_concept_base_02.jpg?1457857842');
+	background-position: center top;
+	background-repeat: no-repeat
+}
+*/

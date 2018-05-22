@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}*/
+
+
+p.logo img{
+	zoom:50%;
+	}
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #5e1c0d;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+	
+.btn img{
+	width:100%;
+	}
+
+.ttl02{
+	text-align:center;	
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	}
+
+
+section.season,
+section.season01,
+section.season02{
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+	
+section.season01 img,
+section.season02 img,
+section.season03 img{
+	zoom:50%;
+	}
+	
+section.season03{
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section.season .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section.season .main img {
+	width:90%;
+	max-width:450px;
+}
+
+section.season .lead{
+	color:#5e1c0d;
+	text-align:center;
+	}
+
+section.season .ttl01{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+
+	
+.ttl01 img{
+	width:100%;
+	max-width:538px;
+	}
+	
+section.season01 .rescue{
+	background-color:#fefce0;
+	padding:10px;
+	}
+
+section.season01 .lead{
+	padding-bottom:1.0em;
+	}
+	
+section.season01 table tr{
+	padding-bottom:0.5em;
+	}
+
+section.season01 table td.name{
+	width:4em;
+	}	
+	
+section.season01 .eri{
+	width:5em;
+	height:4em;
+	background:url(/images/sp/recipe/20120901/yumi_s.jpg) no-repeat top right;
+	}
+	
+section.season01 .hiroko{
+	width:5em;
+	height:4em;
+	background:url(/images/sp/recipe/20120901/hiroko_s.jpg) no-repeat top right;
+	}
+	
+section.season01 .masumi{
+	width:5em;
+	height:4em;
+	background:url(/images/sp/recipe/20120901/masumi_s.jpg) no-repeat top right;
+	}
+
+section.season01 .yumi{
+	width:5em;
+	height:3em;
+	background:url(/images/sp/recipe/20120901/yumi_s.jpg) no-repeat top right;
+	}
+
+section.season01 .red{
+	color:#d71e1e;
+	}
+	
+section.season01 .large{
+	font-size:18px;
+	}
+	
+section.season01 .left,
+section.season02 .left,
+section.season03 .left{
+	float:left;
+}
+
+section.season01 .right,
+section.season02 .right,
+section.season03 .right{
+	float:right;
+}
+
+section.season01 .girls{
+	margin-bottom:0.5em;
+}
+
+section.season01 .intro{
+	margin-top:20px;
+	}
+	
+section.season02 .item{
+	background-color:#fefce0;
+		}
+		
+section.season02 .item01,
+section.season02 .item02,
+section.season02 .item03{
+	padding:10px;
+		}
+section.season02 .center,
+section.season03 .center{
+	text-align:center;
+	}
+	
+section.season02 .sub{
+	font-size:20px;
+	background-color:#e4a3ac;
+	text-align:center;
+	color:#ffffff;
+}
+
+section.season02 .copy{
+	font-size:13px;
+	color:#e4a3ac;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+section.season02 .item_image{
+	margin:10px;
+	
+	}
+	
+section.season02 .spec{
+	margin:10px;
+	text-align:center;
+	}
+
+section.season02 .small{
+	font-size:10px;
+	}
+	
+section.season02 .voice{
+	text-align:center;
+	margin-top:10px;
+}
+
+section.season03 .primelatte{
+	width:300px;
+	margin:0 auto;
+	background:url(/images/sp/recipe/20120901/bg_primelatte.jpg) no-repeat 5px bottom;
+}
+
+section.season03 .balance{
+	margin-left:100px;
+}
+
+section.season03 .howto{
+	margin-right:10px;
+	margin-left:10px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	text-align:center;
+	border:2px solid #e5a3ad;
+	-webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 10px;	/* Firefox用 */
+	background:URL(/images/sp/recipe/20120901/howto_bg.jpg) repeat-x ;
+}
+
+section.season03 .howto hr{
+	background-color:#e5a3ad;
+	border:none;
+	height:2px;
+	width:95%;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+section.season03 .howto_ttl{
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#e5a3ad;
+}
+
+section.season03 .text{
+	padding:10px;
+	}
+	
+
+

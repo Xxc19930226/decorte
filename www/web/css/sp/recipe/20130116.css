@@ -1,0 +1,435 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+p.logo img{
+	zoom:50%;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+	margin:10px;
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #382070;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0;
+}
+
+
+
+.ttl02{
+	text-align:center;	
+	padding-top:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:538px;
+	}
+
+img.fit100{
+		width:100%;
+		max-width:640px;
+	}
+
+section{
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	color:#000037;
+	text-align:center;
+	margin-bottom:20px;
+	}
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+
+section.page01 .bihaku{
+	margin:0;
+	padding:0;
+	}
+	
+section.page01 .keiko{
+	float:right;
+	width:30%;
+	margin:0 10px 10px 10px;
+	max-width:240px;
+	}
+	
+section.page01 .chart01{
+	float:right;
+	width:28%;
+	margin:10px;
+	max-width:180px;
+	}
+
+section.page01 .sub{
+	margin-top:20px;
+	}
+	
+section.page01 .goto {
+	margin:0 auto;
+	width:90%
+	}
+
+section.page01 .goto li{
+	float:left;
+	width:32%;
+	margin-right:5px;
+	}
+	
+section.page01 .goto li img{
+	width:100%;
+	max-width:180px;
+	}
+	
+section.page01 .goto li.fin{
+	margin-right:0;
+	}
+	
+section.page01 .text01{
+	padding-top:10px;
+	}
+	
+section.page01 .text02{
+	font-size:12px;
+	}	
+
+section.page01 .text04{
+	margin:1em 0;
+	text-align:center;
+	font-size:14px;
+	color:#f93122;
+	}	
+
+section.page02 .bg,
+section.page03 .bg{
+	padding-bottom:2px;
+	background:URL(/images/sp/recipe/20130116/page02_bg01.jpg) 0 0 ;
+	
+}
+
+section.page03 {
+	padding-top:20px;
+}
+
+section.page02 .keiko{
+	margin-top:-70px;
+	}
+
+section.page02 .chart{
+	width:35%;
+	
+	}
+
+section.page02 .qa_title,
+section.page03 .qa_title{
+	margin:0;
+	padding:0;
+	margin-bottom:10px;
+	}
+section.page02 p,
+section.page03 p{
+	font-size:12px;
+}
+	
+section.page02 .qa_box,
+section.page03 .qa_box{
+	width:85%;
+	margin:0 auto;
+	margin-bottom:20px;
+	padding:20px 5px 5px 5px;
+	-webkit-box-shadow: 3px 3px 2px 0px #CCCCCC;
+	box-shadow: 3px 3px 2px #CCCCCC;
+	background-color:#fdfef0;
+	border:1px solid #EEEEEE;
+
+	}
+	
+section.page02 .fin,
+section.page03 .fin{
+	margin-bottom:40px;
+	} 
+
+section.page02 .qa_box .q_title,
+section.page03 .qa_box .q_title{
+	padding-bottom:20px;
+	border-bottom:1px solid #000000;
+	}
+	
+section.page02 .q_title img,
+section.page03 .q_title img{
+	width:100%;
+	max-width:540px;
+	}
+
+
+section.page02 .qa_box .a,
+section.page03 .qa_box .a {
+	background:URL(/images/sp/recipe/20130116/page02_a.png) 0 0 no-repeat ;
+	padding-left:50px;
+	padding-top:10px;
+	color:#ed415c;
+	min-height:30px;
+}
+
+section.page02 .qa_box .img_box{
+	width:70%;
+	margin:0 auto;
+	padding-bottom:10px;
+	}
+	
+section.page02 .qa_box .fright,
+section.page03 .qa_box .fright{
+	float:right;
+	margin:10px;
+	}
+section.page03 .illust{
+	width:23%;
+	}
+section.page04 .bg01{
+	background-color: #c3e3f0;
+}
+
+
+section.page04 .bg02{
+	background-color: #c0e2f2;
+	margin-bottom:40px;
+}
+section.page04 .bg01 p{
+	margin:0;
+	padding:0
+}
+
+
+section.page04 .lead{
+	font-size:12px;
+	}
+
+section.page04 .point01{
+	width:90%;
+	max-width:300px;
+	}
+
+section.page04 .item01{
+	background:URL(/images/sp/recipe/20130116/page04_bgitem01.jpg) 0 0 no-repeat;
+-moz-background-size:100% auto;
+background-size:100% auto;
+	}
+	
+
+section.page04 .item02{
+	background:URL(/images/sp/recipe/20130116/page04_bgitem02.jpg) 0 0 no-repeat;
+-moz-background-size:100% auto;
+background-size:100% auto;
+	padding-bottom:20px;
+	}
+
+
+section.page04 .text01{
+	padding-top:30%;
+}
+section.page04 .fright{
+	float:right;
+	width:50%;
+	text-align:left;
+	}
+
+section.page04 img.point{
+	width:93%;
+}
+
+section.page04 img.feature{
+	width:77%;
+}
+
+
+section.page04 .fleft{
+	width:48%;
+	text-align:left;
+	}
+section.page04 .item02 .fleft{
+    padding-top: 45px;
+	padding-left:10px;
+	}
+	
+section.page04 .fleft02{
+	width:100%;
+	text-align:left;
+	padding-left:10px;
+	}
+	
+section.page04 p.copy{
+	margin:10px;
+	color:#66b5ff;
+	font-size:14px;
+	}
+	
+section.page04 p.text02{
+	font-size:12px;
+	margin:10px;
+	}
+	
+section.page04 p.text03{
+	color:#66b5f6;
+	font-size:12px;
+	margin:10px;
+	}
+
+section.page04 p.text03{
+	color:#66b5f6;
+	font-size:12px;
+	margin:10px;
+	}
+
+section.page05 .bg01{
+	background-color:#d5edf8;
+	margin-bottom:40px;
+	}
+
+section.page05 .point01{
+	width:48%;
+	max-width:310px;
+	}
+
+section.page05 .feature{
+	width:100%;
+	max-width:241px;	
+	}
+
+section.page05 .item01{
+	background:URL(/images/sp/recipe/20130116/page05_bgitem01.jpg) 50% 10% no-repeat;
+-moz-background-size:100% auto;
+background-size:100% auto; 
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+
+
+section.page05 .fleft{
+	width:48%;
+	text-align:left;
+	padding-left:10px;
+	}
+
+
+
+section.page05 p.copy{
+	margin:10px;
+	color:#66b5ff;
+	font-size:14px;
+	}
+	
+section.page05 p.text02{
+	font-size:12px;
+	margin:10px;
+	}
+	
+section.page05 p.text03{
+	color:#66b5f6;
+	font-size:12px;
+	margin:10px;
+	}
+	
+	
+section.page05 span.notice{
+	font-size:10px;
+	}
+	
+	
+section.page05_2 .bg01{
+	background-color:#d5edf8;
+	padding-bottom:20px;
+	margin-bottom:40px;
+	}
+
+
+section.page05_2 .bg01 .point{
+	margin:0;
+	padding:10px;
+}
+
+section.page05_2 .line{
+	width:85%;
+	margin:20px auto;
+	padding:10px;
+	background-color:#f6fbfe;
+	-webkit-box-shadow: 3px 3px 2px 0px #CCCCCC;
+	box-shadow: 3px 3px 2px #CCCCCC;
+}
+
+section.page05_2 .copy{
+	text-align:center;
+	color:#3c8dd9;
+	font-size:14px;
+	}
+
+section.page05_2 .text01{
+	margin:10px;
+	font-size:12px;
+	}
+
+section.page05_2 .notice{
+    font-size: 10px;
+}
+
+ 
+section.page05 .item01{
+	background:URL(/images/sp/recipe/20130116/page05_bgitem01.jpg) 50% 10% no-repeat;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+	}
+
+
+section.page04 .item01{
+	background:URL(/images/sp/recipe/20130116/page04_bgitem01.jpg) 0 0 no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+	}
+	
+
+section.page04 .item02{
+	background:URL(/images/sp/recipe/20130116/page04_bgitem02.jpg) 0 0 no-repeat;
+	padding-bottom:20px;
+	background-size:100%;	
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+	}

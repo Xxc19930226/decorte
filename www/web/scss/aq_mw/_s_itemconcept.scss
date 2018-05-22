@@ -1,0 +1,474 @@
+@charset "UTF-8";
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+
+.skincare_concept {
+    
+    .l-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1140px;
+    }
+
+    .black__bg {
+        background-color: #000;
+        color: #ffffff;
+        .black__bg__inner {
+            background-image: image-url('aq_mw/bg_concept_skincare_02.jpg');
+            background-position: center top;
+            background-repeat: no-repeat;
+            min-width: 1200px;
+        }
+    }
+
+
+
+    &__title {
+        @inlude clearfix;
+        position: relative;
+        top: 50px;
+        &__logo {
+            padding-top: 100px;
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 162px;
+            }
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 32px;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+    &__message {
+        height: 550px;
+        margin-top: 152px;
+        text-align: center;
+        &__title {
+            font-family: $mincho;
+            font-size: 22px;
+            width: 570px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 32px;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: 0;
+            width: 570px;
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: 0;
+            width: 570px;
+        }
+        &__aqmw {
+            font-family: $mincho;
+            font-size: 32px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: 0;
+            position: relative;
+            text-align: center;
+            width: 570px;
+            span {
+                font-size: 10px;
+                position: absolute;
+                left: 49%;
+                top: -13px;
+            }
+        }
+    }
+    &__message__20160801 {
+        color: #ffffff;
+        height: 550px;
+        margin-top: 152px;
+        text-align: center;
+        &__lead {
+            font-family: $mincho;
+            font-size: 32px;
+            margin-top: 30px;
+            width: 570px;
+            margin-left: auto;
+            margin-right: 0;
+            position: relative;
+            sup {
+                font-size: 10px;
+                vertical-align: text-top;
+            }
+            span {
+                font-size: 10px;
+                position: absolute;
+                left: 70%;
+                top: -13px;
+            }
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 40px;
+            width: 570px;
+            margin-left: auto;
+            margin-right: 0;
+            sup {
+                font-size: 10px;
+                vertical-align: text-bottom;
+            }
+        }
+        &__note {
+            font-family: $mincho;
+            font-size: 10px;
+            line-height: 16px;
+            text-align: right;
+            width: 570px;
+            margin: 350px 0 auto auto ;
+        }
+    }
+
+    &__seibun {
+        @include clearfix;
+        .l-container {
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 32px;
+            float: left;
+            line-height: 48px;
+            margin-top: 132px;
+            text-align: center;
+            width: 420px;
+        }
+    }
+    &__mutin ,
+    &__byakudan {
+        width: 320px;
+        &__title {
+            font-family: $mincho;
+            font-size: 16px;
+            margin-top: 110px;
+            text-align: center;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 21px;
+            text-align: justify;
+        }
+    }
+    &__mutin  {
+        float: left;
+        &__title {
+            margin-top: 73px;
+        }
+        &__text {
+            margin-top: 50px;
+        }
+    }
+    &__byakudan {
+        float: right;
+        &__title {
+            margin-top: 49px;
+            line-height: 1.35;
+        }
+        &__text {
+            margin-top: 25px;
+        }
+    }
+
+
+
+    &__design {
+        margin-top: 110px;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 125px;
+        &__title {
+            font-family: $mincho;
+            font-size: 30px;
+            margin-bottom: 80px;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-top: 30px;
+        }
+        
+        .marcelwanders {
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            width: 340px;
+            @include clearfix;
+
+            &__image {
+                float: left;
+                width: 100px;
+                img {
+                    width: 100%;
+                }
+            }
+            &__about {
+                float: right;
+                text-align: left;
+                &__name {
+                    font-family: $mincho;
+                    font-size: 12px;
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__prof {
+                text-align: right;
+                font-size: 12px;
+                a {
+                    margin-top: 50px;
+                    color: #000;
+                    display: inline-block;
+                }
+            }
+            
+        }
+    }
+}
+
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+
+.skincare_concept {
+    background-image: none;
+    min-width: 320px;
+    .sp_bg {
+        height: auto;
+        width: 100%;
+    }
+    .l-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+
+    .black__bg {
+        color: #000000;
+        background-color: #ffffff;
+        .black__bg__inner {
+            background-image: none;
+            min-width: 320px;
+        }
+    }
+
+
+    &__title {
+        @inlude clearfix;
+        position: absolute;
+        top: 45px;
+        width: 100%;
+
+        &__logo {
+            padding-top: 30px;
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 72px;
+            }
+        }
+        &__text {
+            font-size: 17.5px;
+            margin-top: 13px;
+        }
+    }
+    &__message {
+        height: auto;
+        margin-top: 45px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        &__title {
+            font-family: $mincho;
+            font-size: 25px;
+            width: auto;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 20px;
+            margin-top: 45px;
+            width: auto;
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 13px;
+            line-height: 30px;
+            margin-top: 25px;
+            width: auto;
+        }
+        &__aqmw {
+            font-family: $mincho;
+            font-size: 20px;
+            margin-top: 40px;
+            position: relative;
+            text-align: center;
+            width: auto;
+            span {
+                font-size: 10px;
+                position: absolute;
+                left: 47%;
+                top: -13px;
+            }
+        }
+    }
+    &__message__20160801 {
+        color: #000000;
+        &__note {
+            font-family: $mincho;
+            font-size: 10px;
+            line-height: 16px;
+            text-align: left;
+            text-indent: -3em;
+            padding-left: 3em;
+            width: auto;
+            margin: 50px 0 0;
+        }
+    }
+
+    &__seibun {
+        @include clearfix;
+        margin-top: 30px;
+        padding-bottom: 20px;
+
+        .l-container {
+            border: none;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 20px;
+            float: none;
+            line-height: 1;
+            margin-top: 110px;
+            text-align: center;
+            width: auto;
+        }
+    }
+    &__mutin ,
+    &__byakudan {
+        width: auto;
+        &__title {
+            font-family: $mincho;
+            font-size: 14px;
+            margin-top: 35px;
+            text-align: center;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 24px;
+            margin-top: 17px;
+        }
+    }
+    &__mutin  {
+        float: none;
+        &__title {
+        }
+        &__text {
+        }
+    }
+    &__byakudan {
+        float: none;
+        &__title {
+            line-height: 1.35;
+        }
+        &__text {
+        }
+    }
+
+
+
+    &__design {
+        margin-top: 15px;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        .l-container {
+            border-top: none;
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 20px;
+            margin-top: 22px;
+            margin-bottom: 22px;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 21px;
+            margin-top: 18px;
+        }
+        
+        .marcelwanders {
+
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 340px;
+            @include clearfix;
+
+            &__image {
+                float: left;
+            }
+            &__about {
+                float: right;
+                text-align: left;
+                &__name {
+                    font-family: $mincho;
+                    font-size: 12px;
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__prof {
+                text-align: right;
+                font-size: 12px;
+                a {
+                    margin-top: 50px;
+                    color: #000;
+                    display: inline-block;
+                }
+            }
+            
+        }
+    }
+}
+
+
+}

@@ -1,0 +1,43 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Effect
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          effect
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: { label: 名前 }
+        Category: { label: カテゴリ }
+        category_id: { label: カテゴリ }
+        priority: { label: 優先度 }
+        slug: { label: スラッグ }
+      list:
+        title: 効果 一覧
+        display: [ name, Category, slug, priority ]
+        object_actions:
+          _edit:   { label: 編集 }
+          _delete: { label: 削除, confirm: "本当に削除してもよろしいですか?" }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup, params: { onclick : "if (confirm('本当に本番反映してもよろしいですか?')) { return true; } else { return false; }" } }
+<?php endif ?>
+        batch_actions:
+          _delete: { label: 削除 }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup }
+<?php endif ?>
+      filter:
+        display: [ name, category_id ]
+      form:
+        display: [ name, category_id, slug, priority ]
+      edit:
+        title: 効果 編集
+      new:
+        title: 効果 新規作成

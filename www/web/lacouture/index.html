@@ -1,0 +1,43 @@
+<?php slot('description', 'ラクチュールのご紹介。ふわり、憧れ肌が舞い降りる。オーガニックコットンパウダー仕上げのラクチュール。コスメデコルテ。') ?>
+<?php slot('keywords', 'ラクチュール,lacouture,オーガニック,毛穴,ニキビ,美白,ファンデーション,化粧下地,カバー力,UV,紫外線,乾燥,小ジワ') ?>
+<?php slot('title', 'LACOUTURE') ?>
+<?php use_stylesheet('linetop.css') ?>
+<?php use_stylesheet('linetop-lacouture.css') ?>
+<?php use_stylesheet('news.css') ?>
+<script type="text/javascript">
+    var _dispItemList = '/product/lacouture/basemake/list';
+</script>
+
+<article>
+    <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+        <div class="l-container">
+            <h1><img src="/images/lacouture/sp/kv.jpg" alt="LACOUTURE" class="sp"><img src="/images/lacouture/kv.jpg" alt="LACOUTURE" class="pc"></h1>
+        </div>
+    </div>
+
+    <section class="concept bl l--fixed-submenu-anchor" data-name="Concept">
+        <div class="l-container">
+            <h1 class="concept__message__title">Concept</h1>
+            <span class="concept__message__lead">ふわり、秘密のラクチュール肌。</span> <a class="bl-bigger" href="concept.html">View More</a> </div>
+    </section>
+    <section class="product l--fixed-submenu-anchor" data-name="Products">
+        <div class="l-container">
+            <h1 class="product__title">Products</h1>
+            <div class="product__triggers" data-url="/product/lacouture/">
+                <div class="product__category m--select">
+                    <select class="product__category__select">
+                        <option value="basemake">Base Makeup</option>
+                        <option value="accessory">Accessories</option>
+                    </select>
+                    <span>View More</span> </div>
+                <div class="product__category m--list">
+                    <ul class="product__category__list">
+                        <li class="product__category__item m--active" data-type="basemake">Base Makeup</li>
+                        <li class="product__category__item" data-type="accessory">Accessories</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="dispItemList"></div>
+        </div>
+    </section>
+</article>

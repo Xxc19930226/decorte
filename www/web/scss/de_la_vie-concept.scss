@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+.mainContainer {
+    padding-top: 50px;
+}
+body {
+    background-color: #fef7f8;
+    background-image: url(../images/de_la_vie/bg_concept_02.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.concept {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    
+    &__title {
+        &__logo {
+            padding-top: 150px;
+            text-align: center;
+        }
+        &__text {
+            padding-top: 30px;
+            font-family: $mincho;
+            font-size: 32px;
+            text-align: center;
+        }
+    }
+
+    &__message {
+        @include clearfix;
+        margin-top: 105px;
+        padding-top: 45px;
+        &__image {
+            text-align: center;
+            width: 268px;
+        }
+        &__body {
+            width: 624px;
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 32px;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 32px;
+            line-height: 1.56;
+            margin-top: 20px;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 1.75;
+            margin-top: 25px;
+        }
+        &.haircare {
+            .concept__message__image {
+                float: left;
+            }
+            .concept__message__body {
+                float: right;
+                text-align: left;
+            }
+        }
+        &.bodycare {
+            .concept__message__image {
+                float: right;
+            }
+            .concept__message__body {
+                float: left;
+                text-align: right;
+            }
+        }
+    }
+
+
+.productLink {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+}
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+body {
+    background-image: url(../images/de_la_vie/sp/bg_concept_02.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+
+}
+
+.concept {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+    &__title {
+        &__logo {
+            padding-top: 70px;
+            text-align: center;
+            img {
+                width: 142px;
+            }
+        }
+        &__text {
+            padding-top: 17px;
+            font-family: $mincho;
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+
+    &__message {
+        @include clearfix;
+        background-size: 100% auto;
+        margin-top: 25px;
+        padding-top: 20px;
+        &__image {
+            text-align: center;
+            width: auto;
+            img {
+                height: auto;
+                width: 70px;
+            }
+        }
+        &__body {
+            margin-top:20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 18px;
+            text-align: center;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 16px;
+            line-height: 1.56;
+            margin-top: 20px;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 1.75;
+            margin-top: 10px;
+        }
+        &.haircare {
+            .concept__message__image {
+                float: none;
+            }
+            .concept__message__body {
+                float: none;
+                text-align: left;
+            }
+        }
+        &.bodycare {
+            background-image: url(../images/de_la_vie/sp/bg_concept_03.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            padding-top: 20px;
+            .concept__message__image {
+                float: none;
+            }
+            .concept__message__body {
+                float: none;
+                text-align: left;
+            }
+        }
+    }
+
+.productLink {
+    margin-top: 60px;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+}
+
+
+
+
+}

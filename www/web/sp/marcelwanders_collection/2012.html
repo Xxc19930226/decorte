@@ -1,0 +1,43 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'Marcel Wanders Collection コスメデコルテ　フェイスパウダーのご紹介。デザインの奇才、マルセル・ワンダースから、数量限定フェイスパウダーを、特別なあなたへ。') ?>
+<?php slot('keywords', 'Marcel Wanders,マルセル・ワンダース,ベースメイク,コスメデコルテ,コーセー,フェイスパウダー,透明感,カバー力,キメ,化粧もち') ?>
+<?php slot('title', 'Marcel Wanders Collection') ?>
+<?php slot('page_id', 'marcelwanders_collection') ?>
+<?php slot('back_link', '/sp/marcelwanders_collection/') ?>
+<?php use_javascript('sp/jquery.innerfade.js') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		resizeTopImage();
+		imagefador();
+	});
+	$( window ).resize(function() {
+		resizeTopImage();
+	});
+</script>
+
+<section class="line">
+  <p class="logo"><a href="/sp/marcelwanders_collection/"><img src="/images/sp/line/concept/marcelwanders_collection/logo.png" alt=""></a></p>
+  <div class="fador">
+    <ul>
+      <li><img src="/images/sp/line/concept/marcelwanders_collection/2012/top_main01.jpg" alt="" /></li>
+    </ul>
+  </div>
+  <div class="menu">
+    <ul>    
+      <li><a href="/sp/marcelwanders_collection/2012/concept.html">ひらめきの源。それは、目覚める妖精<em><br />
+        &nbsp;Compact Inspiration</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2012/story.html">目覚める妖精の物語<em><br />
+        &nbsp;Waking Beauty Story</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2012/item01.html">ワンダースと<br />
+コスメデコルテが融合して生まれたかたち<em><br />
+        &nbsp;Design and Pattern</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2012/item02.html">夢と現実のはざまで、美しさを想像するこころよ、目覚めて･･･<em><br />
+        &nbsp;Between dream and reality awakes the true soul of imagination</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/2012/item03.html">アイテム<em><br />
+        &nbsp;Item</em></a></li>
+      <li><a href="/sp/marcelwanders_collection/archive.html">過去のマルセル・ワンダース コレクション<em><br />
+        &nbsp;Archive</em></a></li>     
+    </ul>
+  </div>
+</section>

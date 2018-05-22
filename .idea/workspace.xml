@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0eab94a6-8295-4a80-aebc-cd585a3f29eb" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="220">
+                <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="indexSuccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/web/templates/main/indexSuccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="179" column="133" lean-forward="false" selection-start-line="179" selection-start-column="117" selection-end-line="179" selection-end-column="133" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/web/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="67" column="158" lean-forward="false" selection-start-line="67" selection-start-column="158" selection-end-line="67" selection-end-column="158" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Databasepass@2017</find>
+      <find>店铺信息</find>
+      <find>赋活精华露</find>
+      <find>热卖排行</find>
+      <find>JVYL</find>
+      <find>莹润粹白菁华液</find>
+      <find>AQ 珍萃精颜 悦活乳液</find>
+      <find>紫苏精华水</find>
+      <find>在线购买</find>
+      <find>JLSW</find>
+      <find>skincaresystem_step2-personal</find>
+      <find>jglv</find>
+      <find>特别保养</find>
+      <find>紧致</find>
+      <find>/movies/moisture_liposome_20171105.mp4</find>
+      <find>itemlist</find>
+      <find>产品</find>
+      <find>dispItemList1</find>
+      <find>dispItemList</find>
+      <find>日用化妆</find>
+      <find>logo_delavie</find>
+      <find>按产品</find>
+      <find>_header</find>
+      <find>瞬息尽收。从涂抹的那刻开始，一切，远胜想象。</find>
+      <find>Decorte2017</find>
+      <find>wap</find>
+      <find>AQMW 宝石光璨眼影</find>
+      <find>热卖</find>
+      <find>newitem-20170201a</find>
+      <find>news__list__item</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master\www\web\templates\product</dir>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master\www\web\templates\main</dir>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master\www\web\images</dir>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master</dir>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master\www</dir>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master\www\web\templates</dir>
+      <dir>D:\little project\decorte\decorte-cn-official-site-master\www\web</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/aq/JGEL.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/prime_latte/JLSP.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/vita_de_reve/JLIL.html" />
+        <option value="$USER_HOME$/Desktop/layout.php" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/clay_blanc/JLMY.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/cyclic_key/JLMA.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/aq/JGLK.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/showSuccess.php" />
+        <option value="$PROJECT_DIR$/www/web/templates/layout/layout.php" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/aq_meliority/JGDT.html" />
+        <option value="$PROJECT_DIR$/www/web/aq/index.html" />
+        <option value="$PROJECT_DIR$/www/web/liposome/index.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/layout/_header.php" />
+        <option value="$PROJECT_DIR$/www/web/moisture_liposome/index.html" />
+        <option value="$PROJECT_DIR$/www/web/css/linetop-moisture_liposome.css" />
+        <option value="$PROJECT_DIR$/www/web/line.html" />
+        <option value="$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGZY/JGZY.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/www/web/shop.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/aq_mw/JGZY.html" />
+        <option value="$PROJECT_DIR$/www/web/aq_mw/index.html" />
+        <option value="$PROJECT_DIR$/www/web/templates/main/indexSuccess.php" />
+        <option value="$PROJECT_DIR$/www/web/news.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-86" />
+    <option name="y" value="210" />
+    <option name="width" value="1920" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="decorte-cn-official-site-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decorte-cn-official-site-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="decorte-cn-official-site-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decorte-cn-official-site-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="decorte-cn-official-site-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decorte-cn-official-site-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="decorte-cn-official-site-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decorte-cn-official-site-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="decorte-cn-official-site-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decorte-cn-official-site-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JILL/jillstuart-cn-official-site-master" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\images\home\news\list_item" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\images\news" />
+      <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\images\home\news\list_item\sp" />
+      <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\templates\main" />
+      <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\aq_mw" />
+      <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\images\home\footer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0eab94a6-8295-4a80-aebc-cd585a3f29eb" name="Default" comment="" />
+      <created>1514024959862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514024959862</updated>
+      <workItem from="1514024961269" duration="4549000" />
+      <workItem from="1514107310730" duration="1804000" />
+      <workItem from="1514200085262" duration="7834000" />
+      <workItem from="1514209385953" duration="799000" />
+      <workItem from="1514212060802" duration="51000" />
+      <workItem from="1514256463898" duration="769000" />
+      <workItem from="1514347663087" duration="2005000" />
+      <workItem from="1514385873506" duration="1773000" />
+      <workItem from="1514435792135" duration="615000" />
+      <workItem from="1514466253925" duration="236000" />
+      <workItem from="1514517047897" duration="2198000" />
+      <workItem from="1514857771477" duration="2255000" />
+      <workItem from="1515388756207" duration="39000" />
+      <workItem from="1515504531807" duration="19000" />
+      <workItem from="1515504687623" duration="625000" />
+      <workItem from="1515585883283" duration="720000" />
+      <workItem from="1515756807955" duration="1184000" />
+      <workItem from="1516447476507" duration="6829000" />
+      <workItem from="1516850902746" duration="2045000" />
+      <workItem from="1518185329272" duration="2570000" />
+      <workItem from="1518222907195" duration="1240000" />
+      <workItem from="1519993488395" duration="156000" />
+      <workItem from="1520421289172" duration="1505000" />
+      <workItem from="1521203060977" duration="5575000" />
+      <workItem from="1521246199501" duration="517000" />
+      <workItem from="1521440059446" duration="5797000" />
+      <workItem from="1521547741276" duration="2780000" />
+      <workItem from="1521605267085" duration="1817000" />
+      <workItem from="1521856547910" duration="5334000" />
+      <workItem from="1522031187547" duration="3298000" />
+      <workItem from="1522154741866" duration="3315000" />
+      <workItem from="1522652757286" duration="3556000" />
+      <workItem from="1522659246553" duration="5270000" />
+      <workItem from="1522724712645" duration="2024000" />
+      <workItem from="1522731127518" duration="646000" />
+      <workItem from="1522849960399" duration="1991000" />
+      <workItem from="1523171978288" duration="3174000" />
+      <workItem from="1523244646891" duration="624000" />
+      <workItem from="1523355104740" duration="649000" />
+      <workItem from="1523888227815" duration="215000" />
+      <workItem from="1524196888451" duration="1382000" />
+      <workItem from="1524657462150" duration="338000" />
+      <workItem from="1524723140968" duration="1073000" />
+      <workItem from="1525260742086" duration="963000" />
+      <workItem from="1525337904768" duration="2853000" />
+      <workItem from="1525408267244" duration="432000" />
+      <workItem from="1525419345462" duration="409000" />
+      <workItem from="1525419994438" duration="57000" />
+      <workItem from="1525952795632" duration="1787000" />
+      <workItem from="1526281988191" duration="785000" />
+      <workItem from="1526282896393" duration="730000" />
+      <workItem from="1526533255239" duration="86000" />
+      <workItem from="1526555795012" duration="725000" />
+      <workItem from="1526781428406" duration="893000" />
+      <workItem from="1526870447348" duration="624000" />
+      <workItem from="1526907050827" duration="259000" />
+      <workItem from="1526958591087" duration="7871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="109669000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-86" y="210" width="1920" height="1030" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/web/images/line/moisture_liposome_org.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/line/moisture_liposome.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/lineindex/moisture_liposome.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="100" column="99" lean-forward="false" selection-start-line="100" selection-start-column="99" selection-end-line="100" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGKP/BK001.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGKD/051.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGAB/BE802.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGAL/BE372.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGAN/BK001.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGAT/BE350.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGBH/BE300.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGZY/BE382.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/JGGO.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/JGZV.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/JGZY.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGZY/JGZY.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="84" lean-forward="false" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/aq/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7199">
+          <caret line="313" column="10" lean-forward="false" selection-start-line="313" selection-start-column="10" selection-end-line="313" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#9;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#9;n#div#1;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#10;n#div#1;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#11;n#div#1;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1526533271690" expanded="true" signature="8126:8234" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="8248:8302" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="8371:8425" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="8494:8507" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="9147:9255" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="9269:9323" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="9398:9411" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="10053:10161" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="10175:10188" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="10838:10946" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="10960:10973" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="11614:11722" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="11736:11749" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="12393:12501" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="12515:12528" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="13275:13383" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="13397:13451" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="14205:14313" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="14327:14381" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="15137:15245" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="15259:15313" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="16048:16156" ph="..." />
+            <marker date="1526533271690" expanded="true" signature="16170:16224" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/footer/map.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/footer/map2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/product/custom_detail/aq_mw/JGZY.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/product/custom_detail/aq_mw/JGBH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/product/custom_detail/aq_mw/JGRO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/aq_mw/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="98" column="22" lean-forward="false" selection-start-line="90" selection-start-column="71" selection-end-line="98" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/product/_ranking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20170401f.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20180316.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20170201a-modal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20170201a-child-5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20161016c.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20161201a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20170401a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20170201a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20160516a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20160616c.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20170201a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20161201a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20161016c.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20160701b.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20160901a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20160801a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/news/list_item/news_bg_20161001a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/product/showSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="24" column="147" lean-forward="false" selection-start-line="24" selection-start-column="147" selection-end-line="24" selection-end-column="147" />
+          <folding>
+            <marker date="1514518957806" expanded="true" signature="12385:12391" ph=" " />
+            <marker date="1514518957806" expanded="true" signature="12391:12397" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20180522.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/main/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="179" column="133" lean-forward="false" selection-start-line="179" selection-start-column="117" selection-end-line="179" selection-end-column="133" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/moisture_liposome/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3195">
+          <caret line="42" column="187" lean-forward="false" selection-start-line="42" selection-start-column="187" selection-end-line="42" selection-end-column="187" />
+          <folding>
+            <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#article#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="67" column="158" lean-forward="false" selection-start-line="67" selection-start-column="158" selection-end-line="67" selection-end-column="158" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

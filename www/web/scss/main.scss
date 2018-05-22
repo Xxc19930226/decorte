@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+@import "font";
+
+
+@include global-reset;
+
+
+h1,h2,h3,h4,h5,h6,p,li,dt,dd,th,td,address {
+    font-family: $gothic;
+}
+a {
+    text-decoration: none;
+}
+.mainContainer {
+}
+.l--modal-trigger
+{
+    cursor: pointer;
+}
+.l--modal-wall
+{
+    background-color: rgba(255,255,255,.9);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#90ffffff,EndColorStr=#90ffffff);
+    height          : 100%;
+    left            : 0;
+    position        : fixed;
+    top             : 0;
+    width           : 100%;
+    z-index         : 10;
+
+    &.m--mode-black
+    {
+        background-color: rgba(0,0,0,.75);
+        filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#75000000,EndColorStr=#75000000);
+    }
+}
+.l--modal-clone
+{
+    border      : solid 1px #dddddd;
+    display     : none;
+    left        : 0;
+    overflow    : auto;
+    position    : fixed;
+    top         : 0;
+    z-index     : 10;
+    -webkit-overflow-scrolling: touch;
+
+    .togglebox
+    {
+        position: relative;
+
+        &__popup
+        {
+            bottom          : 22px;
+            left            : 0;
+            position        : absolute;
+
+            .togglebox__text-container
+            {
+                @include box-shadow(rgba(black, 0.25) 0 0 8px);
+                background-color: #fff;
+                display         : block;
+                overflow        : auto;
+                padding         : 0 16px;
+                position        : relative;
+                width           : 90%;
+            }
+        }
+    }
+}
+.l--modal-window
+{
+    display: none;
+
+    &__close
+    {
+        background-image    : image-url("parts/g3005.png");
+        background-position : center;
+        background-repeat   : no-repeat;
+        background-size     : contain;
+        cursor              : pointer;
+        height              : 32px;
+        position            : absolute;
+        right               : 16px;
+        top                 : 16px;
+        width               : 32px;
+        &:after {
+            content: "CLOSE";
+            font-size: 12px;
+            font-family: $mincho;
+            position: absolute;
+            right: -4px;
+            top: 45px;
+        }
+    }
+}
+.l--liposome-movie
+{
+    background-color: rgba(0,0,0,.9);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#90000000,EndColorStr=#90000000);
+    display : none;
+    height  : 100%;
+    left    : 0;
+    position: fixed;
+    top     : 0;
+    width   : 100%;
+    z-index : 20;
+
+    &__container
+    {
+        position: relative;
+    }
+    &__close
+    {
+        cursor  : pointer;
+        position: absolute;
+        right   : 32px;
+        top     : 32px;
+    }
+}
+
+@include min-screen($pc_width) {
+    .pc {
+        display: block;
+    }
+    .sp {
+        display: none;
+    }
+}
+@include max-screen($sp_width) {
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    body {
+        min-width: 320px;
+    }
+    .l--modal-window
+    {
+        &__close
+        {
+            height  : 16px;
+            width   : 16px;
+            &:after {
+                font-size: 10px;
+                right: -8px;
+                top: 24px;
+            }
+          }
+    }
+}
+
+
+@import "header";
+@import "headerProductsMenu";
+@import "lineShare";
+@import "fixed-submenu";
+@import "globalFooter";

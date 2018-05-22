@@ -1,0 +1,133 @@
+.mainContainer {
+    padding-top: 50px;
+}
+/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/honeydew/kv.jpg?1457673566');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 1200px;
+	height: 700px
+}
+*/
+
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+}
+.concept__message__lead{
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 50px;
+	text-align: center;
+  display: block;
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+}
+
+.concept {
+    background-image: url("/images/honeydew/bg_concept_01.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #f1c14f;
+    height: 260px;
+    margin: 0;
+    padding: 100px 0 0;
+}
+.concept .l-container {
+    margin: 0 auto auto;
+    color: #fff;
+    padding: 0;
+}
+.concept a {
+    border: 1px solid #fff;
+    margin: 30px auto 0;
+    width: 130px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: hy,"Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+.product {
+}
+.product .l-container {
+    border-top: none;
+}
+.product .itemlist__item {
+    margin: 50px auto 0;
+    float: none;
+}
+
+
+@media screen and (max-width: 736px) {
+.l-container {
+    margin-top: 0;
+}
+
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+.concept__message__title{
+	font-size: 20px;
+  line-height: normal;
+}
+
+.concept__message__lead{
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.concept__message__lead span{
+	display:inline-block;
+	padding-bottom:0.5em;
+}
+
+.concept__message__text{
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.concept {
+  height: 142px;
+  background-size: cover;
+  padding: 50px 0 30px;
+  line-height: 20px;
+}
+.concept a {
+  font-size: 10px;
+  width: 100px;
+  line-height: 20px;
+  margin: 20px auto 0;
+}
+
+
+
+}

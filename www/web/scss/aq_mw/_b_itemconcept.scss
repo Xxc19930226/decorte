@@ -1,0 +1,382 @@
+@charset "UTF-8";
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+body {
+}
+.basemake_concept {
+    background-image: image-url('aq_mw/bg_concept_base_a.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-width: 1200px;
+    
+    .l-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1140px;
+    }
+
+
+
+    &__title {
+        @inlude clearfix;
+        position: relative;
+        top: 50px;
+        &__logo {
+            padding-top: 100px;
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 162px;
+            }
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 32px;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+
+    &__message {
+        height: 412px;
+        margin-top: 24%;
+        text-align: center;
+        &__title {
+            font-family: $mincho;
+            font-size: 22px;
+            width: 660px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 32px;
+            margin-left: auto;
+            margin-right: 0;
+            margin-top: 30px;
+            line-height: 1.6;
+            width: 660px;
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 40px;
+            width: 660px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+    &__tsuyahada {
+        @include clearfix;
+        background-image: image-url('aq_mw/bg_concept_base_b.jpg');
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        padding-bottom: 200px;
+
+        &__title {
+            font-family: $mincho;
+            font-size: 22px;
+            line-height: 1.6;
+            margin-top: 100px;
+            text-align: center;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+        .powder {
+            border-top: 1px solid #cccccc;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 900px;
+            &__title {
+                font-family: $mincho;
+                font-size: 22px;
+                margin-top: 50px;
+                text-align: center;
+            }
+            &__lead {
+                font-family: $mincho;
+                font-size: 16px;
+                margin-top: 30px;
+                text-align: center;
+            }
+            &__detail {
+                @include clearfix;
+                margin-top: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 800px;
+
+                &__image {
+                    float: left;
+                }
+                &__group {
+                    float: left;
+                    margin-left: 20px;
+                }
+                &__title {
+                    font-family: $mincho;
+                    font-size: 16px;
+                    margin-left: 120px;
+                }
+                &__text {
+                    font-size: 12px;
+                    line-height: 21px;
+                    margin-top: 10px;
+                    margin-left: 120px;
+                }
+            }
+        }
+    }
+
+
+
+    &__design {
+        padding-bottom: 250px;
+        .marcelwanders {
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 340px;
+            @include clearfix;
+
+            &__image {
+                float: left;
+            }
+            &__about {
+                float: right;
+                text-align: left;
+                &__name {
+                    font-family: $mincho;
+                    font-size: 12px;
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__prof {
+                text-align: right;
+                font-size: 12px;
+                a {
+                    margin-top: 50px;
+                    color: #000;
+                    display: inline-block;
+                }
+            }
+            
+        }
+    }
+}
+
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+body {
+    background-image: none;
+}
+
+.basemake_concept {
+    min-width: 320px;
+    background-image: none;
+    .sp_bg {
+        height: auto;
+        width: 100%;
+    }
+    .l-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+
+
+    &__title {
+        @inlude clearfix;
+        position: absolute;
+        top: 45px;
+        width: 100%;
+
+        &__logo {
+            padding-top: 30px;
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 72px;
+            }
+        }
+        &__text {
+            font-size: 17.5px;
+            margin-top: 13px;
+        }
+    }
+
+    &__message {
+        height: auto;
+        margin-top: 45px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        &__title {
+            font-family: $mincho;
+            font-size: 25px;
+            width: auto;
+            line-height: 1.5;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 22px;
+            line-height: 30px;
+            margin-top: 45px;
+            width: auto;
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 13px;
+            line-height: 30px;
+            margin-top: 25px;
+            width: auto;
+        }
+    }
+    &__tsuyahada {
+        @include clearfix;
+        background-image: none;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 100px;
+        width: 90%;
+
+        &__title {
+            font-family: $mincho;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 110px;
+            text-align: center;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 13px;
+            line-height: 30px;
+            margin-top: 25px;
+            width: auto;
+        }
+        
+        .powder {
+            border-top: none;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            &__title {
+                font-family: $mincho;
+                font-size: 18px;
+                line-height: 1.6;
+                margin-top: 50px;
+                text-align: center;
+            }
+            &__lead {
+                font-family: $mincho;
+                font-size: 16px;
+                margin-top: 15px;
+                text-align: center;
+            }
+            &__detail {
+                @include clearfix;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+
+                &__image {
+                    float: none;
+                    text-align: center;
+                }
+                &__group {
+                    float: none;
+                    margin-left: 20px;
+                }
+                &__title {
+                    font-family: $mincho;
+                    font-size: 16px;
+                    margin-left: 0;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+                &__text {
+                    font-size: 12px;
+                    line-height: 21px;
+                    margin-top: 10px;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+
+
+    &__design {
+        
+        .marcelwanders {
+            display: none;
+
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 340px;
+            @include clearfix;
+
+            &__image {
+                float: left;
+            }
+            &__about {
+                float: right;
+                text-align: left;
+                &__name {
+                    font-family: $mincho;
+                    font-size: 12px;
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__prof {
+                text-align: right;
+                font-size: 12px;
+                a {
+                    margin-top: 50px;
+                    color: #000;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
+}

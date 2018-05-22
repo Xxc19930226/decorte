@@ -1,0 +1,178 @@
+.mainContainer {
+    padding-top: 50px;
+}
+.concept {
+    background-image: url(../images/de_la_vie/bg_concept_01.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 100%;
+}
+.concept .l-container {
+    margin-top: 0;
+    padding: 0;
+}
+.concept__message__title {
+    color: #FFF;
+	font-family: hy;
+    font-size: 32px;
+    padding-top: 100px;
+    text-align: center;
+}
+.concept__message__lead {
+    color: #FFF;
+	font-family: hy;
+    font-size: 22px;
+    padding-top: 50px;
+    text-align: center;
+}
+.concept__btn {
+    padding-top: 27px;
+    text-align: center;
+}
+.concept__btn a {
+    border: 1px solid #FFF;
+    color: #FFF;
+    display: inline-block ;
+    font-size: 12px;
+    padding: 15px 30px;
+}
+.product .l-container {
+    border-top: none;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+
+
+.steplink .l-steplink__container {
+    height: 80px
+}
+.steplink .step__shortcut__item.m-basic a {
+    height: 70px;
+    padding-top: 16px;
+    width: 180px;
+}
+
+.steplink .l-step1__link1 {
+    left: 60px;
+    top: 0
+}
+
+.steplink .l-step2__link1 {
+    left: 260px;
+    top: 0
+}
+
+.steplink .l-step3__link1 {
+    left: 460px;
+    top: 0
+}
+
+.steplink .l-step4__link1 {
+    left: 660px;
+    top: 0
+}
+
+.skincaresystem__step__header h2 {
+    font-size: 20px;
+}
+
+.category__bodycare ,
+.category__haircare {
+    margin-top: 76px;
+}
+
+
+@media screen and (max-width: 736px) {
+
+
+
+.concept {
+    height: auto;
+}
+.l-container {
+    margin-top: 0;
+    padding-top: 80px;
+}
+.concept .l-container {
+    background-image: url(../images/de_la_vie/sp/bg_concept_01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 170px;
+    margin-top: 0;
+    width: 100%;
+}
+.concept__message__title {
+    color: #FFF;
+	font-family: hy;
+    font-size: 22px;
+    padding-top: 30px;
+    text-align: center;
+}
+.concept__message__lead {
+    color: #FFF;
+	font-family: hy;
+    font-size: 16px;
+    padding-top: 25px;
+    text-align: center;
+}
+.concept__btn {
+    padding-top: 13px;
+    text-align: center;
+}
+.concept__btn a {
+    border: 1px solid #FFF;
+    color: #FFF;
+    display: inline-block ;
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.product .l-container {
+    border-top: none;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.steplink .l-steplink__container {
+    height: 290px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto
+}
+.steplink .step__shortcut__item.m-basic a {
+    height: 50px;
+    padding-top: 10px;
+    width: 180px;
+}
+
+.steplink .l-step1__link1 {
+    left: 0;
+    top: 0;
+}
+
+.steplink .l-step2__link1 {
+    left: 0;
+    top: 70px;
+}
+
+.steplink .l-step3__link1 {
+    left: 0;
+    top: 140px;
+}
+
+.steplink .l-step4__link1 {
+    left: 0;
+    top: 210px;
+}
+
+.skincaresystem__step__header h2 {
+    font-size: 16px;
+}
+
+
+
+
+}

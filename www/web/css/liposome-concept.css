@@ -1,0 +1,502 @@
+﻿
+#l--embed-player__video {
+    display: block;
+    width: 100%;
+}
+.mainContainer {
+    padding-top: 50px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.liposome_concept {
+	background-image: url('/images/liposome/bg_concept_02.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#f8f9fa;
+	color:#000000;
+  min-width: 1200px;
+}
+.liposome_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px;
+}
+.liposome_concept .l-container:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.liposome_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.liposome_concept__title__logo {
+	padding-top: 158px
+}
+.liposome_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:180px
+}
+
+.liposome_concept__message {
+	height: 450px;
+}
+
+
+.liposome_concept__title__text{
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+.liposome_concept__message__title {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 285px;
+}
+.liposome_concept__message__copy {
+	font-family: hy;
+	font-size: 22px;
+	line-height:1.6em;
+	margin-top:40px;
+}
+.liposome_concept__message__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 40px;
+	line-height:1.6em;
+	position:relative;
+}
+
+.liposome_concept__message__lead  span.rubi{
+	font-size: 10px;
+	position:absolute;
+	display:block;
+	left:493px;
+	top:-28px;
+}
+
+.liposome_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+	width: 800px
+}
+
+.liposome_concept__message__text span{
+	font-size:12px;
+}
+
+
+.liposome_concept__seibun .l-container{
+	padding-bottom:220px;
+}
+
+
+.liposome_concept__seibun__capaciter{
+	width: 750px;
+	float: left; 
+	margin-top: 40px;
+}
+
+
+
+.liposome_concept__seibun__capsule{
+	width: 350px; 
+	float: left; 
+    margin-left: 20px;
+	margin-top: 40px;
+}
+
+
+.liposome_concept__seibun__title{
+	width: 390px;
+	padding-top: 200px;
+	padding-bottom:200px;
+	float:left;
+	font-family: hy;
+	font-size: 22px;
+	
+}
+
+.liposome_concept__seibun__capaciter__block,
+.liposome_concept__seibun__capsule__block{
+	width: 360px;
+	float:left;
+}
+
+.liposome_concept__seibun__text{
+	font-size: 12px;
+	line-height:21px;
+	margin-top: 40px;
+}
+
+.liposome_concept__seibun__copy{
+	font-family: hy;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.liposome_concept__seibun__text,
+.liposome_concept__seibun__capsule{
+	font-size: 12px;
+	line-height:21px;
+}
+
+.liposome_concept__seibun__text{
+	margin-bottom:40px;
+	
+}
+
+
+.liposome_concept__seibun__capaciter ul:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+.liposome_concept__seibun__capaciter ul li{
+	float:left;
+	width:160px;
+	display:block;
+	margin-right:10px;
+	font-size:10px;
+	text-align:center;
+}
+
+.liposome_concept__seibun__capaciter .image__note{
+	font-size:12px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:10px;
+	
+}
+
+.liposome_concept__seibun__capaciter ul li span.title{
+	display: block;
+	border: 1px solid #000000;
+	text-align:center;
+	padding: 10px 0;
+	margin-bottom:100px;
+	font-size: 12px;
+}
+
+.liposome_concept__seibun__capaciter ul li span.text{
+	display: block;
+	font-size: 10px;
+}
+
+.liposome_concept__seibun .l-container:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.liposome_concept__seibun__capaciter ul li.small{
+	background-image: url('/images/liposome/skin_01.png?1457850323');
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+}
+.liposome_concept__seibun__capaciter ul li.large{
+	background-image: url('/images/liposome/skin_02.png?1457850323');
+	background-position: 50% 60%;
+	background-repeat: no-repeat;
+}
+
+.liposome_concept__seibun__capsule__text img{
+	float: left;
+	margin-right:20px;
+}
+
+
+.liposome_concept__seibun__capsule__text:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.liposome_concept__seibun__capsule__text span{
+	display:block;
+	font-size:10px;
+}
+
+.movie {
+    background-image: url(/images/liposome/160326lipo_tech.gif);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 140px;
+}
+.movie p {
+    text-align: right;
+    padding-right: 70px;
+}
+.movie__title {
+    color: #000;
+    font-size: 30px;
+	font-family: hy;
+  line-height: 1.6;
+}
+.movie__link {
+    margin-top: 30px;
+}
+.movie__link a {
+    border: 1px solid #000;
+    color: #000;
+	font-family: hy;
+    padding: 13px 30px;
+}
+.movie__link a.pc {
+    display: inline-block;
+}
+
+.liposome_miryoku {
+    padding: 50px 0 100px;
+}
+.liposome_miryoku__link {
+    text-align: center;
+}
+.liposome_miryoku__link a {
+    border: 1px solid #000;
+    color: #000;
+    font-family: hy;
+    padding: 13px 30px;
+    display: inline-block;
+}
+
+.productLink {
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 14px 55px;
+}
+
+
+@media screen and (max-width: 736px) {
+
+.keyvisual {
+    background: #000;
+}
+
+.liposome_concept {
+	background-image: none;
+    min-width: 100%;
+    position: relative;
+}
+.liposome_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+
+
+.liposome_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.liposome_concept__title {
+    @inlude clearfix;
+	position: absolute;
+	top: 60px;
+	width: 100%
+}
+.liposome_concept__title__logo {
+	padding-top: 10px
+}
+.liposome_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 115px
+}
+.liposome_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+.liposome_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom:0;
+}
+.liposome_concept__message__title {
+	font-family: hy;
+	font-size: 25px;
+	width: auto;
+    margin-top: 0;
+	line-height:1.6em;
+}
+.liposome_concept__message__lead {
+	font-family: hy;
+	font-size: 20px;
+	margin-top: 20px;
+	width: auto
+}
+
+.liposome_concept__message__lead span.rubi {
+    left: 41%;
+	top:13%;
+	font-size:8px
+}
+
+.liposome_concept__message__text {
+	font-family: hy;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: 25px;
+	width: auto
+}
+
+.liposome_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+	background-image: url('/images/liposome/sp/bg_concept_aging_03.jpg?1457853504');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+	padding-bottom: 50px;
+	border-top:1px solid #EEEEEE;
+}
+.liposome_concept__seibun .l-container {
+	border: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.liposome_concept__seibun__capaciter {
+    float: none;
+    margin-top: 0;
+    width: auto;
+}
+
+.liposome_concept__seibun__copy{
+	font-size: 13px;
+}
+
+.liposome_concept__seibun__text{
+	font-size: 12px;
+	line-height:1.6em;
+	margin-top: 10px;
+}
+
+.liposome_concept__seibun__capaciter__block, 
+.liposome_concept__seibun__capsule__block {
+    float: none;
+    width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.liposome_concept__seibun__capaciter__block ul{
+	width:auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+.liposome_concept__seibun__capaciter__block ul li{
+	display:inline-block;
+	width: 45%;
+}
+
+.liposome_concept__seibun__title {
+	width:auto;
+	float:none;
+	font-size: 20px;
+	line-height: 48px;
+	margin-top: 0;
+	text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+
+.liposome_concept__seibun__capsule {
+    float: none;
+    width: auto;
+    margin-left: 0;
+}
+
+.liposome_concept__seibun__capsule__text img {
+    width: 75px;
+	height:auto;
+}
+
+.movie {
+    background-image: url(/images/liposome/160326lipo_tech.gif);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding:0;
+}
+.opacitybg {
+    padding-bottom: 120px;
+    padding-top: 140px;
+    background-color: rgba(255,255,255,0.5);
+}
+.movie p {
+    text-align: center;
+    padding-right: 10px;
+}
+.movie__title {
+    color: #000;
+    font-size: 30px;
+    font-family: hy;
+    text-align: center;
+}
+.movie__link {
+    margin-top: 30px;
+    text-align: center;
+}
+.movie__link a {
+    border: 1px solid #000;
+    color: #000;
+	font-family: hy;
+    padding: 13px 30px;
+}
+.movie__link a.pc {
+    display: none;
+}
+.movie__link a.sp {
+    display: inline-block;
+}
+
+.productLink {
+    margin-top: 0;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+
+}
+

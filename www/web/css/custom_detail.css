@@ -1,0 +1,975 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* color */
+
+.itemdetail__colortext{
+	font-size: 12px;
+	padding: 20px 0 10px 30px;
+}
+
+@media screen and (max-width: 736px) {
+
+.itemdetail__colortext{
+	padding: 0;
+	text-align:center;
+	}
+
+.JGAT__colors {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.JGAT__colors .itemdetail__colors:first-child{
+
+}
+.JGAT__colors .itemdetail__colors{
+	padding-top:10px;
+}
+}
+@media screen and (max-width: 736px) {
+
+.basemake li{
+	width: 35px;
+}
+
+.JGOU__colors ul li img{
+	width:35px;
+}
+
+.JIRU__colors ul li img,
+.JINU__colors ul li img,
+.JILU__colors ul li img{
+	width:35px;
+}
+
+}
+
+.wrap {
+	margin: 30px;
+}
+.color_map_link {
+	display: inline-block;
+	font-family: hy,"Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+/*       background-image: url("../images/itemdetail/icon_right.png");
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-size: 8px auto;*/
+    color: #000;
+    font-size: 10px;
+    padding-right: 12px;
+	margin-left:15px;
+}
+
+.color_map_link i{
+	display: inline-block;
+	margin-left:5px;
+}
+
+
+.black .color_map_link{
+	color:#FFFFFF;
+}
+
+.color_map p{
+	padding: 20px 40px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+
+.color_map p img{
+	margin: 0 auto;
+}
+
+/*
+.color_map img{
+	width:100%;
+	height: auto;
+}
+*/
+
+@media screen and (max-width: 736px) {
+.color_map p{
+	padding: 20px 10px;
+}
+
+.itemdetail__colors:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.color_map_link {
+    padding-right: 12px;
+	margin-top: 20px;
+	font-size: 10px;
+    background-size: 6px auto;
+    background-position: right 50%;
+	margin-left:10px;
+	float:right;
+}
+
+.color_map img{
+	width:100%;
+	height: auto;
+}
+
+}
+
+.howto_btn {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	font-size: 13px;
+}
+.howto_btn span.title {
+	padding: 8px 16px;
+	display: inline-block;
+	background-color: #EEEEEE;
+}
+.howto_btn span.text {
+	padding: 8px 50px 8px 30px;
+	display: inline-block;
+/*    background-image: url("../images/itemdetail/icon_right-mini.png");
+    background-position: 97% 49%;
+    background-size: 8px auto;
+	background-repeat: no-repeat;*/
+}
+
+@media screen and (max-width: 736px) {
+
+.howto_btn {
+	font-size: 9px;
+}
+
+.howto_btn span.title {
+	padding: 8px 5px;
+	display: inline-block;
+	background-color: #EEEEEE;
+}
+
+.howto_btn span.text {
+	padding: 8px 25px 8px 15px;
+    background-size: 5px auto;
+}
+
+}
+
+.howto{
+	background-color: #FFFFFF;
+}
+
+
+.howto .wrap{
+	padding:60px;
+/*	max-width:600px;*/
+	margin: 0 auto;
+}
+
+
+.howto h1 {
+	font-size: 16px;
+	width: 200px;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000000;
+}
+.howto h2 {
+	font-family: hy;
+	font-size: 16px;
+	margin-top : 10px;
+	margin-bottom : 20px;
+	line-height: 1.6em;
+
+}
+.howto p {
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.howto strong {
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.howto p.lead {
+	margin-bottom: 10px;
+}
+.howto img.fright {
+	float: right;
+}
+.howto img.fleft {
+	float: left;
+}
+.howto .center {
+	text-align: center;
+}
+.howto:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+@media screen and (max-width: 736px) {
+
+.howto .wrap{
+	padding: 20px;
+
+}
+
+.howto h1 {
+	font-size: 12px;
+	width: 100px;
+	}
+
+.howto h2 {
+	font-size: 14px;
+}
+
+.howto p {
+	font-size: 12px;
+}
+
+}
+
+
+.clay_blanc_JLMY .flow:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.clay_blanc_JLMY .flow {
+	margin-top: 20px;
+}
+.clay_blanc_JLMY .flow div {
+	width: 32%;
+	float: left;
+	text-align: center;
+	background-image: url("/images/product/clay_blanc/howto/JLMY/icon.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.clay_blanc_JLMY .flow div img {
+	margin: 20px 0;
+}
+.clay_blanc_JLMY .flow div:last-child {
+	background-image: none
+}
+
+@media screen and (max-width: 736px) {
+	.clay_blanc_JLMY .flow div {
+	width: auto;
+	float: none;
+	background-image: none;
+	margin-bottom:30px;
+	}
+
+.clay_blanc_JLMY .flow div img {
+	width:75px;
+	margin:0 auto;
+}
+
+}
+
+.cyclic_key_JLMA .flow:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.cyclic_key_JLMA .flow {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.cyclic_key_JLMA .flow div {
+	width: 49%;
+	float: left;
+	text-align: center;
+	background-image: url("/images/product/clay_blanc/howto/JLMY/icon.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.cyclic_key_JLMA .flow div img {
+	margin: 20px 0;
+}
+.cyclic_key_JLMA .flow p {
+	max-width: 400px;
+	text-align: left;
+	margin: 10px 20px;
+}
+.cyclic_key_JLMA .flow div:last-child {
+	background-image: none
+}
+.cyclic_key_JLMA .tecnique {
+	border-top: 1px solid #CCCCCC;
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 736px) {
+.cyclic_key_JLMA .flow div {
+	width: auto;
+	float: none;
+	background-image: none;
+	margin-bottom:30px;
+	}
+.cyclic_key_JLMA .flow div img {
+	width:75px;
+	margin:0 auto;
+}
+
+.cyclic_key_JLMA .tecnique {
+    padding: 10px 20px;
+}
+
+}
+
+.prime_latte_JLSP .flow:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.prime_latte_JLSP .flow {
+	margin-top: 20px;
+}
+.prime_latte_JLSP .flow div {
+	width: 32%;
+	float: left;
+	text-align: center;
+	background-image: url("/images/product/clay_blanc/howto/JLMY/icon.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.prime_latte_JLSP .flow div p.text {
+	text-align:left;
+	max-width:300px;
+	margin:0 auto;
+}
+
+.prime_latte_JLSP .flow div p.image {
+	height: 206px;
+}
+
+.prime_latte_JLSP .flow div p img {
+	margin: 20px 0;
+}
+
+.prime_latte_JLSP .flow div p img.first{
+	margn-top:30px;
+}
+
+
+
+
+.prime_latte_JLSP .flow div:last-child {
+	background-image: none
+}
+@media screen and (max-width: 736px) {
+.prime_latte_JLSP .flow div {
+	width: auto;
+	float: none;
+	background-image: none;
+	margin-bottom: 10px;
+	}
+
+.prime_latte_JLSP .flow div img {
+	width:75px;
+	margin:10px auto;
+}
+
+.prime_latte_JLSP .flow div p.image {
+	height: auto;
+}
+
+.prime_latte_JLSP .flow div p img.first{
+	margn-top:0;
+}
+
+.prime_latte_JLSP .flow div p.text {
+	text-align:center;
+}
+
+.prime_latte_JLSP .flow div p img {
+	margin:10px auto;
+
+}
+
+}
+
+.vita_de_reve_JLIL .mask:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.vita_de_reve_JLIL .mask {
+	margin-top: 30px;
+}
+.vita_de_reve_JLIL .mask img {
+	margin-right: 20px;
+}
+.vita_de_reve_JLIL .mask p {
+	padding-top: 100px;
+}
+.vita_de_reve_JLIL .mask {
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 736px) {
+
+.vita_de_reve_JLIL .mask{
+	text-align: center;
+	font-size:9px;
+}
+
+.vita_de_reve_JLIL .mask img {
+	width:125px;
+}
+
+.vita_de_reve_JLIL .mask img.fleft {
+	float: none;
+	margin: 0 auto;
+}
+
+.vita_de_reve_JLIL .mask {
+	margin-top: 0;
+}
+
+.vita_de_reve_JLIL .mask p {
+	padding-top: 0;
+}
+
+.vita_de_reve_JLIL .mask p span{
+	font-size: 10px;
+}
+
+.vita_de_reve_JLIL .use img {
+	width:75px;
+}
+
+}
+
+
+.aq_mw_JGEI .flow:after,
+.aq_mw_JGEI .step1:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.aq_mw_JGEI .step1 .image{
+	float: right;
+	width:150px;
+	text-align:center;
+}
+
+
+.aq_mw_JGEI .flow {
+	margin-top: 20px;
+}
+.aq_mw_JGEI .flow div {
+	width: 32%;
+	float: left;
+	text-align: center;
+	background-image: url("/images/product/clay_blanc/howto/JLMY/icon.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.aq_mw_JGEI .flow div img {
+	margin: 20px 0;
+}
+.aq_mw_JGEI .flow div:last-child {
+	background-image: none
+}
+.aq_mw_JGEI .flow p {
+	text-align: left;
+	max-width: 180px;
+	margin: 0 auto;
+}
+.aq_mw_JGEI .flow p.image {
+	height: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 736px) {
+.aq_mw_JGEI .flow div {
+	width: auto;
+	float: none;
+	background-image:none;
+	margin-bottom: 20px;
+}
+
+.aq_mw_JGEI .step1 p.image{
+	width:120px;
+	font-size:10px;
+	height: auto;
+}
+.aq_mw_JGEI .step1 .image img{
+	width:60px;
+}
+
+.aq_mw_JGEI .flow img{
+	width:60px;
+	margin:0 auto;
+}
+
+.aq_mw_JGEI .flow p.image{
+	height: auto;
+}
+
+.aq_mw_JGEI .flow div img {
+	margin: 0;
+}
+
+}
+
+.cosme_decorte_JQZC h2{
+	margin-top:20px;
+}
+
+
+.cosme_decorte_JQZC .description:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.cosme_decorte_JQZC .description div.image {
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+    width: 33%;
+}
+
+.cosme_decorte_JQZC .description div.image img{
+    width: 220px;
+	height: auto;
+}
+
+.cosme_decorte_JQZC .description div.name {
+    float: left;
+    margin-left: 5%;
+    width: 56%;
+}
+
+.cosme_decorte_JQZC .description div.name p{
+	margin-bottom:10px;
+}
+
+.cosme_decorte_JQZC .description div.name strong{
+	font-weight: bold;
+	color: #666666;
+}
+
+
+.cosme_decorte_JQZC .flow:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.cosme_decorte_JQZC .flow {
+	margin-top: 20px;
+}
+.cosme_decorte_JQZC .flow div {
+	width: 49%;
+	float: left;
+	text-align: center;
+	background-image: url("/images/product/clay_blanc/howto/JLMY/icon.png");
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.cosme_decorte_JQZC .flow div img {
+	margin: 20px auto;
+}
+.cosme_decorte_JQZC .flow p {
+	max-width: 400px;
+	text-align: left;
+	margin: 10px 20px;
+}
+.cosme_decorte_JQZC .flow p.center {
+	text-align: center;
+}
+
+
+.cosme_decorte_JQZC .flow div:last-child {
+	background-image: none
+}
+.cosme_decorte_JQZC ul {
+	font-size: 14px;
+	line-height:1.7em;
+	margin-bottom:40px;
+}
+.cosme_decorte_JQZC .ytlink {
+	display: block;
+	padding: 10px;
+	background-color: #666666;
+	color: #FFFFFF;
+	width: 400px;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 14px;
+	text-decotration:none;
+}
+@media screen and (max-width: 736px) {
+
+.cosme_decorte_JQZC .description div.image {
+	float: none;
+	width: auto;
+	text-align: center;
+}
+
+.cosme_decorte_JQZC .description div.image img{
+	width: 135px;
+	height: auto;
+}
+
+.cosme_decorte_JQZC .description div.name {
+	width: auto;
+	float: left;
+	margin-left: 0;
+}
+
+.cosme_decorte_JQZC .flow {
+	margin-top: 20px;
+}
+.cosme_decorte_JQZC .flow div {
+	width: auto;
+	float: none;
+	text-align: left;
+	background-image: none;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+.cosme_decorte_JQZC .flow div img {
+	margin: 20px auto;
+	width: 96px;
+}
+.cosme_decorte_JQZC .flow p {
+	max-width: auto;
+	text-align: left;
+	margin: 0;
+}
+
+.cosme_decorte_JQZC ul {
+	font-size: 12px;
+}
+.cosme_decorte_JQZC .ytlink {
+	display: block;
+	padding: 10px;
+	background-color: #666666;
+	color: #FFFFFF;
+	width: auto;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 10px;
+}
+
+}
+.aq_mw_JGBU .step1 ,
+.aq_mw_JGBU .step2 {
+	margin-bottom: 20px;
+}
+
+.aq_mw_JGBU .step2 img{
+	margin-bottom: 20px;
+}
+
+
+.aq_mw_JGBU .step3 {
+	margin-top: 20px;
+}
+.aq_mw_JGBU .step3:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+@media screen and (max-width: 736px) {
+.aq_mw_JGBU .step1 img,
+.aq_mw_JGBU .step2 img{
+	width: 175px;
+	height: auto;
+}
+
+.aq_mw_JGBU .step3 img{
+	width: 62px;
+	height: auto;
+
+}
+}
+
+
+.aq_mw_JGBH .step1 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.aq_mw_JGBH .step1:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+@media screen and (max-width: 736px) {
+.aq_mw_JGBH .step1 img{
+	width: 87px;
+	height: auto;
+}
+
+.aq_mw_JGBH .step2 img{
+	width: 64px;
+	height: auto;
+}
+}
+.aq_mw_JGKD .step1:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.aq_mw_JGKD .step2 p:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.aq_mw_JGKD .step2 p{
+	margin-bottom: 20px;
+}
+
+
+.aq_mw_JGKD .step1 .image{
+	width:45%;
+	float:left;
+	margin-left: 1%;
+}
+
+.aq_mw_JGKD .step1 .image img{
+	width: 100%;
+	height:auto;
+	max-width:350px;
+}
+
+
+.aq_mw_JGKD .step1 .text{
+	width:50%;
+	float:left;
+}
+
+.aq_mw_JGKD .howtomake {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 736px) {
+
+.aq_mw_JGKD .step1 .image,
+.aq_mw_JGKD .step1 .text{
+	float: none;
+	width: auto;
+	margin-left: 0;
+}
+
+.aq_mw_JGKD .step1 .image img{
+	width: 175px;
+	height: auto;
+}
+
+.aq_mw_JGKD .step2 img{
+	width: 67px;
+	height: auto;
+}
+
+.aq_mw_JGKD .howtomake {
+	margin-top: 10px;
+}
+
+}
+.even_perfect_JIVF img{
+	width: 234px;
+}
+.even_perfect_JIVF h3,
+.even_perfect_JILF h3{
+	font-size:14px;
+	line-height: 1.7;
+	margin-top: 10px;
+}
+
+.even_perfect_JIVF.howto strong,
+.even_perfect_JILF.howto strong{
+	color: #666666;
+}
+
+
+@media screen and (max-width: 736px) {
+
+.even_perfect_JIVF.howto h3,
+.even_perfect_JILF.howto h3{
+	font-size:12px;
+	line-height: 1.7;
+	margin-top: 10px;
+	margin-bottom: 0;
+
+}
+
+.even_perfect_JIVF.howto .fright,
+.even_perfect_JILF.howto .fright{
+	float:none;
+	text-align:center;
+}
+
+
+/*.even_perfect_JIVF.howto p,
+.even_perfect_JILF.howto p{
+	margin: 10px 0 0;
+}*/
+.even_perfect_JIVF.howto strong.n_margin{
+	margin-top: 0;
+}
+
+
+.even_perfect_JIVF img{
+	width: 117px;
+}
+}
+
+.even_perfect_JILF img{
+	width: 234px;
+}
+
+
+@media screen and (max-width: 736px) {
+
+.even_perfect_JILF img{
+	width: 117px;
+}
+}
+
+.news__detail__body__close {
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 10px;
+    margin: 40px auto 0;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+
+.movie_link a{
+	background-color: #000000;
+	color: #FFFFFF;
+    display: inline-block;
+    font-family: hy,"Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+	text-decoration: none;
+}
+
+.ip_shot_JVSH div.flow{
+	margin-top: 30px;
+}
+
+.ip_shot_JVSH div.flow div.step{
+	margin-top: 10px;
+}
+
+.ip_shot_JVSH div.flow div.step div{
+	float: left;
+	width: 40%;
+	margin-left: 2.5%;
+}
+
+.ip_shot_JVSH div.flow div.step div:nth-child(1),
+.ip_shot_JVSH div.flow div.step div:nth-child(3){
+	margin-left: 0;
+}
+
+
+.ip_shot_JVSH div.flow div.step div p {
+	text-align: center;
+}
+
+
+.ip_shot_JVSH div.flow div.step div p span{
+	display: block;
+	padding: 2px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+
+.ip_shot_JVSH div.flow div.step:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.ip_shot_JVSH div.flow ul,
+.ip_shot_JVSH div.flow li{
+	font-size: 13px;
+	list-style-position: outside;
+	list-style-type: circle;
+}
+
+.ip_shot_JVSH div.flow ul{
+	margin-left: 20px;
+}
+.ip_shot_JVSH div.flow li{
+	margin-bottom: 10px;
+	line-height: 1.4em;
+}
+
+@media screen and (max-width: 736px) {
+
+.ip_shot_JVSH div.flow div.step div{
+	float: none;
+	width: 100%;
+	margin-left: 0;
+	margin-top: 20px;
+}
+
+.ip_shot_JVSH div.flow div.step div img{
+	width: 50%;
+	max-width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+}
+
+.l-main .buy_btn{
+	font-size: 17px;
+	margin: 25px 0;
+	padding: 5px 25px;
+	color: white;
+	background: black;
+	border: 0;
+	cursor: pointer;
+}
+.l-main .buy_btn:hover{
+	background: rgb(163,141,61);
+}
+
+.l-main.black .buy_btn{
+	font-size: 17px;
+	margin: 25px 0;
+	padding: 5px 25px;
+	color: white;
+	background: rgb(163,141,61);
+	border: 0;
+	cursor: pointer;
+}
+.l-main.black .buy_btn:hover{
+	color: black;
+	background: #e5e6e5;
+}

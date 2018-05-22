@@ -1,0 +1,4080 @@
+@charset "UTF-8";
+/* CSS Document */
+.portrait, .portrait .ui-page ,
+.landscape, .landscape .ui-page {
+	background: #FFF;
+}
+/*body{
+	-html-user-select: none;
+}*/
+input:active {
+	border-color:#09C;
+	/*-webkit-tap-highlight-color: #33CCFF;*/
+}
+/* base
+-------------------------------------------------------------------*/
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,a,span,strong,em,address {
+font-family: Helvetica, HiraKakuProN-W3, sans-serif;
+}
+.ui-page .ui-header{
+	background-color: white;
+	background-image: none;
+	border: none;
+}
+.ui-page .ui-footer {
+	background-image: none;
+	border: none;
+}
+div.ui-body-c {
+	text-shadow:none;
+	color: #666666;
+	background-color: #FFF;
+}
+div.ui-body-c .ui-content {
+	padding: 0;
+}
+div.ui-body-c#home {
+	background-image: none;
+}
+div.ui-body-c#home div.wrap {
+}
+div.ui-body-c .ui-link {
+	color: #666666;
+	text-shadow: none;
+	font-weight: normal;
+}
+
+div.ui-body-c .ui-link .salon_online{
+	line-height:2em;
+	color:#666666;
+	font-weight:bold;
+	}
+
+h1 {
+	clear: both;
+}
+section {
+	clear: both;
+}
+div.wrap {
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	vertical-align: bottom;
+}
+.ui-page .ui-corner-right ,
+.ui-page .ui-corner-left ,
+.ui-page .ui-corner-all ,
+.ui-page .ui-btn-corner-all {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+.ui-shadow-inset ,
+.ui-shadow {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+
+/* header
+-------------------------------------------------------------------*/
+
+/* nav
+-------------------------------------------------------------------*/
+
+
+
+/* head_nav
+-------------------------------------------------------------------*/
+
+
+/* search
+-------------------------------------------------------------------*/
+
+
+/* title
+-------------------------------------------------------------------*/
+.title {
+	font-family:hy;
+    border-bottom: 1px solid #000000;
+    color: #333333;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+    padding: 8px;
+    text-align: center;
+}
+
+
+/* home
+-------------------------------------------------------------------*/
+
+
+
+p.salon_de_beaute ,
+#home p.for_oldmember,
+#home p.maintenance {
+	margin: 8px 5px 5px;
+	border: 1px solid #CCC;
+	line-height:1.1em;
+}
+
+
+
+p.salon_de_beaute a ,
+#home p.for_oldmember a,
+#home p.maintenance a {
+	border: 3px solid #e8e8e8;
+	padding: 5px 8px;
+	display:block;
+	font-size: 12px;
+	background: url(/images/sp/common/arrow2.png) right 50% no-repeat;
+}
+
+#home .message {
+	margin: 10px;
+	text-align: center;
+}
+
+#home .message img{
+	width: 100%;
+}
+
+#home .information{
+	padding: 10px 10px 0 10px;
+	margin-top: 10px;
+	border-top: 1px solid #CCC;	
+	font-size:12px;
+	line-height:1.5em
+}
+
+#home .information p{
+	padding-bottom:10px;
+}
+/* news
+-------------------------------------------------------------------*/
+#news section.news {
+	margin: 0;
+}
+#news section.news h3 {
+	background: #CCC;
+	font-size: 14px;
+	margin: 15px 0;
+}
+#news section.news h3 span {
+	padding: 0 10px;
+	background: #FFF;
+}
+#news section.news .new_contents .right {
+	float: right;
+	margin-left:10px;
+}
+#news section.news .new_contents .left {
+	float: left;
+	margin-right:10px;
+}
+#news section.news .new_contents {
+	margin: 20px 10px;
+	font-size: 12px;
+	border: 2px solid #efefef;
+}
+#news section.news .new_contents a {
+	display: block;
+}
+
+#news section.news .new_contents a.item {
+	display: inline;
+	line-height:1.8em;
+}
+
+
+#news section.news .new_contents .about ,
+#news section.news .new_contents .spec ,
+#news section.news .new_contents .detail {
+	margin: 10px;
+	text-align: left;
+	clear: both;
+}
+#news section.news .new_contents .image {
+	margin: 10px;
+	text-align: center;
+	clear: both;
+}
+#news section.news .new_contents .image img{
+	width: 100%;
+}
+
+#news section.news .new_contents p {
+	margin: 0;
+}
+#news section.news .new_contents .name {
+	font-weight: bold;
+	line-height: 1.7;
+}
+
+
+#news section.news .new_contents .name p span {
+	display: block;
+	padding: 10px;
+	line-height: 1.3;
+}
+
+#news section.news .new_contents .name img {
+	width: 40%;
+	max-width: 260px;
+	float: right;
+	margin-left: 10px;
+}
+#news section.news .new_contents .name strong {
+	display: block;
+	background: #7c8896;
+	color: #FFF;
+	font-weight: normal;
+	text-align: left;
+	padding: 5px;
+}
+
+#news section.news .new_contents .about {
+	background: #f0f0f0;
+	padding: 10px;
+	line-height: 1.4;
+}
+#news section.news .new_contents .spec {
+	border-left: 5px solid #f0f0f0;
+	padding: 0 0 0 10px;
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+#news section.news .new_contents .spec img{
+	zoom:60%;
+}
+
+#news section.news .new_contents .notice {
+	/*color:#C30;*/
+	margin-left:1em;
+	font-size: 10px;
+}
+
+#news section.news .new_contents .notice li{
+	margin-bottom:0.3em;
+}
+
+#news section.news .new_contents .notice2 {
+	/*color:#C30;*/
+	font-size: 10px;
+	margin-left:1.5em;
+	margin-bottom:20px;
+}
+#news section.news .new_contents .hplimited {
+	/*color:#C30;*/
+	font-size: 12px;
+	padding:10px;
+}
+#news section.news .new_contents .name a {
+	color:#fff;
+	text-decoration:none;
+}
+	/*
+#news section.news .new_contents .spec .notice {
+	color:#C30;
+	padding: 0;
+	font-size: 10px;
+}*/
+
+.marcelnotice {
+	color:#C30;
+	padding: 0;
+}
+#news section.news .new_contents .spec p {
+	margin-top: 20px;
+}
+
+#news section.news .new_contents .present {
+	margin:20px 10px 10px;
+	line-height:1.4em;
+	font-size: 12px;
+/*	border:2px solid #EEEEEE;*/
+}
+
+#news section.news .new_contents .present p{
+	margin-bottom:10px;
+}
+
+#news section.news .new_contents .music_dl{
+	text-align:center;
+	padding-bottom:20px;
+}
+
+#news section.news .new_contents .music_dl img{
+	width:50%;
+	max-width:290px;
+	margin:0 auto;
+}
+
+#news section.news .new_contents ul li{
+	text-indent:-1.0em;
+	padding-bottom:2px;
+	line-height:1.2em;
+}
+
+#news section.news span.blue_gray{
+	color:#4b5868;
+	}
+
+#news section.news div.salon_news{
+	line-height:1.6em;
+	margin:10px;
+	border:3px double #EEEEEE;
+	padding:10px;
+	}
+	
+	
+	
+#news section.news div.salon_news .spec{
+	margin:0 0 10px 0;
+	}
+	
+#news section.news .flow{
+	text-align:center;
+	margin-top:20px;
+	}
+
+#news section.news h4{
+	color:#4b5868;
+	margin:15px 10px;
+	}
+	
+#news section.news div.salon_news h4{
+	color:#4b5868;
+	margin:0;
+	margin-bottom:15px;
+	background-color:#eeeeee;
+	padding:3px;
+	}
+
+
+
+
+#news section.news .new_contents .detail{
+  line-height: 1.4;
+	}
+
+#news section.news p.acenter{
+	text-align:center;
+	margin-bottom:20px;
+	}
+#news section.news p.acenter img{
+	width:130px;
+	margin:0 auto;
+}
+
+
+/* line
+-------------------------------------------------------------------*/
+
+
+section.line a{
+	color:#666666;
+}
+
+section.line h2.image {
+	padding: 0;
+}
+section.line h2.image img {
+	height: 170px;
+}
+section.line h2.image strong {
+	display: block;
+	height: 170px;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	text-indent: -5000px;
+}
+section.line p.concept a {
+	display: block;
+	margin: 15px;
+	padding: 5px 0;
+	background: url(/images/sp/common/arrow2.png) right 50% no-repeat #eaeaea;
+	border: 1px solid #ccc;
+	color: #666;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+
+section.line p.concept a em{
+  display: block;
+}
+
+p.logo {
+	text-align: center;
+	/*height: 65px;*/
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+p.logo img {
+	width:60%;
+}
+p.release_date {
+  font-size: 12px;
+  text-align: center;
+	padding-bottom: 10px;
+}
+
+
+section.line div.menu {
+	/*margin-top: 10px;*/
+}
+section.line div.menu ul {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+section.line div.menu ul li {
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+}
+section.line div.menu ul li:last-child {
+	border-bottom: none;
+}
+
+section.line div.menu ul li.child {
+	padding-left:25px;
+}
+
+section.line div.menu ul li.headding span ,
+section.line div.menu ul li a {
+	display: block;
+	padding: 15px 20px;
+	background: url(/images/sp/common/arrow1.png) right 50% no-repeat;
+	color:#666666;
+}
+section.line div.menu ul li.headding span {
+	background: none;
+}
+
+section.line div.menu ul li.concept_category span {
+	display: block;
+	padding: 15px 20px 8px 20px;
+	background:none;
+	border-top: 1px dotted #ccc;
+}
+
+
+
+section.line div.menu ul li em {
+	font-size: 11px;
+	margin-left: 10px;
+	font-style:normal;
+}
+section.line div.menu ul ul {
+	margin: auto 10px;
+	padding: 0;
+	border: none;
+}
+section.line div.menu ul li li {
+	border: none;
+	padding: 0;
+}
+section.line div.menu ul li li a {
+	border-top:1px dotted #ccc;
+	padding: 13px 20px;
+	background: url(/images/sp/common/arrow2.png) right 50% no-repeat;
+}
+
+section.line div.menu ul li li span.accordion_head{
+	border-top:1px dotted #ccc;
+	background: url(/images/sp/common/arrow2_down.png) right 50% no-repeat;
+	}
+
+
+
+section.line div.menu p.banner {
+	padding: 10px;
+	border-top:1px solid #ccc;
+	text-align: center;
+}
+
+
+section.line div.menu p.banner img{
+	width:50%;
+	max-width:290px;
+}
+
+
+section.line div.menu p.banner_n {
+	padding: 10px;
+	text-align: center;
+}
+section.line div.menu ul.banner_music{
+	padding: 3px 0;
+	}
+
+
+section.line div.menu ul.banner_music li {
+	width:100%;
+	max-width:640px;
+	text-align:center;
+	margin:0 auto;
+}
+
+section.line div.menu ul.banner_music li img{
+	width:90%;
+	margin:0 auto;
+}
+
+
+section.line div.menu  ul.banner_music li a {
+    background-image:none; 
+    display: block;
+    padding: 3px 2px;
+}
+
+section.line div.menu ul.banner_music  li {
+    border: none;
+}
+
+section.line div.menu p.banner_movie {
+	padding: 10px;
+	text-align: center;
+}
+
+section.line div.menu p.banner_movie img{
+	width:100%;
+	height:auto;
+}
+
+
+div.single_list {
+	/*
+	margin-top: 10px;
+	margin-bottom: 10px;
+	*/
+}
+div.single_list h3 {
+	padding: 15px 25px;
+	background-color: #eaeaea;
+	color: #333;
+	font-size: 14px;
+	font-weight: normal;
+}
+div.single_list h3 span {
+	float: right;
+}
+div.single_list h3 a {
+	display: block;
+	margin-right: 0;
+	padding: 3px;
+	background-color: #666;
+	text-align: center;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFF !important;
+}
+div.single_list li {
+	border-bottom: 1px solid #b5b5b5;
+}
+div.single_list li:last-child {
+	border: none;
+}
+div.single_list li li {
+	border-bottom: none;
+	border-top: 1px solid #ccc;
+	background-color: #EAEAEA;
+}
+div.single_list li a {
+	display: block;
+	padding: 13px 25px;
+	background: url(/images/sp/common/arrow2.png) right 50% no-repeat;
+	font-size: 12px;
+	color: #333;
+}
+div.single_list li li a {
+	padding-left: 50px;
+}
+div.single_list li a.open {
+	background: url(/images/sp/common/arrow2_down.png) right 50% no-repeat;
+}
+
+/* line-top image
+-------------------------------------------------------------------*/
+
+section.line h2.image {
+	text-align: center;
+	width: 100%;
+	margin: 5px 0 0;
+}
+section.line h2.image img {
+	display: block;
+	margin-left: 50%;
+	position:relative;
+	left: -240px;
+}
+
+section.line div.fador {
+	margin-top: 5px;
+}
+section.line div.fador li {
+	width: 100%;
+}
+section.line div.fador img {
+	width: 100%;
+	position:relative;
+}
+
+.salon_banner{
+	padding:20px;
+	border-top:1px solid #CCCCCC;
+	}
+
+.salon_banner img{
+	width:100%;
+	height:auto;
+	}
+
+
+
+/* line_concept & line_howto & maison & salon & event
+-------------------------------------------------------------------*/
+section.salon ,
+section.maison ,
+section.app ,
+section.event ,
+section.howto ,
+section.concept {
+	/*margin-bottom: 15px;*/
+}
+section.howto .paragraph ,
+section.concept .paragraph {
+	/*border-bottom: 1px dotted #CCC;*/
+	padding-bottom: 15px;
+}
+section.salon .paragraph ul ,
+section.salon .paragraph p ,
+section.maison .paragraph ul ,
+section.maison .paragraph p ,
+section.imcube .paragraph p ,
+section.app .paragraph ul ,
+section.app .paragraph p ,
+section.howto .paragraph ul ,
+section.howto .paragraph p ,
+section.concept .paragraph ol ,
+section.concept .paragraph p,
+.comment p {
+	margin: 10px 20px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+section.concept .paragraph ol li {
+	list-style-type: decimal;
+	margin-left: 20px;
+
+}
+section.maison .paragraph li ,
+section.concept .paragraph li {
+	font-size: 12px;
+}
+section.maison .paragraph p.lead ,
+section.imcube .paragraph p.lead ,
+section.event .paragraph p.lead ,
+section.howto .paragraph p.lead ,
+section.concept .paragraph p.lead {
+	margin: 10px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+
+section.maison .paragraph h3 ,
+section.imcube .paragraph h3 ,
+section.event .paragraph h3 ,
+section.howto .paragraph h3 ,
+section.concept .paragraph h3{
+	margin: 20px;
+	clear: both;
+}
+
+section.maison .paragraph h4 ,
+section.event .paragraph h4 ,
+section.howto .paragraph h4 ,
+section.concept .paragraph h4,
+section.composition .paragraph h4 {
+	clear: both;
+	margin: 20px 20px 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+section.app .paragraph .left ,
+section.maison .paragraph .left ,
+section.event .paragraph .left ,
+section.howto .paragraph .left ,
+section.concept .paragraph .left {
+	float: left;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+section.app .paragraph .right ,
+section.maison .paragraph .right ,
+section.imcube .paragraph .right ,
+section.event .paragraph .right ,
+section.howto .paragraph .right ,
+section.concept .paragraph .right {
+	float: right;
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+section.app .paragraph .center ,
+section.maison .paragraph .center ,
+section.imcube .paragraph .center ,
+section.event .paragraph .center ,
+section.howto .paragraph .center ,
+section.concept .paragraph .center {
+	text-align: center;
+	display:block;
+	margin: 10px auto;
+}
+section.concept div.bestcosme {
+	margin-top: 5px;
+	background: #000;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+/*section.concept .paragraph p,
+section.concept .paragraph h3,
+section.concept .paragraph h4{
+	width:100%;
+	max-width:640px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section.concept .paragraph{
+	padding-bottom:50px;
+}
+*/
+
+
+/* maison des fleurs
+-------------------------------------------------------------------*/
+
+section.maison .paragraph p.maison_des_fleurs {
+	font-size: 22px;
+	line-height: 1;
+	font-weight: lighter;
+}
+section.maison .small {
+	display: block;
+	font-size: 70%;
+}
+section.maison .paragraph h3 {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+	font-weight: lighter;
+}
+section.maison .paragraph h3 .small {
+	display: inline;
+	margin-left: 10px;
+}
+
+section.maison .paragraph .gift {
+	margin: 10px;
+	padding: 10px 0 0 0;
+/*	border: 2px solid #CCC;*/
+}
+section.maison .paragraph .gift ul ,
+section.maison .paragraph .gift p {
+	margin: 10px;
+}
+section.maison .paragraph .gift ul li {
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+section.maison .paragraph .gift ul li li {
+	border: none;
+	padding: 0px;
+	margin-bottom: 0;
+	font-size: 10px;
+}
+section.maison .paragraph .gift h5 {
+	font-size: 18px;
+	font-weight: normal;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 5px;
+	margin: auto 10px;
+}
+section.maison .paragraph .gift dt {
+	font-weight: bold;
+}
+
+section.maison .paragraph .gift img {
+	zoom:82.5%;
+}
+
+section.maison table{
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	margin:20px 10px 30px;
+}
+
+section.maison table tr td,
+section.maison table tr th{
+	border-right:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	font-size:12px;
+	line-height:1.5em;
+	vertical-align:middle;
+}
+
+section.maison table tr th{
+	text-align:center;
+	font-size:12px;
+	padding:8px;
+	background-color:#EEEEEE;
+}
+
+section.maison table tr td{
+	padding: 12px 20px;
+	}
+
+section.maison table tr td.noborder{
+	border-right:none;
+	padding-right:0;
+	}
+
+
+section.maison table tr td span{
+	font-size:13px;
+	font-weight:bold;
+	color:#666666;
+	}
+
+
+/*
+section.maison p {
+	clear: left;
+}
+section.maison p span {
+	display: block;
+	width: 120px;
+	text-align: center;
+}
+*/
+
+/* imcube
+-------------------------------------------------------------------*/
+
+section.imcube .paragraph h3 {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+	font-weight: lighter;
+}
+
+section.imcube .paragraph h4 {
+	padding:10px;
+	margin-bottom:5px;
+	margin-top:20px;
+	border-bottom:3px solid #FFFFFF;
+	background-color:#e1e6e8;
+	font-weight:normal;
+	clear:both;
+}
+
+section.imcube .paragraph .visual img{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+}
+section.imcube .paragraph p.visual{
+	margin:0;
+	text-align:center;
+}
+section.imcube .paragraph p{
+	line-height:1.6em;	
+}
+section.imcube .paragraph p.right{
+	width:35%;
+	margin-top:0;
+	text-align:center;
+}
+section.imcube .paragraph p.right img{
+	width:100%;
+	max-width:206px;
+	margin:0 auto;
+}
+section.imcube .shop{
+	clear:both;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	background-color:#efefef;
+	text-align:center;
+}
+
+section.imcube .shop .btn{
+	width:90%;
+	margin: 10px auto;
+	background-color:#666666;
+}
+
+section.imcube .shop .btn a{
+	display:block;
+	color:#FFFFFF;
+	padding:10px;
+	background:URL(/images/sp/imcube/arrow_btn.png) 98% 50% no-repeat;
+	background-size:10px auto;
+	
+}
+
+
+/* app
+-------------------------------------------------------------------*/
+
+section.app .left{
+	width:55%;
+	margin-left:20px;
+	}
+	
+section.app .left p,
+section.app .right p{
+	margin:10px 0;
+	}
+
+section.app .right{
+	width:23%;
+	margin-right:20px;
+	}
+	
+
+section.app .right img{
+	width:100%;
+	height:auto;
+	max-width:150px;
+}
+
+section.app .paragraph h3 {
+	clear: both;
+	margin: 20px 20px 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.5;
+}
+
+section.app .link{
+	margin-bottom:30px;
+	}
+
+section.app .link ul{
+	margin: 30px 10px 0;	
+	}
+section.app .link ul li{
+	float:left;
+	margin-left:10px;
+	width:135px;
+	display:inline-block;
+	}
+	
+section.app .link ul li img{
+	width:auto;
+	height:40px;	
+	}
+
+section.app .cap{
+	overflow-x:scroll;
+	margin:20px;
+	padding:20px 10px;
+	background-color:#EEEEEE;
+	}
+	
+section.app .cap ul{
+	width:500px;
+	margin:0;
+	}
+
+section.app .cap ul li{
+	float:left;
+	width:120px;
+	height:auto;
+	padding-right:10px;
+}
+section.app .cap ul li img{
+	width:100%;
+	height:auto;
+}
+
+
+/* event
+-------------------------------------------------------------------*/
+
+section.event img{
+	zoom: 50%;
+}
+section.event img.main{
+	width: 100%;
+}
+section.event .paragraph p {
+	margin: 10px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+section.event .paragraph p.ttl {
+	font-size: 22px;
+	line-height: 1;
+	font-weight: lighter;
+}
+
+section.event .paragraph h3 {
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 30px;
+	padding: 10px;
+	background-color: #666666;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+
+section.event .paragraph .left {
+	text-align: center;
+	font-size: 10px;
+}
+section.event .paragraph .right {
+	text-align: center;
+	font-size:10px;
+}
+
+/* line_howto
+-------------------------------------------------------------------*/
+section.howto h3 {
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+}
+section.howto p {
+	clear: left;
+}
+section.howto p span {
+	display: block;
+	width: 120px;
+	text-align: center;
+}
+/* aq_meliority_howto
+-------------------------------------------------------------------*/
+#aq_meliority_howto section.howto p.about_item a {
+background: #666 url(/images/sp/common/arrow4.png) no-repeat scroll 100% 50%;
+border-radius: 3px;
+color: white;
+font-size: 11px;
+letter-spacing: 1px;
+padding: 5px 20px 5px 8px;
+}
+/* eternia_howto
+-------------------------------------------------------------------*/
+#eternia_howto section.howto p strong {
+	background: #d99a68;
+	color: #fff;
+	padding: 0 5px;
+	font-weight:normal;
+}
+/* cyclic_key_howto
+-------------------------------------------------------------------*/
+#cyclic_key_howto section.howto strong {
+	margin-right: 10px;
+	font-weight: normal;
+}
+
+
+#cyclic_key_howto section.howto .technique{
+	color:#80560e;
+	font-size:18px;
+	}
+
+/* line_concept moisture_liposome
+-------------------------------------------------------------------*/
+#moisture_liposome_concept section.concept .paragraph {
+	padding-bottom: 30px;
+	background: -moz-linear-gradient(bottom, #b2a4c3, #fff 20%);
+	background: -webkit-gradient(linear, center bottom, center top, from(#b2a4c3), color-stop(20%, #fff));
+}
+#moisture_liposome_concept section.concept .paragraph h3 {
+	color: #633f91;
+}
+#moisture_liposome_concept section.concept .paragraph h4 {
+	font-weight: bold;
+}
+#moisture_liposome_concept section.concept .paragraph h4 span {
+	font-weight: normal;
+	font-size: 10px;
+	border: 1px solid #999;
+	line-height:13px;
+	padding-left: 5px;
+	margin-left: 5px;
+}
+
+#moisture_liposome_concept section.movie .paragraph h3 {
+	margin: 10px;
+	text-align:center;
+	color: #633f91;
+}
+
+#moisture_liposome_concept section.movie .paragraph p {
+	margin-bottom: 30px;
+	text-align:center;
+}
+
+/* aq_makeuppattern
+-------------------------------------------------------------------*/
+#aq_makeuppattern section.makeuppattern .paragraph h3 {
+	font-weight: normal;
+}
+#aq_makeuppattern section.makeuppattern p {
+	clear: left;
+}
+#aq_makeuppattern section.makeuppattern dl {
+	font-size:12px;
+	margin: 10px 20px;
+}
+#aq_makeuppattern section.makeuppattern dl dt {
+	float: left;
+	line-height: 1.5;
+
+}
+#aq_makeuppattern section.makeuppattern dl dd {
+	line-height: 1.5;
+	margin-left: 5em;
+}
+
+/* aq_howto
+-------------------------------------------------------------------*/
+#aq_howto ol li {
+	clear: both;
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+#aq_howto ol li img {
+	display: block;
+	margin-right: 40px;
+}
+#aq_howto ol li span {
+	display: block;
+	margin-left: 140px;
+}
+#aq_howto p.illust {
+	margin-bottom: 20px;
+}
+
+/* line_concept aq_mw make
+-------------------------------------------------------------------*/
+#aq_mw_concept_make section.concept .paragraph,
+#aq_mw_concept_base section.concept .paragraph{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #000;
+	color: #FFF;
+	border-bottom: none;
+}
+
+#aq_mw_concept_make section.concept .sapphire{
+	padding: 5px;
+	border: 1px solid #FFFFFF;
+	text-align:center; 
+}
+
+#aq_mw_concept_base section.concept h4.noborder{
+	border:none;
+}
+
+/* line_concept aq_mw makepattern
+-------------------------------------------------------------------*/
+#aq_mw_makepattern section.makepattern h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+#aq_mw_makepattern section.makepattern .thum {
+	margin-bottom: 25px;
+}
+
+#aq_mw_makepattern section.makepattern h3.pattern {
+	text-align: center;
+}
+
+#aq_mw_makepattern section.makepattern h4 {
+	margin-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: #666;
+	border-bottom: #CCC dotted 1px;
+}
+
+
+#aq_mw_makepattern section.makepattern .paragraph {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding:0 10px;
+	background: #fff;
+	color: #666;
+	border-bottom: none;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#aq_mw_makepattern section.makepattern .paragraph .center{
+	text-align: center;
+}
+
+#aq_mw_makepattern section.makepattern .paragraph img{
+	margin: 10px;
+}
+
+#aq_mw_makepattern section.makepattern .paragraph .makedata{
+	margin-top: 30px;
+	}
+
+#aq_mw_makepattern section.makepattern .paragraph .makedata dl {
+	font-size: 12px;
+	margin: 10px 0;
+}
+#aq_mw_makepattern section.makepattern .paragraph .makedata dl dt {
+	margin-top: 10px;
+	line-height: 1.5;
+	clear:left;
+
+}
+#aq_mw_makepattern section.makepattern .paragraph .makedata dl dd {
+	line-height: 1.5;
+}
+#aq_mw_makepattern section.makepattern .paragraph .makedata dl dd img{
+	vertical-align: middle;
+}
+#aq_mw_makepattern section.makepattern .paragraph .makedata dl dd span{
+	display:block;
+}
+/*#aq_mw_makepattern section.makepattern .backtop{
+    margin-right: 5%;
+    padding-right: 25px;
+}*/
+
+#aq_mw_makepattern section.makepattern .backtop a{
+    background: url("/images/sp/line/concept/aqmw/makepattern/arrow_next.png") no-repeat 100% 50%;
+	background-size: 8px auto;
+	-webkit-background-size: 8px auto;
+    float:right;
+	padding:15px;
+}
+
+#aq_mw_makepattern section.makepattern .go_map a{
+    background: url("/images/sp/line/concept/aqmw/makepattern/arrow_next.png") no-repeat 100% 50%;
+	background-size: 8px auto;
+	-webkit-background-size: 8px auto;
+    float:right;
+	padding:15px;
+}
+
+#aq_mw_makepattern section.makepattern h3.eye{
+	background-color:#e6e6e6;
+	
+	}
+
+#aq_mw_makepattern section.makepattern .fright{
+	float:right;
+	}
+
+#aq_mw_makepattern section.makepattern h3.pattern_left{
+	text-align:left;
+	margin: 0;
+	}
+
+#aq_mw_makepattern section.makepattern .text{
+	padding : 0 10px;
+	}
+	
+#aq_mw_makepattern section.makepattern .text img{
+	margin:0;
+}
+
+#aq_mw_makepattern section.makepattern .map img{
+	width: 100%;
+	margin:0;
+}
+
+#aq_mw_makepattern section.makepattern .eye_pattern {
+	width:95%;
+	max-width:400px;
+	margin:0 auto;
+	}
+
+
+/* line_concept aq_mw howto
+-------------------------------------------------------------------*/
+
+#aq_mw_makepattern section.howto h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left:10px;
+	border:none;
+}
+
+#aq_mw_makepattern section.howto h4 {
+	margin-top: 15px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	color: #666;
+	border-bottom: #CCC dotted 1px;
+}
+
+#aq_mw_makepattern section.howto p {
+	clear: both;
+}
+
+#aq_mw_makepattern section.howto img {
+	margin: 10px;
+	zoom: 80%;
+}
+
+#aq_mw_makepattern section.howto h3 img{
+		zoom: 100%;
+}
+
+/* line_concept aq_meliority
+-------------------------------------------------------------------*/
+
+#aq_meliority_concept section.concept .paragraph {
+	padding: 1px 10px 50px;
+	background: #000;
+	color: #FFF;
+	border-bottom: none;
+}
+
+
+
+/* line_concept liposome
+-------------------------------------------------------------------*/
+
+ #liposome_concept section.concept .paragraph h3{
+	margin:0 auto;
+	text-align:center;
+	max-width:480px;
+}
+
+
+ #liposome_concept section.concept .paragraph {
+	padding-top: 1px;
+	padding-bottom: 1px;
+ 	background-color:#fafafa;
+ 	
+ }
+ 
+  #liposome_concept section.concept .paragraph span{
+	font-size:10px;
+ }
+
+
+ #liposome_concept section.concept .paragraph p{
+	width:90%;
+	max-width:540px;
+	margin:10px auto;
+}
+
+#liposome_concept  section.concept .paragraph h3 img,
+#liposome_concept  section.concept .paragraph p img{
+	width:100%;
+}
+
+/* line_feature liposome
+-------------------------------------------------------------------*/
+
+ #liposome_feature section.concept .paragraph h3{
+	margin:15px auto;
+	text-align:left;
+	max-width:540px;
+	padding: 0 10px;
+}
+
+
+ #liposome_feature section.concept .paragraph {
+	padding-top: 1px;
+	padding-bottom: 1px;
+ 	background-color:#fafafa;
+ 	
+ }
+ 
+  #liposome_feature section.concept .paragraph span{
+	font-size:10px;
+ }
+
+ #liposome_feature section.concept .paragraph h4{
+	margin:30px auto 15px;
+	width:90%;
+	max-width:540px;
+	padding: 0 10px;
+}
+
+ #liposome_feature section.concept .paragraph p{
+	width:90%;
+	max-width:540px;
+	margin:10px auto;
+}
+
+#liposome_feature  section.concept .paragraph h3 img,
+#liposome_feature  section.concept .paragraph p img{
+	width:100%;
+}
+
+
+ #liposome_feature section.concept .paragraph p img.left{
+	width:10%;
+	max-width:150px;
+	float:left;
+}
+
+
+
+/* line_concept whitelogist
+-------------------------------------------------------------------*/
+#whitelogist_concept section.concept .paragraph {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #000;
+	color: #FFF;
+	border-bottom: none;
+}
+#whitelogist_concept section.concept .paragraph .white {
+	display: block;
+	background: #FFF;
+	color: #000;
+	padding: 5px;
+	line-height: 1.2;
+}
+#whitelogist_concept section.concept .paragraph strong {
+}
+#whitelogist_concept section.concept .paragraph h4 {
+	border: 1px solid #DDD;
+	padding: 0 5px;
+}
+/* cyclic_key_concept
+-------------------------------------------------------------------*/
+
+#cyclic_key_concept section.concept .paragraph h3{
+	text-align:center;
+}
+
+#cyclic_key_concept section.concept .paragraph {
+	padding-top:20px;
+	padding-bottom: 50px;
+	background:url(/images/sp/line/concept/cyclic_key/bg.jpg) 0 0 no-repeat;
+	background-size:100% auto;
+	color: #333;
+	min-height:180px;
+}
+
+#cyclic_key_concept section.concept .paragraph p{
+	max-width:480px;
+	margin: 20px auto;
+}
+
+/* cyclic_key_composition
+-------------------------------------------------------------------*/
+
+#cyclic_key_composition section.concept .paragraph .sub{
+	margin:20px;
+}
+
+#cyclic_key_composition section.concept .paragraph .acenter{
+	text-align:center;
+	
+}
+#cyclic_key_composition section.concept .paragraph .ginger{
+	background-color:#f7f4e2;
+	padding:10px;
+	margin: 0 10px;
+	
+}
+
+
+
+/* vita_de_reve_concept
+-------------------------------------------------------------------*/
+#vita_de_reve_concept section.concept .paragraph .lead ,
+#vita_de_reve_concept section.concept .paragraph h3 {
+	color: #663399
+}
+#vita_de_reve_concept section.concept .paragraph h4 {
+	clear: both;
+}
+/* prime_latte_concept
+-------------------------------------------------------------------*/
+#prime_latte_concept section.concept .paragraph {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background:#FBECF2;
+	border-bottom: none;
+	color: #501215;
+}
+#prime_latte_concept section.concept .paragraph p {
+	clear: both;
+}
+#prime_latte_concept section.concept .paragraph p.small {
+	border: 1px solid #501215;
+	padding: 5px;
+	font-size: 10px;
+	clear: both;
+}
+#prime_latte_concept section.concept .paragraph p img {
+	vertical-align: middle;
+}
+
+/*prime_latte_howto
+-------------------------------------------------------------------*/
+#prime_latte_howto section.howto .paragraph {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background:#FBECF2;
+	border-bottom: none;
+	color: #501215;
+}
+/* de_la_vie_concept whitelogist
+-------------------------------------------------------------------*/
+#de_la_vie_concept section.concept .paragraph h3 {
+	font-weight: normal;
+}
+#de_la_vie_concept section.concept .paragraph {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: url(/images/sp/line/concept/delavie/bg.jpg) center bottom no-repeat;
+	border-bottom: none;
+}
+/* lacouture_concept
+-------------------------------------------------------------------*/
+#lacouture_concept section.concept .paragraph {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: url(/images/sp/line/concept/lacouture/bg.jpg) center bottom no-repeat;
+	border-bottom: none;
+	background-size:100% auto;
+	min-height:180px;
+}
+
+
+/* even_perfect_concept
+-------------------------------------------------------------------*/
+
+#even_perfect_concept section.concept .paragraph {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: url(/images/sp/line/concept/even_perfect/concept_bg.jpg) center bottom no-repeat;
+	background-size:100% 100% ;
+	border-bottom: none;
+}
+
+
+
+
+/* vice_virtue_concept
+-------------------------------------------------------------------*/
+#vice_virtue_concept section.concept .paragraph {
+	padding-top:1px;
+	padding-bottom: 30px;
+	border-bottom: none;
+}
+
+#vice_virtue_concept section.concept h3 img{
+	width:100%;
+	max-width:400px;
+}
+
+#vice_virtue_concept section.concept h4 img{
+	width:100%;
+	max-width:400px;
+}
+
+
+#vice_virtue_concept section.concept span{
+	font-size:10px;
+}
+
+
+#vice_virtue_concept section.concept p.acenter{
+	text-align:center;
+}
+
+#vice_virtue_concept section.concept img.profile01{
+	height:auto;
+	width:37.5%;
+	max-width:240px;
+}
+
+#vice_virtue_concept section.concept img.profile02_1{
+	height:auto;
+	width:20%;
+	max-width:128px;
+}
+
+
+#vice_virtue_concept section.concept img.profile02_2{
+	height:51px;
+	width:auto;
+}
+
+#vice_virtue_concept section.concept img.fragrance{
+	height:60px;
+	width:auto;
+}
+
+#vice_virtue_concept section.concept img.designconcept{
+	height:220px;
+	width:auto;
+}
+
+#vice_virtue_concept section.concept .fragrance_concept p{
+	padding-bottom:20px;
+}
+
+#vice_virtue_concept section.concept .black {
+	background: #000;
+	color: #fff;
+}
+
+/* magie_deco_concept
+-------------------------------------------------------------------*/
+#magie_deco_concept section.makeuppattern .paragraph h3 {
+	font-weight: normal;
+}
+
+
+#magie_deco_concept section.makeuppattern ul ,
+#magie_deco_concept section.makeuppattern p {
+	clear: left;
+}
+#magie_deco_concept section.makeuppattern ul {
+	margin: 10px 20px;
+}
+#magie_deco_concept section.makeuppattern ul li {
+	margin-bottom: 5px;
+}
+#magie_deco_concept section.makeuppattern ul li em {
+	font-style: normal;
+	color: #e95377;
+}
+
+/* marcel_wandars_concept
+-------------------------------------------------------------------*/
+#marcelwanders_collection_concept section.concept .paragraph .center {
+	text-align: center;
+	display:block;
+	margin: 0 auto;
+	padding-top:10px;
+}
+
+
+#marcelwanders_collection_concept section.concept .black {
+	background: #000;
+	color: #fff;
+}
+
+#marcelwanders_collection_concept section.concept .pink {
+	background: #fdeeeb;
+	color: #333;
+}
+
+#marcelwanders_collection_concept section.concept span.small{
+	font-size:10px
+	
+}
+
+#marcelwanders_collection_concept section.concept .right{
+	float:right;
+	
+}
+
+#marcelwanders_collection_concept section.concept .left{
+	float:left;
+}
+
+#marcelwanders_collection p.marcelnoice{
+	margin:5px;
+	padding:8px;
+	font-size:10px;
+	}
+
+#marcelwanders_collection_concept ul.marcelnoice {
+	margin:5px;
+	padding:8px;
+	margin-left:2em;
+	margin-right:1em;
+	font-size:10px;
+	line-height:1.4em;
+}
+
+#marcelwanders_collection_concept ul.marcelnoice li span{
+	margin-left:-1em;
+}
+
+#marcelwanders_collection_concept .notice {
+	color:#C30;
+	font-size: 10px;
+}
+
+#marcelwanders_collection_concept .c_img {
+	padding-top:10px;
+}
+
+#marcelwanders_collection_concept .archive {
+	padding-top:20px;
+}
+
+
+#marcelwanders_collection_concept .image img{
+	width:82.15%;
+	max-width:400px;
+	}
+
+#marcelwanders_collection_concept .ttl img{
+	width:100%;
+	max-width:450px;
+	}
+
+#marcelwanders_collection_concept section.marcel_link a{
+	color:#000000;
+}
+
+
+#marcelwanders_collection_concept section.marcel_link ul{
+	margin-bottom:10px;
+	}
+	
+#marcelwanders_collection_concept section.marcel_link ul li{
+	width:45%;
+	}
+
+#marcelwanders_collection_concept section.marcel_link ul li.backlink{
+	float:left;
+}
+#marcelwanders_collection_concept section.marcel_link ul li.backlink a,
+#marcelwanders_collection_concept section.marcel_link ul li.nextlink a{
+	display:block;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#marcelwanders_collection_concept section.marcel_link ul li.backlink a{
+	background:url(/images/sp/line/concept/marcelwanders_collection/arrow_back.png) 0 50% no-repeat;
+	background-size:auto 15px ;
+	-webkit-background-size:auto 15px ;
+	margin-left:5%;
+	padding-left:25px;
+}
+#marcelwanders_collection_concept section.marcel_link ul li.nextlink{
+	float:right;
+	text-align:right;
+}
+
+#marcelwanders_collection_concept section.marcel_link ul li.nextlink a{
+	background:url(/images/sp/line/concept/marcelwanders_collection/arrow_next.png) 100% 50% no-repeat;
+	background-size:auto 15px ;
+	-webkit-background-size:auto 15px ;
+	margin-right:5%;
+	padding-right:25px;
+}
+
+#marcelwanders_collection_concept section.marcel_link a.top{
+	display:block;
+	width:97%;
+	padding:15px 0;
+	margin:0 auto;
+	margin-bottom:30px;
+	border-radius:5px;
+	background-color:#eeeeee;
+	border:1px solid #cccccc;
+	text-align:center;
+}
+
+
+/*2013*/
+
+
+#marcelwanders_collection_concept .technique{
+	background-color:#fff9f5;
+	}
+
+#marcelwanders_collection_concept .story{
+	background-color:#f8f3f9;
+}
+
+#marcelwanders_collection_concept img.case{
+	width:37%;
+	max-width:243px;
+}
+
+
+#marcelwanders_collection_concept .gold img,
+#marcelwanders_collection_concept .pearl img{
+	width:50%;
+	max-width:320px;
+}
+
+#marcelwanders_collection_concept .composition {
+  margin-bottom: 30px;
+}
+
+#marcelwanders_collection_concept .composition img{
+	width:50%;
+	max-width:320px;
+}
+#marcelwanders_collection_concept .composition strong{
+  font-weight: bold;
+}
+
+
+
+/* bestcosme
+-------------------------------------------------------------------*/
+
+#bestcosme section.news h3 {
+	font-size: 16px;
+	margin: 15px 20px;
+}
+
+#bestcosme section.news h4 {
+	font-size: 16px;
+	margin: 15px 5px 10px 20px;
+	padding:10px;
+	border-left:#cccccc solid 6px;	
+	
+}
+
+#bestcosme section.news p.btn a{
+	background: url(/images/sp/common/arrow2.png) 105% 50% no-repeat;
+	margin-right:10px;
+	margin-left:10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  text-align: center;
+	float:right;
+
+	font-size:12px;
+}
+
+#bestcosme section.news h5 {
+	font-size: 12px;
+	color:#FFFFFF;
+	background-color:#838383;
+	padding:10px 5px;
+	border-bottom: 2px solid #999999;
+	text-align:center;
+}
+
+#bestcosme section.news div.wrap{
+	padding:0 15px;	
+	}
+
+#bestcosme section.news .new_contents {
+	border: none;
+	text-align:center;
+	color: #501215;
+	max-width:640px;
+	margin:0 auto;
+	margin-bottom:20px;
+	height:auto;
+	display:block;
+}
+
+#bestcosme section.news .new_contents p,
+#bestcosme section.news .new_contents img,
+#bestcosme section.news .new_contents a,
+#bestcosme section.news .new_contents h4{
+	height:auto;
+	display:block;
+}
+
+#bestcosme section.news .new_contents .item_name {
+	color:#000000;
+	padding:5px;
+	margin-bottom:10px;
+	margin-top:10px;
+	background:#efefef;
+	font-size: 12px;
+}
+
+#bestcosme section.news .new_contents .item .image{
+	margin-top:15px;
+}
+
+#bestcosme section.news .new_contents img{
+	width:100%;
+}
+
+#bestcosme section.news .new_contents .item .logo{
+	margin:0 auto;
+	padding:15px 0;
+	border-bottom: 1px solid #efefef;
+}
+
+
+#bestcosme section.news .new_contents .item .award{
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom: 3px solid #efefef;
+}
+
+
+#bestcosme section.news .new_contents .item .noborder{
+	border-bottom: none;
+}
+
+
+#bestcosme section.news .new_contents .item .award img{
+	width:100%;
+	max-width:400px;
+	padding-bottom:10px;
+}
+
+
+
+#bestcosme section.news .new_contents .item ul.relation li.voice a {
+	background: url(/images/sp/common/arrow6.png) 5px 50% no-repeat transparent;
+    color: #333;
+    display: block;
+    font-size: 12px;
+    margin-top: 3px;
+    padding: 8px 5px 8px 20px;
+    font-weight: normal;
+    text-shadow: none;
+    text-align: left;
+}
+
+#bestcosme section.news .new_contents .item ul.relation li.voice{
+	background: url(/images/sp/common/window.png) 98% 50% no-repeat #ccc;
+	padding-right:5%;
+}
+
+
+/* salon
+-------------------------------------------------------------------*/
+.paragraph .salonBtn01 a {
+	padding:9px 9px 9px 29px;
+	margin:0 auto;
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background: url(/sp/salon/images/arrow01.png) no-repeat 10px #fff;
+	color: #333;
+	border:solid 1px #CCC;
+	width:240px;
+	margin-top:10px;
+	display:block;
+}
+.paragraph .salonBtn02 a {
+	padding:9px 9px 9px 29px;
+	margin:0 auto;
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background: url(/sp/salon/images/arrow02.png) no-repeat 10px #475359;
+	color: #fff;
+	border:solid 1px #CCC;
+	width:240px;
+	margin-top:10px;
+	display:block;
+}
+
+#salon_skincareline p{
+	text-align:center;
+	}
+
+#saloncourse h3, #saloncourse h4, #saloncontact h4 {
+	color:#475359;
+}
+#saloncourse h5,
+#saloncontact h5 {
+	color:#666;
+	font-weight:bold;
+	border-bottom:dotted 1px #CCC;
+	margin:10px 20px;
+	padding-bottom:10px;
+	font-size:12px;
+}
+#saloncourse p.subsub,
+#saloncontact p.subsub {
+	color:#475359;
+	margin:10px 20px 0px;
+}
+#saloncourse p.txt,
+#saloncontact p.txt {
+	margin:0px 20px;
+}
+#saloncourse p.txt2,
+#saloncontact p.txt2 {
+	font-size:10px;
+	margin:0px 20px;
+}
+#saloncourse h3.optionmenu {
+	color:#FFF;
+	background:#475359;
+	font-size:12px;
+	padding:8px;
+	margin:10px 20px;
+}
+#saloncontact p.tel a {
+	font-weight:bold;
+	color:#475359;
+	font-size:18px;
+}
+
+
+#salon_space .fador li{
+	width:100%;
+	}
+
+#salon_space .fador img{
+	width:100%;
+	}
+
+#salon_space .txt li{
+	font-size:12px;
+	margin:5px;
+}
+
+
+
+
+/* clay_blanc_concept
+-------------------------------------------------------------------*/
+
+#clay_blanc_concept section.concept .concept_top{
+	background: url(/images/sp/line/concept/clay_blanc/bg_concept_r.jpg) top right no-repeat;
+	padding-top:50px;
+	text-align:center;
+}
+
+#clay_blanc_concept section.concept .concept_bottom{
+	background: url(/images/sp/line/concept/clay_blanc/bg_concept_l.jpg) bottom left no-repeat;
+	padding-bottom:80px;
+	text-align:center;
+}
+
+#clay_blanc_concept section.concept .notice{
+	text-align:right;
+	color:#666666;
+	font-size:10px;
+}
+
+
+#clay_blanc_concept section.concept h3.composition{
+	padding:5px;
+	text-align:center;
+	background-color:#b3af9d;
+	color:#ffffff;
+}
+
+#clay_blanc_concept section.concept h4{
+	color:#b3af9d;
+	font-weight:bold;
+}
+
+#clay_blanc_concept section.concept .howto{
+	text-align:center;
+}
+
+
+
+/* honeydew_concept
+-------------------------------------------------------------------*/
+
+#honeydew section.concept p.acenter{
+	text-align:center;
+	}
+
+#honeydew section.concept h3{
+	text-align:center;
+	margin-bottom:0;
+	}
+	
+#honeydew section.concept h4.composition{
+	margin-top:10px;
+	border-bottom:none;
+	text-align:center;
+	font-size:100%;
+	}
+	
+#honeydew section.concept h4.composition span{
+	font-size:90%;
+	}
+
+/* phytotune_concept
+-------------------------------------------------------------------*/
+
+#phytotune_concept section.concept .paragraph h3,
+#phytotune_concept_w section.concept .paragraph h3{
+	margin:0 auto;
+	text-align:center;
+	max-width:480px;
+}
+
+#phytotune_concept section.concept div.bg{
+	padding-top:20px;
+	background:url(/images/sp/line/concept/phytotune/bg_concept.jpg) center bottom no-repeat #eef5fc;
+	background-size:contain;
+	color: #333;
+/*	max-width:640px;*/
+	margin:0 auto;
+}
+#phytotune_concept section.concept .paragraph{
+	padding-bottom:65%;
+}
+
+#phytotune_concept_w section.concept div.bg{
+	padding-top:20px;
+	background:url(/images/sp/line/concept/phytotune/bg_concept_w.jpg) center bottom no-repeat #d9e6fa;
+	background-size:contain;
+	color: #333;
+/*	max-width:640px;*/
+	margin:0 auto;
+}
+
+#phytotune_concept_w section.concept .paragraph {
+	padding-bottom:65%;
+}
+
+#phytotune_concept section.concept .paragraph p,
+#phytotune_concept_w section.concept .paragraph p{
+	width:90%;
+	margin: 10px auto;
+}
+
+#phytotune_concept section.concept .paragraph p.notice,
+#phytotune_concept_w section.concept .paragraph p.notice{
+	margin-top:0;
+}
+
+#phytotune_concept section.concept .paragraph h3 img,
+#phytotune_concept section.concept .paragraph p img,
+#phytotune_concept_w section.concept .paragraph h3 img,
+#phytotune_concept_w section.concept .paragraph p img{
+	width:100%;
+}
+
+
+#phytotune_concept section.concept,
+#phytotune_concept_w section.concept{
+	position:relative;
+	}
+	
+#phytotune_concept section.concept p.next,
+#phytotune_concept_w section.concept p.back{
+	position:absolute;
+	top:50%;
+	height:57px;
+	width:30px;
+	padding:0;
+	}
+#phytotune_concept section.concept p.next{
+	background: URL(/phytotune/images/arrow_n.png) 0 0 no-repeat;
+	background-size:100% auto;
+	right:0;
+}
+
+	
+#phytotune_concept_w section.concept p.back{
+	background: URL(/phytotune/images/arrow_b.png) 0 0 no-repeat;
+	background-size:100% auto;
+	left:0;
+}
+
+#phytotune_concept section.concept .next a,
+#phytotune_concept_w section.concept .back a{
+	display:block;
+	text-indent:-99999px;	
+}
+
+
+
+#phytotune_concept section.concept ul,
+#phytotune_composition section.concept ul,
+#phytotune_concept_w section.concept ul,
+#phytotune_composition_w section.concept ul{
+	padding-bottom:20px;
+	margin:30px auto 0;
+	max-width:600px;
+	text-align:center;
+	}
+	
+/*#phytotune_concept section.concept ul:after,
+#phytotune_concept_w section.concept ul:after,
+#phytotune_composition_w section.concept ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+*/
+
+#phytotune_concept section.concept ul li,
+#phytotune_composition section.concept ul li,
+#phytotune_concept_w section.concept ul li,
+#phytotune_composition_w section.concept ul li{
+	display:inline-block;
+	width:46%;
+	background: rgba(255,255,255,0.3);
+	border:1px solid #FFFFFF;
+	}
+
+
+#phytotune_concept section.concept ul li a,
+#phytotune_composition section.concept ul li a,
+#phytotune_concept_w section.concept ul li a,
+#phytotune_composition_w section.concept ul li a{
+	display:block;
+	padding: 10px 0;
+	text-align:center;
+	color:#3f2513;
+	}
+
+
+/* phytotune_composition
+-------------------------------------------------------------------*/
+
+#phytotune_composition section.concept div.bg {
+	padding-top:20px;
+/*	padding-bottom: 5%;*/
+	background:url(/images/sp/line/concept/phytotune/bg_composition.jpg) 0 0 no-repeat;
+	background-size:100% auto;
+	color: #333;
+	min-height:180px;
+	margin:0 auto;
+}
+
+#phytotune_composition_w section.concept div.bg {
+	padding-top:20px;
+/*	padding-bottom: 5%;*/
+	background:url(/images/sp/line/concept/phytotune/bg_composition_w.jpg) 0 0 no-repeat #cbddf1;
+	background-size:100% auto;
+	color: #333;
+	min-height:180px;
+	margin:0 auto;
+}
+
+
+#phytotune_composition section.concept .paragraph h3.composition,
+#phytotune_composition_w section.concept .paragraph h3.composition{
+		text-align:center;
+}
+
+#phytotune_composition section.concept .paragraph p,
+#phytotune_composition_w section.concept .paragraph p{
+	width:90%;
+	margin:10px auto;
+}
+
+#phytotune_composition section.concept .paragraph p.notice,
+#phytotune_composition_w section.concept .paragraph p.notice{
+	margin-top:40px;
+}
+
+#phytotune_composition section.concept .paragraph h3 img,
+#phytotune_composition section.concept .paragraph p img,
+#phytotune_composition_w section.concept .paragraph h3 img,
+#phytotune_composition_w section.concept .paragraph p img{
+	width:100%;
+	max-width:480px;
+	margin:0 auto;
+}
+
+#phytotune_composition section.concept .herb2,
+#phytotune_composition_w section.concept .herb2{
+	margin-top:10%;
+}
+
+
+
+/* cellgenie_concept
+-------------------------------------------------------------------*/
+
+#cellgenie section.concept p.acenter{
+	text-align:center;
+	}
+	
+#cellgenie section.concept .paragraph img,
+#cellgenie_composition section.concept .paragraph img,
+#cellgenie_mechanism section.concept .paragraph img,
+#cellgenie_w section.concept .paragraph img,
+#cellgenie_composition_w section.concept .paragraph img,
+#cellgenie_mechanism_w section.concept .paragraph img
+{
+	width:100%;
+	height:auto;
+	max-width:480px;
+	margin:0 auto;
+	}
+	
+#cellgenie section.concept .paragraph{
+	background: URL(/images/sp/line/concept/cellgenie/bg_concept.jpg) #d8c282 0 0 no-repeat;
+	background-size:100% auto;
+	color:#000000;
+	padding-bottom:40px;
+	min-height:350px;
+	}
+	
+#cellgenie_w section.concept .paragraph{
+	background: URL(/images/sp/line/concept/cellgenie/bg_concept_w.jpg) #020917 0 0 no-repeat;
+	background-size:100% auto;
+	color:#FFFFFF;
+	padding-bottom:40px;
+	min-height:350px;
+	}
+
+
+#cellgenie section.concept h3,
+#cellgenie_composition section.concept h3,
+#cellgenie_mechanism section.concept h3,
+#cellgenie_w section.concept h3,
+#cellgenie_composition_w section.concept h3,
+#cellgenie_mechanism_w section.concept h3{
+	text-align:center;
+	padding-top:20px;
+	margin:0 0 20px;
+	}
+	
+
+#cellgenie_composition section.concept .paragraph{
+	background: URL(/images/sp/line/concept/cellgenie/bg_composition.jpg) #000000 0 50% no-repeat;
+	background-size:100% auto;
+	color:#FFFFFF;
+	padding-bottom:40px;
+	min-height:350px;
+	}
+
+
+#cellgenie section.concept .paragraph p,
+#cellgenie_w section.concept .paragraph p{
+	max-width:480px;
+	margin:20px auto;
+	padding:0 30px;
+}
+
+
+#cellgenie_composition section.concept .paragraph p{
+	padding-left:40%;
+	max-width:350px;
+}
+
+#cellgenie_composition_w section.concept .paragraph p{
+	max-width:350px;
+	margin: 0 auto;
+	padding:10px;
+}
+
+#cellgenie section.concept .paragraph p.small,
+#cellgenie_composition section.concept .paragraph p.small,
+#cellgenie_mechanism section.concept .paragraph p.small,
+#cellgenie_w section.concept .paragraph p.small,
+#cellgenie_composition_w section.concept .paragraph p.small,
+#cellgenie_mechanism_w section.concept .paragraph p.small{
+	font-size:10px;
+}
+/*	
+#cellgenie_composition section.concept .paragraph{
+	background: URL(/images/sp/line/concept/cellgenie/bg_composition.jpg) #000000 0 50% no-repeat;
+	background-size:100% auto;
+	color:#FFFFFF;
+	padding-bottom:40px;
+	}
+	*/
+#cellgenie_composition_w section.concept .paragraph{
+	background: URL(/images/sp/line/concept/cellgenie/bg_composition_w.jpg) #7fa9ee 0 0 no-repeat;
+	background-size:100% auto;
+	color:#031227;
+	padding-bottom:40px;
+	}
+
+
+
+#cellgenie_mechanism section.concept .paragraph{
+	background:#000000;
+	color:#FFFFFF;
+	padding-bottom:40px;
+	}
+
+#cellgenie_mechanism_w section.concept .paragraph{
+	background: URL(/images/sp/line/concept/cellgenie/bg_composition_w.jpg) #7fa9ee 0 0 no-repeat;
+	color:#031227;
+	background-size:100% auto;
+	padding-bottom:40px;
+	}
+
+
+
+#cellgenie_mechanism section.concept .paragraph .left,
+#cellgenie_mechanism_w section.concept .paragraph .left{
+	float:left;
+	width:40%;
+	max-width:180px;
+	margin:1% 5% 10%;
+	}
+
+#cellgenie section.concept ul,
+#cellgenie_composition section.concept ul,
+#cellgenie_mechanism section.concept ul,
+#cellgenie_w section.concept ul,
+#cellgenie_composition_w section.concept ul,
+#cellgenie_mechanism_w section.concept ul{
+	margin:30px auto 10px;
+	max-width:600px;
+	}
+#cellgenie section.concept ul:after,
+#cellgenie_w section.concept ul:after,
+#cellgenie_composition_w section.concept ul:after,
+#cellgenie_mechanism_w section.concept ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+#cellgenie section.concept ul li,
+#cellgenie_composition section.concept ul li,
+#cellgenie_mechanism section.concept ul li,
+#cellgenie_w section.concept ul li,
+#cellgenie_composition_w section.concept ul li,
+#cellgenie_mechanism_w section.concept ul li{
+	display:block;
+	width:46%;
+	float:left;
+	margin-right:2%;
+	background: rgba(255,255,255,0.3);
+	border:1px solid #FFFFFF;
+	}
+
+#cellgenie_composition section.concept ul li,
+#cellgenie_mechanism section.concept ul li{
+	background: rgba(29,9,7,0.5);
+	border:1px solid #6a512e;
+	}
+
+
+
+
+#cellgenie_w section.concept ul li{
+	background: rgba(56,127,217,0.3);
+	border:1px solid #2199df;
+	}
+
+#cellgenie section.concept ul li:first-child,
+#cellgenie_composition section.concept ul li:first-child,
+#cellgenie_mechanism section.concept ul li:first-child,
+#cellgenie_w section.concept ul li:first-child,
+#cellgenie_composition_w section.concept ul li:first-child,
+#cellgenie_mechanism_w section.concept ul li:first-child{
+	margin-left:2%;
+}
+
+#cellgenie section.concept ul li a,
+#cellgenie_composition section.concept ul li a,
+#cellgenie_mechanism section.concept ul li a,
+#cellgenie_w section.concept ul li a,
+#cellgenie_composition_w section.concept ul li a,
+#cellgenie_mechanism_w section.concept ul li a{
+	display:block;
+	padding: 10px 0;
+	text-align:center;
+	color:#3f2513;
+	}
+
+#cellgenie_composition section.concept ul li a,
+#cellgenie_mechanism section.concept ul li a{
+	color:#FFFFFF;
+}
+
+
+#cellgenie_w section.concept ul li a{
+	/*color:#04152b;*/
+	color:#FFFFFF;
+}
+
+#cellgenie_composition_w section.concept ul li a,
+#cellgenie_mechanism_w section.concept ul li a{
+	color:#04152b;
+	}
+
+#cellgenie section.concept,
+#cellgenie_w section.concept{
+	position:relative;
+	}
+	
+#cellgenie section.concept p.next,
+#cellgenie_w section.concept p.back{
+	position:absolute;
+	top:50%;
+	height:40px;
+	width:22px;
+	padding:0;
+	}
+#cellgenie section.concept p.next{
+	background: URL(/cellgenie/images/arrow_n.png) 0 0 no-repeat;
+	background-size:100% auto;
+	right:0;
+}
+
+	
+#cellgenie_w section.concept p.back{
+	background: URL(/images/sp/line/concept/cellgenie/arrow_w_sp.png) 0 0 no-repeat;
+	background-size:100% auto;
+	left:0;
+}
+
+#cellgenie section.concept .next a,
+#cellgenie_w section.concept .back a{
+	display:block;
+	text-indent:-99999px;	
+}
+
+
+/* ever_crystal_concept
+-------------------------------------------------------------------*/
+#ever_crystal_concept section.concept{
+	text-align:center;
+	}
+#ever_crystal_concept section.concept h2.title{
+	text-align:left;
+	}
+
+#ever_crystal_concept section.concept .paragraph img.copy{
+	width:100%;
+	height:auto;
+	max-width:480px;
+	margin:0 auto;
+	}
+
+#ever_crystal_concept section.concept .paragraph figure{
+	text-align:center;
+	}
+
+#ever_crystal_concept section.concept .paragraph img.image{
+	width:100%;
+	height:auto;
+	max-width:340px;
+	margin:0 auto;
+	}
+
+#ever_crystal_concept section.concept .paragraph p{
+	text-align:left;
+	margin: 10px 20px;
+}
+
+#ever_crystal_concept section.concept .paragraph h3{
+	text-align:center;
+}
+
+/* line_system
+-------------------------------------------------------------------*/
+section.system {
+}
+
+section.system div.type {
+	background: url(/images/sp/line/system/day_night_bar.gif) right repeat-y;
+}
+#de_la_vie_system section.system div.type {
+	background: none;
+}
+section.system div.type h4 {
+	float: left;
+	width: 200px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: #eee;
+	color: #757575;
+	font-style: normal;
+	font-size: 12px;
+	text-align: center;
+}
+
+section.system div.type p.day_night {
+	float: right;
+	margin-right: 11px;
+}
+section.system div.type div.step {
+	clear: both;
+	padding: 25px 0px 20px;
+	font-size: 10px;
+	text-align: center;
+}
+
+section.system div.type div.noarrow {
+	padding: 0px 0px 20px;
+}
+
+
+section.system div.type p.next ,
+section.system div.type div.step p.line ,
+section.system div.type div.step p.name {
+	width: 200px;
+}
+section.system div.type p.or {
+	font-size: 11px;
+}
+section.system div.type div.step p.line {
+	margin-bottom: 5px;
+}
+
+section.system div.type div.step p.line span {
+	padding: 2px 5px;
+	border: 1px solid #a28b3d;
+}
+section.system div.type div.step p.item {
+	background: url(/images/sp/line/system/line.gif) 0 55px repeat-x;
+}
+
+section.system div.type div.step p.noborder {
+	background-image:none;
+}
+
+section.system div.type div.step p.item img,
+section.system div.type div.step p.item_nb img {
+	vertical-align: middle;
+}
+section.system div.type div.step p.item a img, 
+section.system div.type div.step p.item_nb a img{
+	height: 105px;
+}
+section.system div.type div.step p.item .item,
+section.system div.type div.step p.item_nb .item {
+	float: left;
+
+}
+section.system div.type div.step p.item .point {
+	display: block;
+	float: right;
+}
+#de_la_vie_system section.system div.type div.step p.item .point {
+	width: 80px;
+	margin-top: 45px;
+	padding: 5px;
+	background: #ddd;
+	font-size: 14px;
+}
+section.system div.type div.step p.item .point img {
+	margin-top:50px;
+}
+section.system div.type div.step p.name {
+	clear: both;
+	
+}
+section.system div.type p.next {
+	text-align: center;
+}
+
+/* item_detail
+-------------------------------------------------------------------*/
+#item_detail section.detail {
+	margin: 0 10px;
+}
+#item_detail section.detail {
+	line-height: 1.3;
+	margin-top: 7px;
+}
+#item_detail section.detail h2 {
+	padding: 0;
+	text-align: center;
+	height: 41px;
+}
+#item_detail section.detail h2 img {
+	zoom: 60%;
+}
+#item_detail section.detail p.item_image {
+	margin-top: 2px;
+	text-align: center;
+	border: 1px solid #b5b5b5;
+	height: 298px;
+}
+/* meliorityの角版画像対応 */
+.aq_meliority p.item_image {
+	overflow: hidden;
+	width: 100%;
+	background: #000;
+}
+.aq_meliority p.item_image img {
+	display: block;
+	margin-left: 50%;
+	position: relative;
+	left: -229px;
+}
+
+
+.JGKE p.item_image {
+	overflow: hidden;
+	width: 100%;
+}
+.JGKE p.item_image img {
+	display: block;
+	margin-left: 50%;
+	position: relative;
+	left: -229px;
+}
+
+
+
+#item_detail section.detail p.copy {
+	margin-top: 10px;
+	font-size: 14px;
+}
+#item_detail section.detail p.description {
+	margin-top: 10px;
+	font-size: 11px;
+}
+#item_detail section.detail p.line {
+	margin-top: 10px;
+	font-size: 12px;
+}
+#item_detail section.detail p.name_price {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+#item_detail section.detail p.price_notes {
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+#item_detail section.detail p.howto a {
+	padding: 5px 20px 5px 8px;
+	color: #FFF;
+	font-size: 11px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	background: url(/images/sp/common/arrow4.png) no-repeat scroll right 50% #666;
+}
+#item_detail section.detail div.note {
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+#item_detail section.detail div.red{
+	color:#CC3300;
+}
+
+#item_detail section.detail p.color img {
+/*	zoom: 65%;*/
+	width:80%;
+	max-width:450px;
+
+}
+#item_detail section.detail ul.cat {
+	margin-top: 10px;
+}
+#item_detail section.detail ul.cat li {
+	float: left;
+	display: block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 3px 5px;
+	border: 1px solid #CCC;
+	font-size: 11px;
+}
+#item_detail section.detail h3 {
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 3px 5px;
+	border-bottom: 1px dotted #999;
+	font-weight: normal;
+}
+#item_detail section.detail p.howto {
+	margin-top: 10px;
+	font-size: 12px;
+}
+#item_detail section.detail ul.relation {
+	margin-top: 20px;
+}
+#item_detail section.detail p.remove_mylist a ,
+#item_detail section.detail p.add_mylist span ,
+#item_detail section.detail p.add_mylist a ,
+#item_detail section.detail ul.relation a {
+	display: block;
+	margin-top: 3px;
+	padding: 8px 5px 8px 20px;
+	font-size: 12px;
+}
+#item_detail section.detail p.remove_mylist ,
+#item_detail section.detail p.add_mylist {
+	float: left;
+	margin-top: 15px;
+	width: 40%;
+}
+#item_detail section.detail p.remove_mylist a {
+	background: url(/images/sp/line/mylist_remove.gif) 5px 40% no-repeat #939ba4;
+	color: #FFF;
+}
+#item_detail section.detail ul.relation a {
+	background: url(/images/sp/common/arrow3.png) 5px 50% no-repeat #666;
+	color: #FFF;
+}
+
+#item_detail section.detail ul.relation a img{
+	vertical-align:middle;
+}
+
+#item_detail section.detail ul.relation li.voice a {
+	background: url(/images/sp/common/arrow6.png) 5px 50% no-repeat transparent;
+    color: #333;
+}
+
+#item_detail section.detail ul.relation li.voice{
+	background: url(/images/sp/common/window.png) 98% 50% no-repeat #ccc;
+	padding-right:5%;
+
+	}
+
+#item_detail section.detail p.add_mylist a {
+	background: url(/images/sp/line/mylist_blank.gif) 5px 50% no-repeat #666;
+	color: #FFF;
+}
+#item_detail section.detail p.add_mylist span {
+	background: url(/images/sp/line/mylist_off.gif) 5px 50% no-repeat #b7b7b7;
+	color: #FFF;
+	line-height: 1;
+}
+#item_detail section.detail p.please_entry {
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 10px;
+	letter-spacing: -1px;
+}
+#item_detail section.detail p.please_entry a {
+	text-decoration: underline;
+	padding: 0 2px;
+}
+#item_detail section.detail dl.about_mylist {
+	clear: both;
+}
+#item_detail section.detail dl.about_mylist dt {
+	width: 40%;
+	font-size: 10px;
+	padding: 5px 0;
+	background: #777;
+	color: #FFF;
+	text-align: center;
+	border-top: 1px solid #999;
+}
+#item_detail section.detail dl.about_mylist dd {
+	font-size: 10px;
+	padding: 5px;
+	border: 1px solid #999;
+}
+
+#item_detail section.detail .howtomake {
+	font-size: 10px;
+	margin-bottom:10px;
+	line-height: 1.5em;
+	clear: both;
+	}
+
+#item_detail section.detail .border {
+	padding:5px;
+	border-bottom:1px solid #CCCCCC;
+	}
+
+#item_detail section.detail .howtomake img{
+	zoom:70%;
+	}
+
+#item_detail section.detail .howtomake .right{
+	float: right;
+	}
+	
+#item_detail section.detail .howtomake .left{
+	float: left;
+	}
+	
+#item_detail section.detail .center{
+	text-align: center;
+	}
+
+#item_detail section.detail .bestcosme{
+	margin-top:5px;
+	padding-bottom:20px;
+	}
+
+
+
+#item_detail section.detail .sns {
+	clear: both;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px dotted #CCC;
+}
+section.recommend {
+	margin-top: 15px;
+}
+div.recommend_list {
+}
+div.recommend_list h4 {
+	display: block;
+	padding: 13px 25px;
+	font-size: 12px;
+	border-top: 1px solid #B5B5B5;
+	background: url(/images/sp/common/arrow2_down.png) no-repeat scroll right 50% #efefef;
+	height: 2em;
+}
+div.recommend_list li:first-child h4 {
+	padding: 20px 25px;
+	height: auto;
+}
+div.recommend_list li li {
+	border-top: 1px solid #eee;
+	background: url(/images/sp/common/arrow2.png) no-repeat scroll right 50% #FFF;
+	padding: 10px 20px;
+}
+div.recommend_list li li a {
+	float: left;
+	width: auto;
+	height:auto;
+	background: none;
+	padding: 0;
+	margin-right: 10px;
+}
+div.recommend_list li li a img {
+	height: 58px;
+}
+div.recommend_list li li em {
+	display: block;
+	margin-right: 25px;
+	font-size: 11px;
+	font-style: normal;
+}
+
+
+
+
+
+/* search_result
+-------------------------------------------------------------------*/
+
+section.search_data {
+	margin-top: 5px;
+	/*margin-bottom: 10px;*/
+	padding: 15px;
+	background: #e4e4e4;
+}
+
+section.search_data h3 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+section.search_data h3 em {
+	font-style: normal;
+	color: #fb4240;
+}
+
+section.search_data dl ,
+section.search_data ul {
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+section.search_data dl.sort ,
+section.search_data div.narrow {
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+	border-top: 1px solid #999;
+}
+section.search_data div.narrow input {
+	font-size: 12px;
+	padding: 0 10px;
+	border-radius: 0;
+	background: #666;
+}
+section.search_data ul li {
+	line-height: 1.3;
+}
+section.search_data dl dt {
+	font-size: 12px;
+}
+section.search_data dl dd {
+	float: left;
+	width: 24%;
+	margin-right: 3px;
+	margin-top: 5px;
+}
+
+section.search_data dl dd span ,
+section.search_data dl dd a.ui-link {
+	display: block;
+	padding: 5px 0 4px;
+	text-align: center;
+}
+section.search_data dl dd a.ui-link {
+	background: #666666;
+	color: #FFF;
+}
+section.search_data dl dd span {
+	background: #bbb;
+	color: #666;
+}
+div.item_list {
+	/*
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #CCC;
+	*/
+}
+div.item_list li {
+	border-top: 1px solid #CCC;
+	background: url(/images/sp/common/arrow1.png) right 50% no-repeat;
+	position: relative;
+}
+div.item_list li li {
+	border: none;
+	margin-bottom: 5px;
+	background: none;
+	font-size: 12px;
+}
+div.item_list li li em {
+	font-weight: bold;
+	font-style: normal;
+}
+div.item_list li a {
+	float: left;
+	margin: 10px;
+	width: 98px;
+	height: 98px;
+	border: 1px solid #CCC;
+}
+div.item_list ul ul {
+	margin-top: 10px;
+	margin-left: 120px;
+	padding-right: 33px;
+}
+div.item_list ul ul li {
+	float: left;
+	width: 100%;
+}
+p.back_next {
+	padding: 20px 30px;
+	border-top: 1px solid #CCC;
+}
+p.back_next span ,
+p.back_next a {
+	float:left;
+	display: block;
+	padding: 8px 0;
+	width: 50%;
+	text-align: center;
+	font-size: 12px;
+	background: #dfdfdf;
+}
+p.back_next span {
+	background-color: #eee;
+	color: #CCC;
+}
+p.back_next .back {
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	border-right: 1px solid #eee;
+	margin-left: -1px;
+}
+p.back_next .next {
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+}
+
+#member_mylist section.mylist h4 {
+	display: inline;
+	padding: 5px 5px 5px 25px;
+	background-color: #E4E4E4;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 10px 0;
+}
+#member_mylist section.mylist p.back_mylist {
+	display: inline;
+	display: inline;
+	padding: 5px;
+	background-color: #E4E4E4;
+	font-size: 12px;
+	font-weight: normal;
+	position: absolute;
+	right: 5px;
+}
+#member_mylist section.mylist p.no_exist {
+	text-align: center;
+	margin: 30px 0;
+	font-size: 12px;
+}
+#member_mylist section.mylist section.data dl dt ,
+#member_mylist section.mylist section.data dl dd {
+	float: left;
+	margin-right: 5px;
+
+}
+#member_mylist section.mylist section.data dl dt ,
+#member_mylist section.mylist section.data dl dd a {
+	padding: 3px;
+}
+#member_mylist section.mylist section.data dl dd a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ul.thumbs_list {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+ul.thumbs_list li {
+	float: left;
+	text-align: center;
+	font-size: 10px;
+}
+ul.thumbs_list li a {
+	display: block;
+	border: 1px solid #CCC;
+	height: 98px;
+	margin: 10px 5px 10px 5px;
+	width: 90px;
+	overflow: hidden;
+}
+
+
+/* member_login
+-------------------------------------------------------------------*/
+
+.contact{
+	margin-top:80px;
+}
+
+.contact a{
+	color:#000000;
+}
+
+.edit strong ,
+.contact strong ,
+.member strong {
+	color: #FF0000;
+	font-weight: normal;
+	padding: 0 5px;
+}
+
+ul.error_list {
+	color: #F00;
+}
+
+fieldset ul.error_list {
+	margin: 3px 0;
+}
+fieldset ul.error_list li {
+	list-style: none;
+	margin: 0;
+}
+.reminder h3 ,
+.edit h3 ,
+.contact h3 ,
+#member_complete h3 ,
+#member_update h3 ,
+#member_finish h3 ,
+#member_confirm h3 ,
+#member_entry h3 ,
+#member_login h3 {
+	margin-top: 5px;
+	padding: 20px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	background: #dfdfdf;
+}
+.reminder h4 ,
+.edit h4 ,
+.member h4 ,
+.contact h4 {
+	font-size: 14px;
+	border-bottom: 1px dashed #CCC;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.reminder p ,
+.contact ul li ,
+.contact p ,
+.member p ,
+.edit p {
+	font-size: 12px;
+	margin: 10px;
+	line-height: 1.5;
+}
+section.member .power_pink,
+.errorpage .power_pink {
+	font-size:18px;
+	color:#CC3300;
+	padding:10px;
+}
+.errorpage .txt {
+	font-size:14px;
+	padding:10px;
+}
+.member p.policy {
+	margin: 0;
+}
+.member p.policy a {
+	text-decoration: underline;
+	margin-right: 5px;
+}
+.contact ul {
+	margin: 10px;
+	margin-left: 20px
+}
+.contact ul li {
+	list-style:disc;
+}
+
+section.reminder div.form ,
+section.edit div.form ,
+section.member div.form ,
+section.contact div.form ,
+#member_update section.entry div.form ,
+#member_finish section.finish div.form ,
+#member_confirm section.confirm div.form ,
+#member_entry section.entry div.form ,
+#member_login section.login div.form {
+	margin: 15px;
+	font-size: 12px;
+	position: relative;
+/*	z-index: 50;*/
+	padding: 0;
+	border: 0;
+}
+#member_login section.login fieldset {
+	margin: 10px 5px;
+	padding: 10px 13px;
+	background: #f6ebcb;
+}
+#member_login section.login .campaign fieldset {
+	background: #ffcece;
+}
+#member_login section.login p {
+	line-height: 1.5;
+	margin: 10px 0;
+}
+#member_login section.login fieldset input {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+#member_login section.login fieldset label {
+	color: #544b2c;
+}
+#member_finish p strong {
+	color: #C00;
+}
+#member_login section.login fieldset p.reminder {
+	margin: 0;
+	background: #999;
+	padding: 1px;
+	text-align: center;
+}
+#member_login section.login fieldset p.reminder a {
+	color: #FFF;
+	font-size:11px;
+}
+/*
+#member_login section.login form div {
+	margin-left: 30px;
+	margin-right: 30px;
+	background: #333333;
+	color: #FFF;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 14px;
+	border: none;
+}*/
+#member_login section.login p.entry {
+	text-align: center;
+}
+.member_add p.entry a ,
+#member_finish section.finish div.form p.login a ,
+#member_login section.login p.entry a {
+/*	display: block;
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 8px;
+	background: #333333;
+	text-align: center;
+	color: #FFF;
+	text-shadow: none;
+	font-weight: normal;
+	font-size: 14px;
+*/
+background-color: #333;
+color: white;
+font-size: 14px;
+padding: 8px 15px;
+border-radius:3px;
+}
+
+section.reminder div.form fieldset ,
+section.edit div.form fieldset ,
+section.member div.form fieldset ,
+section.contact div.form fieldset ,
+#member_update section.entry div.form fieldset ,
+#member_entry section.entry div.form fieldset {
+	font-size: 13px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background: #dbdbdb;
+	-webkit-border-radius: 3px;
+	border-color: #dbdbdb;
+}
+section.member .campaign div.form fieldset {
+	background: #ffe8e8;
+	padding:10px;
+}
+
+#member_confirm section.confirm div.form dl {
+	font-size: 13px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background: #dbdbdb;
+	-webkit-border-radius: 3px;
+	border-color: #dbdbdb;
+}
+#member_confirm section.confirm div.form dl dt ,
+#member_confirm section.confirm div.form dl dd {
+	margin-bottom: 5px;
+}
+#member_confirm section.confirm div.form dl dd {
+	margin-left: 10px;
+}
+#member_confirm section.confirm div.form dl dl {
+	margin-bottom: 0px;
+}
+
+.reminder dt ,
+.reminder label ,
+.edit dt ,
+.edit label ,
+.member dt ,
+.member label ,
+.contact dt ,
+.contact label ,
+#member_entry label ,
+#reserve_input label {
+	display: block;
+	border-bottom: 1px dotted #999;
+	padding: 5px 0;
+	margin-bottom: 5px;
+}
+#edit_input .horizonal label ,
+#contact_input .horizonal label ,
+#member_entry .horizonal label ,
+#reserve_input .horizonal label {
+	display: inline;
+	border: none;
+}
+.reminder label span ,
+#edit_input label span ,
+#contact_input label span ,
+#member_entry label span ,
+#reserve_input label span {
+	display: block;
+	font-size: 11px;
+	margin-top: 5px;
+}
+
+.reminder dd ,
+.edit dd ,
+.member dd ,
+.contact dd {
+	font-size: 12px;
+	margin: 10px 5px 5px;
+}
+form p.submits {
+	text-align: center;
+}
+
+section.member .campaign .kiyaku_txt {
+	padding-left:1em;
+	display:block;
+	font-size:12px;
+}
+
+section.member .campaign .kiyaku_txt a {
+	color:#F69;
+}
+
+.enquete_caution {
+	padding:0 10px;
+	font-size:14px;
+	color:#F30;
+}
+
+.note {
+	padding-left: 1em;
+	text-indent: -0.5em;
+}
+
+
+/* input field style */
+form input[type=submit] ,
+form input[type=reset] ,
+fieldset input[type=email] ,
+fieldset input[type=number] ,
+fieldset input[type=tel] ,
+fieldset input[type=password] ,
+fieldset input[type=text] ,
+fieldset textarea {
+	padding: 5px;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	border: 1px solid #666;
+}
+fieldset input[type=radio] {
+	margin-top: -1px;
+}
+form input[type=submit] {
+	background-color: #333;
+	color: #fff;
+	font-size:14px;
+	padding: 8px 15px;
+}
+form input.back {
+	padding: 8px;
+	background: #fff;
+	color: #333;
+	font-size:13px;
+}
+form input.delete {
+	padding: 3px;
+	background: #fff;
+	color: #333;
+	font-size:11px;
+}
+
+
+fieldset .full {
+	width: 95%;
+}
+fieldset textarea.full {
+	width: 96%;
+}
+fieldset select.full {
+	width: 98%;
+}
+fieldset .half {
+	width: 30%;
+	margin-right: 5px;
+}
+fieldset .mini {
+	width: 3em;
+	margin-right: 5px;
+}
+fieldset .w40 {
+	width: 35%;
+	margin-right: 5px;
+}
+fieldset .w30 {
+	width: 30%;
+	margin-right: 5px;
+}
+
+.member_add {
+}
+
+.member_add h2 {
+	background: url(/images/sp/common/slash_ptn.gif) 0px 0px;
+color: #333;
+font-size: 20px;
+font-weight: normal;
+margin: 5px 0px;
+padding: 20px;
+}
+.member_add h3 {
+	margin: 10px 0;
+	padding: 10px;
+	background: #efefef;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1.4;
+}
+.member_add p ,
+.member_add h3 ,
+.member_add h4 {
+	margin: 10px;
+	font-weight: normal;
+}
+.member_add p {
+	line-height: 1.5;
+	font-size: 12px;
+}
+.member_add h3 {
+	font-weight: bold;
+	font-size: 13px;
+}
+.member_add p.entry {
+	margin: 30px 0;
+	text-align: center;
+}
+
+
+
+.maintenance h3 {
+	margin: 10px 0;
+	padding: 10px;
+	background: #efefef;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+
+.maintenance h4 {
+	margin: 10px 10px 20px;
+	padding-left:10px;
+	border-left:8px solid #CCCCCC;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.maintenance p {
+	font-size: 13px;
+	margin:10px;
+	line-height:1.4em;
+}
+
+.maintenance p.message {
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+
+.maintenance hr{
+	border-width: 1px 0 0 0; 
+	border-style: solid; 
+	border-color: #CCCCCC; 	
+}
+
+.maintenance ul{
+	margin:10px 20px 20px 30px;
+	
+}
+
+.maintenance ul li{
+	font-size: 13px;
+	line-height:1.4em;
+	list-style:disc;
+}
+
+.maintenance ul.faq{
+	margin-left:3em;	
+	}
+
+.maintenance ul.faq li{
+	list-style:none;
+}
+
+.maintenance ul.faq li.a{
+	margin-bottom:0.5em;
+}
+.maintenance ul.faq li span{
+	margin-left:-2em;
+	width:2em;
+	display:block;
+	float:left;
+	}
+
+
+
+/* member_entry
+-------------------------------------------------------------------*/
+#member_entry .caution {
+	color:#C03;
+	line-height:1.5em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	border-bottom:1px dotted #C03;
+	border-top:1px dotted #C03;
+}
+
+
+/* member_policy
+-------------------------------------------------------------------*/
+#member_policy .ui-content p {
+	font-size: 12px;
+	margin: 10px;
+	line-height: 1.5;
+}
+
+
+/* agreement
+-------------------------------------------------------------------*/
+#agreement section.agreement dl ,
+#agreement section.agreement p {
+	margin: 10px;
+	font-size: 12px;
+	line-height: 1.5;
+}
+#agreement section.agreement dl dt ,
+#agreement section.agreement dl dd {
+	margin: 10px 0;
+}
+#agreement section.agreement dl dt {
+	background-color: #D3D8E1;
+	padding: 10px;
+}
+#agreement section.agreement dl dd {
+	padding: 10px;
+}
+
+/* contact_info
+-------------------------------------------------------------------*/
+.contact .contact_info{
+	margin:5px;
+	border:1px solid #C03;
+}
+
+.contact .contact_info h3{
+	padding:10px;
+	color:#C03;
+	border-bottom:1px dotted #C03;
+	background-color:#ffffff;
+}
+
+#reserve_input .reserve_caution ,
+.contact .caution ,
+#reserve_input .reserve_gmail {
+	color:#C03;
+	line-height:1.5em;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	border-bottom:1px dotted #C03;
+	border-top:1px dotted #C03;
+	}
+
+#reserve_input .reserve_gmail strong{
+	color:#C03;
+}
+
+
+#reserve_input .filter {
+	color:#C03;
+	
+}
+
+
+/* reservation salon de beaute
+-------------------------------------------------------------------*/
+
+
+
+#reserve_input option.opt_29,
+#reserve_input option.opt_30,
+#reserve_input option.opt_31{
+	color: #cc0033;
+}
+
+
+#reserve_input .reserve_flow {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #e6e6e6;
+}
+#reserve_input .reserve_flow h3 {
+	margin: 10px;
+	padding: 5px;
+	background-color: #8f9395;
+	font-size: 14px;
+	color: #FFF;
+}
+#reserve_input .reserve_flow p {
+	background-color: #FFF;
+	padding: 5px;
+	padding-left: 26px;
+	text-indent: -21px;
+	font-size: 12px;
+}
+#reserve_input .reserve_flow p img {
+	width: 21px;
+}
+#reserve_input .reserve_tel ,
+#reserve_input .reserve_notice {
+	margin: 10px;
+	border: 1px solid #dddddd;
+}
+
+#reserve_input .reserve_tel h3 ,
+#reserve_input .reserve_notice h3 {
+	margin-top: 0;
+	background-color: #e1e6e8;
+	font-size: 12px;
+	padding: 7px 5px 8px;
+}
+#reserve_input .reserve_tel p {
+	font-size: 18px;
+	text-align: center;
+}
+#reserve_input .privacy_txt {
+	letter-spacing: -1px;
+}
+#reserve_input .privacy_txt a {
+	color: #1D52AB;
+	text-decoration: underline;
+}
+
+#reserve_input fieldset .half {
+	width: 50%;
+}
+
+
+/* ingredient
+-------------------------------------------------------------------*/
+
+#ingredient{
+padding:5px;
+	}
+
+
+
+#ingredient p{
+    font-size: 11px;
+	line-height:1.4em;
+	padding:5px 10px;
+	}
+#ingredient h3{
+	font-size:14px;
+	line-height:1.4em;
+	padding:10px;
+	background-color:#EEEEEE;
+	}
+	
+#ingredient h4{
+	font-size:14px;
+	line-height:1.4em;
+	padding:5px 10px;
+	clear:both;
+	}
+
+#ingredient h5{
+	font-size:12px;
+	border-bottom:1px solid #CCCCCC;
+	line-height:1.4em;
+	padding:5px 10px;
+	}
+
+#ingredient .backlink a{
+    background: url("/images/sp/common/arrow5.png") no-repeat scroll 0.2em center transparent;
+    background-size: 20px auto;
+    display: block;
+    float: right;
+    padding: 5px 0 5px 20px;
+    width: 7em;
+	}
+
+#ingredient:after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+
+/* footer
+-------------------------------------------------------------------*/
+
+ul.option {
+	border-top: 1px solid #ccc;
+}
+ul.option li {
+	border-bottom: 1px solid #ccc;
+}
+
+ul.option li.salon {
+	border-bottom: none;
+}
+
+ul.option li a {
+	display: block;
+	padding: 12px 20px;
+	background: url(/images/sp/common/arrow1.png) 50% right no-repeat;
+	font-size: 10px;
+	color: #333;
+}
+
+ul.option li.salon a{
+	padding-bottom:5px;
+}
+
+ul.option li.salon_reserve a{
+	display: block;
+	width:18em;
+	padding: 5px 10px;
+	margin-left:20px;
+	margin-bottom:15px;
+	background-color:#CCCCCC;
+	background-image:none;
+	border-radius:8px;	
+	-webkit-border-radius: 8px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 8px;	/* Firefox用 */
+	text-align:center;
+	}
+
+
+ul.option li a img {
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+
+/* footer
+-------------------------------------------------------------------*/
+footer {
+	margin-top: 0px;
+}
+/*footer nav {
+	height: 52px;
+}*/
+footer nav {
+}
+header nav li.home ,
+header nav li.back ,
+footer nav li.home ,
+footer nav li.back {
+	float: left;
+	margin-right: 0;
+}
+footer li.home a ,
+footer li.back a {
+	font-size: 11px;
+}
+ul.company {
+	margin-top: 0px;
+	background-color: #333;
+	text-align: center;
+	padding: 5px 0 10px 0;
+	
+}
+ul.company li {
+	display: inline;
+	margin: 0;
+	padding: 1px;
+}
+ul.company li a.ui-link {
+	margin: 0;
+	color: #FFF;
+	font-size: 9px;
+	letter-spacing: -1px;
+
+}
+ul.company li:first-child {
+	/*margin-right: -10px;*/
+}
+
+
+ul.other {
+	margin-top: 0px;
+	background-color: #666;
+	text-align: left;
+	padding: 5px 0 10px 10px;
+	
+}
+/*ul.other li {
+	display: inline;
+	margin: 0;
+	padding: 1px;
+}
+ul.other li a.ui-link {
+	margin: 0;
+	color: #FFF;
+	font-size: 10px;
+	letter-spacing: -1px;
+
+}
+*/
+address {
+	height: 17px;
+	padding: 5px;
+	text-align: center;
+	font-style: normal;
+	font-weight: normal;
+	color: #333;
+	font-size: 10px;
+	text-shadow: none;
+}
+
+
+p.mode_change {
+	margin-bottom: 25px;
+	text-align: center;
+}
+p.mode_change a {
+	padding: 5px 10px;
+	font-size: 10px;
+	background: #CCC;
+	border-radius: 10px;
+
+}
+
+
+#news {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* moisture liposome
+-------------------------------------------------------------------*/
+
+/*
+img.bgmaximage{
+ position:fixed !important;
+}*/
+
+section.line #protect {
+position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 50;
+ width: 100%;
+}
+
+
+section.movie p.ml_cm{
+	text-align:center;
+	}
+
+section.movie p.ml_cm img {
+  background-image: url("/images/sp/line/concept/moisture_liposome/img_tvcm.jpg");
+  background-position: center 0;
+  background-repeat: no-repeat;
+  display:block;
+	width:250px;
+	height:140px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+
+section.movie p.interview {
+  background-image: url("/images/sp/line/concept/moisture_liposome/img_int.jpg");
+  background-position: center 0;
+  background-repeat: no-repeat;
+}
+
+/* repletion
+-------------------------------------------------------------------*/
+
+
+
+
+section.concept .movie{
+	text-align:center;
+}
+	
+	
+section.concept .movie h3{
+	text-align:left;
+}
+	
+section.concept .movie h3 span{
+	font-weight:normal;
+	font-size:12px;
+	margin-left:20px;
+} 
+
+section.concept .movie .btn img{
+	width:50%;
+	max-width:460px;
+	height:auto;
+	}
+
+
+/* moisture liposome green project
+-------------------------------------------------------------------*/
+
+#greenProject .sns {
+	clear: both;
+	margin-top: 10px;
+}
+
+#greenProject .sns li{
+	float:left;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+/* moisture liposome specialsite
+-------------------------------------------------------------------*/
+
+a.ml_special {
+	text-align:center;
+	padding:8px;
+	border:solid 1px #CCCCCC;
+	border-radius:4px;
+	width:90%;
+	margin:10px auto;
+}
+
+
+
+
+/* portrait or landscape
+-------------------------------------------------------------------*/
+html.portrait img.fit {
+	zoom:67%;
+}
+html.landscape section.system div.type {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* clear fix
+-------------------------------------------------------------------*/
+#home section.news ul:after ,
+#home section.news .bestcosme:after ,
+#mylist_operation:after ,
+#aq_howto ol li:after ,
+#news section.news div .name:after ,
+#news section.news div .about:after ,
+#news section.news div .spec:after ,
+nav dl.alternate dd.shop_search .ui-tabs-panel:after ,
+nav dl.alternate dd.item_search .ui-tabs-panel:after ,
+nav dl.alternate dd.item_search:after ,
+nav dl.alternate dd.shop_search:after ,
+.paragraph:after ,
+p.back_next:after ,
+header .status-member:after ,
+section.search :after ,
+section.system div.type div.step p.item:after ,
+section.system div.type div.step:after ,
+div.recommend_list li:after ,
+ul.thumbs_list:after ,
+section.search:after ,
+section.search dl.alternate:after ,
+div.item_list:after ,
+div.item_list li:after ,
+section.search_data dl:after ,
+#item_detail section.detail ul.cat:after ,
+section.search dl.alternate:after ,
+footer ul.company:after ,
+section.line_index ul:after ,
+section.category_index ul:after ,
+nav ul:after ,
+nav dl:after ,
+nav:after ,
+#line nav:after ,
+h1:after ,
+header:after ,
+html.landscape div#eye ul.effect:after ,
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}

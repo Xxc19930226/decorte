@@ -1,0 +1,190 @@
+.mainContainer {
+    padding-top: 50px;
+}
+
+.keyvisual{
+	position:relative;
+}
+
+/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/liposome/kv.jpg?1457673566');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size:100% auto;
+	width: 100%;
+	max-width: 1200px;
+	height: 700px;
+}
+*/
+.news {
+    padding-bottom: 100px;
+}
+.news .news-201604_shower {
+	background-image: url('/images/aq_mw/news_01.jpg?1457673949')
+}
+.news .news-201604_shower a {
+	margin-left: 533px;
+	margin-top: 130px
+}
+.news .news-201604_shower a .title {
+	font-size: 25px
+}
+.news .news-201604_shower a .lead {
+	font-size: 35px;
+	line-height: 57px
+}
+.news .news-201604_ardeflule {
+	background-image: url('/images/aq_mw/news_02.jpg?1457673949')
+}
+.news .news-201604_ardeflule a {
+	margin-top: 345px
+}
+.news .news-201604_neckrenew {
+	background-image: url('/images/aq_mw/news_03.jpg?1457673949')
+}
+.news .news-201604_neckrenew a {
+	margin-top: 345px
+}
+#l--embed-player__video {
+    display: block;
+    width: 100%;
+}
+
+.concept .l-container{
+	width:100%;
+	margin: 0 auto;
+	background-image: url('/images/liposome/bg_concept_01.jpg?1457673949');
+    background-position: center;
+    background-size: cover;
+	padding-top:105px;
+	padding-bottom:90px;
+	text-align: center;
+	
+}
+
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	color: #FFFFFF;
+
+}
+
+.concept__message__lead{
+	font-family: hy;
+	font-size: 22px;
+	color: #FFFFFF;
+	margin-top:40px;
+}
+
+.concept__message__link a {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 200px;
+	margin: 20px auto 0;
+	line-height: 2;
+	display: block;
+}
+
+/* bescos badge position */
+.keyvisual .l-container .bestcosme {
+    bottom: 92px;
+    left: 10%;
+}
+
+.product .itemlist {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.product__category__item {
+    border-bottom: solid 1px #000000;
+}
+
+
+
+@media screen and (max-width: 736px) {
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+
+.keyvisual .award{
+    height: 75px;
+	width: 75px;
+    left: 66%;
+	top:75%;
+    position: absolute;
+}
+
+.keyvisual .award img{
+	width:100%;
+	height:auto;
+}
+
+.keyvisual .l-container .bestcosme {
+    bottom: 15px;
+    left: 15px;
+}
+.keyvisual .l-container .bestcosme a {
+    width: 80px;
+}
+.concept__message__title{
+	font-size: 20px;
+  line-height: normal;
+}
+
+.concept__message__lead{
+	font-size: 12px;
+	margin-top: 30px;
+}
+
+.concept__message__lead span{
+	display:inline-block;
+	padding-bottom:0.5em;
+}
+
+.concept__message__text{
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.concept .l-container{
+  height: 142px;
+  background-size: cover;
+  padding: 50px 0 30px;
+  line-height: 20px;
+  width:100%;
+  margin-top:0;
+}
+.concept a {
+  font-size: 10px;
+  width: 100px;
+  line-height: 20px;
+  margin: 20px auto 0;
+}
+
+.product .itemlist {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+.product .itemlist__item {
+    width: 100%;
+}
+
+}

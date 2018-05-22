@@ -1,0 +1,40 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ProductSearchRightWord
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          product_search_right_word
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        word: { label: 正規の単語 }
+        wrong_words: { label: 誤った単語 }
+        wrong_words_string: { label: 誤った単語 }
+        WrongWordsString: { label: 誤った単語 }
+      list:
+        title: 商品検索用単語 一覧
+        display: [ word, WrongWordsString ]
+        object_actions:
+          _edit:   { label: 編集 }
+          _delete: { label: 削除, confirm: "本当に削除してもよろしいですか?" }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup, params: { onclick : "if (confirm('本当に本番反映してもよろしいですか?')) { return true; } else { return false; }" } }
+<?php endif ?>
+        batch_actions:
+          _delete: { label: 削除 }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup }
+<?php endif ?>
+      filter:  ~
+      form:    ~
+      edit:
+        title: 商品検索用単語 編集
+      new:
+        title: 商品検索用単語 新規作成

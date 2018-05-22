@@ -1,0 +1,634 @@
+@charset "UTF-8";
+/* smartphone layout break point*/
+/* max width device : iPhone6 plus(Landscape) */
+/* line 8, ../sass/bestcosme.scss */
+.bestcosme {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  top: 50px;
+  width: 1200px;
+}
+/* line 17, ../sass/bestcosme.scss */
+.bestcosme__header__title {
+  background-image: url(../images/news/bestcosme/titlelogo.gif);
+  background-position: left 50%;
+  background-repeat: no-repeat;
+  height: 96px;
+  font-family: hy;
+  font-size: 30px;
+  line-height: 96px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 570px;
+}
+/* line 31, ../sass/bestcosme.scss */
+.bestcosme__header__lead {
+  font-family: hy;
+  font-size: 16px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 41, ../sass/bestcosme.scss */
+.year__title {
+  background-image: url(../images/news/bestcosme/icon_circle_up.gif);
+  cursor: pointer;
+}
+/* line 46, ../sass/bestcosme.scss */
+.year.year2014 .year__container {
+  display: none;
+}
+/* line 52, ../sass/bestcosme.scss */
+.year.m--active .year__title {
+  background-image: url(../images/news/bestcosme/icon_circle_down.gif);
+}
+/* line 57, ../sass/bestcosme.scss */
+.year #liposome_2015 {
+  position: relative;
+}
+
+/* line 62, ../sass/bestcosme.scss */
+.year__title {
+  background-position: 98% 50%;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #000;
+  font-size: 24px;
+  margin-top: 90px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* line 72, ../sass/bestcosme.scss */
+.line__shortcut {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+/* line 78, ../sass/bestcosme.scss */
+.line__shortcut .line__logo {
+  background-image: url(../images/news/bestcosme/icon_arrow_down.gif);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  border-right: 1px solid #cccccc;
+  box-sizing: border-box;
+  float: left;
+  height: 100px;
+  text-align: center;
+  width: 240px;
+}
+/* line 88, ../sass/bestcosme.scss */
+.line__shortcut .line__logo:last-child {
+  border-right: none;
+}
+/* line 91, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a {
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 90px;
+  width: 100%;
+}
+/* line 97, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_liposome_treatment-liquid {
+  background-image: url(../images/news/bestcosme/logo_liposome_treatment-liquid.gif);
+}
+/* line 100, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_moisture_liposome {
+  background-image: url(../images/news/bestcosme/logo_moisture_liposome.gif);
+}
+/* line 103, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_aqmw {
+  background-image: url(../images/news/bestcosme/logo_aqmw.gif);
+}
+/* line 106, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_phytotune {
+  background-image: url(../images/news/bestcosme/logo_phytotune.gif);
+}
+/* line 109, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_cellgenie {
+  background-image: url(../images/news/bestcosme/logo_cellgenie.gif);
+}
+/* line 112, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_whitelogist {
+  background-image: url(../images/news/bestcosme/logo_whitelogist.gif);
+}
+/* line 115, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_ip_shot {
+  background-image: url(../images/news/bestcosme/logo_ip_shot.gif);
+}
+/* line 118, ../sass/bestcosme.scss */
+.line__shortcut .line__logo a.logo_aq_meliority {
+  background-image: url(../images/news/bestcosme/logo_aq_meliority.gif);
+}
+
+/* line 125, ../sass/bestcosme.scss */
+.year2014 .line__shortcut {
+  width: calc(240px * 3);
+}
+
+/* line 130, ../sass/bestcosme.scss */
+.year2016 .line__shortcut {
+  width: calc(240px * 5);
+}
+/* line 133, ../sass/bestcosme.scss */
+.year2016 .line__shortcut.fourcolumn {
+  width: calc(240px * 4);
+}
+/* line 136, ../sass/bestcosme.scss */
+.year2016 .line__shortcut.sixcolumn {
+  width: calc(200px * 6);
+}
+/* line 138, ../sass/bestcosme.scss */
+.year2016 .line__shortcut.sixcolumn .line__logo {
+  width: 200px;
+}
+
+/* line 144, ../sass/bestcosme.scss */
+.item {
+  overflow: hidden;
+  *zoom: 1;
+  border: 1px solid #e5e5e5;
+  margin-top: 50px;
+  padding-bottom: 35px;
+}
+/* line 149, ../sass/bestcosme.scss */
+.item .image-container {
+  float: left;
+  width: 459px;
+}
+/* line 153, ../sass/bestcosme.scss */
+.item .image-container .image img {
+  height: auto;
+  width: 100%;
+}
+/* line 159, ../sass/bestcosme.scss */
+.item .detail-container {
+  width: 600px;
+  margin-left: 500px;
+}
+
+/* line 166, ../sass/bestcosme.scss */
+.image-container .links {
+  margin-top: 20px;
+}
+/* line 168, ../sass/bestcosme.scss */
+.image-container .links__item {
+  margin-left: 35px;
+  padding: 20px 0;
+}
+/* line 171, ../sass/bestcosme.scss */
+.image-container .links__item a {
+  color: #000;
+  font-size: 12px;
+}
+/* line 174, ../sass/bestcosme.scss */
+.image-container .links__item a img {
+  height: 16px;
+  margin-left: 10px;
+  vertical-align: top;
+  width: auto;
+}
+/* line 183, ../sass/bestcosme.scss */
+.image-container .note {
+  margin-top: 20px;
+}
+/* line 185, ../sass/bestcosme.scss */
+.image-container .note p {
+  border: solid 1px #FF0000;
+  color: #FF0000;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 35px;
+  padding: 20px;
+}
+
+/* line 195, ../sass/bestcosme.scss */
+.detail-container {
+  /* bescos */
+}
+/* line 196, ../sass/bestcosme.scss */
+.detail-container .name {
+  border-bottom: 1px solid #c7b77b;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  font-family: hy;
+  font-size: 28px;
+  line-height: 1.2;
+}
+/* line 203, ../sass/bestcosme.scss */
+.detail-container .name a {
+  color: #000;
+}
+/* line 210, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item span {
+  display: inline-block;
+  padding-left: 44px;
+}
+/* line 213, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item span.title {
+  background-image: url(../images/news/bestcosme/icon_crown.gif);
+  background-position: left top;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: auto;
+  min-height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 25px;
+}
+/* line 223, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item span.title.twoline {
+  height: 48px;
+}
+/* line 227, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item span.category {
+  font-size: 12px;
+}
+/* line 232, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 30px 10px;
+}
+/* line 236, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge:last-child {
+  border: none;
+}
+/* line 239, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge img {
+  float: left;
+  padding: 0 30px;
+}
+/* line 243, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge img.width_146 {
+  padding: 0 24px;
+}
+/* line 246, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge img.width_160 {
+  padding: 0;
+}
+/* line 250, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge span {
+  display: block;
+  float: left;
+  margin-left: 13px;
+  width: 360px;
+}
+/* line 255, ../sass/bestcosme.scss */
+.detail-container .bescos__list__item.badge span.category {
+  margin-top: 5px;
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@media screen and (max-width: 736px) {
+  /* line 276, ../sass/bestcosme.scss */
+  .bestcosme {
+    overflow: hidden;
+    *zoom: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    top: 50px;
+    width: auto;
+  }
+  /* line 285, ../sass/bestcosme.scss */
+  .bestcosme__header__title {
+    background-image: url(../images/news/bestcosme/sp/titlelogo.gif);
+    background-position: left 50%;
+    background-repeat: no-repeat;
+    background-size: auto 57px;
+    height: 57px;
+    font-family: hy;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 260px;
+  }
+  /* line 300, ../sass/bestcosme.scss */
+  .bestcosme__header__lead {
+    font-family: hy;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* line 309, ../sass/bestcosme.scss */
+  .year__title {
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    background-size: 18px auto;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 45px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+  }
+
+  /* line 321, ../sass/bestcosme.scss */
+  .line__shortcut {
+    overflow: hidden;
+    *zoom: 1;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+  }
+  /* line 327, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo {
+    background-image: url(../images/news/bestcosme/icon_arrow_down.gif);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 9px auto;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    float: left;
+    height: 45px;
+    text-align: center;
+    width: 20%;
+  }
+  /* line 338, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo:last-child {
+    border-right: none;
+  }
+  /* line 341, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 347, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_liposome_treatment-liquid {
+    background-image: url(../images/news/bestcosme/logo_liposome_treatment-liquid.gif);
+    background-size: 50px auto;
+  }
+  /* line 351, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_moisture_liposome {
+    background-image: url(../images/news/bestcosme/logo_moisture_liposome.gif);
+    background-size: 49px auto;
+  }
+  /* line 355, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_aqmw {
+    background-image: url(../images/news/bestcosme/logo_aqmw.gif);
+    background-size: 23px auto;
+  }
+  /* line 359, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_phytotune {
+    background-image: url(../images/news/bestcosme/logo_phytotune.gif);
+    background-size: 51.5px auto;
+  }
+  /* line 363, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_cellgenie {
+    background-image: url(../images/news/bestcosme/logo_cellgenie.gif);
+    background-size: 50px auto;
+  }
+  /* line 367, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_whitelogist {
+    background-image: url(../images/news/bestcosme/logo_whitelogist.gif);
+    background-size: 58px auto;
+  }
+  /* line 371, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_ip_shot {
+    background-image: url(../images/news/bestcosme/logo_ip_shot.gif);
+    background-size: 38px auto;
+  }
+  /* line 375, ../sass/bestcosme.scss */
+  .line__shortcut .line__logo a.logo_aq_meliority {
+    background-image: url(../images/news/bestcosme/logo_aq_meliority.gif);
+    background-size: 23px auto;
+  }
+
+  /* line 383, ../sass/bestcosme.scss */
+  .year2014 .line__shortcut {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 387, ../sass/bestcosme.scss */
+  .year2014 .line__shortcut .line__logo {
+    width: calc(100% / 3);
+  }
+
+  /* line 393, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 397, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut .line__logo {
+    width: calc(100% / 5);
+  }
+  /* line 401, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.fourcolumn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 405, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.fourcolumn .line__logo {
+    width: calc(100% / 4);
+  }
+  /* line 409, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.sixcolumn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 413, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.sixcolumn .line__logo {
+    width: calc(100% / 3);
+  }
+  /* line 415, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.sixcolumn .line__logo:nth-child(1) {
+    margin-bottom: 15px;
+  }
+  /* line 418, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.sixcolumn .line__logo:nth-child(2) {
+    margin-bottom: 15px;
+  }
+  /* line 421, ../sass/bestcosme.scss */
+  .year2016 .line__shortcut.sixcolumn .line__logo:nth-child(3) {
+    margin-bottom: 15px;
+  }
+
+  /* line 430, ../sass/bestcosme.scss */
+  .item {
+    overflow: hidden;
+    *zoom: 1;
+    border: 1px solid #e5e5e5;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 35px;
+  }
+  /* line 437, ../sass/bestcosme.scss */
+  .item .image-container {
+    float: none;
+    width: auto;
+  }
+  /* line 441, ../sass/bestcosme.scss */
+  .item .image-container .image img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 447, ../sass/bestcosme.scss */
+  .item .detail-container {
+    float: none;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+    width: auto;
+  }
+
+  /* line 456, ../sass/bestcosme.scss */
+  .image-container .links {
+    margin-top: 70px;
+  }
+  /* line 458, ../sass/bestcosme.scss */
+  .image-container .links__item {
+    margin-left: 20px;
+    padding: 5px 0;
+  }
+  /* line 461, ../sass/bestcosme.scss */
+  .image-container .links__item a {
+    color: #000;
+    font-size: 8px;
+  }
+  /* line 464, ../sass/bestcosme.scss */
+  .image-container .links__item a img {
+    height: 8px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: auto;
+  }
+  /* line 473, ../sass/bestcosme.scss */
+  .image-container .note {
+    margin-top: 20px;
+  }
+  /* line 475, ../sass/bestcosme.scss */
+  .image-container .note p {
+    font-size: 10px;
+    margin: 0 20px;
+  }
+
+  /* line 481, ../sass/bestcosme.scss */
+  .detail-container {
+    margin-top: -100px;
+    /* bescos */
+  }
+  /* line 484, ../sass/bestcosme.scss */
+  .detail-container .name {
+    border-bottom: 1px solid #c7b77b;
+    margin-top: 0;
+    padding-bottom: 80px;
+    font-family: hy;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  /* line 491, ../sass/bestcosme.scss */
+  .detail-container .name a {
+    color: #000;
+  }
+  /* line 498, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item span {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  /* line 501, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item span.title {
+    background-image: url(../images/news/bestcosme/icon_crown.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 16.5px auto;
+    display: inline-block;
+    height: auto;
+    min-height: 0px;
+    font-size: 10px;
+    line-height: 13px;
+    margin-left: 0;
+    margin-top: 5px;
+    width: 100%;
+  }
+  /* line 514, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item span.title.twoline {
+    height: auto;
+  }
+  /* line 518, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item span.category {
+    font-size: 8px;
+  }
+  /* line 523, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item.badge {
+    overflow: hidden;
+    *zoom: 1;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 7px 0;
+  }
+  /* line 527, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item.badge img {
+    float: left;
+    height: auto;
+    width: 47px;
+  }
+  /* line 532, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item.badge img.width_146 {
+    width: 51px;
+    padding: 0 28px;
+  }
+  /* line 536, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item.badge img.width_160 {
+    width: 107px;
+  }
+  /* line 540, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item.badge span {
+    display: block;
+    float: left;
+    margin-left: 13px;
+    width: calc(100% - 140px);
+  }
+  /* line 545, ../sass/bestcosme.scss */
+  .detail-container .bescos__list__item.badge span.category {
+    margin-top: 3px;
+  }
+
+  /* line 558, ../sass/bestcosme.scss */
+  #cellgenie_2015 .cellgenie_white .detail-container {
+    margin-top: -130px;
+  }
+  /* line 561, ../sass/bestcosme.scss */
+  #cellgenie_2015 .cellgenie_white .links {
+    margin-top: 90px;
+  }
+
+  /*#aq_mw_2016 {
+          .detail-container {
+              margin-top: -200px;
+              .name {
+                  padding-bottom: 190px;
+              }
+          }
+  }*/
+}

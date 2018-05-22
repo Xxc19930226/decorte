@@ -1,0 +1,2197 @@
+@charset "utf-8";
+/* ******************************************************
+Title: result.css
+Created: 2011-06-15
+Last Modified: 2011-06-15
+****************************************************** */
+
+
+/* ========== line共通 ========== */
+
+
+/*html {
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+*/
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック",verdana,arial,clean,sans-serif;
+}
+body {
+    font-family: sans-serif;
+/*    font-size: 62.5%;*/
+}
+
+
+
+/*
+#top,
+#linesPage,
+#modal,
+#lineContents,
+#TB_window,
+#news,
+#maison*/
+html {
+/*	-webkit-user-select: none;
+	-moz-user-select: none;*/
+}
+
+
+.mainContainer a {text-decoration:underline;font-size:inherit;line-height:inherit}
+.mainContainer a:link {color:#1d52ab;}
+.mainContainer a:visited {color:#1d52ab;}
+.mainContainer a:active,
+.mainContainer a:hover {text-decoration:none;color:#1d52ab;}
+
+
+.mainContainer{
+	margin-top:100px;
+}
+
+.mainContainer strong{
+	font-weight: bold;
+}
+
+
+#lineMenu {
+	width:215px;
+	float:left;
+	position:relative;
+	display:inline;
+}
+.selected {
+	cursor: default;
+}
+#lineContents,
+#lineItems {
+	width:733px;
+	height: auto;
+	float:left;
+	overflow: hidden;
+	margin-right:-10px;
+	position:relative;
+	padding-top:10px;
+
+}
+
+#lineNavi {
+	padding:0 0 16px;
+/*	border: 1px solid #CCCCCC;*/
+	margin-top:20px;
+}
+
+#lineNavi a{ color:#000000; text-decoration:none;}
+
+
+#lineNavi p.lineconcept {
+	display:block;
+	width:182px;
+	height:40px;
+}
+.subTitle {
+	margin-bottom:20px;
+}
+#lineContents ul li {
+	display: block;
+	width:735px;
+	height: auto;
+	text-align:left;
+}
+
+a, div {
+	outline: none;
+}
+
+#lineFades {
+	width: 733px;
+	height: 428px;
+	overflow: hidden;
+	background: #000;
+}
+#lineList a.selected {
+	cursor: default;
+}
+
+
+/*====================================
+   #lineMenu BG
+====================================*/
+#lineList{
+	width: 182px;
+	border-top: 1px solid #CCCCCC;
+	margin: 0 auto;
+}
+
+
+#lineList dt,
+#lineList dt a {
+	display: block;
+	height: 35px;
+	width: 182px;
+	text-indent: -9000px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+#lineList dt.listConcept,
+#lineList dt.listConcept a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px 0px;
+}
+
+#lineList dt.listConcept:hover,
+#lineList dt.listConcept a:hover,
+#lineList dt.listConcept a.selected{
+	background-position: -182px 0px;
+}
+#lineList dt.listMakeup {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -105px;
+}
+#lineList dt.listMakeup:hover,
+#lineList dt.listMakeup a:hover,
+#lineList dt.listMakeup a.selected {
+	background-position: -182px -105px;
+}
+#lineList dt.listSkinCare,
+#lineList dt.listSkinCare a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -35px;
+}
+#lineList dt.listSkinCare:hover,
+#lineList dt.listSkinCare a:hover,
+#lineList dt.listSkinCare a.selected{
+	background-position: -182px -35px;
+}
+#lineList dt.listItem{
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -70px;
+}
+#lineList dt.listItem:hover,
+#lineList dt.listItem a:hover,
+#lineList dt.listItem a.selected {
+	background-position: -182px -70px;
+}
+#lineList dt.listNormalConcept,
+#lineList dt.listNormalConcept a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -280px;
+}
+#lineList dt.listNormalConcept:hover,
+#lineList dt.listNormalConcept a:hover,
+#lineList dt.listNormalConcept a.selected {
+	background-position: -182px -280px;
+}
+#lineList dt.listFeature,
+#lineList dt.listFeature a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -315px;
+}
+#lineList dt.listFeature:hover,
+#lineList dt.listFeature a:hover,
+#lineList dt.listFeature a.selected {
+	background-position: -182px -315px;
+}
+#lineList dt.listHowto,
+#lineList dt.listHowto a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -245px;
+}
+#lineList dt.listHowto:hover,
+#lineList dt.listHowto a:hover,
+#lineList dt.listHowto a.selected {
+	background-position: -182px -245px;
+}
+#lineList dt.listComposition,
+#lineList dt.listComposition a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -350px;
+}
+#lineList dt.listComposition:hover,
+#lineList dt.listComposition a:hover,
+#lineList dt.listComposition a.selected {
+	background-position: -182px -350px;
+}
+#lineList dt.listMask,
+#lineList dt.listMask a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -385px;
+}
+#lineList dt.listMask:hover,
+#lineList dt.listMask a:hover,
+#lineList dt.listMask a.selected {
+	background-position: -182px -385px;
+}
+#lineList dt.listFoundation,
+#lineList dt.listFoundation a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -420px;
+}
+#lineList dt.listFoundation:hover,
+#lineList dt.listFoundation a:hover,
+#lineList dt.listFoundation a.selected {
+	background-position: -182px -420px;
+}
+#lineList dt.listHaircare,
+#lineList dt.listHaircare a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -210px;
+}
+#lineList dt.listHaircare:hover,
+#lineList dt.listHaircare a:hover,
+#lineList dt.listHaircare a.selected {
+	background-position: -182px -210px;
+}
+#lineList dt.listStory,
+#lineList dt.listStory a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -140px;
+}
+#lineList dt.listStory:hover,
+#lineList dt.listStory a:hover,
+#lineList dt.listStory a.selected {
+	background-position: -182px -140px;
+}
+#lineList dt.listMovie,
+#lineList dt.listMovie a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -175px;
+}
+#lineList dt.listMovie:hover,
+#lineList dt.listMovie a:hover,
+#lineList dt.listMovie a.selected {
+	background-position: -182px -175px;
+}
+#lineList dt.listSoftskin,
+#lineList dt.listSoftskin a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -455px;
+}
+#lineList dt.listSoftskin:hover,
+#lineList dt.listSoftskin a:hover,
+#lineList dt.listSoftskin a.selected {
+	background-position: -182px -455px;
+}
+#lineList dt.listCourse,
+#lineList dt.listCourse a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -490px;
+}
+#lineList dt.listCourse:hover,
+#lineList dt.listCourse a:hover,
+#lineList dt.listCourse a.selected {
+	background-position: -182px -490px;
+}
+#lineList dt.listAccess,
+#lineList dt.listAccess a {
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0px -525px;
+}
+#lineList dt.listAccess:hover,
+#lineList dt.listAccess a:hover,
+#lineList dt.listAccess a.selected {
+	background-position: -182px -525px;
+}
+/*#lineList dt.listSalon,
+#lineList dt.listSalon a {
+	height: 57px;
+	background-position: 0px -560px;
+}
+#lineList dt.listSalon:hover,
+#lineList dt.listSalon a:hover,
+#lineList dt.listSalon a.selected {
+	background-position: -182px -560px;
+}*/
+#lineList dt.listTvcm,
+#lineList dt.listTvcm a{
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0 -617px;
+}
+
+#lineList dt.listTvcm:hover,
+#lineList dt.listTvcm a:hover,
+#lineList dt.listTvcm a.selected {
+	background-position: -182px -617px;
+}
+
+#lineList dt.listHowtomake,
+#lineList dt.listHowtomake a{
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0 -652px;
+}
+
+#lineList dt.listHowtomake:hover,
+#lineList dt.listHowtomake a:hover,
+#lineList dt.listHowtomake a.selected {
+	background-position: -182px -652px;
+}
+
+#lineList dt.listCaresystem,
+#lineList dt.listCaresystem a{
+	background: url(../images/lineCommons/lineMenu.gif);
+	background-position: 0 -687px;
+}
+
+#lineList dt.listCaresystem a:hover,
+#lineList dt.listCaresystem a:hover,
+#lineList dt.listCaresystem a.selected {
+	background-position: -182px -687px;
+}
+
+/*====================================
+   #SalonMenu BG
+====================================*/
+
+/*#lineList {
+	width: 100%;
+	padding:0;
+}
+
+#lineList a{
+	display: block;
+}
+
+.list_news,
+.list_salon,
+.list_course,
+
+.list_member,
+.list_access,
+.list_reserve{
+	display: block;
+	font-size: 14px;
+	padding:12px 5px;
+}
+
+#lineList dt:hover,
+#lineList dd:hover,
+#lineList p:hover{
+	background-color:#9EB7B9;
+	cursor:pointer;
+}
+
+
+#lineList dd,
+#lineList dt{
+	margin-left:0;
+}
+
+
+.sub_salon_concept,
+.sub_salon_flow,
+.list_facial,
+.list_body{
+	display: block;
+	font-size: 12px;
+	padding:5px 5px;
+	background-color:#CCCCCC;
+}
+
+.sub_salon_course_aqme,
+.sub_salon_course_basic,
+.sub_salon_course_healing,
+.sub_salon_course_ml,
+.sub_salon_course_first,
+.sub_salon_course_option,
+.sub_salon_course_bridal,
+.sub_salon_member_new,
+.sub_salon_member_program{
+	display: block;
+	font-size: 12px;
+	overflow: hidden;
+	padding:5px 5px;
+	background-color:#EEEEEE;
+}
+
+.selected_course{
+		background-color:#666666;
+		color:FFFFFF;
+}
+.selected_cate{
+		background-color:#999999;
+}
+.selected_sub{
+		background-color:#CCCCCC;
+}
+
+*/
+
+/* ====== lineup ====== */
+
+
+
+a:hover img{
+	opacity:0.7;
+	filter: alpha(opacity=70);
+}
+
+/*====================================
+   イメージバナー
+====================================*/
+
+.info{
+/*	border-top: 1px solid #CCCCCC;*/
+	padding-top:20px;
+}
+
+
+.iBanner {
+	width:160px;
+	/*position:absolute;*/
+	/*top:390px;*/
+	margin-left:28px;
+}
+
+.iBanner2 {
+	/*position:absolute;*/
+	width:160px;
+	margin-top:10px;
+	margin-left:28px;
+}
+.iBanner a,
+.iBanner2 a {
+	cursor:pointer;
+}
+
+
+
+
+/* ====== Salon ====== */
+#course_aq .lineFrame,
+#course_aqmw .lineFrame{
+	background-color:#fff8e7;
+	}
+
+div#slnskincare{
+position:relative;
+}
+
+div#slnskincare a{
+width:180px;
+height:20px;
+}
+
+a#slnLineAqme{left:45px;top:330px;}
+a#slnLineAq{left:277px;top:330px;}
+a#slnLineAqmw{left:507px;top:330px;}
+
+a#slnCourseAqme{left:45px;top:360px;}
+a#slnCourseAq{left:277px;top:360px;}
+a#slnCourseAqmw{left:507px;top:360px;}
+
+
+#SalonContents {
+	width:675px;
+	padding:29px;
+/*	height: auto;*/
+	float:right;
+	overflow: hidden;
+	margin-right:-10px;
+	position:relative;
+
+}
+
+#SalonContents #salonFades,
+#SalonContents #slideshow {
+	width: 733px;
+	height: 428px;
+	overflow: hidden;
+	background: #fff;
+	text-align:center;
+}
+
+#SalonContents #slideshow .innerSlide{
+	width:544px;
+	margin:0 auto;
+	padding-top:30px;
+}
+
+
+.bride{
+	text-align:center;
+	padding-top:35px;
+	clear:right;
+	}
+
+/*#salonFades_l{
+	float:left;
+	margin-left:32px;
+	_margin-left:22px;
+	margin-top:30px;
+	}*/
+	
+#salonFades_l{
+	float:left;
+	margin-left:12px;
+	_margin-left:2px;
+	margin-top:30px;
+	}
+
+#salonFades_r{
+	float:left;
+	margin-left:350px;	
+	_margin-left:200px;	
+	margin-top:30px;
+	}
+	
+#salonFades .btn_reserve{
+	text-align:center;
+	margin:15px auto 20px;	
+	}
+
+#salonFades{
+	position:relative;
+	
+	}
+	
+#salonFades a{
+/*	background-color:#000000;*/
+
+}
+	
+#salonFades a.anniversary{
+	display: block;
+    height: 36px;
+    left: 76px;
+    position: absolute;
+    text-indent: -99999px;
+    top: 322px;
+    width: 580px;
+}
+
+#salonFades a.weblimited{
+    display: block;
+    height: 36px;
+    left: 76px;
+    position: absolute;
+    text-indent: -99999px;
+    top: 365px;
+    width: 580px;
+	}	
+#salonFades a.webreserve{
+    display: block;
+    height: 31px;
+    left: 166px;
+    position: absolute;
+    text-indent: -99999px;
+    top: 266px;
+    width: 401px;
+	}	
+		
+	
+#salonFades a.news1{
+    display: block;
+    height: 35px;
+    left: 75px;
+    position: absolute;
+    text-indent: -99999px;
+    top: 322px;
+    width: 580px;
+	}	
+	
+#salonFades a.omotesando{
+	position:absolute;
+	display:block;
+	width:354px;
+	height:200px;
+	top: 315px;
+	left:12px;
+	text-indent:-99999px;
+	}	
+
+#salonFades a.ginza{
+	position:absolute;
+	display:block;
+	width:354px;
+	height:200px;
+	top: 315px;
+	left:367px;
+	text-indent:-99999px;
+	}	
+
+#salonFades a.weblimited:hover,
+#salonFades a.webreserve:hover,
+#salonFades a.omotesando:hover,
+#salonFades a.ginza:hover,
+#salonFades a.anniversary:hover{	
+	background-image:url(../images/halfwhite.png);
+}
+
+
+#salonFades a.news1:hover{	
+	background-image:url(../images/halfgray.png);
+}
+
+#salonFades div.news{
+	background-color: #fae9f2;
+	padding: 10px;
+	margin: 30px 25px 0;
+	text-align: center;
+	font-size: 14px;
+	color: #cc0033;
+	line-height: 1.6em;
+	font-family: hy ;
+}
+
+
+#salonFades div.news a{
+	color: #cc0033;
+}
+
+
+#salonFades div.information{
+	margin-top: 50px;
+	text-align: center;
+}
+
+/*20130201*/
+#SalonContents .reserve_info {
+	/*padding:29px 29px 0;*/
+	text-align:center;
+}
+#SalonContents .reserve_info .reserve_title {
+	margin-bottom:15px;
+}
+#SalonContents .reserve_info .reserve_title_comp {
+	margin-bottom:0;
+}
+#SalonContents .reserve_info .reserve_sub01,
+#SalonContents .reserve_info .reserve_sub02 {
+	margin-bottom:15px;
+}
+#SalonContents .reserve_info .reserve_flow {
+	margin-bottom:30px;
+}
+#SalonContents .reserve_info .reserve_notice {
+	margin-bottom:10px;
+	border:solid 3px #CCC;
+	padding:15px 15px 5px 15px;
+	text-align:left;
+	font-size:14px;
+	line-height:1.4em;
+}
+
+#SalonContents .reserve_info .filter {
+	padding:5px;
+	margin-bottom:5px;
+	margin-top:5px;
+	text-align:left;
+	color:#CC0033;
+}
+
+#SalonContents .reserve_info .reserve_gmail {
+	margin-bottom:30px;
+	border:solid 3px #CCC;
+	padding:15px;
+	text-align:left;
+}
+
+#SalonContents .reserve_info .reserve_gmail p{
+	color:#CC0033;
+	font-size:1.2em;
+	line-height:1.5em;
+	}
+
+#SalonContents .reserve_info .reserve_caution {
+	text-align:center;
+	color:#CC0033;
+	font-size:14px;
+	line-height:1.5em;
+	margin-bottom:20px;
+}
+#SalonContents .reserve_info .reserve_notice ul {
+	margin:0;
+	padding:0 0 0 15px;
+	list-style:none;
+}
+#SalonContents .reserve_info .reserve_notice li {
+	margin:0 0 15px;
+	padding:0;
+	list-style:square;
+}
+
+#SalonContents .reserve_info .reserve_tel {
+	margin-bottom:10px;
+}
+
+#SalonContents .reserve_form .reserve_tel_sub {
+	margin-bottom:10px;
+	font-size:14px;
+	text-align:center;
+}
+#SalonContents .reserve_form .reserve_tel_sub span.small {
+	font-size:12px;
+}
+#SalonContents .reserve_form .reserve_tel_sub span.small span.red {
+	color:#F00;
+}
+#SalonContents .reserve_form {
+	padding-top:10px;
+	font-size:12px;
+}
+#SalonContents .reserve_form #main {
+	width:675px;
+}
+#SalonContents .reserve_form #main .textarea {
+	border:solid 3px #CCCCCC;
+	padding:2px;
+	line-height:1.4em;
+}
+#SalonContents .reserve_form #main .left1em {
+	padding-left:1em;
+}
+#SalonContents .reserve_form #main input,
+#SalonContents .reserve_form #main select {
+	margin-bottom:3px;
+	font-size:13px;
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
+}
+#SalonContents .reserve_form #main input#name_sei,
+#SalonContents .reserve_form #main input#name_mei,
+#SalonContents .reserve_form #main input#name_sei_kana,
+#SalonContents .reserve_form #main input#name_mei_kana {
+	width:120px;
+}
+#SalonContents .reserve_form #main input#address {
+	width:410px;
+}
+#SalonContents .reserve_form #main table {
+	border:none;
+	margin:0;
+	padding:1px 0;
+}
+#SalonContents .reserve_form #main th {
+	background-color:#EEEEEE;
+	border-bottom:solid 1px #CCCCCC;
+	border-top:solid 1px #FFFFFF;
+	border-left:solid 2px #FFFFFF;
+}
+#SalonContents .reserve_form #main td {
+	background-color:#FFFFFF;
+	border-bottom:solid 1px #CCCCCC;
+	border-top:solid 1px #FFFFFF;
+	border-right:solid 2px #FFFFFF;
+}
+#SalonContents .reserve_form #main th.last,
+#SalonContents .reserve_form #main td.last {
+	border-bottom:none;
+}
+#SalonContents .reserve_form #main .textarea {
+	padding:0;
+	margin-bottom:15px;
+}
+#SalonContents .reserve_form #main #registry td {
+	border:none;
+	text-align:center;
+}
+#SalonContents .reserve_form #main .textarea .small {
+	font-size:10px;
+}
+#SalonContents .reserve_form #main .privacy_txt {
+	font-size:13px;
+	line-height:1.4em;
+	margin-bottom:15px;
+}
+#SalonContents .reserve_form #main #registry table {
+	margin:0 auto;
+}
+
+#SalonContents .reserve_form .comp_txt {
+	font-size:14px;
+	margin-bottom:15px;
+	line-height:1.4em;
+}
+#SalonContents .reserve_form .demo {
+
+}
+
+#SalonContents .reserve_form option.opt_29,
+#SalonContents .reserve_form option.opt_30,
+#SalonContents .reserve_form option.opt_31{
+	color: #cc0033;
+}
+
+
+
+
+/*20130201--salonmenu*/
+
+.salonmenu #lineList dt,
+.salonmenu #lineList dt a {
+	display: block;
+	height: 35px;
+	width: 182px;
+	overflow: hidden;
+    margin: 0 auto;
+	background-repeat: no-repeat;
+}
+.salonmenu #lineList dt.list_salon,
+.salonmenu #lineList dt.list_salon a {
+	height: 57px;
+
+}
+.salonmenu #lineList dt.list_news,
+.salonmenu #lineList dt.list_news a {
+	background: url(/salon/images/20130201/lineMenu_salon.gif);
+	background-position: 0px 0px;
+}
+.salonmenu #lineList dt.list_news:hover,
+.salonmenu #lineList dt.list_news a:hover,
+.salonmenu #lineList dt.list_news a.selected{
+	background-position: -182px 0px;
+}
+.salonmenu #lineList dt.list_salon {
+	background: url(/salon/images/20130201/lineMenu_salon.gif);
+	background-position: 0px -35px;
+}
+.salonmenu #lineList dt.list_salon:hover,
+.salonmenu #lineList dt.list_salon a:hover,
+.salonmenu #lineList dt.list_salon a.selected{
+	background-position: -182px -35px;
+}
+.salonmenu #lineList dt.list_course {
+	background: url(/salon/images/20130201/lineMenu_salon.gif);
+	background-position: 0px -92px;
+}
+.salonmenu #lineList dt.list_course:hover,
+.salonmenu #lineList dt.list_course a:hover,
+.salonmenu #lineList dt.list_course a.selected{
+	background-position: -182px -92px;
+}
+.salonmenu #lineList dt.list_member {
+	background: url(/salon/images/20130201/lineMenu_salon.gif);
+	background-position: 0px -127px;
+}
+.salonmenu #lineList dt.list_member:hover,
+.salonmenu #lineList dt.list_member a:hover,
+.salonmenu #lineList dt.list_member a.selected{
+	background-position: -182px -127px;
+}
+.salonmenu #lineList dt.list_access,
+.salonmenu #lineList dt.list_access a {
+	background: url(/salon/images/20130201/lineMenu_salon.gif);
+	background-position: 0px -162px;
+}
+.salonmenu #lineList dt.list_access:hover,
+.salonmenu #lineList dt.list_access a:hover,
+.salonmenu #lineList dt.list_access a.selected{
+	background-position: -182px -162px;
+}
+.salonmenu #lineList dt.list_reserve,
+.salonmenu #lineList dt.list_reserve a {
+	background: url(/salon/images/20130201/lineMenu_salon.gif);
+	background-position: 0px -197px;
+}
+.salonmenu #lineList dt.list_reserve:hover,
+.salonmenu #lineList dt.list_reserve a:hover,
+.salonmenu #lineList dt.list_reserve a.selected{
+	background-position: -182px -197px;
+}
+
+.salonmenu #lineList dt.list_facial,
+.salonmenu #lineList dt.list_body {
+	height:19px;
+	width:182px;
+	margin-top:2px;
+	margin-left: 7px;
+}
+
+.salonmenu #lineList dt.list_facial {
+	background: url(/salon/images/20140201/navi_course_01.gif) left center no-repeat;
+}
+
+.salonmenu #lineList dt.list_facial:hover,
+.salonmenu #lineList dt.list_facial.selected {
+	background: url(/salon/images/20140201/navi_course_01_on.gif) left center no-repeat;
+}
+.salonmenu #lineList dt.list_body a {
+	background: url(/salon/images/20140201/navi_course_02.gif) left center no-repeat;
+}
+.salonmenu #lineList dt.list_body a:hover,
+.salonmenu #lineList dt.list_body a.selected {
+	background: url(/salon/images/20140201/navi_course_02_on.gif) left center no-repeat;
+}
+
+.salonmenu #lineMenu #lineList dd p {
+	z-index: 80;
+}
+.salonmenu #lineList dd p {
+	display: block;
+	width: 161px;
+	height: 19px;
+	text-indent: -9000px;
+	margin-top:2px;
+	margin-left: 7px;
+}
+.salonmenu #lineList dt.list_body a {
+	display: block;
+	width: 182px;
+}
+
+.salonmenu #lineList dd a {
+	display: block;
+	width: 161px;
+	height: 19px;
+}
+
+
+.salonmenu #lineList dl.course{
+	margin-bottom:10px;
+	}
+
+.salonmenu #lineList dl.course dd{
+	margin-left:5px;
+	}
+
+.salonmenu #lineList dd p.sub_salon_concept {
+	background: url(/salon/images/20130201/navi_sub_01.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_concept a:hover,
+.salonmenu #lineList dd p.sub_salon_concept a.selected {
+	background: url(/salon/images/20130201/navi_sub_01_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_flow {
+	background: url(/salon/images/20130201/navi_sub_02.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_flow a:hover,
+.salonmenu #lineList dd p.sub_salon_flow a.selected {
+	background: url(/salon/images/20130201/navi_sub_02_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_aqme {
+	background: url(/salon/images/20140201/navi_sub_03.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_aqme a:hover,
+.salonmenu #lineList dd p.sub_salon_course_aqme a.selected {
+	background: url(/salon/images/20140201/navi_sub_03_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_basic {
+	background: url(/salon/images/20140201/navi_sub_04.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_basic a:hover,
+.salonmenu #lineList dd p.sub_salon_course_basic a.selected {
+	background: url(/salon/images/20140201/navi_sub_04_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_healing {
+	background: url(/salon/images/20140201/navi_sub_05.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_healing a:hover,
+.salonmenu #lineList dd p.sub_salon_course_healing a.selected {
+	background: url(/salon/images/20140201/navi_sub_05_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_ml {
+	background: url(/salon/images/20140201/navi_sub_06.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_ml a:hover,
+.salonmenu #lineList dd p.sub_salon_course_ml a.selected {
+	background: url(/salon/images/20140201/navi_sub_06_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_first {
+	background: url(/salon/images/20140201/navi_sub_07.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_first a:hover,
+.salonmenu #lineList dd p.sub_salon_course_first a.selected {
+	background: url(/salon/images/20140201/navi_sub_07_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_option {
+	background: url(/salon/images/20140201/navi_sub_08.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_option a:hover,
+.salonmenu #lineList dd p.sub_salon_course_option a.selected {
+	background: url(/salon/images/20140201/navi_sub_08_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_bridal {
+	background: url(/salon/images/20140201/navi_sub_09.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_bridal a:hover,
+.salonmenu #lineList dd p.sub_salon_course_bridal a.selected {
+	background: url(/salon/images/20140201/navi_sub_09_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_member_new {
+	background: url(/salon/images/20130201/navi_sub_10.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_member_new a:hover,
+.salonmenu #lineList dd p.sub_salon_member_new a.selected {
+	background: url(/salon/images/20130201/navi_sub_10_on.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_member_program {
+	background: url(/salon/images/20130201/navi_sub_11.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_member_program a:hover,
+.salonmenu #lineList dd p.sub_salon_member_program a.selected {
+	background: url(/salon/images/20130201/navi_sub_11_on.gif) left top no-repeat;
+}
+
+.salonmenu #lineList dd p.sub_salon_course_body {
+	background: url(/salon/images/20140201/navi_sub_12.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_body a:hover,
+.salonmenu #lineList dd p.sub_salon_course_body a.selected {
+	background: url(/salon/images/20140201/navi_sub_12_on.gif) left top no-repeat;
+}
+
+.salonmenu #lineList dd p.sub_salon_course_bodyfacial {
+	background: url(/salon/images/20140201/navi_sub_13.gif) left top no-repeat;
+}
+.salonmenu #lineList dd p.sub_salon_course_bodyfacial a:hover,
+.salonmenu #lineList dd p.sub_salon_course_bodyfacial a.selected {
+	background: url(/salon/images/20140201/navi_sub_13_on.gif) left top no-repeat;
+}
+
+/*20130201--salon20130201*/
+.salon20130201 {
+	padding-left:39px;
+	padding-right:39px;
+}
+
+
+.salon20130201 #salonnews .salon0301 {
+	text-align:center;
+	}
+
+
+/*.salon20130201 #salonnews .salon0301 p{
+	margin-bottom:30px;
+	}
+*/
+.salon20130201 #salonnews .newsDate,
+.salon20130201 #salonnews .salonDate{
+	text-align:left;
+	margin-bottom:10px;
+	margin-left:20px;
+	}
+
+.salon20130201 #salonnews .newsDateframe{
+	margin-bottom:80px;
+	
+	}
+	
+.salon0301{
+	position:relative;
+	}
+
+.salon0301 a#aqme_superior{
+    background-image: url("../images/nocolor.gif");
+    display: block;
+    height: 24px;
+    left: 474px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -99999px;
+    top: 275px;
+    width: 170px;
+    z-index: 1;
+	}
+.salon0301 a#aqme_superior:hover{
+	background-image:url(../images/halfgray.png);
+	}
+
+.salon20130201 #salonnews div.salon1201 p.ttl,
+.salon20130201 #salonnews div.salon1201 ul.option,
+.salon20130201 #salonnews div.salon1201 p.txt {
+	margin-bottom:15px;
+}
+.salon20130201 #salonnews div.salon1201 {
+	background-image:none;
+}
+.salon20130201 .salonconcept_btn {
+	z-index: 80;
+}
+.salon20130201 .salonconcept_btn {
+	display: block;
+	width: 124px;
+	height: 23px;
+	text-indent: -9000px;
+	margin-top:15px;
+	margin-left:550px;
+	background: url(/salon/images/20130201/salonconcept_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+}
+.salon20130201 .salonconcept_btn a {
+	display: block;
+	width: 124px;
+	height: 23px;
+}
+.salon20130201 .salonconcept_btn:hover {
+	background-position: -124px 0px;
+}
+
+.salon20130201 .subtitle {
+	margin-bottom:3px;
+}
+
+.salon20130201 .title {
+	margin-bottom:15px;
+}
+.salon20130201 .course_aqme {
+	margin-bottom:15px;
+}
+.salon20130201 .image {
+	float:right;
+}
+.salon20130201 .txt {
+	margin-bottom:20px;
+}
+.salon20130201 .course_aqme .course_aqme_btn {
+	display: block;
+	width: 196px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_aqme_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+}
+.salon20130201 .course_aqme .course_aqme_btn a {
+	display:block;
+	width: 196px;
+	height: 33px;
+}
+.salon20130201 .course_aqme .course_aqme_btn:hover {
+	background-position: -196px 0px;
+}
+.salon20130201 .course_basic_btn,
+.salon20130201 .course_bridal_btn {
+	display: block;
+	width: 166px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_basic_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin-bottom:15px;
+}
+.salon20130201 .course_basic_btn a,
+.salon20130201 .course_bridal_btn a {
+	display:block;
+	width: 166px;
+	height: 33px;
+}
+.salon20130201 .course_basic_btn:hover,
+.salon20130201 .course_bridal_btn:hover {
+	background-position: -166px 0px;
+}
+.salon20130201 .course_bridal_btn {
+	margin-left:508px;
+}
+
+
+.salon20130201 .course_healing_btn {
+	display: block;
+	width: 166px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_healing_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin-bottom:15px;
+}
+.salon20130201 .course_healing_btn a {
+	display:block;
+	width: 166px;
+	height: 33px;
+}
+.salon20130201 .course_healing_btn:hover {
+	background-position: -166px 0px;
+}
+
+.salon20130201 .course_ml_btn {
+	float:left;
+	display: block;
+	width: 226px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_ml_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin:20px 0 0 10px;
+}
+.salon20130201 .course_ml_btn a {
+	display:block;
+	width: 226px;
+	height: 33px;
+}
+.salon20130201 .course_ml_btn:hover {
+	background-position: -226px 0px;
+}
+
+.salon20130201 .course_ltl_btn {
+	float:left;
+	display: block;
+	width: 295px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20150716/course_ltl_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin:20px 0 0 10px;
+}
+.salon20130201 .course_ltl_btn a {
+	display:block;
+	width: 295px;
+	height: 33px;
+}
+.salon20130201 .course_ltl_btn:hover {
+	background-position: -295px 0px;
+}
+
+
+.salon20130201 .course_mlc_btn {
+	float:left;
+	display: block;
+	width: 256px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_mlc_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin:10px 0 20px 10px;
+}
+.salon20130201 .course_mlc_btn a {
+	display:block;
+	width: 256px;
+	height: 33px;
+}
+.salon20130201 .course_mlc_btn:hover {
+	background-position: -256px 0px;
+}
+
+
+.salon20130201 .course_mlec_btn {
+	float:left;
+	display: block;
+	width: 276px;
+	height: 33px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_mlec_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin:10px 0 20px 10px;
+}
+.salon20130201 .course_mlec_btn a {
+	display:block;
+	width: 276px;
+	height: 33px;
+}
+.salon20130201 .course_mlec_btn:hover {
+	background-position: -276px 0px;
+}
+
+
+.salon20130201 .course_first_btn {
+	display: block;
+	width: 260px;
+	height: 36px;
+	text-indent: -9000px;
+	background: url(/salon/images/20130201/course_first_btn.gif) left top no-repeat;
+	background-position: 0px 0px;
+	margin-bottom:15px;
+}
+.salon20130201 .course_first_btn a {
+	display:block;
+	width: 260px;
+	height: 36px;
+}
+.salon20130201 .course_first_btn:hover {
+	background-position: 0px -36px;
+}
+
+
+
+
+
+.salon20130201 .course_list {
+	margin-bottom:15px;
+}
+
+#TB_ajaxContent .thick20130201 p {
+	padding:0;
+}
+
+.thick20130201 {
+	padding-top:0;
+	padding-left:10px;
+}
+.thick20130201 .coursetitle {
+	margin-bottom:15px;
+	margin-top:12px;
+	padding-top: 0;
+}
+/*.thick20130201 .coursetxt {
+	margin-bottom:15px;
+}*/
+.thick20130201 .coursenotice {
+	margin-bottom:8px;
+}
+.thick20130201 .leftarea {
+	float:left;
+	width:395px;
+}
+
+
+#SalonContents.option .facial{
+	height:1765px;
+	}
+#SalonContents.option .body{
+	height:auto;
+	}
+
+
+#SalonContents.option .title,
+#SalonContents.option .course_list,
+#SalonContents.option .title img,
+#SalonContents.option .course_list img{
+	height:34px;
+	}
+
+#SalonContents.option .txt01,
+nContents.option .txt01 img{
+	height:162px;
+	}
+	
+#SalonContents.option .txt02,
+#SalonContents.option .txt02 img{
+	height:424px;
+	}
+
+#SalonContents.option .txt03,
+#SalonContents.option .txt03 img{
+	height:274px;
+	}
+
+#SalonContents.option .txt04,
+#SalonContents.option .txt04 img{
+	height:324px;
+	}
+
+#SalonContents.option .txt05,
+#SalonContents.option .txt05 img{
+	height:156px;
+	}
+	
+#SalonContents.option .txt06,
+#SalonContents.option .txt06 img{
+	height:176px;
+	}
+
+.thick20130201 .rightarea {
+	float:left;
+	width:255px;
+	margin-left:15px;
+	position:relative;
+
+}
+.thick20130201 .rightarea img{
+	margin-bottom:10px;
+	
+	}
+.thick20130201 .leftarea2 {
+	width:680px;
+}
+	
+
+.thick20130201 .leftarea .flowframe,
+.thick20130201 .rightarea .flowframe {
+	padding:10px 7px;
+	background-color:#e6e6e6;
+	text-align:center;
+	position:relative;
+
+}
+.thick20130201 .rightarea .flowframe {
+	padding:7px;
+}
+
+.thick20130201 .leftarea .flowframe div {
+	display:block;
+	width:380px;
+	height:30px;
+
+	text-indent: -9000px;
+	overflow: hidden;
+	margin-bottom:4px;
+}
+.thick20130201 .rightarea .sideframe01 {
+	margin-top:228px;
+}
+.thick20130201 .rightarea .sideframe0301 {
+	margin-top:181px;
+}
+.thick20130201 .rightarea .sideframe0302 {
+	margin-top:228px;
+}
+.thick20130201 .rightarea .sideframe0303 {
+	margin-top:161px;
+}
+
+.thick20130201 .rightarea .sideframe01 div,
+.thick20130201 .rightarea .sideframe0301 div,
+.thick20130201 .rightarea .sideframe0302 div,
+.thick20130201 .rightarea .sideframe0303 div {
+	display:block;
+	width:241px;
+	height:30px;
+
+	text-indent: -9000px;
+	overflow: hidden;
+	margin-bottom:4px;
+}
+
+.thick20130201 .leftarea .luxul div {
+	background: url(/salon/images/20130201/course_aqme_luxul_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .superior div {
+	background: url(/salon/images/20130201/course_aqme_superior_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .basic div {
+	background: url(/salon/images/20130201/course_basic_basic_flow.gif) left top no-repeat;
+}
+
+.thick20130201 .leftarea .mlml div {
+	background: url(/salon/images/20150716/course_ml_ml_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .mlspecial div {
+	background: url(/salon/images/20150716/course_ml_special_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .first div {
+	background: url(/salon/images/20130201/course_first_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .bridal01 div {
+	background: url(/salon/images/20130201/course_bridal_01_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .bridal0301 div {
+	background: url(/salon/images/20130201/course_bridal_0301_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .bridal0302 div {
+	background: url(/salon/images/20130201/course_bridal_0302_flow.gif) left top no-repeat;
+}
+.thick20130201 .leftarea .bridal0303 div {
+	background: url(/salon/images/20130201/course_bridal_0303_flow.gif) left top no-repeat;
+}
+.thick20130201 .rightarea .sideframe01 div {
+	background: url(/salon/images/20130201/course_bridal_01_flow.gif) left top no-repeat;
+}
+.thick20130201 .rightarea .sideframe0301 div {
+	background: url(/salon/images/20130201/course_bridal_0301_flow.gif) left top no-repeat;
+}
+.thick20130201 .rightarea .sideframe0302 div {
+	background: url(/salon/images/20130201/course_bridal_0302_flow.gif) left top no-repeat;
+}
+.thick20130201 .rightarea .sideframe0303 div {
+	background: url(/salon/images/20130201/course_bridal_0303_flow.gif) left top no-repeat;
+}
+
+.thick20130201 .leftarea .healing_standard div {
+	background: url(/salon/images/20130201/course_healing_standard_flow.gif) left top no-repeat;
+}
+
+.thick20130201 .leftarea2 .healing_actlympa div {
+	background: url(/salon/images/20130201/course_healing_actlympa_flow.gif) left top no-repeat;
+}
+
+.thick20130201 .leftarea .body_standard div{
+	background: url(/salon/images/20130201/course_body_standard_flow.gif) left top no-repeat;
+}
+
+
+.thick20130201 .leftarea .body_facial div {
+	background: url(/salon/images/20130201/course_body_facial_flow.gif) left top no-repeat;
+}
+
+.thick20130201 .leftarea .flowframe div.db {
+	height:43px;
+}
+.thick20130201 .leftarea .flowframe div a {
+	display:block;
+	width:380px;
+	height:30px;	
+}
+
+.thick20130201 .leftarea .flowframe .subtitle {
+	margin-bottom:10px;
+}
+.thick20130201 .leftarea .flowframe .arrow,
+.thick20130201 .rightarea .flowframe .arrow {
+	margin-bottom:4px;
+}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow06:hover {background-position: -380px -150px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow07 {background-position: 0px -193px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow07:hover {background-position: -380px -193px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow08 {background-position: 0px -223px;}
+.thick20130201 .leftarea .luxul div.course_aqme_luxul_flow08:hover {background-position: -380px -223px;}
+
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow06 {background-position: 0px -163px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow06:hover {background-position: -380px -163px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow07 {background-position: 0px -193px;}
+.thick20130201 .leftarea .superior div.course_aqme_superior_flow07:hover {background-position: -380px -193px;}
+
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .mlml div.course_ml_ml_flow05:hover {background-position: -380px -120px;}
+
+.thick20130201 .leftarea .basic div.course_basic_basic_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .basic div.course_basic_basic_flow06:hover {background-position: -380px -150px;}
+
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow06 {background-position: 0px -163px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow06:hover {background-position: -380px -163px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow07 {background-position: 0px -193px;}
+.thick20130201 .leftarea .mlspecial div.course_ml_special_flow07:hover {background-position: -380px -193px;}
+
+.thick20130201 .leftarea .first div.course_first_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .first div.course_first_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .first div.course_first_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .first div.course_first_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .first div.course_first_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .first div.course_first_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .first div.course_first_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .first div.course_first_flow04:hover {background-position: -380px -90px;}
+
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow06:hover {background-position: -380px -150px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow07 {background-position: 0px -180px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow07:hover {background-position: -380px -180px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow08 {background-position: 0px -210px;}
+.thick20130201 .leftarea .bridal01 div.course_bridal_01_flow08:hover {background-position: -380px -210px;}
+.thick20130201 .sideframe01 div.course_bridal_01_flow09 {background-position: 0px -240px;}
+.thick20130201 .sideframe01 div.course_bridal_01_flow09:hover {background-position: -380px -240px;}
+.thick20130201 .sideframe01 div.course_bridal_01_flow10 {background-position: 0px -270px;}
+.thick20130201 .sideframe01 div.course_bridal_01_flow10:hover {background-position: -380px -270px;}
+.thick20130201 .sideframe01 div.course_bridal_01_flow11 {background-position: 0px -300px;}
+.thick20130201 .sideframe01 div.course_bridal_01_flow11:hover {background-position: -380px -300px;}
+
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow06:hover {background-position: -380px -150px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow07 {background-position: 0px -180px;}
+.thick20130201 .leftarea .bridal0301 div.course_bridal_0301_flow07:hover {background-position: -380px -180px;}
+.thick20130201 .sideframe0301 div.course_bridal_0301_flow08 {background-position: 0px -210px;}
+.thick20130201 .sideframe0301 div.course_bridal_0301_flow08:hover {background-position: -380px -210px;}
+
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow06:hover {background-position: -380px -150px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow07 {background-position: 0px -180px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow07:hover {background-position: -380px -180px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow08 {background-position: 0px -210px;}
+.thick20130201 .leftarea .bridal0302 div.course_bridal_0302_flow08:hover {background-position: -380px -210px;}
+.thick20130201 .sideframe0302 div.course_bridal_0302_flow09 {background-position: 0px -240px;}
+.thick20130201 .sideframe0302 div.course_bridal_0302_flow09:hover {background-position: -380px -240px;}
+.thick20130201 .sideframe0302 div.course_bridal_0302_flow10 {background-position: 0px -270px;}
+.thick20130201 .sideframe0302 div.course_bridal_0302_flow10:hover {background-position: -380px -270px;}
+.thick20130201 .sideframe0302 div.course_bridal_0302_flow11 {background-position: 0px -300px;}
+.thick20130201 .sideframe0302 div.course_bridal_0302_flow11:hover {background-position: -380px -300px;}
+
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow05:hover {background-position: -380px -120px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow06:hover {background-position: -380px -150px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow07 {background-position: 0px -180px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow07:hover {background-position: -380px -180px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow08 {background-position: 0px -210px;}
+.thick20130201 .leftarea .bridal0303 div.course_bridal_0303_flow08:hover {background-position: -380px -210px;}
+.thick20130201 .sideframe0303 div.course_bridal_0303_flow09 {background-position: 0px -240px;}
+.thick20130201 .sideframe0303 div.course_bridal_0303_flow09:hover {background-position: -380px -240px;}
+.thick20130201 .sideframe0303 div.course_bridal_0303_flow10 {background-position: 0px -270px;}
+.thick20130201 .sideframe0303 div.course_bridal_0303_flow10:hover {background-position: -380px -270px;}
+.thick20130201 .sideframe0303 div.course_bridal_0303_flow11 {background-position: 0px -300px;}
+.thick20130201 .sideframe0303 div.course_bridal_0303_flow11:hover {background-position: -380px -300px;}
+
+
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow01:hover {background-position: -380px 0px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow02:hover {background-position: -380px -30px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow03:hover {background-position: -380px -60px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow04:hover {background-position: -380px -90px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow05 {background-position: 0px -133px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow05:hover {background-position: -380px -133px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow06 {background-position: 0px -163px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow06:hover {background-position: -380px -163px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow07 {background-position: 0px -193px;}
+.thick20130201 .leftarea .healing_standard div.course_healing_standard_flow07:hover {background-position: -380px -193px;}
+
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow01:hover {background-position: -660px 0px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow02:hover {background-position: -660px -30px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow03:hover {background-position: -660px -60px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow04:hover {background-position: -660px -90px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow05:hover {background-position: -660px -120px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow06 {background-position: 0px -166px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow06:hover {background-position: -660px -166px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow07 {background-position: 0px -196px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow07:hover {background-position: -660px -196px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow08 {background-position: 0px -226px;}
+.thick20130201 .leftarea2 .healing_actlympa div.course_healing_actlympa_flow08:hover {background-position: -660px -226px;}
+
+
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .body_standard div.course_body_standard_flow07 {background-position: 0px -180px;}
+
+
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow01 {background-position: 0px 0px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow02 {background-position: 0px -30px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow03 {background-position: 0px -60px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow04 {background-position: 0px -90px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow05 {background-position: 0px -120px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow06 {background-position: 0px -150px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow07 {background-position: 0px -180px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow08 {background-position: 0px -210px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow08:hover {background-position: -380px -210px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow09 {background-position: 0px -240px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow09:hover {background-position: -380px -240px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow10 {background-position: 0px -270px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow10:hover {background-position: -380px -270px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow11 {background-position: 0px -300px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow11:hover {background-position: -380px -300px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow12 {background-position: 0px -330px;}
+.thick20130201 .leftarea .body_facial div.course_body_facial_flow12:hover {background-position: -380px -330px;}
+
+
+
+.thick20130201 .course_bridal_navi {
+	margin-bottom:15px;
+}
+.thick20130201 .course_bridal_navi p {
+	display:block;
+	background: url(/salon/images/20130201/course_bridal_03_btn.gif) left top no-repeat;
+	overflow:hidden;
+	height:42px;
+	float:left;
+	text-indent:-9000px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi01 {
+	width:225px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi02 {
+	width:215px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi03 {
+	width:215px;
+}
+.thick20130201 .course_bridal_navi p a {
+	display:block;
+	height:42px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi01 a {
+	width:225px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi02 a {
+	width:215px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi03 a {
+	width:215px;
+}
+.thick20130201 .course_bridal_navi p.course_bridal_navi01 {background-position: 0px 0px;}
+.thick20130201 .course_bridal_navi p.course_bridal_navi01:hover {background-position: 0px -42px;}
+.thick20130201 .course_bridal_navi p.course_bridal_navi02 {background-position: -225px 0px;}
+.thick20130201 .course_bridal_navi p.course_bridal_navi02:hover {background-position: -225px -42px;}
+.thick20130201 .course_bridal_navi p.course_bridal_navi03 {background-position: -440px 0px;}
+.thick20130201 .course_bridal_navi p.course_bridal_navi03:hover {background-position: -440px -42px;}
+
+.thick20130201 .to_option_btn {
+	display:block;
+	background: url(/salon/images/20130201/to_option_btn.gif) left top no-repeat;
+	overflow:hidden;
+	width:134px;
+	height:23px;
+	float:left;
+	text-indent:-9000px;
+	margin:0 0 10px 525px;
+}
+.thick20130201 .to_option_btn a {
+	display:block;
+	width:134px;
+	height:23px;
+
+}
+
+
+.thick20130201 .body_facial .to_option_btn, 
+.thick20130201 .body_standard .to_option_btn{
+	margin:10px 0 10px 120px;
+}
+
+.thick20130201 .rightarea .sub{
+	margin-top:102px;
+	}
+
+
+.thick20130201 .arrow{
+	margin:0 ;
+	padding:0 ;
+}
+
+.thick20130201 .to_option_btn {background-position: 0px 0px;}
+.thick20130201 .to_option_btn:hover {background-position: -134px 0px;}
+
+
+.thick20130201 .leftarea .flowframe .capfram,
+.thick20130201 .leftarea .luxul .capframe,
+.thick20130201 .leftarea .superior .capframe,
+.thick20130201 .leftarea .basic .capframe,
+.thick20130201 .leftarea .mlml .capframe,
+.thick20130201 .leftarea .mlspecial .capframe,
+.thick20130201 .leftarea .first .capframe,
+.thick20130201 .leftarea .bridal01 .capframe,
+.thick20130201 .leftarea .bridal0301 .capframe,
+.thick20130201 .leftarea .bridal0302 .capframe,
+.thick20130201 .leftarea .bridal0303 .capframe,
+.thick20130201 .leftarea .healing_standard .capframe,
+.thick20130201 .leftarea .body_standard .capframe,
+.thick20130201 .leftarea .body_facial .capframe
+ {
+	color:#555555;
+	width:355px;
+	padding:0 12px;
+	border:solid 1px #666666;
+	background-color:#FFFFFF;
+	font-size:11px;
+	line-height:18px;
+	text-align:left;
+	position:absolute;
+	left:7px;
+	background-image:none;
+	text-indent:0;
+	height:auto;
+	margin:0;
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+.thick20130201 .leftarea2 .healing_actlympa .capframe{
+	width:635px;
+	padding:12px;
+	border:solid 1px #666666;
+	background-color:#FFFFFF;
+	font-size:11px;
+	line-height:18px;
+	text-align:left;
+	position:absolute;
+	left:9px;
+	background-image:none;
+	text-indent:0;
+	height:auto;
+	margin:0;
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color:#555555;
+
+}
+
+
+.thick20130201 .rightarea .sideframe01 .capframe,
+.thick20130201 .rightarea .sideframe0301 .capframe,
+.thick20130201 .rightarea .sideframe0302 .capframe,
+.thick20130201 .rightarea .sideframe0303 .capframe
+ {
+	color:#555555;
+	width:215px;
+	padding:12px;
+	border:solid 1px #666666;
+	background-color:#FFFFFF;
+	font-size:11px;
+	line-height:18px;
+	text-align:left;
+	position:absolute;
+	left:7px;
+	background-image:none;
+	text-indent:0;
+	height:auto;
+	margin:0;
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+}
+
+.thick20130201 .leftarea .capframe .captit,
+.thick20130201 .rightarea .capframe .captit,
+.thick20130201 .leftarea2 .capframe .captit {
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.thick20130201 .bridal_caption {
+	font-size:10px;
+	text-align:left;
+	padding:12px;
+	border:solid 1px #999999;
+	color:#555555;
+	font-family:"メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	margin-top:12px;
+}
+
+.thick20130201 .bridal_caption p {
+	margin-bottom:5px;
+	font-size:11px;
+}
+.thick20130201 .bridal_caption table {
+	margin:0;
+}
+.thick20130201 .bridal_caption th {
+	background:url(/salon/images/20130201/dotline.gif) #FFF repeat-x 10px center;
+	vertical-align:top;
+	width:150px;
+}
+.thick20130201 .bridal_caption th span {
+	background-color:#FFF;
+}
+.thick20130201 .bridal_caption2 {
+	margin:10px 0 15px;
+	font-size:10px;
+	text-align:left;
+	color:#555555;
+}
+
+.thick20130201 .course_bridal_arrow {
+	position:absolute;
+	top:10px;
+	left:-13px;
+}
+.thick20130201 .course_bridal_0303_txt02 {
+	margin-top:56px;
+}
+
+
+.thick20130201 .body_facial .body,
+.thick20130201 .body_facial .facial{
+	margin-bottom:10px;
+}
+
+.thick20130201 .body_facial .facial{
+	margin-top:20px;
+}
+
+
+.salon20130201 .access .ttl,
+.salon20130201 .access .tel{
+	margin-bottom:30px;
+	}
+
+
+.salon20130201 .access .detail{
+	margin:20px 0;
+	}
+
+.salon20130201 .access .map{
+	width:620px;
+	height:230px;
+	margin:0 auto 50px;
+	}
+
+.salon20130201 .access .notice{
+	text-align:center;
+	margin:10px 0 20px;
+}
+
+.salon20130201 .access .notice img{
+	margin:0 auto;
+}
+
+
+.salon20130201 .member_new .ttl,
+.salon20130201 .member_new .tel,
+.salon20130201 .member_new .special{
+	margin-bottom:25px;
+	}
+
+.salon20130201 .member_new .detail{
+	margin-bottom:20px;
+	}
+
+.salon20130201 .member_program .ttl
+{
+	margin-bottom:25px;
+	}
+	
+.salon20130201 .member_program .txt1,
+.salon20130201 .member_program .schedule,
+.salon20130201 .member_program .special
+{
+	margin-bottom:35px;
+	}
+
+.salon20130201 .member_program .txt2,
+.salon20130201 .member_program .flow,
+.salon20130201 .member_program .ttl2{
+	margin-bottom:10px;
+	}
+
+
+.salon20130201 .member_program .ticket,
+.salon20130201 .member_program .trial,
+.salon20130201 .member_program .birthday{
+	margin-bottom:20px;
+	}
+
+
+.thick20130201 .leftarea2 .flowframe {
+	padding:7px;
+	background-color:#e6e6e6;
+	text-align:center;
+	position:relative;
+}
+
+
+.thick20130201 .leftarea2 .flowframe div {
+	display:block;
+	width:660px;
+	height:30px;
+
+	text-indent: -9000px;
+	overflow: hidden;
+	margin:0 auto;
+	margin-bottom:4px;
+}
+
+
+.thick20130201 .leftarea2 .flowframe div.db {
+	height:43px;
+}
+.thick20130201 .leftarea2 .flowframe div a {
+	display:block;
+	width:660px;
+	height:30px;	
+}
+
+.thick20130201 .leftarea2 .flowframe .subtitle {
+	margin-bottom:10px;
+}
+.thick20130201 .leftarea2 .flowframe .arrow {
+	margin-bottom:4px;
+}
+
+
+.salon20130201 .flow .slides{
+	width:675px;
+	}
+
+.salon20130201 .flow .slides .ttl{
+	margin-bottom:10px;
+	}
+
+.salon20130201 .flow .slides .txt{
+	width:620px;
+	height:50px;
+	font-size:12px;
+	line-height:1.5em;
+	
+	margin:0 auto;
+	text-align:left;
+	}
+	
+.salon20130201 .flow .slides .salon_img{
+	margin-left:30px;
+	}
+	
+.flex-direction-nav a {
+	width: 20px;
+	height: 340px;
+	margin: 0;
+	display: block;
+	background: url(/salon/images/20130201/flow/arrow.png) no-repeat 0 50% #FFFFFF;
+	position: absolute;
+	top: 90px;
+	z-index: 10;
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-transition: all .3s ease;
+	}
+
+.flex-direction-nav .flex-next {
+	background-position: 100% 50%;
+	right:-5px;
+	}
+.flex-direction-nav .flex-prev {
+	}
+.flexslider:hover .flex-next {
+	opacity: 0.8;
+	}
+.flexslider:hover .flex-prev {
+	opacity: 0.8;
+	}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover {
+	opacity: 1;
+	}
+.flex-direction-nav .flex-disabled {
+	opacity: .3!important; 
+	filter:alpha(opacity=30); 
+	cursor: default;
+	}
+	
+.salon20130201 .flow .sub{
+	margin-top:30px;
+	margin-bottom:10px;
+	}
+
+.salon20130201 .flow .thumb{
+	margin-top:10px;
+	padding:10px 0 9px 0 ;
+	background: url(/salon/images/20130201/flow/bg_thumb.gif) #dddddd no-repeat 0 57px;
+	font-size:10px;
+	}
+
+.salon20130201 .flow .thumb li{
+	margin-right:18px;
+	text-align:center;
+	line-height:0;
+	}
+	
+.salon20130201 .flow .thumb li#space08,
+.salon20130201 .flow .thumb li#space04{
+	margin-right:0;
+	}
+
+.salon20130201 .flow .thumb p{
+	margin: 5px 0 5px 10px;
+	
+	}
+	
+.salon20130201 .flow .thumb span{
+	display:block;
+	width:148px;
+	height:88px;
+	cursor:pointer;
+	border:1px solid #FFFFFF;
+	margin-bottom: 14px;
+	}
+	
+
+.salon20130201 .flow .thumb a{
+	text-decoration:none;
+	color:#333333;
+	}
+	
+#space01 a span {
+	background: url(/salon/images/20130201/flow/bg_thumb01.jpg) no-repeat 0 0;	
+}
+
+#space02 a span{
+	background: url(/salon/images/20130201/flow/bg_thumb02.jpg) no-repeat 0 0;
+}
+	
+#space03 a span{
+	background: url(/salon/images/20130201/flow/bg_thumb03.jpg) no-repeat 0 0;
+	
+}
+#space04 a span{
+	background: url(/salon/images/20130201/flow/bg_thumb04.jpg) no-repeat 0 0;
+}
+
+
+#space05 a span {
+	background: url(/salon/images/20140401/flow/bg_thumb05.jpg?0701) no-repeat 0 0;	
+}
+
+#space06 a span{
+	background: url(/salon/images/20140401/flow/bg_thumb06.jpg) no-repeat 0 0;
+}
+	
+#space07 a span{
+	background: url(/salon/images/20140401/flow/bg_thumb07.jpg) no-repeat 0 0;
+	
+}
+#space08 a span{
+	background: url(/salon/images/20140401/flow/bg_thumb05.jpg) no-repeat 0 0;	
+}
+
+
+
+#space01 a.current span,
+#space02 a.current span,
+#space03 a.current span,
+#space04 a.current span,
+#space05 a.current span,
+#space06 a.current span,
+#space07 a.current span,
+#space08 a.current span{
+	background-position:  0 100%;	
+}
+	
+
+
+
+
+

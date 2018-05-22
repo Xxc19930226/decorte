@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+@import "aq_mw/s_itemconcept";
+@import "aq_mw/b_itemconcept";
+@import "aq_mw/m_itemconcept";
+
+.productLink {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+@include max-screen($sp_width) {
+.productLink {
+    margin-top: 60px;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+}

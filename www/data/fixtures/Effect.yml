@@ -1,0 +1,126 @@
+Effect:
+  moisture_care:
+    name: 保湿ケア
+    priority: 10
+    slug: moisture_care
+    Category: skincare
+  whitening_care:
+    name: 美白ケア
+    priority: 20
+    slug: whitening_care
+    Category: skincare
+  aging_care:
+    name: エイジングケア
+    priority: 30
+    slug: aging_care
+    Category: skincare
+  shiny_care:
+    name: ツヤ／ハリケア
+    priority: 40
+    slug: shiny_care
+    Category: skincare
+  pores_care:
+    name: 毛穴ケア
+    priority: 50
+    slug: pores_care
+    Category: skincare
+  stain_care:
+    name: くすみケア
+    priority: 60
+    slug: stain_care
+    Category: skincare
+  pimple_care:
+    name: 吹き出物／ニキビケア
+    priority: 70
+    slug: pimple_care
+    Category: skincare
+  sebum_care:
+    name: 皮脂ケア
+    priority: 80
+    slug: sebum_care
+    Category: skincare
+  eye_care:
+    name: アイケア
+    priority: 90
+    slug: eye_care
+    Category: skincare
+  tightening_care:
+    name: 引き締めケア
+    priority: 100
+    slug: tightening_care
+    Category: skincare
+  horny_care:
+    name: 角質ケア
+    priority: 110
+    slug: horny_care
+    Category: skincare
+  puffy_care:
+    name: むくみケア
+    priority: 120
+    slug: puffy_care
+    Category: skincare
+  uv_care:
+    name: UVケア
+    priority: 130
+    slug: uv_care
+    Category: skincare
+  sensitive_care:
+    name: 低刺激／敏感肌ケア
+    priority: 140
+    slug: sensitive_care
+    Category: skincare
+  cover:
+    name: カバー
+    priority: 10
+    slug: cover
+    Category: basemake
+  natural:
+    name: ナチュラル
+    priority: 20
+    slug: natural
+    Category: basemake
+  mat:
+    name: マット
+    priority: 30
+    slug: mat
+    Category: basemake
+  shiny:
+    name: ツヤ
+    priority: 40
+    slug: shiny
+    Category: basemake
+  lasting:
+    name: ラスティング
+    priority: 50
+    slug: lasting
+    Category: basemake
+  uv_cut:
+    name: UVカット
+    priority: 60
+    slug: uv_cut
+    Category: basemake
+  moisture:
+    name: 保湿
+    priority: 70
+    slug: moisture
+    Category: basemake
+  whitening:
+    name: 美白
+    priority: 80
+    slug: whitening
+    Category: basemake
+  translucent:
+    name: 透明感
+    priority: 90
+    slug: translucent
+    Category: basemake
+  lift_up:
+    name: リフトアップ
+    priority: 100
+    slug: lift_up
+    Category: basemake
+  control:
+    name: コントロール
+    priority: 110
+    slug: control
+    Category: basemake

@@ -1,0 +1,25 @@
+Category:
+  skincare:
+    name: スキンケア
+    priority: 10
+    slug: skincare
+  basemake:
+    name: ベースメイク
+    priority: 20
+    slug: basemake
+  pointmake:
+    name: ポイントメイク
+    priority: 30
+    slug: pointmake
+  hair_body:
+    name: ヘアー&ボディ
+    priority: 40
+    slug: hair_body
+  fragrance:
+    name: フレグランス
+    priority: 50
+    slug: fragrance
+  accessory:
+    name: アクセサリー
+    priority: 60
+    slug: accessory

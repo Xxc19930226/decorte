@@ -1,0 +1,1064 @@
+﻿.whitelogist_concept {
+    padding-top: 50px;
+}
+body {
+}
+
+.whitelogist_concept {
+	color:#FFFFFF;
+  background-color: #000;
+	background-image: url('/images/whitelogist/bg_concept_03.jpg?1457850323');
+	background-repeat:no-repeat;
+	background-position: left bottom;
+}
+/*.whitelogist_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px;
+}*/
+.whitelogist_concept .l-container:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.whitelogist_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.whitelogist_concept__title__logo {
+	padding-top: 158px
+}
+.whitelogist_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:270px
+}
+
+.whitelogist_concept__message {
+	width: 900px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+.whitelogist_concept__message .image {
+    float: left;
+    width: 450px;
+    text-align: center;
+}
+.whitelogist_concept__message .right {
+    float: right;
+    text-align: left;
+    width: 450px;
+}
+
+.whitelogist_concept__title__text{
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+.whitelogist_concept__message__title {
+	font-family: hy;
+	font-size: 32px;
+	line-height:48px;
+    margin-top: 60px;
+}
+.whitelogist_concept__message__copy {
+	font-family: hy;
+	font-size: 22px;
+	line-height:1.6em;
+	margin-top:90px;
+}
+.whitelogist_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	width: 280px;
+	border: 1px solid #FFFFFF;
+	text-align:center;
+	margin-top:15px;
+}
+
+
+.whitelogist_concept__mechanism__title{
+	font-family: hy;
+	font-size: 32px;
+	text-align: center;
+}
+
+.whitelogist_concept__mechanism .textblock,
+.whitelogist_concept__mechanism .imageblock{
+	width:405px;
+	float:left;
+	
+}
+
+.whitelogist_concept__mechanism .imageblock{
+	margin-left:80px;
+	padding-top:179px;
+}
+
+.whitelogist_concept__mechanism{
+    width: 1045px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 135px;
+    margin-top: 86px;
+    padding-top: 210px;
+    background-image: url(../images/whitelogist/concept_menin.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+
+}
+.whitelogist_concept__mechanism .l-container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whitelogist_concept__mechanism__text{
+	font-size: 12px;
+	line-height: 21px;
+}
+
+
+.whitelogist_concept__seibun__text{
+	font-size: 16px;
+	line-height:21px;
+	margin-top: 40px;
+}
+
+.whitelogist_concept__seibun__copy{
+	font-family: hy;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin-top:30px;
+}
+
+.whitelogist_concept__seibun__copy span{
+	display:block;
+	font-size:12px;
+}
+
+
+.whitelogist_concept__seibun__feature .l-container{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whitelogist_concept__seibun__feature .l-container:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.whitelogist_concept__mechanism__copy{
+	text-align:center;
+}
+
+.whitelogist_concept__mechanism__title{
+	font-family: hy;
+	font-size: 32px;
+}
+
+.whitelogist_concept__mechanism__copy{
+	font-family: hy;
+	font-size: 22px;
+	margin-top:30px;
+}
+
+.whitelogist_concept__mechanism__copy span{
+	display:block;
+	font-size:16px;
+	line-height:22px;
+}
+
+
+.whitelogist_concept__mechanism__text{
+	font-size:12px;
+	margin-top:80px;
+}
+
+.whitelogist_concept__seibun{
+	width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whitelogist_concept__seibun .l-container{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whitelogist_concept__seibun__title{
+	font-family: hy;
+	font-size: 32px;
+	text-align:center;
+}
+.whitelogist_concept__seibun__copy{
+	font-family: hy;
+	font-size: 22px;
+	margin-top:50px;
+	text-align:center;
+}
+
+.whitelogist_concept__seibun__text{
+	font-family: hy;
+	font-size: 14px;
+	margin-top:30px;
+	text-align:center;
+}
+.whitelogist_concept__seibun ul{
+	margin-top:20px;
+}
+
+.whitelogist_concept__seibun ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.whitelogist_concept__seibun ul li{
+	display:block;
+	width:270px;
+	text-align:center;
+	background-color:#FFF;
+	color:#000;
+	font-family: hy;
+	font-size: 16px;
+	margin-right: 44px;
+	padding:20px 0;
+	float:left;
+}
+
+.whitelogist_concept__seibun ul li.fin{
+	margin-right: 0;
+}
+
+.whitelogist_concept__seibun__feature{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	border-top: 1px solid #ffffff;
+	padding-top: 50px;
+}
+
+.whitelogist_concept__seibun__feature:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+.whitelogist_concept__seibun__feature_kouji{
+	width:600px;
+	float:left;
+}
+
+.whitelogist_concept__seibun__feature_sanpen{
+	width:260px;
+	float:left;
+	margin-left:40px;
+}
+
+.whitelogist_concept__seibun__kouji,
+.whitelogist_concept__seibun__sanpen{
+	font-family: hy;
+	font-size: 16px;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+
+.whitelogist_concept__seibun_feature_lead{
+	font-size: 16px;
+	margin-bottom:10px;
+	text-align: center;
+}
+
+
+.whitelogist_concept__seibun_feature_text{
+	font-size: 12px;
+	line-height:1.6em;
+}
+
+
+.whitelogist_concept__delivery{
+	padding-bottom:200px;
+	
+}
+
+.whitelogist_concept__delivery .l-container{
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.whitelogist_concept__delivery__title{
+	font-family: hy;
+	font-size: 32px;
+	margin-top:200px;
+    text-align: center;
+}
+
+
+.whitelogist_concept__delivery__text{
+	font-size: 12px;
+	line-height:1.6em;
+	margin-top:30px;
+    text-align: center;
+}
+
+/* stick_concept */
+.stick_concept {
+  background-color: #fff;
+	background-image: url('/images/whitelogist/bg_concept_stick.jpg');
+	background-repeat:no-repeat;
+  background-position: top center;
+}
+.stick_concept .l-container:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.stick_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.stick_concept__title__logo {
+	padding-top: 158px
+}
+.stick_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:270px
+}
+
+.stick_concept__message {
+	width: 900px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.stick_concept__message .image {
+    float: left;
+    width: 400px;
+    text-align: center;
+}
+.stick_concept__message .right {
+    float: right;
+    text-align: left;
+    width: 400px;
+}
+
+.stick_concept__title__text{
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+.stick_concept__message__title {
+	font-family: hy;
+	font-size: 32px;
+	line-height:48px;
+    margin-top: 60px;
+}
+.stick_concept__message__copy {
+	font-family: hy;
+	font-size: 22px;
+	line-height:1.6em;
+	margin-top:50px;
+}
+.stick_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	width: 240px;
+	border: 1px solid #000000;
+	text-align:center;
+	margin-top:15px;
+}
+.stick_concept__message__note {
+	font-size: 10px;
+	line-height: 1.6em;
+	margin-top:15px;
+}
+
+
+.stick_concept__approach{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+.stick_concept__approach .l-container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stick_concept__approach .left {
+    float: left;
+}
+.stick_concept__approach__copy {
+    color: #ffffff;
+    font-family: hy;
+    font-size: 16px;
+    display: block;
+    background-color: #000000;
+    width: 300px;
+    padding: 10px 0;
+    text-align: center;
+}
+.stick_concept__approach__title {
+    margin-top: 30px;
+    font-family: hy;
+    font-size: 32px;
+    line-height: 1.3em;
+}
+.stick_concept__approach__title span {
+    font-size: 22px;
+}
+.stick_concept__approach__text{
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 50px;
+}
+
+
+.stick_concept__seibun__text{
+	font-size: 16px;
+	line-height:21px;
+	margin-top: 40px;
+}
+.stick_concept__seibun__copy{
+	font-family: hy;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin-top:30px;
+}
+.stick_concept__seibun__copy span{
+	display:block;
+	font-size:12px;
+}
+.stick_concept__seibun__feature .l-container{
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.stick_concept__seibun__feature .l-container:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.stick_concept__seibun{
+	width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+  margin-top: 450px;
+}
+.stick_concept__seibun .l-container{
+	margin-left: auto;
+	margin-right: auto;
+}
+.stick_concept__seibun__title{
+	font-family: hy;
+	font-size: 32px;
+	text-align:center;
+}
+.stick_concept__seibun__feature_kouji{
+	width:600px;
+	float:left;
+}
+.stick_concept__seibun__kouji{
+	font-family: hy;
+	font-size: 16px;
+	margin-bottom:20px;
+	text-align: center;
+}
+.stick_concept__seibun__feature{
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+}
+.stick_concept__seibun__feature_lead{
+	font-size: 16px;
+	margin-bottom:10px;
+	text-align: center;
+}
+.stick_concept__seibun_feature_text{
+	font-size: 12px;
+	line-height:21px;
+}
+
+
+.stick_concept__stick{
+    padding-bottom: 200px;
+}
+.stick_concept__stick .l-container{
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.stick_concept__stick .image{
+  text-align: center;
+  margin-top: 50px;
+}
+.stick_concept__stick__title{
+	font-family: hy;
+	font-size: 32px;
+	margin-top:150px;
+  text-align: center;
+}
+.stick_concept__stick__lead{
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	width: 400px;
+  margin: 50px auto 0;
+	border: 1px solid #000000;
+	text-align:center;
+}
+.stick_concept__stick__text{
+	font-size: 12px;
+	line-height:1.6em;
+	margin-top:20px;
+  text-align: center;
+}
+
+
+
+
+.whitelogist_concept .productLink {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+}
+.whitelogist_concept .productLink a {
+    border: 1px solid #FFF;
+    color: #FFF;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+.stick_concept .productLink {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+}
+.stick_concept .productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+
+@media screen and (max-width: 736px) {
+.whitelogist_concept {
+	background-image: none
+}
+.whitelogist_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+
+
+.whitelogist_concept__message .image {
+    display: none;
+}
+.whitelogist_concept__message .right {
+    float: none;
+    text-align: center;
+    width: auto;
+}
+
+
+.whitelogist_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.whitelogist_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 60px;
+	width: 100%
+}
+.whitelogist_concept__title__logo {
+	padding-top: 20%;
+}
+.whitelogist_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 135px
+}
+.whitelogist_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+
+.whitelogist_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom:45px;
+}
+
+
+.whitelogist_concept__message__title {
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 0;
+	line-height:36px;
+}
+.whitelogist_concept__message__copy {
+	font-size: 16px;
+	margin-top:20px;
+	margin-left: 0;
+}
+.whitelogist_concept__message__text {
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+}
+
+.whitelogist_concept__mechanism .textblock,
+.whitelogist_concept__mechanism .imageblock{
+	width:auto;
+	float:none;
+	
+}
+
+.whitelogist_concept__mechanism .imageblock{
+	margin-left:80px;
+	padding-top:179px;
+}
+
+.whitelogist_concept__mechanism{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 135px;
+    margin-top: 50px;
+    padding-top: 210px;
+    background-size: 100% auto;
+    border-top: none;
+
+}
+.whitelogist_concept__mechanism__title{
+	font-size: 18px;
+	margin-top:30px;
+}
+
+
+
+.whitelogist_concept__mechanism__copy{
+	font-size: 16px;
+	margin-top:30px;
+}
+
+.whitelogist_concept__mechanism__copy span{
+	display:block;
+	font-size:12px;
+	line-height:18px;
+}
+
+
+.whitelogist_concept__mechanism__text{
+	font-size:12px;
+	margin-top:80px;
+}
+
+
+.whitelogist_concept__mechanism__text {
+	font-size: 12px;
+	height:auto;
+	width:90%;
+	margin:0 auto;
+	padding:20px 10px 10px;
+}	
+	
+.whitelogist_concept__mechanism__text span{
+	font-size: 9px;
+}
+
+.whitelogist_concept__mechanism .imageblock {
+    margin-left: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.whitelogist_concept__mechanism .imageblock img{
+    width: 90%;
+	height: auto;
+	margin-top: 20px;
+	
+}
+
+.whitelogist_concept__mechanism{
+	 margin-bottom: 0;
+}
+
+
+
+.whitelogist_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+	background-color: #000000;
+	background-image: url('/images/whitelogist/bg_concept_03.jpg?1457850323');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 50px;
+	padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	border-top: none;
+}
+.whitelogist_concept__seibun .l-container {
+	border: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+
+.whitelogist_concept__seibun__feature .l-container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.whitelogist_concept__seibun__copy {
+	font-size: 22px;
+    margin-top: 30px;
+}
+
+.whitelogist_concept__seibun__title {
+	width:auto;
+	float:none;
+	font-size: 25px;
+	line-height: 48px;
+	margin-top: 60px;
+	text-align: center;
+}
+.whitelogist_concept__seibun__lead {
+	width:auto;
+	float:none;
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.whitelogist_concept__seibun__lead span {
+	font-size: 12px;
+}
+
+.whitelogist_concept__seibun__text {
+	float:none;
+	font-size: 12px;
+	margin: 10px auto 60px;
+	width:80%;
+}	
+	
+.whitelogist_concept__seibun__text span{
+	font-size: 10px;
+}
+
+.whitelogist_concept__seibun ul{
+	margin: 0 auto;
+	width: 270px;
+}
+
+.whitelogist_concept__seibun ul li{
+	font-size: 16px;
+	margin-right: 0;
+	padding:20px 0;
+	float:none;
+	display:inline-block;
+	margin-bottom:10px;
+}
+
+.whitelogist_concept__seibun__feature {
+    border-top: 1px solid #CCCCCC;
+    width: auto;
+}
+
+.whitelogist_concept__seibun__feature_kouji {
+    float: none;
+    width: auto;
+	font-size:18px;
+}
+
+.whitelogist_concept__seibun__feature_sanpen {
+    float: none;
+    margin-left: 0;
+	margin-top:40px;
+    width: auto;
+	font-size:18px;
+}
+
+
+.whitelogist_concept__delivery {
+    padding-bottom: 60px;
+	margin-top: 60px;
+}
+
+.whitelogist_concept__delivery .l-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-top: 1px solid #CCCCCC;
+}
+
+
+.whitelogist_concept__delivery__title {
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 30px;
+    width: auto;
+	text-align:center;
+}
+
+.whitelogist_concept__delivery__text {
+    line-height: 1.6em;
+    margin-left: 0;
+    margin-top: 20px;
+    width: auto;
+}
+
+
+
+/* stick_concept */
+.stick_concept {
+	background-image: none
+}
+.stick_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+
+
+.stick_concept__message .image {
+    display: none;
+}
+.stick_concept__message .right {
+    float: none;
+    text-align: center;
+    width: auto;
+}
+
+
+.stick_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.stick_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 60px;
+	width: 100%
+}
+.stick_concept__title__logo {
+	padding-top: 10%;
+}
+.stick_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 135px
+}
+.stick_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+
+.stick_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+.stick_concept__message__title {
+	font-size: 20px;
+	margin-top: 0;
+	margin-left: 0;
+	line-height:36px;
+}
+.stick_concept__message__copy {
+	font-size: 16px;
+	margin-top:20px;
+	margin-left: 0;
+}
+.stick_concept__message__text {
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+}
+
+
+
+
+.stick_concept__approach{
+    width: auto;
+    margin-top: 150px;
+}
+.stick_concept__approach__title{
+	font-size: 22px;
+	margin-top:30px;
+  text-align: center;
+}
+.stick_concept__approach__title span{
+	font-size: 16px;
+}
+.stick_concept__approach__copy{
+	font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.stick_concept__approach__text{
+	font-size: 12px;
+	height:auto;
+	width:90%;
+	margin:0 auto;
+	padding:20px 10px 10px;
+}
+.stick_concept__approach .image img{
+  width: 100%;
+}
+
+
+
+.stick_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 100%;
+}
+.stick_concept__seibun .l-container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+.stick_concept__seibun__feature .l-container{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+.stick_concept__seibun__copy {
+	font-size: 22px;
+    margin-top: 30px;
+}
+.stick_concept__seibun__title {
+	width:auto;
+	float:none;
+	font-size: 25px;
+	line-height: 48px;
+	text-align: center;
+}
+.stick_concept__seibun__lead {
+	width:auto;
+	float:none;
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+.stick_concept__seibun__lead span {
+	font-size: 12px;
+}
+.stick_concept__seibun__text {
+	float:none;
+	font-size: 12px;
+	margin: 10px auto 60px;
+	width:80%;
+}
+.stick_concept__seibun__text span{
+	font-size: 10px;
+}
+.stick_concept__seibun__feature {
+    width: auto;
+}
+.stick_concept__seibun__feature_lead {
+    line-height: 1.6em;
+}
+.stick_concept__seibun__feature_kouji {
+    float: none;
+    width: auto;
+	font-size:18px;
+}
+
+.stick_concept__stick {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
+.stick_concept__stick__title {
+    font-size: 25px;
+}
+.stick_concept__stick__lead {
+    width: 250px;
+}
+
+.stick_concept__stick .image img{
+    width: 20%;
+    margin: 0 auto;
+    max-width: 180px;
+}
+
+
+.whitelogist_concept .productLink {
+    margin-top: 60px;
+}
+.whitelogist_concept .productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+
+.stick_concept .productLink {
+    margin-top: 60px;
+}
+.stick_concept .productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+
+}
+

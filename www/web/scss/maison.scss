@@ -1,0 +1,588 @@
+@charset "UTF-8";
+
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+.maison {
+    @include clearfix;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    &__header {
+        background-color: #ffecee;
+        background-image: url(../images/maison/title_bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        position: relative;
+        text-align: center;
+        .l-header {
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            top: 130px;
+            width: 380px;
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 37px;
+            small {
+                font-size: 26px;
+            }
+            
+        }
+        &__title2 {
+            font-family: $mincho;
+            font-size: 22px;
+            margin-top: 15px;
+        }
+        &__text {
+            margin-top: 45px;
+            font-size: 14px;
+            line-height: 2;
+        }
+    }
+    .gift ,
+    .about {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        width: 900px;
+        &__header {
+            border-bottom: 1px solid #000;
+            font-family: $mincho;
+            font-size: 22px;
+            padding-bottom: 10px;
+            text-align: center;
+            small {
+                font-size: .5em;
+            }
+        }
+        &__body {
+            margin-top: 45px;
+        }
+    }
+    .about {
+        &__description {
+            @include clearfix;
+            &__image {
+                float: left;
+            }
+            &__text {
+                float: right;
+                width: 530px;
+                p {
+                    font-size: 12px;
+                    line-height: 1.65;
+                    margin-top: 20px;
+                }
+            }
+        }
+        /* descripttion */
+        &__service {
+            @include clearfix;
+            border-top: 1px solid #e6e6e6;
+            margin-top: 50px;
+            &__salon ,
+            &__personal {
+                margin-top: 50px;
+                @inluclude clearfix;
+                width: 450px;
+                box-sizing: border-box;
+                &__body {
+                    float: left;
+                    margin-left: 30px;
+                    width: 168px;
+                }
+                &__image {
+                    float: right;
+                    margin-right: 45px;
+                    width: 180px;
+                }
+                &__title {
+                    font-family: $mincho;
+                    font-size: 16px;
+                }
+                &__text {
+                    font-size: 12px;
+                    line-height: 1.65;
+                    margin-top: 50px;
+                }
+            }
+            &__personal {
+                border-right: 1px solid #e6e6e6;
+                float: left;
+            }
+            &__salon {
+                float: right;
+            }
+        }
+        /* service */
+        &__member {
+            @include clearfix;
+            border-top: 1px solid #e6e6e6;
+            margin-top: 50px;
+            padding-top: 50px;
+            &__color {
+                float: left;
+                width: 330px;
+                &__title {
+                    font-family: $mincho;
+                    font-size: 16px;
+                    margin-top: 45px;
+                }
+                &__text {
+                    font-size: 12px;
+                    margin-top: 20px;
+                    line-height: 1.65;
+                }
+            }
+            &__system {
+                float: right;
+                width: 480px;
+                &__span {
+                    font-size: 12px;
+                    padding-bottom: 13px;
+                    padding-left: 10px;
+                    span {
+                        border: 1px solid #000;
+                        display: inline-block;
+                        padding: 5px;
+                        margin-right: 5px;
+                    }
+                }
+                &__platinum ,
+                &__gold {
+                    @include clearfix;
+                    border-top: 1px solid #e6e6e6;
+                    padding-bottom: 20px;
+                    padding-left: 10px;
+                    padding-top: 15px;
+                    &__card {
+                        float: left;
+                        font-size: 12px;
+                        text-align: center;
+                        width: 130px;
+                        img {
+                            display: block;
+                            margin-top: 7px;
+                        }
+                    }
+                    &__point {
+                        float: left;
+                        font-size: 12px;
+                        margin-left: 10px;
+                        margin-top: 30px;
+                        span {
+                            font-size: 16px;
+                            line-height: 1.7;
+                        }
+                    }
+                }
+            }
+            /* system */
+        }
+        /* member */
+    }
+    .gift {
+        &__header {
+        }
+        &__lead {
+            font-size: 12px;
+            line-height: 1.65;
+            margin-top: 50px;
+            text-align: center;
+            small {
+                font-size: 10px;
+            }
+        }
+        &__color {
+            @include clearfix;
+            &__pratinum {
+                float: left;
+            }
+            &__gold {
+                float: right;
+            }
+            &__pratinum ,
+            &__gold {
+                margin-top: 50px;
+                width: 400px;
+                &__title {
+                    border: 1px solid #000;
+                    font-family: $mincho;
+                    font-size: 16px;
+                    text-align: center;
+                    padding: 10px;
+                    small {
+                        font-size:12px;
+                    }
+                }
+                &__image {
+                    text-align: center;
+                    margin-top: 28px;
+                }
+                &__list {
+                    margin-top: 30px;
+                    &__item {
+                        font-size: 12px;
+                        line-height: 1.65;
+                    }
+                }
+            }
+            &__note {
+                clear: both;
+                font-size: 10px;
+                margin-top: 30px;
+                text-align: right;
+            }
+        }
+        /* color */
+        &__birthday {
+            @include clearfix;
+            background-image: url(../images/maison/birthday_image.jpg);
+            background-position: 0 50px;
+            background-repeat: no-repeat;
+            border-top: 1px solid #e6e6e6;
+            margin-top: 50px;
+            min-height: 556px;
+            padding-top: 50px;
+            &__image {
+                display: none;
+            }
+            &__title {
+                font-family: $mincho;
+                font-size: 16px;
+                margin-left: 390px;
+                margin-top: 50px;
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 1.65;
+                margin-left: 390px;
+                margin-top: 50px;
+            }
+            &__note {
+                font-size: 10px;
+                line-height: 1.7;
+                margin-left: 390px;
+                margin-top: 20px;
+            }
+        }
+    }
+    /* gift */
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+.maison {
+    @include clearfix;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    &__header {
+        background-color: #ffecee;
+        background-image: url(../images/maison/title_bg.jpg);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 240px;
+        position: relative;
+        text-align: center;
+        .l-header {
+            margin-right: 0;
+            position: relative;
+            right: 0;
+            top: 70px;
+            width: auto;
+        }
+        &__title {
+            font-family: $mincho;
+            font-size: 18px;
+            small {
+                font-size: 13px;
+            }
+            
+        }
+        &__title2 {
+            font-family: $mincho;
+            font-size: 11px;
+            margin-top: 10px;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 10px;
+            line-height: 2;
+        }
+    }
+    .gift ,
+    .about {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        width: auto;
+        &__header {
+            border-bottom: 1px solid #000;
+            font-family: $mincho;
+            font-size: 16px;
+            padding-bottom: 5px;
+            text-align: center;
+            small {
+                font-size: .5em;
+            }
+        }
+        &__body {
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+        }
+    }
+    .about {
+        &__description {
+            @include clearfix;
+            &__image {
+                float: none;
+                text-align: center;
+                img {
+                    width: 150px;
+                }
+            }
+            &__text {
+                float: none;
+                width: auto;
+                p {
+                    font-size: 10px;
+                    line-height: 1.65;
+                    margin-top: 10px;
+                }
+            }
+        }
+        /* descripttion */
+        &__service {
+            @include clearfix;
+            border-top: 1px solid #e6e6e6;
+            margin-top: 25px;
+            &__salon ,
+            &__personal {
+                margin-top: 25px;
+                @inluclude clearfix;
+                width: auto;
+                box-sizing: border-box;
+                &__body {
+                    float: none;
+                    margin-left: 0;
+                    width: auto;
+                }
+                &__image {
+                    float: none;
+                    margin-right: 0;
+                    margin-top: 15px;
+                    width: auto;
+                    text-align: center;
+                }
+                &__title {
+                    font-family: $mincho;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                &__text {
+                    font-size: 10px;
+                    line-height: 1.65;
+                    margin-top: 15px;
+                }
+            }
+            &__personal {
+                border-right: none;
+                border-bottom: 1px solid #e6e6e6;
+                float: none;
+            }
+            &__salon {
+                float: no;
+            }
+        }
+        /* service */
+        &__member {
+            @include clearfix;
+            border-top: 1px solid #e6e6e6;
+            margin-top: 25px;
+            padding-top: 25px;
+            &__color {
+                float: none;
+                width: auto;
+                &__title {
+                    font-family: $mincho;
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+                &__text {
+                    font-size: 10px;
+                    margin-top: 10px;
+                    line-height: 1.65;
+                }
+            }
+            &__system {
+                float: none;
+                width: auto;
+                margin-top: 25px;
+                &__span {
+                    font-size: 12px;
+                    padding-bottom: 13px;
+                    padding-left: 0;
+                    span {
+                        border: 1px solid #000;
+                        display: inline-block;
+                        padding: 5px;
+                        margin-right: 5px;
+                    }
+                }
+                &__platinum ,
+                &__gold {
+                    @include clearfix;
+                    border-top: 1px solid #e6e6e6;
+                    padding-bottom: 10px;
+                    padding-left: 0;
+                    padding-top: 10;
+                    &__card {
+                        float: none;
+                        font-size: 12px;
+                        text-align: center;
+                        width: auto;
+                        img {
+                            display: block;
+                            margin-top: 7px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                    &__point {
+                        float: none;
+                        font-size: 12px;
+                        margin-left: 0;
+                        margin-top: 15px;
+                        span {
+                            font-size: 12px;
+                            line-height: 1.7;
+                        }
+                    }
+                }
+            }
+            /* system */
+        }
+        /* member */
+    }
+    .gift {
+        &__header {
+        }
+        &__lead {
+            font-size: 11px;
+            line-height: 1.65;
+            margin-top: 25px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            small {
+                font-size: 10px;
+            }
+        }
+        &__color {
+            @include clearfix;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            &__pratinum {
+                float: none;
+            }
+            &__gold {
+                float: none;
+            }
+            &__pratinum ,
+            &__gold {
+                margin-top: 25px;
+                width: auto;
+                &__title {
+                    border: 1px solid #000;
+                    font-family: $mincho;
+                    font-size: 14px;
+                    text-align: center;
+                    padding: 5px;
+                    small {
+                        font-size:10px;
+                    }
+                }
+                &__image {
+                    text-align: center;
+                    margin-top: 14px;
+                }
+                &__list {
+                    margin-top: 15px;
+                    &__item {
+                        font-size: 10px;
+                        line-height: 1.65;
+                    }
+                }
+            }
+            &__note {
+                clear: both;
+                font-size: 10px;
+                margin-top: 15px;
+                text-align: right;
+            }
+        }
+        /* color */
+        &__birthday {
+            @include clearfix;
+            background-image: none;
+            background-position: 0 50px;
+            background-repeat: no-repeat;
+            border-top: 1px solid #e6e6e6;
+            margin-top: 25px;
+            min-height: inherit;
+            padding-top: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
+            &__image {
+                display: block;
+                text-align: center;
+                img {
+                    height: auto;
+                    width: 150px;
+                }
+            }
+            &__title {
+                font-family: $mincho;
+                font-size: 14px;
+                margin-left: auto;
+                margin-top: 25px;
+                text-align: center;
+            }
+            &__text {
+                font-size: 10px;
+                line-height: 1.65;
+                margin-left: auto;
+                margin-top: 25px;
+            }
+            &__note {
+                font-size: 10px;
+                line-height: 1.7;
+                margin-left: auto;
+                margin-top: 10px;
+            }
+        }
+    }
+    /* gift */
+}
+
+
+
+}

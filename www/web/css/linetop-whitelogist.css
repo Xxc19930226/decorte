@@ -1,0 +1,255 @@
+.mainContainer {
+    padding-top: 50px;
+}
+.keyvisual{
+	position:relative;
+}
+
+/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/whitelogist/kv.jpg?1457673566');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size:100% auto;
+	width: 100%;
+	max-width: 1200px;
+	height: 700px;
+}
+*/
+.news .news-201604_shower {
+	background-image: url('/images/aq_mw/news_01.jpg?1457673949')
+}
+.news .news-201604_shower a {
+	margin-left: 533px;
+	margin-top: 130px
+}
+.news .news-201604_shower a .title {
+	font-size: 25px
+}
+.news .news-201604_shower a .lead {
+	font-size: 35px;
+	line-height: 57px
+}
+.news .news-201604_ardeflule {
+	background-image: url('/images/aq_mw/news_02.jpg?1457673949')
+}
+.news .news-201604_ardeflule a {
+	margin-top: 345px
+}
+.news .news-201604_neckrenew {
+	background-image: url('/images/aq_mw/news_03.jpg?1457673949')
+}
+.news .news-201604_neckrenew a {
+	margin-top: 345px
+}
+
+.kouji__title {
+    font-family: hy;
+    font-size: 30px;
+    text-align: center;
+}
+.kouji__lead {
+    border: 1px solid #000000;
+    text-align: center;
+    width: 400px;
+    margin: 50px auto 0;
+    padding: 10px;
+    font-family: hy;
+    font-size: 16px;
+}
+.kouji__detail {
+    width: 650px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.kouji__detail__text {
+    float: left;
+    width: 300px;
+    font-size: 12px;
+    line-height: 21px;
+}
+.kouji__detail__image {
+    float: right;
+    width: 300px;
+}
+.kouji__detail__image img {
+    width: 100%;
+}
+
+
+.concept__title {
+    font-family: hy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.concept__list {
+    margin-top: 50px;
+}
+.concept__list__item {
+    height: 360px;
+    width: 570px;
+}
+.concept__list__item:nth-child(n+2) {
+    margin-left: 60px;
+}
+
+
+.concept__list__item span {
+	display:block;
+	color: #FFFFFF;
+	text-align:center;
+    font-family: hy;
+	margin-top:15px;
+}
+
+.concept__list__item span.title {
+	font-size:30px;
+	margin-top:220px
+}
+.concept__list__item a {
+    border: 1px solid #fff;
+    color: #fff;
+    width: 200px;
+    margin: 20px auto 0;
+    line-height: 2;
+}
+
+
+.concept__list__item.a_itemconcept {
+	background-image: url('/images/whitelogist/thumb_concept_stick.jpg');
+  background-position: center top;
+}
+.concept__list__item.w_itemconcept {
+	background-image: url('/images/whitelogist/thumb_concept.jpg');
+  background-position: center top;
+}
+
+
+
+.product__category__item {
+    border-bottom: solid 1px #000000;
+}
+
+.product .itemlist {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+
+
+@media screen and (max-width: 736px) {
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+
+.keyvisual .award{
+    height: 75px;
+	width: 75px;
+    left: 66%;
+	top:75%;
+    position: absolute;
+}
+
+.keyvisual .award img{
+	width:100%;
+	height:auto;
+}
+
+
+.kouji__title {
+    font-size: 20px;
+    text-align: center;
+}
+.kouji__lead {
+    border: 1px solid #000000;
+    text-align: center;
+    width: 90%;
+    padding: 10px 0;
+    line-height: 1.6em;
+}
+.kouji__detail {
+    width: 96%;
+    overflow: visible;
+}
+.kouji__detail__text {
+    float: none;
+    width: auto;
+}
+.kouji__detail__image {
+    float: none;
+    width: 60%;
+    margin: 30px auto 0;
+}
+
+
+
+.concept__title {
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.concept__list__item {
+    height: auto;
+    width: 100%;
+}
+
+.concept__list__item.a_itemconcept {
+	background-image: none;
+}
+.concept__list__item.w_itemconcept {
+	background-image: none;
+}
+.concept__list__item:nth-child(n+2) {
+    margin-left: 0;
+}
+.concept__list__item span {
+	display:block;
+	position:absolute;
+	margin-top:0;
+    width: 100%;
+	left:0;
+	text-align:center;
+	
+}
+
+.concept__list__item span.title {
+	font-size:20px;
+	margin-top:0;
+	top:45%;
+}
+
+.concept__list__item span.copy {
+	font-size:13px;
+	top:60%;	
+
+}
+
+.concept__list__item a {
+    width: 50%;
+	left:25%;
+}
+
+.product .itemlist {
+    width: 100%;
+}
+
+
+
+}

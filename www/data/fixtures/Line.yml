@@ -1,0 +1,109 @@
+Line:
+  aq_meliority:
+    name: 'AQ ミリオリティ'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 10
+    slug: aq_meliority
+  aq:
+    name: 'AQ'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 20
+    slug: aq
+  aq_mw:
+    name: 'AQ MW'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 30
+    slug: aq_mw
+  vital_science:
+    name: 'バイタル サイエンス　プレミアム'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 40
+    slug: vital_science
+  white_science:
+    name: 'ホワイト サイエンス　プレミアム'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 50
+    slug: white_science
+  future_science:
+    name: 'フューチャーサイエンス'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 60
+    slug: future_science
+  future_science_white:
+    name: 'フューチャーサイエンス　ホワイト'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 70
+    slug: future_science_white
+  eternia:
+    name: 'エタニア'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 80
+    slug: eternia
+  maquiexpert:
+    name: 'マキエクスペール'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 90
+    slug: maquiexpert
+  magie_deco:
+    name: 'マジー デコ'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 100
+    slug: magie_deco
+  moisture_liposome:
+    name: 'モイスチュア リポソーム'
+    skincare_system_flag: false
+    major_flag: false
+    priority: 110
+    slug: moisture_liposome
+  whitelogist:
+    name: 'ホワイトロジスト'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 120
+    slug: whitelogist
+  vita_de_reve:
+    name: 'ヴィタ ドレーブ'
+    skincare_system_flag: false
+    major_flag: false
+    priority: 130
+    slug: vita_de_reve
+  cyclic_key:
+    name: 'サイクリック キィ'
+    skincare_system_flag: false
+    major_flag: false
+    priority: 140
+    slug: cyclic_key
+  de_la_vie:
+    name: 'ドゥ ラ ヴィ'
+    skincare_system_flag: true
+    major_flag: true
+    priority: 150
+    slug: de_la_vie
+  vice_virtue:
+    name: 'バイス & バーチュ'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 160
+    slug: vice_virtue
+  lacouture:
+    name: 'ラクチュール'
+    skincare_system_flag: false
+    major_flag: true
+    priority: 170
+    slug: lacouture
+  cosme_decorte:
+    name: 'コスメデコルテ'
+    skincare_system_flag: false
+    major_flag: false
+    priority: 200
+    slug: cosme_decorte

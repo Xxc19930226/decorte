@@ -1,0 +1,39 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           SalonShop
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          salon_shop
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: { label: 店舗名 }
+        mail_subject1: { label: 予約完了メールの件名 }
+        mail_subject1_mb: { label: 予約完了メールの件名(携帯用) }
+        mail_subject2: { label: 返信メールの件名 }
+        mail_subject3: { label: 返信メール(希望外)の件名 }
+        mail_body1: { label: 予約完了メールの本文 }
+        mail_body1_mb: { label: 予約完了メールの本文(携帯用) }
+        mail_body_top2: { label: 返信メールの前半本文 }
+        mail_body_bottom2: { label: 返信メールの後半本文 }
+        mail_body_top3: { label: 返信メール(希望外)の前半本文 }
+        mail_body_bottom3: { label: 返信メール(希望外)の後半本文 }
+        created_at: { label: 作成日時 }
+        updated_at: { label: 更新日時 }
+      list:
+        title: 店舗 一覧
+        display: [ name, created_at, updated_at ]
+      filter:
+        class: false
+      form:    ~
+      edit:
+        title: 店舗情報 編集
+      new:
+        title: 店舗情報 新規登録

@@ -1,0 +1,280 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'DECORTE、コスメデコルテ(コーセー)Webサイトの商品情報がご覧いただけます。新製品の一覧から商品を検索することができます。') ?>
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'Salon de beaute') ?>
+<?php slot('page_id', 'salon_news') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<?php use_stylesheet('sp/salon/common.css') ?>
+<?php use_stylesheet('sp/salon/news.css') ?>
+<?php slot('back_link', '/sp/salon/') ?>
+<script type="text/javascript">
+$(function() {
+	var n = window.location.href.slice(window.location.href.indexOf('?') + 4);
+	if(n.length < $("#webreserve div.new_contents").size()) {
+		var p = $("#webreserve div.new_contents").eq(n).offset().top;
+		$('html,body').animate({ scrollTop: p }, 'slow');
+		return false;
+	}
+});
+
+</script>
+
+<section class="news line" id="webreserve">
+  <p class="logo"><a href="/sp/salon/"><img src="/images/sp/salon/logo.png" alt=""></a></p>
+  <h2 class="title">新着情報</h2>
+  <div class="new_contents">
+    <div class="name">
+      <p style="background-color:#b19145; color:#ffffff; padding:5px;"><span>クリスマス限定コース<br>『 AQ MW クリスマス スペシャル 2016 』</span></p>
+      <p class="hplimited"> ご予約受付期間 ： 11月15日（火）～12月25日（日）<br>
+トリートメント対象期間 ： 12月1日(木）～12月25日（日）
+</p>
+    </div>
+    <div class="detail">
+      <div class="clearfix"> <img style="width:100px;" src="/images/sp/salon/news/20161201/salon_1612_chrismas.jpg" alt="" class="right">
+        <p class="option">クリスマスパーティや大切な日に向けて、肌と心に働きかけるAQ MWスキンケアを贅沢に使用したこの時期だけのスペシャル限定コースです。</p>
+        <p class="option">満足度の高い70分コースに加えて、背中のトリートメントまで贅沢にケアする100分コースもご用意いたしました。<br>
+          内側から光り輝く、奇跡のような肌をぜひご体験ください。 </p>
+      </div>
+      <div class="spec">
+        <p>トリートメント時間 70分 (所要時間100分) <br>
+          価格16,000円（税抜） </p>
+      </div>
+      <div class="spec">
+        <p>トリートメント時間 100分 (所要時間130分) <br>
+          価格23,000円（税抜） </p>
+      </div>
+    </div>
+    <div class="flow">
+      <h4>＜トリートメントの流れ＞※70分コース</h4>
+      <p> STEP1　マッサージ（手・腕）<br>
+        <img src="/images/sp/salon/news/20161201/photo1.jpg" alt="" style="width: 60px;"><br>
+        <span>白檀を中心とした香りをかぎながら手・腕をマッサージし、リラックス効果・トリートメント効果を高めます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP2　Ｗクレンジング<br>
+        <img src="/images/sp/salon/news/20161201/photo2.jpg" alt="" style="width: 60px;"><br>
+        <span>メイクアップ料や肌の汚れを顔・首・胸元までやさしく取り除きます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP3　毛穴ケア（サクション）<br>
+        <img src="/images/sp/salon/news/20161201/photo3.jpg" alt="" style="width: 60px;"><br>
+        <span>機器を使用し、毛穴に詰まった角栓・皮脂、汚れなどをやさしく取り除き、滑らかな肌に整えます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP4　マッサージ（顔・首・胸元）<br>
+        <img src="/images/sp/salon/news/20161201/photo4.jpg" alt="" style="width: 60px;"><br>
+        <span>肌本来の機能を高め、マスク前の肌を最適な状態に整えます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p>STEP5 マスク＆マッサージ（ヘッド） <br>
+        <img src="/images/sp/salon/news/20161201/photo5.jpg" alt="" style="width: 60px;"><br>
+        <img src="/images/product/aq_mw/square/JGLV.png" alt="" style="width:60px;"><br>
+        <span>目元にいきいきとした明るさを与えながらピンとしたハリ感を呼び戻します。さらに、マスク中、頭皮のマッサージを行い、リラックス効果・マスク効果を高めます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP6　保湿・プロテクト<br>
+        <img src="/images/sp/salon/news/20161201/photo6.jpg" alt="" style="width: 60px;"><br>
+        <span>マスク後のお肌に潤いを与え、ワンランク上の明るい肌を目指します。さらに紫外線や外的刺激から肌を保護します。 </span> </p>
+    </div>
+    <div class="present">
+      <p>上記期間中、コースを受けられた方全員に、<span style="color:#bc4848;">「AQ MW フェイシャルマスクデュオ1枚」</span>を差し上げます。</p>
+    </div>
+    <div class="spec"> ※WEB予約フォーム内「ご希望メニュー」では、<br>
+      「シーズン限定コース」をお選び頂き、「ご意見・ご要望欄」に<strong style="color:#CC0000;">「クリスマス限定コース」</strong>とご記入下さい。 </div>
+  </div>
+  <div class="new_contents">
+    <div class="name">
+      <h3><span>サロン ド ボーテ　コスメデコルテ　季節の期間限定コース</span></h3>
+      <p class="hplimited">対象期間：12月1日（木）～2月28日（火）<br>
+        『ホット モイスチュア　コース』</p>
+    </div>
+    <div class="detail">
+      <p class="option">12月から2月にかけて、1年の中でもっとも気温・湿度と共に低くなる時期です。</p>
+      <p class="option">肌が乾燥しやすい時期である上に、からだが冷えることで代謝が下がり、さらに肌は潤いを失い、カサカサとした状態に。</p>
+      <p class="option">そこで、「温」「保湿」ケアができるコースで、代謝力・免疫力を高め、冬の乾燥・冷えから肌をまもりませんか。 </p>
+    </div>
+    <div class="spec">
+      <p>トリートメント時間　110分（所要時間：140分）<br>
+        限定価格　20,000円（税抜） </p>
+    </div>
+    <div class="flow">
+      <h4>＜トリートメントの流れ＞</h4>
+      <p>STEP1　Ｗクレンジング<br>
+        <img src="/images/sp/salon/news/20161201/photo2.jpg" alt="" style="width: 60px;"><br>
+        <span>メイクアップ料や肌の汚れを顔・首・胸元までやさしく取り除きます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p>STEP2　マッサージ（顔・首・胸元）<br>
+        <img src="/images/sp/salon/news/20161201/photo4.jpg" alt="" style="width: 60px;"><br>
+        <span>肌本来の機能を高め、マスク前の肌を最適な状態に整えます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP3　パター（顔・首・胸元）<br>
+        <img src="/images/sp/salon/news/20161201/photo7.jpg" alt="" style="width: 60px;"><br>
+        <span>機器を使用し、リンパの流れ促しながら、めぐりの良い状態に整えます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP4　石膏マスク<br>
+        <img src="/images/sp/salon/news/20161201/photo8.jpg" alt="" style="width: 60px;"><br>
+        <span>温熱パワーで新陳代謝を高める「石膏マスク 」を使用し、肌を引き締め、シャープなフェイスラインに整えます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p style="position: relative;">STEP5 モイスチュアリポソームマスク <br>
+        <img src="/images/product/moisture_liposome/square/JVWA.png" alt="" style="width:60px;"><br>
+        <span>長年親しまれている保湿美容液を使用したマスクを行います。外側の膜から少しずつ美容成分を放出し、キメをふっくら整え、ハリのあるなめらかな肌へ整えます。</span> </p>
+      <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+      <p> STEP6　保湿・プロテクト<br>
+        <img src="/images/sp/salon/news/20161201/photo6.jpg" alt="" style="width: 60px;"><br>
+        <span>マスク後のお肌に潤いを与え、ワンランク上の明るい肌を目指します。さらに紫外線や外的刺激から肌を保護します。 </span> </p>
+    </div>
+    <div class="spec"> ※WEB予約フォーム内「ご希望メニュー」では、<br>
+      「シーズン限定コース」をお選び頂き、「ご意見・ご要望欄」に<strong style="color:#1d579f;">「ホット モイスチュア コース」</strong>とご記入下さい。 </div>
+  </div>
+  <div class="new_contents">
+    <div class="name">
+      <h3><span>サロン ド ボーテ　コスメデコルテ　季節の期間限定オプション</span></h3>
+      <p class="hplimited">対象期間：12月1日（木）～2月28日（火）<br>
+        『冬の限定オプション 』</p>
+    </div>
+    <div class="detail clearfix">
+      <p><span class="point">限定価格 ：各3,000円 （税抜）</span></p>
+      <div class="clearfix">
+        <div class="thum">
+          <p style="margin-top:10px;">
+           <img src="/images/sp/salon/news/20161201/photo7.jpg" alt="" style="width: 60px;">
+           <img src="/images/sp/salon/news/20161201/photo3.jpg" alt="" style="width: 60px;">
+           <img style="max-width:60px;" src="/images/product/aq_meliority/square/JGDT.png" alt=""><br>
+            コスメデコルテ<br>
+            AQ ミリオリティ<br>
+            ダブル コンセントレイション<br>
+            <span>
+            50,000円（税抜）<br>
+           （デイセラム30mL <br>
+ナイトセラム30mL）</span> 
+</p>
+        </div>
+        <p class="option_name"> <span>疲れが顔に出やすい方・むくみ・たるみが気になる方</span><br>
+          <span>『 ディープ クリア 』</span></p>
+        <p class="option">顔のむくみ・くすみの原因となる、停滞しているリンパの流れを断続的なリズムで促す機器と、皮膚に適度な吸引圧を与え、末端部の血流の流れを刺激し、肌の代謝をスムーズに整える機器の2つを使用。 </p>
+        <p class="option">仕上げには、見違えるほどの透明感、うるおい、なめらかさを与える美容液を使用し、普段感じられない、すっきりとシャープな顔立ちへ。 </p>
+        
+      </div>
+    </div>
+    <div class="detail clearfix">
+      <p class="option_name"> <span>冷え性の方・疲労が溜まっている方・高いリラクゼーション効果を望む方に</span><br>
+        <span>『ホットストーン バック トリートメント 』</span></p>
+      <p class="option">トリートメントの初めにホットストーンを使用し、背中全体の凝り固まった筋肉をほぐし、緊張をやわらげます。</p>
+      <p class="option">さらに、ホットストーンから出る遠赤外線効果によりまるでゆっくりと温泉に入ったかのように身体を温め、深いリラクゼーション効果はもちろん、その後のトリートメント効果を高めます。</p>
+    </div>
+    <div class="detail clearfix">
+      <p><span class="point">限定価格 ：2,000円 （税抜）</span></p>
+      <div class="clearfix">
+        <div class="thum">
+          <p><img style="max-width:90px;" src="/images/product/aq_meliority/square/JGRX.png" alt=""><br>
+            コスメデコルテ<br>
+            AQ ミリオリティ<br>
+            インテンシブ <br>
+アイクリーム<br>
+            <span>20ｇ　30,000円（税抜） </span> </p>
+        </div>
+        <p class="option_name"> <span>目元のしわ、たるみ、くすみが気になる方に</span><br>
+          <span>『アイ  コンセントレイション 』</span></p>
+        <p class="option">見た目年齢を大きく左右する目元を集中的にケア。<br>
+          厳選された植物成分を贅沢に配合したアイクリームと、目元を温め、めぐりを促すトリートメントが
+          目元のさまざまなエイジング症状に働きかけます。</p>
+        <p class="option"> トリートメント後は、みずみずしくハリのある印象的なまなざしに。 </p>
+      </div>
+      <div class="flow">
+        <h4>＜トリートメントの流れ＞ベーシックコースの場合</h4>
+        <p style="background-color:#c6d1df;">【限定オプション】<br>
+ホット ストーン　バック  トリートメント</p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+        <p> STEP1　ホットストーン・マッサージ<br>（頭皮）<br>
+          <span>ホットストーンで足元・腹部を温めながら、頭皮をやさしく「ほぐし、
+          リラックス効果を高めます。</span> </p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+
+        <p> STEP2　Ｗクレンジング<br>
+          <span>メイクアップ料や肌の汚れを顔・首・胸元までやさしく取り除きます。</span> </p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+        <p> STEP3　マッサージ（顔・首・胸元）<br>
+          <span>お客様の肌状態に合わせたマッサージをお選びします。肌機能を高め、マスク前の肌を最適な状態に整えます。</span> </p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+        <p style="background-color:#c6d1df; margin-bottom: 10px;">【限定オプション】<br>ディープ クリア </p>
+        <p style="background-color:#c6d1df;">【限定オプション】<br>アイ コンセントレイション </p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+        <p> STEP4　マスク<br>
+          <span>お肌状態に合わせマスクを選択します。<br>
+          マスク中に指先からひじにかけてマッサージ。<br>
+          硬くなった筋肉をほぐし、疲労を取り除きます。リラックスと共に末端から巡りが促され、健康的に。 </span> </p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+        <p>STEP5 モイスチュアライジング・<br>プロテクト<br>
+          <span>マスク後のお肌に潤いを与え、ワンランク上の明るい肌を目指します。さらに紫外線や外的刺激から肌を保護します。 </span> </p>
+        <img src="/images/sp/salon/news/20130301/arrow01.gif" alt="">
+        <p> STEP6　マッサージ（頭皮）<br>
+          <span>指圧や揉撚を取り入れたマッサージでゆっくり覚醒していきます。 </span> </p>
+      </div>
+      <p style="font-size:10px; padding:10px;">※オプションのみの販売はしておりません。</p>
+    </div>
+  </div>
+  <div class="new_contents anniversary">
+    <div class="name">
+      <h3><span>【表参道店限定】<br>
+        WEB予約特典　AQミリオリティ　特別ご優待コース<br>（※初回の方のみ）</span> </h3>
+      <p class="hplimited">対象期間：12月1日（木）～2月28日（火）</p>
+    </div>
+    <div class="detail clearfix">
+      <p style="margin-bottom: 10px;">肌の美しさを定義するファクター総てを満たしきる厳選された素材を
+        贅沢に配合した「AQ ミリオリティ」を使用し、AQミリオリティコースだけの「活性」と「鎮静」を組み合わせたスペシャルトリートメントが、まるで肌を一新したかのようないきいきとした美肌に導くコースです。</p>
+      <p class="yutai_image"><img src="/images/sp/salon/news/20161001/image_aqme.jpg" alt=""></p>
+      <div class="spec">
+        <p>◆スーペリア AQ ミリオリティコース<br>
+          トリートメント時間　100分　（所要時間 130分）<br>
+        </p>
+        <p><strong style="color:#CC0000;"> 通常30,000円（税抜）を、<br>
+          特別に20,000円（税抜）にてご体験いただけます。</strong> </p>
+		  <a href="/sp/salon/course_aqme_superior.html" class="treatment">トリートメントの流れ</a>
+      </div>
+      <div class="spec">
+        <p> ※尚、こちらのコースは初回のお客様に限らせていただきます。 </p>
+      </div>
+    </div>
+  </div>
+  <div class="new_contents">
+    <div class="name">
+      <h3><span>【表参道店限定】<br>
+        『WEB予約限定特典』（※初回の方のみ）</span></h3>
+    </div>
+    <div class="about">
+      <p>サロン ド ボーテ　コスメデコルテでは、<br>
+        <strong>WEB予約フォームからご予約いただいたお客様に限り、</strong><br>
+        『 ファースト コスメデコルテ コース（税抜10,000円）』の価格で<br>
+        『 コスメデコルテ ベーシックコース（税抜13,000円）』 へアップグレード致します。<br>
+      </p>
+    </div>
+    <p><a href="/salon/reservation" class="reserve">WEB予約はこちら</a></p>
+    <div class="spec">
+      <p>※WEB予約フォーム内「ご希望メニュー」では、<br>
+        「ファースト コスメデコルテコース《初回限定》　60分　10,000円」をお選び下さい。<br>
+        ※既にサロン ド ボーテ　コスメデコルテにメンバー登録されている方は、適用外とさせていただきます。<br>
+        ※特別ご優待オプションサービスチケットのご利用はできません。<br>
+        ※「ご友人同士ご来店特典」との併用はできません。<br>
+        ※お1人様1回限りとさせていただきます。</p>
+    </div>
+  </div>
+  <div class="new_contents">
+    <div class="name">
+      <h3><span>【表参道店限定】<br>
+        『お誕生月 ご来店特典』（※初回の方のみ）</span></h3>
+      <p class="hplimited" style="color:#fff; background-color:#a89148; padding:3px; margin:10px; display:block;">ホームページ限定特典</p>
+    </div>
+    <div class="about">
+      <p>サロン ド ボーテ　コスメデコルテでは、お客様のお誕生月に限り、『モイスチュア リポソームコース　スペシャル（税抜 20,000円）』を、税抜 13,000円の価格でお受けいただけます。<br>
+        <br>
+        <strong>ホームページをご覧いただいた方のみのスペシャル特典です。<br>
+        </strong></p>
+    </div>
+    <div class="spec">
+      <p> ※WEB予約フォーム内「ご希望メニュー」では、「モイスチュアリポソームコース　スペシャル（120分）　税抜20,000円」をお選びいただき、「ご意見・ご要望欄」に「バースデー特典」とご記入ください。<br>
+        ※お電話でご予約の際は「ホームページのバースデー特典を見た」とお伝えください。<br>
+        ※既にサロン ド ボーテ　コスメデコルテにメンバー登録をされている方は、適用外とさせていただきます。<br>
+        ※「WEB予約限定特典」との併用はできません。<br>
+        ※お一人様１回　ご本人様のみに限らせていただきます。。</p>
+    </div>
+  </div>
+  <p style="font-size:10px; padding:10px;">※ 詳しい内容につきましては、直接サロンへお問い合わせください。</p>
+  <p><a href="/salon/reservation" class="reserve">WEB予約はこちら</a></p>
+</section>

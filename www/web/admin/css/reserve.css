@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	-webkit-user-select: auto;
+}
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+.text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	margin: 20px 0;
+	padding: 10px;
+	color: #FFF;
+	font-size: 16px;
+	background-color: #333;
+}
+
+input.w10em {
+	width: 10em;
+}
+
+/* table decoration */
+table.stripe-table {
+	width: 100%;
+}
+table.stripe-table ,
+table.stripe-table > th,
+table.stripe-table > td {
+	border-collapse: collapse;
+}
+
+table.stripe-table {
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	background-color: #DFDFDF;
+}
+table.stripe-table th ,
+table.stripe-table td {
+	padding: 8px;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	vertical-align: middle;
+}
+table.stripe-table th {
+	background-color:#666666;
+	color: #FFF;
+}
+table.stripe-table tr.even-row {
+	background-color: #CCC;
+}
+table.stripe-table strong {
+	color: #ff6600;
+	display: inline-block;
+}
+
+
+
+/* reserve index */
+span.dates {
+	display: inline-block;
+}
+span.hope_date {
+	width: 150px;
+}
+span.hope_date input {
+	width: 120px;
+	margin-right: 5px;
+}
+span.hope_time {
+	width: 80px;
+}
+span.start_time {
+	width: 130px;
+}
+span.start_flag {
+	width: 50px;
+}
+
+input[type="submit"] ,
+input[type="button"] {
+	font-size: 16px;
+	cursor: pointer;
+}
+
+input.btn ,
+input.show ,
+div.btn input,
+td#mail_bottom a {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	border: none;
+	border-radius: 4px;
+
+	background: #000;
+	background: -webkit-gradient(linear, top, bottom, from(#FFFFFF), color-stop(0.7, #FFFFFF), to(#d4d3d3));
+	background: -webkit-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+	background: -moz-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+	background: -ms-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+	background: -o-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+
+	color: #FFF;
+
+}
+div.btn input {
+	margin: 20px;
+}
+td#mail_bottom a {
+	float: right;
+	text-decoration: none;
+}
+div.btn input.delete {
+	float: right;
+}
+div.btn p.done {
+	display: inline-block ;
+	margin: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 7px;
+	border-radius: 4px;
+	background: #DDD;
+    font-size: 16px;
+	color:#999999;
+	border: 2px solid #FFF;
+}
+
+/* datepicker lager */
+.ui-datepicker {
+	width: 24em !important;
+	box-shadow: 0 0 4px 0 #333;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	padding: 0.8em 0.2em !important;
+}
+
+/* reserve mail */
+#mailtext {
+	width: 450px;
+	height: 201px;
+}
+#mailtext2 {
+	width: 450px;
+	height: 450px;
+}
+pre {
+	line-height: 14.4px;
+}
+
+a.btn,
+.mailtype .type1 .type2:hover ,
+.mailtype .type2 .type1:hover ,
+.mailtype a {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 10px 10px 7px;
+	text-decoration: none;
+	color: #FFF;
+
+	border: 2px solid #FFF;
+
+	border-radius: 4px;
+
+	background: #000;
+	background: -webkit-gradient(linear, top, bottom, from(#FFFFFF), color-stop(0.7, #FFFFFF), to(#d4d3d3));
+	background: -webkit-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+	background: -moz-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+	background: -ms-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+	background: -o-linear-gradient(top, #272727, #323232 49%, #292929 50%, #020202);
+}
+.mailtype .type1 .type2 ,
+.mailtype .type2 .type1 {
+	background: #DDD;
+	color:#999999;
+}
+
+.undone {
+	font-weight: bold;
+}
+.done {
+	color: #666;
+}
+
+.complete {
+	background-color: #cc6666;
+	padding: 10px 5px;
+	color: #FFF;
+	display: block;
+}
+
+/* login */

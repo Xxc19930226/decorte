@@ -1,0 +1,900 @@
+
+#l--embed-player__video {
+    display: block;
+    width: 100%;
+}
+.mainContainer {
+    padding-top: 50px;
+}
+
+.bg1 {
+	background-image: url('/images/phytotune/bg_concept_moisture_02.jpg?1457850323');
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.moisuture_concept {
+	color:#000000;
+}
+.moisuture_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.moisuture_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.moisuture_concept__title__logo {
+	padding-top: 158px
+}
+.moisuture_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:219px
+}
+.moisuture_concept__title__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+.moisuture_concept__message {
+	margin-top: 152px;
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+.moisuture_concept__message:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.moisuture_concept__message__title {
+	font-family: hy;
+	font-size: 22px;
+	width: 600px;
+	float:right;
+}
+.moisuture_concept__message__copy {
+	font-family: hy;
+	font-size: 22px;
+	line-height:36px;
+	width: 600px;
+	float:right;
+	margin-top:20px;
+}
+.moisuture_concept__message__lead {
+	font-family: hy;
+	font-size: 32px;
+	width: 600px;
+	float:right;
+	margin-top:50px;
+	line-height:50px;
+}
+.moisuture_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+	width: 600px;
+	float:right;
+}
+
+.moisuture_concept__message__text span{
+	font-size:12px;
+}
+
+.moisuture_concept__seibun {
+	overflow: hidden;
+	*zoom:1;
+	background-image: url('/images/phytotune/bg_concept_moisture_03.jpg?1457850323');
+	background-color:#f8fafd;
+	background-position: center center;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+.moisuture_concept__seibun .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 875px;
+}
+
+.moisuture_concept__seibun .l-container:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.moisuture_concept__seibun__title {
+	width:320px;
+	float:left;
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	margin-top: 140px;
+	margin-left: 80px;
+	text-align: left;
+	color: #968ec3;
+}
+
+.moisuture_concept__seibun__title span{
+	font-size: 12px;
+}
+
+
+.moisuture_concept__seibun__text {
+	width:450px;
+	float:left;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 150px;
+	margin-bottom:110px;
+}	
+	
+.moisuture_concept__seibun__text span{
+	font-size: 10px;
+}
+.moisture_concept__seibun__herb .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 875px;
+	padding-bottom: 250px;
+}
+
+.moisture_concept__seibun__herb__title{
+	font-family: hy;
+	font-size: 22px;
+	color: #968ec3;
+	text-align: center;
+}
+
+.moisture_concept__seibun__herb__title span{
+	font-size:12px;	
+}
+
+.moisture_concept__seibun__herb__text {
+	font-size: 12px;
+	margin-top: 25px;
+	text-align: center;
+}	
+
+.moisture_concept__seibun__herb ul{
+	width:650px;
+	margin:40px auto 0;
+	text-align:center;
+}
+
+.moisture_concept__seibun__herb ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+.moisture_concept__seibun__herb ul li{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	font-size:10px;
+	text-align:center;
+	padding-top:110px;
+}
+
+.moisture_concept__seibun__herb ul li.herb01{
+	background-image: url('/images/phytotune/herbs_01.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+
+.moisture_concept__seibun__herb ul li.herb02{
+	background-image: url('/images/phytotune/herbs_02.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.moisture_concept__seibun__herb ul li.herb03{
+	background-image: url('/images/phytotune/herbs_03.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.moisture_concept__seibun__herb__text__note{
+	float:right;
+	text-align:left;
+	font-size:10px;
+	line-height:19px;
+	margin-top:50px;
+}
+.productLink {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+
+
+@media screen and (max-width: 736px) {
+
+.bg1 {
+    background-image: none;
+}
+
+.moisuture_concept__top {
+    position: relative;
+}
+
+.moisuture_concept {
+	background-image: none
+}
+.moisuture_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+.moisuture_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.moisuture_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 45px;
+	width: 100%
+}
+.moisuture_concept__title__logo {
+	padding-top: 10px
+}
+.moisuture_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 115px
+}
+.moisuture_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+
+.moisuture_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom:45px;
+}
+.moisuture_concept__message__title {
+	font-family: hy;
+	font-size: 25px;
+	width: auto;
+	float:none;
+}
+.moisuture_concept__message__lead {
+	font-family: hy;
+	font-size: 20px;
+	margin-top: 45px;
+	width: auto;
+	float:none;
+	line-height: 1.4em;
+}
+
+
+.moisuture_concept__message__text {
+	font-family: hy;
+	font-size: 13px;
+	line-height: 30px;
+	margin-top: 25px;
+	width: auto;
+	float:none;
+}
+
+.moisuture_concept__message__text span{
+	font-size:9px;
+}
+
+.moisuture_concept__message__copy {
+font-family: hy;
+	font-size: 16px;
+	line-height: 1.4em;
+	width: auto;
+	float:none;
+}
+
+
+
+.moisuture_concept__seibun__title {
+	width:auto;
+	float:none;
+	font-family: hy;
+	font-size: 25px;
+	line-height: 1.4em;
+	margin-top: 60px;
+	margin-left: 0;
+	text-align: center;
+}
+
+.moisuture_concept__seibun__title span{
+	font-size: 9px;
+}
+
+.moisuture_concept__seibun__text {
+	width:90%;
+	float:none;
+	font-size: 12px;
+	line-height: 21px;
+	margin: 40px auto;
+}	
+	
+.moisuture_concept__seibun__text span{
+	font-size: 10px;
+}
+
+.moisuture_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+	background-color: #f8f9fc;
+	background-image: url('/images/phytotune/sp/bg_concept_moisture_03.jpg?1457853504');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+	padding-bottom: 100px
+}
+
+.moisture_concept__seibun__herb .l-container {
+	width:90%;
+	margin: 0 auto;
+    padding-bottom: 0;
+}
+
+.moisture_concept__seibun__herb__title{
+	font-family: hy;
+	font-size: 16px;
+	margin-top:30px;
+	color: #968ec3;
+	text-align: center;
+}
+
+.moisture_concept__seibun__herb__title span{
+	font-size:9px;	
+}
+
+.moisture_concept__seibun__herb__text {
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 25px;
+	text-align: center;
+}	
+
+.moisture_concept__seibun__herb ul{
+	width:300px;
+	margin:40px auto 0;
+	text-align:center;
+}
+
+.moisture_concept__seibun__herb ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+.moisture_concept__seibun__herb ul li{
+	display: inline-block;
+	float: left;
+	width: 90px;
+	font-size:9px;
+	text-align:center;
+	padding-top:80px;
+}
+
+.moisture_concept__seibun__herb ul li.herb01{
+	background-image: url('/images/phytotune/herbs_01.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto;
+}
+
+
+.moisture_concept__seibun__herb ul li.herb02{
+	background-image: url('/images/phytotune/herbs_02.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto;
+}
+
+.moisture_concept__seibun__herb ul li.herb03{
+	background-image: url('/images/phytotune/herbs_03.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto;
+}
+
+.moisture_concept__seibun__herb__text__note{
+	float:none;
+	text-align:left;
+	font-size:10px;
+	line-height:19px;
+	margin-top:50px;
+}
+
+}
+
+.whitening_concept {
+	background-image: url('/images/phytotune/bg_concept_whitening_02.jpg?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#dbedf8;
+  background-size: cover;
+  min-width: 1200px;
+}
+.whitening_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.whitening_concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.whitening_concept__title__logo {
+	padding-top: 158px
+}
+.whitening_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:219px
+}
+.whitening_concept__title__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+.whitening_concept__message {
+	margin-top: 152px;
+	text-align: center;
+	padding-bottom:150px;
+}
+
+.whitening_concept__message:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.whitening_concept__message__title {
+	font-family: hy;
+	font-size: 22px;
+	width: 600px;
+	float:right;
+}
+
+.whitening_concept__message__copy{
+	font-family: hy;
+	font-size: 22px;
+	width: 600px;
+	float:right;
+}
+
+.whitening_concept__message__lead {
+	font-family: hy;
+	font-size: 32px;
+	width: 600px;
+	float:right;
+	margin-top:50px;
+	line-height:50px;
+}
+.whitening_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 40px;
+	width: 600px;
+	float:right;
+}
+
+.whitening_concept__message__text span{
+	font-size:12px;
+}
+
+.whitening_concept__seibun {
+	background-image: url('/images/phytotune/bg_concept_whitening_03.jpg?1457850323');
+	background-color:#f8fafd;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+	overflow: hidden;
+	*zoom:1
+}
+.whitening_concept__seibun .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	padding-top:100px;
+	padding-bottom: 250px;
+    overflow: hidden;
+}
+
+.whitening_concept__seibun .l-container:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.whitening_concept__herb__hibiscus{
+	width: auto;
+	float: none;
+	margin-left: 0;
+}
+
+.whitening_concept__herb__redherb{
+	width: auto;
+	float: none;
+	margin-left: 0;
+    margin-top: 80px;
+    overflow: hidden;
+}
+.whitening_concept__herb__redherb .left {
+    float: left;
+}
+.whitening_concept__herb__redherb .right {
+    float: right;
+}
+
+
+.whitening_concept__herb__hibiscus__title {
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: left;
+	color: #6faddc;
+}
+
+.whitening_concept__herb__hibiscus__text {
+	background-image: url('/images/phytotune/hibiscus.png?1457850323');
+	background-position: top top;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 44px;
+	padding-left: 150px; 
+}	
+	
+
+
+.whitening_concept__herb__redherb__title{
+	font-family: hy;
+	font-size: 22px;
+	color: #6faddc;
+	text-align: center;
+}
+
+.whitening_concept__herb__redherb__title span{
+	font-size: 12px;
+}
+
+.whitening_concept__herb__redherb__text {
+	font-size: 12px;
+	margin-top: 25px;
+	text-align: center;
+}	
+
+.whitening_concept__herb__redherb ul{
+	width:480px;
+	margin:40px auto 40px;
+	text-align:center;
+}
+
+.whitening_concept__herb__redherb ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+
+.whitening_concept__herb__redherb ul li{
+	display: inline-block;
+	float: left;
+	width: 150px;
+	font-size:10px;
+	text-align:center;
+	padding-top:110px;
+}
+
+.whitening_concept__herb__redherb ul li.herb01{
+	background-image: url('/images/phytotune/herbs_01.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+
+.whitening_concept__herb__redherb ul li.herb02{
+	background-image: url('/images/phytotune/herbs_02.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.whitening_concept__herb__redherb ul li.herb03{
+	background-image: url('/images/phytotune/herbs_03.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.whitening_concept__herb__redherb ul li.herb04{
+	background-image: url('/images/phytotune/exttract_01.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+
+.whitening_concept__herb__redherb ul li.herb05{
+	background-image: url('/images/phytotune/exttract_02.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.whitening_concept__herb__redherb ul li.herb06{
+	background-image: url('/images/phytotune/exttract_03.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+
+
+.whitening_concept__herb__note{
+	float:right;
+	text-align:left;
+	font-size:10px;
+	line-height:19px;
+	margin-top:50px;
+}
+
+
+@media screen and (max-width: 736px) {
+.whitening_concept {
+	background-image: none;
+  min-width: 100%;
+}
+.whitening_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+.whitening_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.whitening_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 55px;
+	width: 100%
+}
+.whitening_concept__title__logo {
+	padding-top: 10px
+}
+.whitening_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 115px
+}
+.whitening_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+
+.whitening_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom:45px;
+}
+.whitening_concept__message__title {
+	font-family: hy;
+	font-size: 25px;
+	width: auto;
+	float:none;
+}
+.whitening_concept__message__lead {
+	font-family: hy;
+	font-size: 20px;
+	margin-top: 45px;
+	width: auto;
+	float:none;
+	line-height: 1.4em;
+}
+
+
+.whitening_concept__message__text {
+	font-family: hy;
+	font-size: 13px;
+	line-height: 30px;
+	margin-top: 25px;
+	width: auto;
+	float:none;
+}
+
+.whitening_concept__message__text span{
+	font-size:9px;
+}
+
+.whitening_concept__message__copy {
+font-family: hy;
+	font-size: 16px;
+	line-height: 1.4em;
+	width: auto;
+	float:none;
+}
+
+.whitening_concept__seibun {
+	overflow: hidden;
+*zoom:1;
+	background-color: #ffffff;
+	background-image: url('/images/phytotune/sp/bg_concept_whitening_03.jpg?1457853504');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	margin-top: 30px;
+	padding-bottom: 100px
+}
+
+.whitening_concept__seibun .l-container {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.whitening_concept__herb__redherb .left ,
+.whitening_concept__herb__redherb .right {
+    float: none;
+}
+.whitening_concept__herb__hibiscus__title {
+	font-family: hy;
+	font-size: 25px;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+.whitening_concept__herb__hibiscus__text {
+	background-image: url('/images/phytotune/hibiscus.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:80px auto;
+	font-size: 12px;
+	line-height: 21px;
+	margin-top: 20px;
+	padding-left:0;
+	padding-top: 120px; 
+	text-align: center;
+}	
+	
+
+.whitening_concept__herb__redherb,
+.whitening_concept__herb__hibiscus{
+	width: 90%;
+	float:none;
+	margin:40px auto;
+}
+
+
+.whitening_concept__herb__redherb.l-container {
+	width:90%;
+	margin: 0 auto;
+    padding-bottom: 0;
+}
+
+
+.whitening_concept__herb__redherb__title{
+	font-family: hy;
+		font-size: 16px;
+	color: #6faddc;
+	text-align: center;
+}
+
+.whitening_concept__herb__redherb__title span{
+	font-size: 12px;
+}
+
+.whitening_concept__herb__redherb ul{
+	text-align:center;
+	width:300px;
+	margin:20px auto;
+}
+
+.whitening_concept__herb__redherb ul li{
+	display: inline-block;
+	float: left;
+	width: 90px;
+	font-size:9px;
+	text-align:center;
+	padding-top:80px;
+}
+
+
+.whitening_concept__herb__redherb ul li.herb01{
+	background-image: url('/images/phytotune/herbs_01.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto
+}
+
+
+.whitening_concept__herb__redherb ul li.herb02{
+	background-image: url('/images/phytotune/herbs_02.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto
+}
+
+.whitening_concept__herb__redherb ul li.herb03{
+	background-image: url('/images/phytotune/herbs_03.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto
+}
+
+.whitening_concept__herb__redherb ul li.herb04{
+	background-image: url('/images/phytotune/exttract_01.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto
+}
+
+
+.whitening_concept__herb__redherb ul li.herb05{
+	background-image: url('/images/phytotune/exttract_02.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto
+}
+
+.whitening_concept__herb__redherb ul li.herb06{
+	background-image: url('/images/phytotune/exttract_03.png?1457850323');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size:60px auto
+}
+
+
+.whitening_concept__herb__note{
+	float:none;
+	text-align:left;
+	font-size:10px;
+	line-height:19px;
+	margin-top:50px;
+}
+.productLink {
+    margin-top: 60px;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+}

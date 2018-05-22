@@ -1,0 +1,87 @@
+<html>
+<body>
+	<style type="text/css">
+		.point_color{
+			background: black;
+			cursor: pointer;
+		}
+		.point_color:hover{
+			background: rgb(240,206,108);
+		}
+	</style>
+	<div class="offline_img" style="text-align:center;margin:0 auto;position:relative">
+		<img src="map.jpg" style="width:100%;margin-top:50px">
+		<div id="bj" class="point_color" style="position:absolute;top: 403px;left: 450px;border-radius: 15px;width: 8px;height: 8px;">
+			
+		</div>
+		<div id="bjzg" style="border: 1px solid black;width: 100px;line-height: 150%;padding: 5px 25px;position: absolute;top: 360px;left: 509px;display:none">
+			北京汉光专柜<br>
+			北京SKP专柜<br>
+			北京双安专柜
+		</div>
+
+		<div id="ty" class="point_color" style="position:absolute;top: 428px;left: 407px;border-radius: 15px;width: 8px;height: 8px;">
+			
+		</div>
+		<div id="tyzg" style="border: 1px solid black;width: 115px;line-height: 150%;padding: 5px 25px;position: absolute;top: 416px;left: 225px;display:none">
+			太原王府井专柜
+		</div>
+
+		<div id="nj" class="point_color" style="position:absolute;top: 525px;left: 499px;border-radius: 15px;width: 8px;height: 8px;">
+			
+		</div>
+		<div id="njzg" style="border: 1px solid black;width: 100px;line-height: 150%;padding: 5px 25px;position: absolute;top: 500px;left: 288px;display:none">
+			南京金鹰国际购物中心专柜
+		</div>
+
+		<div id="hz" class="point_color" style="position:absolute;top: 553px;left: 509px;border-radius: 15px;width: 8px;height: 8px;">
+			
+		</div>
+		<div id="hzzg" style="border: 1px solid black;width: 100px;line-height: 150%;padding: 5px 25px;position: absolute;top: 573px;left: 370px;display:none">
+			杭州大厦专柜
+		</div>
+
+		<div id="sh" class="point_color" style="position:absolute;top: 533px;left: 525px;border-radius: 15px;width: 8px;height: 8px;">
+			
+		</div>
+		<div id="shzg" style="border: 1px solid black;width: 90px;line-height: 150%;padding: 5px 25px;position: absolute;top: 540px;left: 550px;display:none">
+			上海梅龙镇伊势丹专柜<br>
+			上海虹桥友谊专柜
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#bj").hover(function(){
+			    $("#bjzg").css("display","block");
+			},function(){
+			    $("#bjzg").css("display","none");
+			});
+
+			$("#ty").hover(function(){
+			    $("#tyzg").css("display","block");
+			},function(){
+			    $("#tyzg").css("display","none");
+			});
+
+			$("#nj").hover(function(){
+			    $("#njzg").css("display","block");
+			},function(){
+			    $("#njzg").css("display","none");
+			});
+
+			$("#hz").hover(function(){
+			    $("#hzzg").css("display","block");
+			},function(){
+			    $("#hzzg").css("display","none");
+			});
+
+			$("#sh").hover(function(){
+			    $("#shzg").css("display","block");
+			},function(){
+			    $("#shzg").css("display","none");
+			});
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'Salon de beaute') ?>
+<?php slot('page_id', 'salon_access') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<?php use_stylesheet('sp/salon/common.css') ?>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAUhKWE0UF_NoyZtNIIrA_ypfVh3EcUo6Q"></script>
+<script>
+var map;
+function initialize() {
+  var mapOptions = {
+    zoom: 18,
+    scaleControl: true,
+    center: new google.maps.LatLng(35.67402967, 139.76575971)
+  };
+  map = new google.maps.Map(document.getElementById('map-ginza'),
+      mapOptions);
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(35.67402967, 139.76575971),
+    map: map,
+    title: 'プランタン銀座'
+  })
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+<script>
+var map;
+function initialize() {
+  var mapOptions = {
+    center: new google.maps.LatLng(35.6681683, 139.7073501),
+    zoom: 17,
+    mapTypeControl: false,
+    scaleControl: false,
+};
+  map = new google.maps.Map(document.getElementById('map-omotesando'),
+      mapOptions);
+  var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(35.6681683, 139.7073501),
+    map: map,
+    title: '表参道'
+  })
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+<section class="line salonaccess">  <p class="logo"><a href="/sp/salon/"><img src="/images/sp/salon/logo.png" alt=""></a></p>
+  <h2 class="title">アクセス</h2>
+  <div class="saloncontact">
+    <h3>表参道店</h3>
+    <div class="paragraph">
+      <h4>お電話でのご予約・お問い合わせ</h4>
+      <p class="tel"><a href="tel:0334031560">03-3403-1560</a></p>
+      <dl>
+        <p class="banner"><a href="/salon/reservation"><img src="/images/sp/salon/banner_reserve.jpg" alt=""></a></p>
+        <dt>営業時間</dt>
+        <dd><span>月曜～土曜</span>午前11時～午後21時</dd>
+        <dd><span>日曜</span>午前11時～午後20時</dd>
+        <dt>住所</dt>
+        <dd>〒150-0001 東京都渋谷区神宮前4-25-15<br />
+          エスポワール表参道Ｂ1階<br>
+          ※当サロンは、表参道ヒルズ隣のラルフローレン表参道店（エスポワール表参道）のＢ１階にございます。 </dd>
+      </dl>
+      <p class="notice"><span>※</span>コースメニューにより最終受付時間が異なります。<br>
+        ご予約の際に担当スタッフまでご確認ください。</p>
+    </div>
+    <div id="map-omotesando" class="map"></div>
+  </div>
+  <div class="saloncontact">
+    <h3>プランタン銀座店</h3>
+    <div class="paragraph">
+      <h4>お電話でのご予約・お問い合わせ</h4>
+      <p class="tel"><a href="tel:0335383451">03-3538-3451</a></p>
+      <dl>
+        <dt>営業時間</dt>
+        <dd><span>日曜～木曜</span>午前11時～午後20時</dd>
+        <dd><span>金曜・土曜 </span>午前11時～午後21時</dd>
+        <dt>住所</dt>
+        <dd>〒104-0061 東京都中央区銀座3-2-1 <br />
+          プランタン銀座 アネックス（旧モード館）3F</dd>
+      </dl>
+      <p class="banner"><a href="/salon/reservation"><img src="/images/sp/salon/banner_reserve.jpg" alt=""></a></p>
+      <p class="notice"><span>※</span>コースメニューにより最終受付時間が異なります。<br />
+        ご予約の際に担当スタッフまでご確認ください。</p>
+    </div>
+    <div id="map-ginza" class="map"></div>
+  </div>
+</section>

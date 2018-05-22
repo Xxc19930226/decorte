@@ -1,0 +1,46 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ChildProduct
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          child_product
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        parent: { label: 親商品 }
+        parent_id: { label: 親商品 }
+        sub_number: { label: 子番号 }
+        name: { label: 商品名 }
+        capacity: { label: 容量 }
+        price: { label: 値段, help: ※税抜価格を入力してください。 }
+        slug: { label: スラッグ }
+        cn_shop_link_url: { label: China official shop link url }
+      list:
+        title: 子商品 一覧
+        display: [ name, parent, sub_number, slug ]
+        object_actions:
+          _edit:   { label: 編集 }
+          _delete: { label: 削除, confirm: "本当に削除してもよろしいですか?" }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup, params: { onclick : "if (confirm('本当に本番反映してもよろしいですか?')) { return true; } else { return false; }" } }
+<?php endif ?>
+        batch_actions:
+          _delete: { label: 削除 }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup }
+<?php endif ?>
+      filter:
+        display: [ name, parent_id, slug ]
+      form:
+        display: [ name, parent_id, sub_number, slug, capacity, price ]
+      edit:
+        title: 子商品 編集
+      new:
+        title: 子商品 新規作成

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@mixin background-retina-image($img) {
+    background-image: image-url($img);
+    background-repeat:no-repeat;
+    $wbgz: image-width($img) / 2;
+    @include background-size($wbgz auto);
+}
+
+@mixin replace-text-with-dimensions-retina($img, $x: 50%, $y: 50%) {
+    @include background-retina-image($img);
+    @include hide-text;
+    background-position: $x $y;
+    width: image-width($img) / 2;
+    height: image-height($img) / 2;
+}

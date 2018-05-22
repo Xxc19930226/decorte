@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+
+
+.btn a.ui-link {
+    letter-spacing: 0;
+}
+
+
+p.logo img{
+	zoom:50%;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+/*	margin:10px;*/
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #CCCCCC;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0 0 3px;
+}
+
+
+
+.ttl02{
+	font-size:20px;
+	color:#da4612;
+	font-weight:bold;
+	text-align:center;	
+	padding-top:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:640px;
+	}
+
+img.fit100{
+		width:100%;
+		max-width:640px;
+	}
+
+section{
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	width:70%;
+	max-width:450px;
+	color:#666666;
+	text-align:left;
+	margin:0 auto 20px;
+	}
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+section .top{
+	margin:0;
+	padding:0;
+}
+
+/*section .fleft{
+	float:left;
+	margin:10px;
+	}
+
+section .fright{
+	float:right;
+	margin:10px;
+	}*/
+
+section .acenter{
+	text-align:center;
+	}
+
+
+
+section div.content img{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+	}
+
+
+/*div.content{
+	position:relative;
+	}*/
+
+
+.page01 div.content a,
+.page02 div.content a,
+.page03 div.content a,
+.page04 div.content a,
+.page05 div.content a{
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+/*	background-color:#666666;
+	opacity:0.6;*/
+}
+
+
+.page01_1,
+.page01_2{
+	position:relative;
+}
+
+
+
+.page01_2 a.care_a{
+    height: 5%;
+    left: 7%;
+    top: 61.5%;
+    width: 38%;
+	}
+
+
+.page01_2 a.care_b{
+    height: 5%;
+    left: 52.5%;
+    top: 61.5%;
+    width: 38%;
+	}
+	
+.page01_2 a.care_c{
+    height: 5%;
+    left: 7%;
+    top: 92%;
+    width: 38%;
+	}
+
+.page02_1,
+.page02_2{
+	position:relative;
+	}
+
+
+
+.page02_2 a.JYEA{
+    height: 6%;
+    left: 55%;
+    top: 34%;
+    width: 38%;
+	}
+
+.page02_2 a.JYLA{
+    height: 6%;
+    left: 55%;
+    top: 40%;
+    width: 38%;
+	}
+
+
+.page02_2 a.JGWC{
+    height: 6%;
+    left: 55%;
+    top: 79%;
+    width: 38%;
+	}
+.page02_2 a.JGWI{
+    height: 6%;
+    left: 55%;
+    top: 85%;
+    width: 38%;
+	}
+
+
+
+.page03_1,
+.page03_2{
+	position:relative;
+	}
+
+.page03_1 a.JGSM{
+    height: 6%;
+    left: 59%;
+    top: 92%;
+    width: 29%;
+	}
+
+.page03_2 a.JSSI{
+    height: 5%;
+    left: 3%;
+    top: 53%;
+    width: 24%;
+	}
+	
+
+.page04_2{
+	position:relative;
+	}
+
+.page04_2 a.JVWA{
+    height: 6%;
+    left: 61%;
+    top: 25%;
+    width: 25%;
+	}
+
+.page04_2 a.JLIL{
+    height: 4%;
+    left: 61%;
+    top: 53%;
+    width: 26%;
+	}
+
+.page04_2 a.JQCK{
+    height: 5%;
+    left: 28%;
+    top: 44.5%;
+    width: 16%;
+	}
+
+
+
+.page05_1{
+	position:relative;
+	}
+
+.page05_1 a.JIUU{
+    height: 6%;
+    left: 26%;
+    top: 52%;
+    width: 22%;
+	}
+
+.page05_1 a.JIJF{
+    height: 7%;
+    left: 66%;
+    top: 60%;
+    width: 29%;
+	}
+
+.page05_1 a.JITF{
+    height: 7%;
+    left: 3%;
+    top: 62.5%;
+    width: 28%;
+	}
+
+
+
+
+
+
+
+

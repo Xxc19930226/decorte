@@ -1,0 +1,413 @@
+@charset "utf-8";
+/*-----------------------------------------------------
+ CSS all tags style setting  style.css ver1.6
+
+
+ copyright(c) 2008,Tenderfeel.All Rights Reserved.
+ 
+
+ CSS all tags style setting is licensed under a Creative Commons 2.1 License.
+ http://creativecommons.org/licenses/by/2.1/jp/
+ 
+--------------------------------------------------------
+YUI Font-size Adjustment
+10px = 77%     11px = 85%	  12px = 93%     13px = 100%
+14px = 108%	   15px = 116%    16px = 123.1%  17px = 131%
+18px = 138.5%  19px = 146.5%  20px = 153.9%  21px = 161.6%
+22px = 167%    23px = 174%    24px = 182%    25px = 189%
+26px = 197%
+------------------------------------------------------*/
+
+/**
+ * YUI Fonts CSS
+ * Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+ * Code licensed under the BSD License:
+ * http://developer.yahoo.net/yui/license.txt
+ * version: 2.7.0
+ * 
+ * browser default CSS style Reset
+ */
+
+/* YUI Reset*/
+html {color: #000;background: #FFF;}
+body, div, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote {margin: 0;padding: 0;}
+table {/*border-collapse: collapse;border-spacing: 0;*/}
+fieldset,
+img {border: 0;}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {font-style: inherit;font-weight: inherit;}
+del,
+ins {text-decoration: none;}
+/*li {list-style: none;}*/
+caption,
+/*th {text-align: left;}*/
+h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: normal;}
+q:before,
+q:after {content: '';}
+abbr,
+acronym {border: 0;font-variant: normal;}
+/*sup {vertical-align: baseline;}
+sub {vertical-align: baseline;}*/
+legend {color: #000;}
+input, button, textarea, select, optgroup, option{font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;}
+input, button, textarea, select {*font-size: 100%;}
+
+/* YUI Fonts */
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;}
+select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}
+table{font-size:inherit;font:100%;}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+/* End YUI 
+ *--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
+ * Styling START                                 */
+
+html {/* show scroll bar for FF & Safari*/
+overflow-y:scroll;
+height:100%;
+margin-bottom:1px;
+}
+
+body {
+	background-color:#fff;
+	color:#000;
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,'メイリオ',Meiryo,'ＭＳ Ｐゴシック',verdana,arial,clean,sans-serif;
+	letter-spacing: 1px;
+}
+
+
+body {
+/*	font-size: 62.5%;*/
+	font-family: sans-serif;
+}
+
+* html body {
+	font-family: "ＭＳ Ｐゴシック", sans-serif;
+	vertical-align: baseline;
+	text-align: center;
+} /* for lte ie6 */
+
+*:first-child+html body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+} /* for ie7 */
+
+html>/**/body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+} /* for ie8 */
+
+html:not(:target) body {
+	font-size: 10px;
+	font-family: "メイリオ", Meiryo,  Hiragino Kaku Gothic Pro, "ヒラギノ角ゴ Pro W3", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+} /* for modern browser not ie8 */
+
+
+body * {line-height:1.22em;}
+
+a { overflow: hidden;}
+
+
+
+/*--------------------------------------------------
+  Text(block)
+--------------------------------------------------*/
+
+/*- Margin -*/
+h1,h2,h3,h4,h5,h6 {
+	/*margin:0 0 15px 0;*/
+	padding:0.3em;
+	font-weight:bold;
+}
+
+address,
+blockquote,
+p,
+pre {
+	/*margin:0 0 10px 0;*/
+}
+
+/*-*/
+
+h1 {
+	font-size:200%;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:150%;
+	font-weight: bold;
+}
+
+h3 {
+	font-size:133%;
+	font-weight: bold;
+}
+
+h4,h5,h6 {
+	font-size:117%;
+	font-weight: bold;
+}
+
+address {
+	font-style: normal;
+}
+/*
+blockquote {
+	padding:1em;
+	border:dotted 1px #ddd;
+	background-color:#fdfdfd;
+	color:#333;
+}
+p {
+	margin-top: 5px;
+}
+pre {
+	padding:10px;
+	background-color:#dedede;
+}
+*/
+/*--------------------------------------------------
+  Text(inline)
+--------------------------------------------------*/
+abbr,acronym {
+	border-bottom:dotted 2px;
+	font-variant:normal;
+	cursor:help;
+}
+
+b {font-weight:bold;}
+
+big {
+	font-size:108%;
+}
+
+code {
+	font-family:"Courier New", Courier, mono;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+em {
+	font-weight:bold;
+	font-style: italic;
+}
+
+i {
+	font-style:italic;
+}
+
+ins {
+	border-bottom:dotted 2px #ccc;
+}
+
+kbd {
+	padding:0 0.2em;
+	background-color:#131315;
+	border:solid 1px #333;
+	color:#fff;
+	font-family:verdana,Geneva, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;	
+}
+
+q {}
+
+q:before,
+q:after {}
+
+samp {
+	font-family:"Courier New", Courier, mono;
+}
+
+small {
+	font-size:85%;
+}
+
+strong {
+	/* color:#cc0000; */
+	font-weight:bold;
+}
+
+sub {
+	vertical-align: sub;
+}
+
+sup {
+	vertical-align: super;
+}
+
+tt {
+	font-family:"Courier New", Courier, mono;
+}
+
+var {
+	font-family:"Courier New", Courier, mono;
+}
+
+
+
+/*---------------------------------------------------
+  Anchor
+----------------------------------------------------*/
+/*a {text-decoration:underline;font-size:inherit;line-height:inherit}
+a:link {color:#1d52ab;}
+a:visited {color:#1d52ab;}
+a:active,a:hover {text-decoration:none;color:#1d52ab;}*/
+
+/*- External Link
+a.external { margin:0 5px;}
+ -*/
+/*-----------------------------------------------------
+  List
+------------------------------------------------------*/
+
+
+
+
+ul,ol,dl {
+	margin:0;
+	padding: 0;
+	list-style-position:outside;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+	margin:0px;
+}
+
+dl ul,
+dl ol {margin:0;}
+
+ul li,
+ol li {
+	list-style: none;
+}
+
+dl dt {
+	font-weight:bolder;
+}
+dl dd {
+	margin-left:10px;
+}
+
+/*----------------------------------------------------
+  Image
+----------------------------------------------------*/
+
+img {
+	/*vertical-align: bottom;*/
+}
+
+a img { border:0;}
+
+/*- External Icon
+img.icon { margin-right:5px;}
+ -*/
+
+/*-----------------------------------------------------
+  Table
+------------------------------------------------------*/
+
+table {
+	margin-bottom:10px;
+}
+table, th, td {border-color:#898989;}
+
+caption, th, td {
+	padding:0.2em 0.5em;
+}
+
+caption {
+	margin:10px 0;
+	background-color:#999999;
+	color:#fff;
+	font-weight:bold;
+}
+
+thead th {background-color:#aaa;color:#ffffff;}
+thead td {background-color:#ccc;}
+
+tfoot th {background-color:#aaa;color:#ffffff;}
+tfoot td {background-color:#ccc;}
+
+tbody th {background-color:#eee;font-weight:normal;}
+
+
+/*-----------------------------------------------------
+  Form,Fieldset
+------------------------------------------------------*/
+form,
+fieldset {
+	margin:0;
+}
+fieldset p,
+form p {
+	margin:0;
+}
+
+fieldset {
+}
+
+legend {
+	padding: 0 0.5em;
+}
+
+label{
+	margin:0 3px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+	margin-right:0.3em;
+}
+
+button,
+input[type="checkbox"],
+input[type="radio"],
+input[type="reset"],
+input[type="submit"] {
+	padding:1px;
+}
+
+
+
+
+/*----------------------------------------------------
+  Other
+----------------------------------------------------*/
+object {
+	margin:10px 0;
+}
+
+noscript {
+	background-color:#ff8080;
+	/*padding:0.5em;
+	margin:10px;*/
+}
+/*
+hr{
+	background-color:#fff;
+	border-bottom:1px solid #ccc;
+	border-top:1px dashed #ccc;
+	color:#FFFFFF;
+	height:4px;
+}
+*/
+
+
+
+/* ie6 image cache
+------------------------------------*/
+html {
+filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+
+/* =========== IE用印刷設定CSS =========== */
+
+@media print{
+
+body {
+_zoom: 72%; /*WinIE only */
+}
+}

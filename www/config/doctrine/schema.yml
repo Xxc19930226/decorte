@@ -1,0 +1,748 @@
+Member:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:               { type: integer, notnull: true, primary: true, autoincrement: true }
+    name_sei:         { type: string(20), notnull: true }
+    name_mei:         { type: string(20), notnull: true }
+    name_sei_kana:    { type: string(20), notnull: true }
+    name_mei_kana:    { type: string(20), notnull: true }
+    mail_pc:          { type: string(255), email: true }
+    mail_pc_flag:     { type: boolean, notnull: true }
+    mail_mobile:      { type: string(255) }
+    mail_mobile_flag: { type: boolean, notnull: true }
+    mail_html_flag:   { type: boolean, notnull: true }
+    mail_block_flag:  { type: boolean, notnull: true }
+    password:         { type: string(20), notnull: true, minlength: 6 }
+    sex:              { type: enum, values: [ '女性', '男性' ], notnull: true }
+    zip_code:         { type: string(8), notnull: true, regexp: '/^[0-9]{3}[\-]?[0-9]{4}$/' }
+    prefecture:       { type: enum, values: [ '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県', '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県', '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県', '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県', '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県', '日本国外'], notnull: true }
+    address1:         { type: string(255), notnull: true }
+    address2:         { type: string(255) }
+    job:              { type: enum, values: [ '会社員', '公務員', 'パート・アルバイト', '主婦', '学生', 'その他' ], notnull: true }
+    tel:              { type: string(13), notnull: true, regexp: '/^[0-9]{2,5}[\-]?[0-9]{1,4}[\-]?[0-9]{4}$/' }
+    nick_name:        { type: string(20), notnull: true }
+    birthday:         { type: date, notnull: true }
+    ua:               { type: enum, values: [ 'pc', 'mb', 'sp' ]}
+    mobile_device_id: { type: string(64) }
+    temp_flag:        { type: boolean, notnull: true }
+    mail_pc_approval_flag:     { type: boolean, notnull: true }
+    mail_mobile_approval_flag: { type: boolean, notnull: true }
+  relations:
+    ViewProducts:     { class: Product, refClass: ProductView, foreignAlias: ViewMembers }
+    FavoriteProducts: { class: Product, refClass: ProductFavorite, foreignAlias: FavoriteMembers }
+    FavoriteShops:    { class: Shop, refClass: ShopFavorite, foreignAlias: FavoriteMembers }
+  indexes:
+    mail_pc:
+      fields: [ mail_pc ]
+    mail_mobile:
+      fields: [ mail_mobile ]
+
+Attestation:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:        { type: string(255), notnull: true, primary: true }
+    member_id: { type: integer, notnull: true }
+    mail_type: { type: enum, values: [ 'mb', 'pc' ]}
+  relations:
+    Member: { foreignAlias: Attestations, onDelete: CASCADE }
+
+Product:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:                       { type: integer, notnull: true, primary: true, autoincrement: true }
+    name:                     { type: string(255), notnull: true }
+    line_id:                  { type: integer }
+    category_id:              { type: integer }
+    sub_category_id:          { type: integer }
+    daytime_flag:             { type: boolean, notnull: true }
+    night_flag:               { type: boolean, notnull: true }
+    outline:                  { type: string(255), notnull: true }
+    explanation:              { type: string(1024), notnull: true }
+    capacity:                 { type: string(50) }
+    set_flag:                 { type: boolean, notnull: true }
+    colors:                   { type: integer }
+    new_colors:               { type: integer }
+    price:                    { type: integer, notnull: true }
+    how_to:                   { type: string(255) }
+    quasi_drug_flag:          { type: boolean, notnull: true }
+    supplement1:              { type: string(255) }
+    supplement2:              { type: string(255) }
+    color_ball_flag:          { type: boolean, notnull: true }
+    line_priority:            { type: integer, notnull: true }
+    category_priority:        { type: integer, notnull: true }
+    slug:                     { type: string(255), notnull: true }
+    search_only_flag:         { type: boolean }
+    search_pc_link:           { type: string(255) }
+    search_sub_category:      { type: varchar(20) }
+    search_keyword_only_flag: { type: boolean, notnull: true }
+    search_index:             { type: text }
+    cafe_link_url:            { type: string(255) }
+    cn_shop_link_url:         { type: string(255) }
+    newitem_rel_info:         { type: string(255) }
+    bestcosme_flag:           { type: boolean, notnull: true }
+  relations:
+    Line:           { foreignAlias: Products }
+    Category:       { foreignAlias: Products }
+    SubCategory:    { foreignAlias: Products }
+    Effects:        { class: Effect, refClass: ProductEffect, foreignAlias: Products }
+    FriendProducts: { class: Product, refClass: ProductFriend, local: product_id1, foreign: product_id2 }
+  indexes:
+    slug:
+      fields: [ slug ]
+      type: unique
+    name:
+      fields: [ name ]
+    outline:
+      fields: [ outline ]
+    explanation:
+      fields: [ explanation ]
+    capacity:
+      fields: [ capacity ]
+    price:
+      fields: [ price ]
+    how_to:
+      fields: [ how_to ]
+    line_priority:
+      fields: [ line_priority ]
+    category_priority:
+      fields: [ category_priority ]
+    search_sub_category:
+      fields: [ search_sub_category ]
+    search_index:
+      fields:
+        search_index:
+          length: 255
+
+ProductIngredient:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: display_order
+  columns:
+    id:            { type: integer, notnull: true, primary: true, autoincrement: true }
+    product_id:    { type: integer, notnull: true }
+    symbol:        { type: string(64) }
+    content:       { type: string(2048) }
+    display_order: { type: integer }
+  relations:
+    Product: { foreignAlias: Ingredients, onDelete: CASCADE }
+
+ChildProduct:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: sub_number
+  columns:
+    id:               { type: integer, notnull: true, primary: true, autoincrement: true }
+    parent_id:        { type: integer, notnull: true }
+    sub_number:       { type: integer, notnull: true }
+    name:             { type: string(255), notnull: true }
+    capacity:         { type: string(50) }
+    price:            { type: integer, notnull: true }
+    slug:             { type: string(255), notnull: true }
+    cn_shop_link_url: { type: string(255) }
+  relations:
+    Parent: { class: Product, local: parent_id, foreignAlias: Children, onDelete: CASCADE }
+  indexes:
+    slug:
+      fields: [ slug ]
+      type: unique
+    name:
+      fields: [ name ]
+    capacity:
+      fields: [ capacity ]
+    price:
+      fields: [ price ]
+
+Line:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:                   { type: integer, notnull: true, primary: true, autoincrement: true }
+    name:                 { type: string(255), notnull: true }
+    name_en:              { type: string(255), notnull: true }
+    skincare_system_flag: { type: boolean, notnull: true }
+    major_flag:           { type: boolean, notnull: true }
+    priority:             { type: integer, notnull: true }
+    slug:                 { type: string(255), notnull: true }
+    search_index:         { type: text }
+  indexes:
+    slug:
+      fields: [ slug ]
+      type: unique
+    name:
+      fields: [ name ]
+    search_index:
+      fields:
+        search_index:
+          length: 255
+
+Category:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:         { type: integer, notnull: true, primary: true, autoincrement: true }
+    name:       { type: string(255), notnull: true }
+    priority:   { type: integer, notnull: true }
+    slug:       { type: string(255), notnull: true }
+  indexes:
+    slug:
+      fields: [ slug ]
+      type: unique
+    name:
+      fields: [ name ]
+
+SubCategory:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:          { type: integer, notnull: true, primary: true, autoincrement: true }
+    category_id: { type: integer, notnull: true }
+    name:        { type: string(255), notnull: true }
+    priority:    { type: integer, notnull: true }
+    slug:        { type: string(255), notnull: true }
+  relations:
+    Category: { foreignAlias: SubCategories }
+  indexes:
+    slug:
+      fields: [ slug ]
+      type: unique
+    name:
+      fields: [ name ]
+
+Effect:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:          { type: integer, notnull: true, primary: true, autoincrement: true }
+    category_id: { type: integer, notnull: true }
+    name:        { type: string(255), notnull: true }
+    priority:    { type: integer, notnull: true }
+    slug:        { type: string(255), notnull: true }
+  relations:
+    Category: { foreignAlias: Effects }
+  indexes:
+    slug:
+      fields: [ slug ]
+      type: unique
+    name:
+      fields: [ name ]
+
+ProductView:
+  actAs:
+    Timestampable: ~
+  columns:
+    member_id:  { type: integer, notnull: true, primary: true }
+    product_id: { type: integer, notnull: true, primary: true }
+  relations:
+    Member:  { foreignAlias: ViewProducts, onDelete: CASCADE }
+    Product: { foreignAlias: ViewMembers, onDelete: CASCADE }
+
+ProductFavorite:
+  actAs:
+    Timestampable: ~
+  columns:
+    member_id:  { type: integer, notnull: true, primary: true }
+    product_id: { type: integer, notnull: true, primary: true }
+  relations:
+    Member:  { foreignAlias: FavoriteProducts, onDelete: CASCADE }
+    Product: { foreignAlias: FavoriteMembers, onDelete: CASCADE }
+
+ProductEffect:
+  actAs:
+    Timestampable: ~
+  columns:
+    product_id: { type: integer, notnull: true, primary: true }
+    effect_id:  { type: integer, notnull: true, primary: true }
+  relations:
+    Product: { foreignAlias: Effects, onDelete: CASCADE }
+    Effect:  { foreignAlias: Products, onDelete: CASCADE }
+
+ProductSearchIndex:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, notnull: true, primary: true, autoincrement: true }
+    product_id: { type: integer, notnull: true }
+    keyword:    { type: string(255), notnull: true }
+  relations:
+    Product: { foreignAlias: SearchIndexes, onDelete: CASCADE }
+  indexes:
+    keyword:
+      fields: [ id, keyword ]
+      type: unique
+
+ProductAccessLog:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:            { type: integer, notnull: true, primary: true, autoincrement: true }
+    member_id:     { type: integer }
+    age:           { type: integer }
+    prefecture:    { type: enum, values: [ '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県', '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県', '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県', '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県', '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県' ] }
+    login_flag:    { type: boolean, notnull: true }
+    product_id:    { type: integer, notnull: true }
+    search_log_id: { type: integer }
+  relations:
+    Member:    { foreignAlias: ProductAccessLogs, onDelete: SET NULL }
+    Product:   { foreignAlias: ProductAccessLogs, onDelete: CASCADE }
+    SearchLog: { class ProductSearchLog, local: search_log_id, foreignAlias: AccessLogs }
+  indexes:
+    created_at:
+      fields: [ created_at ]
+
+ProductSearchLog:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:           { type: integer, notnull: true, primary: true, autoincrement: true }
+    member_id:    { type: integer }
+    age:          { type: integer }
+    prefecture:   { type: enum, values: [ '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県', '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県', '新潟県', '富山県', '石川県', '福井県', '山梨県', '長野県', '岐阜県', '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県', '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県' ] }
+    login_flag:   { type: boolean, notnull: true }
+    line:         { type: string(255) }
+    category:     { type: string(255) }
+    sub_category: { type: string(255) }
+    effect:       { type: string(255) }
+    sort:         { type: string(20) }
+    hit:          { type: integer, notnull: true }
+    valid_flag:   { type: boolean, notnull: true }
+  relations:
+    Member:  { foreignAlias: ProductSearchLogs, onDelete: SET NULL }
+
+ProductSearchDictionary:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, notnull: true, primary: true, autoincrement: true }
+    word:       { type: string(255), notnull: true }
+    likeness:   { type: string(255), notnull: true }
+  indexes:
+    word:
+      fields: [ word ]
+    likeness:
+      fields: [ likeness ]
+      type: unique
+
+ProductSearchRightWord:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, notnull: true, primary: true, autoincrement: true }
+    word:       { type: string(255), notnull: true }
+  indexes:
+    word:
+      fields: [ word ]
+      type: unique
+
+ProductSearchWrongWord:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:            { type: integer, notnull: true, primary: true, autoincrement: true }
+    right_word_id: { type: integer, notnull: true }
+    word:          { type: string(255), notnull: true }
+  indexes:
+    word:
+      fields: [ word ]
+      type: unique
+  relations:
+    RightWord: { class: ProductSearchRightWord, local: right_word_id, foreignAlias: WrongWords, onDelete: CASCADE }
+
+ProductSearchKeywordLog:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:         { type: integer, notnull: true, primary: true, autoincrement: true }
+    parent_id:  { type: integer, notnull: true }
+    sub_number: { type: integer, notnull: true }
+    keyword:    { type: string(255), notnull: true }
+  relations:
+    Parent: { class: ProductSearchLog, local: parent_id, foreignAlias: Keywords, onDelete: CASCADE }
+
+ProductFriend:
+  actAs:
+    Timestampable: ~
+  columns:
+    product_id1:    { type: integer, notnull: true, primary: true }
+    product_id2:    { type: integer, notnull: true, primary: true }
+    relation_count: { type: integer, notnull: true }
+  relations:
+    Product1: { class: Product, local: product_id1, foreignAlias: FriendProducts, onDelete: CASCADE }
+    Product2: { class: Product, local: product_id2, foreignAlias: FriendProducts, onDelete: CASCADE }
+  indexes:
+    relation_count:
+      fields: [ relation_count ]
+
+ProductPopular:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:          { type: integer, notnull: true, primary: true }
+    category_id: { type: integer, notnull: true }
+    product_id:  { type: integer, notnull: true }
+    ranking:     { type: integer, notnull: true }
+  relations:
+   Product:  { onDelete: CASCADE }
+   Category: { onDelete: CASCADE }
+
+Shop:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:               { type: string(7), notnull: true, primary: true }
+    name:             { type: string(255), notnull: true }
+    zip_code:         { type: string(8), notnull: true }
+    prefecture:       { type: string(4), notnull: true }
+    address:          { type: string(255), notnull: true }
+    tel:              { type: string(13), notnull: true }
+    fax:              { type: string(13) }
+    url1:             { type: string(255), notnull: true }
+    url2:             { type: string(255) }
+    aq_flag:          { type: boolean, notnull: true }
+    maquiexpert_flag: { type: boolean, notnull: true }
+    salon_flag:       { type: boolean, notnull: true }
+  indexes:
+    name:
+      fields: [ name ]
+    prefecture:
+      fields: [ prefecture ]
+    address:
+      fields: [ address ]
+
+ShopFavorite:
+  actAs:
+    Timestampable: ~
+  columns:
+    member_id: { type: integer, notnull: true, primary: true }
+    shop_id:   { type: string(7), notnull: true, primary: true }
+  relations:
+    Member: { foreignAlias: FavoriteShops, onDelete: CASCADE }
+    Shop:   { foreignAlias: FavoriteMembers, onDelete: CASCADE }
+
+Mail:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: id DESC
+  columns:
+    id:           { type: integer, notnull: true, primary: true, autoincrement: true }
+    subject:      { type: string(255), notnull: true }
+    body:         { type: text, notnull: true }
+    author_id:    { type: integer, notnull: true }
+    group_id:     { type: integer, notnull: true }
+    delivered_at: { type: timestamp, notnull: true }
+    address_type: { type: enum, values: ['PC', '携帯'], notnull: true }
+    status:       { type: enum, values: [ '未送信', '送信中', '送信済み', '送信エラー' ], notnull: true }
+  relations:
+    Author: { class: MailAuthor, local: author_id, foreignAlias: Mails }
+    Group:  { class: MailGroup, local: group_id, foreignAlias: Mails }
+
+MailAuthor:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:      { type: integer, notnull: true, primary: true, autoincrement: true }
+    name:    { type: string(255) }
+    address: { type: string(255), notnull: true }
+
+MailGroup:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:      { type: integer, notnull: true, primary: true, autoincrement: true }
+    name:    { type: string(255), notnull: true }
+
+MailGroupLogic:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:       { type: integer, notnull: true, primary: true, autoincrement: true }
+    group_id: { type: integer, notnull: true }
+    operator: { type: enum, values: [ 'AND', 'OR' ], notnull: true }
+  relations:
+    Group: { class: MailGroup, local: group_id, foreignAlias: Logics, onDelete: CASCADE }
+
+MailGroupLogicTerm:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:          { type: integer, notnull: true, primary: true, autoincrement: true }
+    logic_id:    { type: integer, notnull: true }
+    operator:    { type: enum, values: [ 'EQUAL', 'NOT EQUAL', 'GREATER_THAN', 'GREATER_EQUAL', 'LESS_THAN', 'LESS_EQUAL', 'LIKE' ], notnull: true }
+    column_name: { type: enum, values: [ 'mail_pc', 'mail_mobile', 'mail_pc_flag', 'mail_mobile_flag', 'mail_html_flag', 'sex', 'prefecture', 'birthday' ], notnull: true }
+    value:       { type: string(255), notnull: true }
+  relations:
+    Logic: { class: MailGroupLogic, local: logic_id, foreignAlias: Terms, onDelete: CASCADE }
+
+MailLog:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:      { type: integer, notnull: true, primary: true, autoincrement: true }
+    mail_id: { type: integer, notnull: true }
+    address: { type: string(255), notnull: true }
+  relations:
+    Mail: { foreignAlias: Logs, onDelete: CASCADE }
+  indexes:
+    mail_log_mail_id_address:
+      fields: [ mail_id, address ]
+      type: unique
+
+Session:
+  options:
+    type: MyISAM
+  columns:
+    sess_id: { type: string(64), notnull: true, primary: true }
+    sess_data: { type: text, notnull: true }
+    sess_time: { type: integer, notnull: true }
+
+ExistingMobile:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:               { type: integer, notnull: true, primary: true, autoincrement: true }
+    mail_mobile:      { type: string(255) }
+    prefecture:       { type: enum, values: [ '北海道', '青森県', '岩手県', '宮城県', '秋田県', '山形県', '福島県', '茨城県', '栃木県', '群馬県', '埼玉県', '千葉県', '東京都', '神奈川県', '新潟県', '富山県', '石川県', '>福井県', '山梨県', '長野県', '岐阜県', '静岡県', '愛知県', '三重県', '滋賀県', '京都府', '大阪府', '兵庫県', '奈良県', '和歌山県', '鳥取県', '島根県', '岡山県', '広島県', '山口県', '徳島県', '香川県', '愛媛県', '高知県', '福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県', '日本国外'], notnull: true }
+    mail_block_flag:  { type: boolean, notnull: true }
+
+ExistingWithdrawal:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:                 { type: string(255), notnull: true, primary: true }
+    existing_mobile_id: { type: integer, notnull: true }
+  relations:
+    ExistingMobile: { foreignAlias: ExistingWithdrawal, onDelete: CASCADE }
+
+RedirectUrl:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:             { type: integer, notnull: true, primary: true, autoincrement: true }
+    source:         { type: string(255), notnull: true }
+    destination:    { type: string(255), notnull: true }
+    destination_sp: { type: string(255) }
+    destination_mb: { type: string(255) }
+  indexes:
+    source:
+      fields: [ source ]
+      type: unique
+
+AdminUser:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_name:   { type: string(16), notnull: true, primary: true }
+    password:    { type: string(64), notnull: true }
+    credentials: { type: string(255) }
+    shop_id:     { type: integer, notnull: false }
+  relations:
+    Shop:        { class: SalonShop, local: shop_id }
+
+Campaign:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:            { type: integer, notnull: true, primary: true, autoincrement: true }
+    member_id:     { type: integer, notnull: true }
+    member_type:   { type: string(20), notnull: false }
+    campaign_name: { type: string(30), notnull: false }
+
+CampaignEnquete:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:        { type: integer, notnull: true, primary: true, autoincrement: true }
+    member_id: { type: integer, notnull: true }
+    q01:       { type: enum, values: [ '知っていた', '知っていて使用したこともある', '知らなかった' ], notnull: true }
+    q02:       { type: string(255) }
+    q03:       { type: enum, values: [ 'クチコミをよくするほうだ', 'クチコミはしない' ], notnull: true }
+    q04:       { type: string(255) }
+    q05:       { type: enum, values: [ '普通肌', '乾燥肌', '脂性肌', '混合肌', '敏感肌', 'アトピー' ], notnull: true }
+    q06:       { type: string(255) }
+
+SalonReserve:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:               { type: integer, notnull: true, primary: true, autoincrement: true }
+    shop_id:          { type: integer, notnull: true }
+    visit:            { type: string(50), notnull: true }
+    members_card_id:  { type: integer }
+    name_sei:         { type: string(20), notnull: true }
+    name_mei:         { type: string(20), notnull: true }
+    name_sei_kana:    { type: string(20), notnull: true }
+    name_mei_kana:    { type: string(20), notnull: true }
+    age:              { type: integer }
+    address:          { type: string(255) }
+    tel:              { type: string(13), notnull: true, regexp: '/^[0-9]{2,5}[\-]?[0-9]{1,4}[\-]?[0-9]{4}$/' }
+    email:            { type: string(255), email: true }
+    hope_date1:       { type: string(20), notnull: true }
+    hope_date2:       { type: string(20) }
+    hope_date3:       { type: string(20) }
+    hope_time1:       { type: enum, values: [ '---', '11:00～13:00', '13:00～16:00', '16:00～18:00', '午前', '午後', '夕方', '何時でも可' ], notnull: true }
+    hope_time2:       { type: enum, values: [ '---', '11:00～13:00', '13:00～16:00', '16:00～18:00', '午前', '午後', '夕方', '何時でも可' ] }
+    hope_time3:       { type: enum, values: [ '---', '11:00～13:00', '13:00～16:00', '16:00～18:00', '午前', '午後', '夕方', '何時でも可' ] }
+    menu:             { type: string(100), notnull: true }
+    know:             { type: enum, values: [ '---', 'コスメデコルテHP', '知人・友達の紹介', '家族の紹介', '検索サイト(Yahoo/Google)', 'その他の検索サイト', '雑誌・フリーペーパー', '以前から知っていた', 'その他' ] }
+    request:          { type: string(1000) }
+    reply:            { type: enum, values: [ '返信済', '未返信' ] }
+    delete_flag:      { type: boolean, notnull: true }
+  relations:
+    Shop:             { class: SalonShop, foreignAlias: Reserves, local: shop_id }
+
+SalonShop:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:                { type: integer, notnull: true, primary: true, autoincrement: true }
+    name:              { type: string(50), notnull: true }
+    email:             { type: string(255), notnull: true }
+    mail_subject1:     { type: string(100), notnull: true }
+    mail_subject1_mb:  { type: string(100), notnull: true }
+    mail_subject2:     { type: string(100), notnull: true }
+    mail_subject3:     { type: string(100), notnull: true }
+    mail_body1:        { type: text, notnull: true }
+    mail_body1_mb:     { type: text, notnull: true }
+    mail_body_top2:    { type: text, notnull: true }
+    mail_body_bottom2: { type: text, notnull: true }
+    mail_body_top3:    { type: text, notnull: true }
+    mail_body_bottom3: { type: text, notnull: true }
+
+SalonShopMenu:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:       { type: integer, notnull: true, primary: true, autoincrement: true }
+    shop_id:  { type: integer, notnull: true }
+    name:     { type: string(255), notnull: true }
+    mb_name:  { type: string(255), notnull: true }
+    priority: { type: integer }
+  relations:
+    Shop: { class: SalonShop, foreignAlias: Menus, local: shop_id, onDelete: CASCADE }
+
+ReserveDecision:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:                { type: integer, notnull: true, primary: true, autoincrement: true }
+    salon_reserve_id:  { type: integer, notnull: true }
+    other_date1:       { type: string(20) }
+    other_date2:       { type: string(20) }
+    hope_flag1:        { type: boolean }
+    hope_flag2:        { type: boolean }
+    hope_flag3:        { type: boolean }
+    other_flag1:       { type: boolean }
+    hope_start_time1:  { type: string(20) }
+    hope_start_time2:  { type: string(20) }
+    hope_start_time3:  { type: string(20) }
+    other_start_time1: { type: string(20) }
+    other_start_time2: { type: string(20) }
+    registrant:        { type: string(30) }
+  indexes:
+    salon_reserve_id:
+      fields: [ salon_reserve_id ]
+      type: unique
+
+FaqCategory:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:       { type: integer, notnull: true, primary: true, autoincrement: true }
+    title1:   { type: string(255), notnull: true }
+    title2:   { type: string(255), notnull: true }
+    title3:   { type: string(255), notnull: true }
+    priority: { type: integer, notnull: true }
+
+FaqSubCategory:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:          { type: integer, notnull: true, primary: true, autoincrement: true }
+    category_id: { type: integer, notnull: true }
+    title1:      { type: string(255), notnull: true }
+    title2:      { type: string(255), notnull: true }
+    priority:    { type: integer, notnull: true }
+  relations:
+    Category: { class: FaqCategory, local: category_id, foreignAlias: SubCategories }
+    Details:  { class: FaqDetail, refClass: FaqSubCategoryDetail, foreignAlias: SubCategories }
+
+FaqContent:
+  actAs:
+    Timestampable: ~
+  options:
+    orderBy: priority
+  columns:
+    id:       { type: integer, notnull: true, primary: true, autoincrement: true }
+    title1:   { type: string(255), notnull: true }
+    title2:   { type: string(255), notnull: true }
+    title3:   { type: string(255), notnull: true }
+    priority: { type: integer, notnull: true }
+  relations:
+    Details: { class: FaqDetail, refClass: FaqContentDetail, foreignAlias: Contents }
+
+FaqDetail:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:           { type: integer, notnull: true, primary: true }
+    question:     { type: string(1024), notnull: true }
+    answer:       { type: string(4096), notnull: true }
+    priority:     { type: integer, notnull: true }
+    popular_flag: { type: boolean, notnull: true }
+    search_index: { type: text }
+  indexes:
+    answer:
+      fields: [ answer ]
+    search_index:
+      fields:
+        search_index:
+          length: 255
+  relations:
+    RelatedDetails: { class: FaqDetail, refClass: FaqDetailRelated, local: faq_detail_id1, foreign: faq_detail_id2 }
+
+FaqSubCategoryDetail:
+  actAs:
+    Timestampable: ~
+  columns:
+    faq_sub_category_id: { type: integer, notnull: true, primary: true }
+    faq_detail_id:       { type: integer, notnull: true, primary: true }
+  relations:
+    FaqSubCategory: { foreignAlias: Details, onDelete: CASCADE }
+    FaqDetail:      { foreignAlias: SubCategories, onDelete: CASCADE }
+
+FaqContentDetail:
+  actAs:
+    Timestampable: ~
+  columns:
+    faq_content_id: { type: integer, notnull: true, primary: true }
+    faq_detail_id:  { type: integer, notnull: true, primary: true }
+  relations:
+    FaqContent: { foreignAlias: Details, onDelete: CASCADE }
+    FaqDetail:  { foreignAlias: Contents, onDelete: CASCADE }
+
+FaqDetailRelated:
+  actAs:
+    Timestampable: ~
+  columns:
+    faq_detail_id1: { type: integer, notnull: true, primary: true }
+    faq_detail_id2: { type: integer, notnull: true, primary: true }
+  relations:
+    FaqDetail1: { class: FaqDetail, local: faq_detail_id1, foreignAlias: RelatedDetails, onDelete: CASCADE }
+    FaqDetail2: { class: FaqDetail, local: faq_detail_id2, onDelete: CASCADE }

@@ -1,0 +1,462 @@
+﻿
+#l--embed-player__video {
+    display: block;
+    width: 100%;
+}
+.mainContainer {
+    padding-top: 50px;
+}
+
+.bg1 {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,a396c8+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #a396c8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#a396c8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#a396c8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a396c8',GradientType=0 ); /* IE6-9 */
+}
+
+.moisture_liposome_concept {
+	background-color:#f8f9fa;
+	color:#000000;
+    padding-bottom:250px;
+}
+.moisture_liposome_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px;
+}
+.moisture_liposome_concept .l-container:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+
+.moisture_liposome_concept__title {
+    overflow: hidden;
+	position: relative;
+}
+.moisture_liposome_concept__title__logo {
+	padding-top: 158px
+}
+.moisture_liposome_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:172px
+}
+
+.moisture_liposome_concept__message {
+	height: 607px;
+}
+.moisture_liposome_concept__message >.l-container {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 1060px;
+}
+.moisture_liposome_concept__message .image {
+    float: left;
+    text-align: center;
+    width: 300px;
+}
+.moisture_liposome_concept__message .right {
+    margin-left: 400px;
+}
+
+.moisture_liposome_concept__title__text{
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+	text-align: center;
+}
+.moisture_liposome_concept__message__title {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 110px;
+}
+.moisture_liposome_concept__message__copy {
+	font-family: hy;
+	font-size: 22px;
+	line-height:1.6em;
+	margin-top:40px;
+}
+.moisture_liposome_concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.moisture_liposome_concept__seibun .l-container{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.moisture_liposome_concept__seibun__capsule .l-container{
+	background-image: url('/images/moisture_liposome/liposome.jpg');
+	background-position:  85% 0;
+	background-repeat: no-repeat;
+	margin-top:100px;
+  background-size: 150px;
+}
+
+.moisture_liposome_concept__seibun__title{
+	font-family: hy;
+	font-size: 32px;
+	text-align: left;
+}
+
+.moisture_liposome_concept__seibun__text{
+	font-size: 16px;
+	line-height:21px;
+	margin-top: 40px;
+}
+
+.moisture_liposome_concept__seibun__copy{
+	font-family: hy;
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container{
+	width: 1140px;
+    margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container:after,
+.moisture_liposome_concept__seibun__feature .l-container div:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container div{
+    width: 490px;
+    margin-right: 80px;
+	float:left;
+}
+
+
+.moisture_liposome_concept__seibun__feature .l-container div h2{
+	background-color: #000000;
+	color: #FFFFFF;
+	width:250px;
+	padding: 12px 0;
+	float:left;
+	font-family: hy;
+	font-size: 22px;
+	line-height: 1.6em;
+	text-align:center;
+	margin-bottom: 50px;
+	margin-right:20px;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container div h2 span{
+	display: block;
+	font-size: 14px;
+}
+
+
+.moisture_liposome_concept__seibun__feature02,
+.moisture_liposome_concept__seibun__feature04{
+	margin-right:0;
+}
+
+.moisture_liposome_concept__seibun__feature__text{
+	font-size: 12px;
+	line-height:21px;
+}
+
+.movie {
+    background-image: url(/images/moisture_liposome/160326lipo_tech.gif);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+    padding-top: 140px;
+}
+.movie p {
+    text-align: right;
+    padding-right: 70px;
+}
+.movie__title {
+    color: #000;
+    font-size: 30px;
+	font-family: hy;
+    line-height: 1.6;
+}
+.movie__link {
+    margin-top: 30px;
+}
+.movie__link a {
+    border: 1px solid #000;
+    color: #000;
+	font-family: hy;
+    padding: 13px 30px;
+}
+.movie__link a.pc {
+    display: inline-block;
+}
+
+.liposome_miryoku {
+    padding: 50px 0 100px;
+}
+.liposome_miryoku__link {
+    text-align: center;
+}
+.liposome_miryoku__link a {
+    border: 1px solid #000;
+    color: #000;
+    font-family: hy;
+    padding: 13px 30px;
+    display: inline-block;
+}
+
+.productLink {
+    clear: both;
+    margin-top: 50px;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 14px 55px;
+}
+
+
+@media screen and (max-width: 736px) {
+
+.keyvisual {
+    background: #000;
+}
+
+.bg1 {
+    background-image: none;
+}
+
+.moisture_liposome_concept {
+	background-image: none;
+    padding-bottom: 150px;
+    position: relative;
+}
+.moisture_liposome_concept .sp_bg {
+	height: auto;
+	width: 100%
+}
+.moisture_liposome_concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto
+}
+.moisture_liposome_concept__title {
+@inlude clearfix;
+	position: absolute;
+	top: 60px;
+	width: 100%
+}
+.moisture_liposome_concept__title__logo {
+	padding-top: 10px
+}
+.moisture_liposome_concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 115px
+}
+.moisture_liposome_concept__title__text {
+	font-size: 17.5px;
+	margin-top: 13px
+}
+
+
+.moisture_liposome_concept__message {
+	height: auto;
+	margin-top: 45px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom:100px;
+	border-bottom: none;
+}
+.moisture_liposome_concept__message .right {
+    float: none;
+}
+.moisture_liposome_concept__message .image {
+    display: none;
+}
+.moisture_liposome_concept__message__title {
+	font-size: 25px;
+	width: auto;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.moisture_liposome_concept__message__copy {
+	font-size: 20px;
+    line-height: 1.6em;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+
+.moisture_liposome_concept__message__text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.moisture_liposome_concept__seibun .l-container {
+	border: none;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+.moisture_liposome_concept__seibun__title{
+	width:auto;
+	font-size: 20px;
+	line-height: 1.6em;
+	margin-top: 0;
+    padding-top: 20px;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+.moisture_liposome_concept__seibun__text{
+	float:none;
+	font-size: 12px;
+	margin: 0 auto;
+	width:auto;
+}
+
+.moisture_liposome_concept__seibun__copy{
+	font-size: 16px;
+	line-height: 1.6em;
+}
+
+.moisture_liposome_concept__seibun__capsule .l-container {
+    background-image: url("/images/moisture_liposome/liposome.jpg");
+    background-position: 50% 130px;
+	background-size: 150px;
+    background-repeat: no-repeat;
+    margin-top: 0;
+	paddinb-top:0;
+}
+
+
+.moisture_liposome_concept__seibun__feature .l-container{
+	width: 90%;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container:after,
+.moisture_liposome_concept__seibun__feature .l-container div:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container div{
+	width: auto;
+	margin-right:0;
+	float:none;
+}
+
+
+.moisture_liposome_concept__seibun__feature .l-container div h2{
+	background-color: #000000;
+	color: #FFFFFF;
+	width:auto;
+	padding: 5px 0;
+	float:none;
+	font-size: 16px;
+	line-height: 1.6em;
+	text-align:center;
+	margin-bottom: 20px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.moisture_liposome_concept__seibun__feature .l-container div h2 span{
+	display: inline;
+	font-size: 10px;
+}
+
+
+.moisture_liposome_concept__seibun__feature02,
+.moisture_liposome_concept__seibun__feature04{
+	margin-right:0;
+}
+
+.moisture_liposome_concept__seibun__feature__text{
+	font-size: 12px;
+	line-height:21px;
+	margin-bottom:20px;
+}
+
+
+.movie {
+    background-image: url(/images/moisture_liposome/160326lipo_tech.gif);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.opacitybg {
+    padding-bottom: 120px;
+    padding-top: 140px;
+    background-color: rgba(255,255,255,0.5);
+}
+.movie p {
+    text-align: center;
+    padding-right: 10px;
+}
+.movie__title {
+    color: #000;
+    font-size: 30px;
+	font-family: hy;
+    text-align: center;
+}
+.movie__link {
+    margin-top: 30px;
+    text-align: center;
+}
+.movie__link a {
+    border: 1px solid #000;
+    color: #000;
+	font-family: hy;
+    padding: 13px 30px;
+}
+.movie__link a.pc {
+    display: none;
+}
+.movie__link a.sp {
+    display: inline-block;
+}
+
+.productLink {
+    margin-top: 0;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+
+}

@@ -1,0 +1,72 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Product
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          product
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name: { label: 商品名 }
+        Line: { label: ライン名 }
+        line_id: { label: ライン名 }
+        Category: { label: カテゴリ }
+        category_id: { label: カテゴリ }
+        SubCategory: { label: サブカテゴリ }
+        sub_category_id: { label: サブカテゴリ }
+        daytime_flag: { label: 昼使用 }
+        night_flag: { label: 夜使用 }
+        outline: { label: 概要 }
+        explanation: { label: 説明 }
+        capacity: { label: 容量 }
+        set_flag: { label: セットフラグ }
+        colors: { label: 色数 }
+        new_colors: { label: 新色数 }
+        price: { label: 値段, help: ※税抜価格を入力してください。 }
+        how_to: { label: 使用方法 }
+        slug: { label: スラッグ }
+        color_ball_flag: { label: 色玉 }
+        quasi_drug_flag: { label: 医薬部外品 }
+        supplement1: { label: 補足事項1 }
+        supplement2: { label: 補足事項2 }
+        line_priority: { label: 優先度(L) }
+        category_priority: { label: 優先度(C) }
+        effects_list: { label: 効果 }
+        search_only_flag: { label: 検索のみ }
+        search_pc_link: { label: 検索結果のリンク先 }
+        search_sub_category: { label: 検索結果サブカテゴリ }
+        search_keyword_only_flag: { label: キーワード指定の検索のみ }
+        search_index: { label: 検索インデックス }
+        cafe_link_url: { label: Cafe de COSMEDECORTE リンク先 }
+        cn_shop_link_url: { label: China official shop link url }
+        newitem_rel_info: { label: 新商品発売情報 }
+        bestcosme_flag: { label: べスコス受賞マークフラグ }
+        thumbnail: { label: サムネイル }
+      list:
+        title: 商品 一覧
+        display: [ _thumbnail, name, Line, Category, SubCategory, slug, line_priority, category_priority ]
+        object_actions:
+          _edit:   { label: 編集 }
+          _delete: { label: 削除, confirm: "本当に削除してもよろしいですか?" }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup, params: { onclick : "if (confirm('本当に本番反映してもよろしいですか?')) { return true; } else { return false; }" } }
+<?php endif ?>
+        batch_actions:
+          _delete: { label: 削除 }
+<?php if ($_SERVER['HTTP_HOST'] != 'www.cosmedecorte.com'): ?>
+          liveup:  { label: 本番反映, action: liveup }
+<?php endif ?>
+      filter:
+        class: AdminProductFormFilter
+        display: [ name, line_id, category_id, sub_category_id, slug, search_index ]
+      edit:
+        title: 商品 編集
+      new:
+        title: 商品 新規作成

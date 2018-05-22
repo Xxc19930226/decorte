@@ -1,0 +1,549 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 12px;
+	font-family: "ＭＳ Ｐゴシック", sans-serif;
+	color: #3f3f3f;
+	height: 100%;
+	behavior: url("/css/csshover3.htc");
+}
+
+h2 {
+	font-size: 1.15em;
+	font-weight: bold;
+	margin: 1.2em 0 0.5em;
+}
+
+a:link, a:visited {
+	color: #3f3f3f;
+}
+
+input,
+textarea,
+select,
+button {
+	font-size: 1.0em;
+	font-family: "ＭＳ Ｐゴシック", sans-serif;
+	vertical-align: middle;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.monospace {
+	font-family: "ＭＳ ゴシック", monospace;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+div#container {
+	position: relative;
+	width: 100%;
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+}
+
+div#header {
+	background-color: #000000;
+	width: 100%;
+}
+
+div#header span.caution {
+	color: #cf0000;
+}
+
+div#header p#title {
+	font-size: 1.7em;
+	font-weight: bold;
+	font-family: times;
+	color: #a1883c;
+	padding: 0.5em;
+	float: left;
+}
+
+div#header p#user_info {
+	color: #fff;
+	text-align: right;
+	padding: 1.2em 1.0em;
+}
+
+div#wrapper {
+	padding: 0 1.5em 4.0em 1.5em;
+}
+
+div#footer {
+	color: #afafaf;
+	background-color: #000000;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5em;
+}
+
+div#footer p {
+	text-align: center;
+	margin: 0.7em;
+}
+
+ul#topnav {
+	list-style: none;
+	margin: 0;
+	float: left;
+	width: 100%;
+	background: #222;
+	background: url(../images/topnav_bg.gif) repeat-x;
+}
+
+ul#topnav li {
+	float: left;
+	margin-left: 15px;
+	position: relative;
+}
+
+ul#topnav li#logout {
+	float: right;
+	margin-right: 15px;
+}
+
+ul#topnav li a {
+	padding: 12px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+
+ul#topnav li a:hover {
+	background: url(../images/topnav_hover.gif) no-repeat center top;
+}
+
+ul#topnav li span {
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(../images/subnav_btn.gif) no-repeat center top;
+}
+
+ul#topnav li span.subhover {
+	background-position: center bottom;
+	cursor: pointer;
+}
+
+ul#topnav li ul.subnav {
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 35px;
+	background: #333;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+}
+
+ul#topnav li ul.subnav li {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #252525;
+	border-bottom: 1px solid #444;
+	clear: both;
+	width: 170px;
+}
+
+html ul#topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+	color: #fff;
+	background: #333 url(../images/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+
+html ul#topnav li ul.subnav li a:hover {
+	background: #222 url(../images/dropdown_linkbg.gif) no-repeat 10px center;
+}
+
+span.required {
+	color: #e00;
+	margin: 0 0.2em;
+}
+
+th.date_time {
+	width: 10.0em;
+}
+
+td.numeric {
+	text-align: right;
+}
+
+td.operations {
+	width: 10%;
+}
+
+td.operations {
+	text-align: center;
+}
+
+div.pager_wrapper {
+	text-align: center;
+	margin: 1.0em;
+}
+
+div.pager_wrapper ul.pager {
+	display: inline;
+}
+
+div.pager_wrapper ul.pager li {
+	display: inline;
+	margin: 0 0.3em;
+}
+
+div.pager_wrapper ul.pager li.current_page {
+	font-weight: bold;
+	color: #bf3f3f;
+}
+
+div.pager_wrapper p.paging_result {
+	display: inline;
+}
+
+p.description {
+	margin: 1.0em 0;
+}
+
+p.form_help {
+	font-size: 0.8em;
+	color: #4f4f4f;
+	margin-top: 0.5em;
+}
+
+p.filter_explanation {
+	color: #ff0000;
+	width: 23.0em;
+	margin: 1.0em;
+}
+
+p.filter_explanation2 {
+	color: #ff0000;
+	width: 28.0em;
+	margin: 1.0em;
+}
+
+table.link tr:hover td {
+	background-color: #f1cc5a;
+	color: #000000;
+}
+
+table.link td {
+	cursor: pointer;
+}
+
+table.line {
+	width: 100%;
+	margin: 0 auto;
+}
+
+table.line th {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #3f3f3f;
+	border: 1px solid #000;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+table.line td {
+	background-color: #ffffff;
+	border: 1px solid #3f3f3f;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+table.line td.blank {
+	background-color: #afafaf;
+}
+
+ul.logic_list {
+	list-style: disc none inside;
+	margin: 0.5em 0;
+}
+
+ul.logic_list li.error {
+	list-style-type: none;
+}
+
+ul.operations {
+	font-size: 1.2em;
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+
+ul.operations li {
+	display: inline;
+	margin-left: 0.5em;
+}
+
+ul.submit {
+	text-align: center;
+	margin-top: 1.0em;
+}
+
+ul.submit li {
+	display: inline;
+	margin: 0 0.5em;
+}
+
+ul.error_list li {
+	font-weight: bold;
+	color: #fff;
+	background-color: #df0000;
+	margin: 0.2em 0;
+	padding: 0.5em;
+}
+
+div#sf_admin_container h1 {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 1.5em 0 1.0em;
+}
+
+div#sf_admin_content div.sf_admin_list th,
+div#sf_admin_bar div.sf_admin_filter tfoot td {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #3f3f3f;
+	border: 1px solid #000;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+div#sf_admin_content div.sf_admin_list thead th {
+	text-align: center;
+}
+
+div#sf_admin_content div.sf_admin_list th a,
+div#sf_admin_bar div.sf_admin_filter tfoot td a {
+	color: #ffffff;
+}
+
+div#sf_admin_content div.sf_admin_list td,
+div#sf_admin_bar div.sf_admin_filter tbody td {
+	background-color: #ffffff;
+	border: 1px solid #3f3f3f;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+#sf_admin_container ul.sf_admin_td_actions {
+	width: 6.0em;
+}
+
+#sf_admin_container table#statistics ul.sf_admin_td_actions {
+	width: 8.0em;
+}
+
+#sf_admin_container ul.sf_admin_td_actions li {
+	display: block;
+	margin: 0.8em 0;
+}
+
+#sf_admin_header #list_output_actions {
+	margin: 1.0em 0;
+}
+
+#sf_admin_header #list_output_actions form input {
+	margin-right: 1.0em;
+	padding: 0.5em;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none {
+	border: 1px solid #3f3f3f;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none label {
+	width: 16.0em;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none div.content label {
+	display: inline;
+	float: none;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none div.content,
+div#sf_admin_content fieldset#sf_fieldset_none div.help {
+	padding-left: 17.0em;
+	margin-top: 0.3em;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none input[type=text] {
+	width: 40.0em;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none input#redirect_url_source,
+div#sf_admin_content fieldset#sf_fieldset_none input#redirect_url_destination,
+div#sf_admin_content fieldset#sf_fieldset_none input#redirect_url_destination_sp,
+div#sf_admin_content fieldset#sf_fieldset_none input#redirect_url_destination_mb {
+	width: 65.0em;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none select#product_effects_list {
+	height: 15.0em;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none input#line_search_index,
+div#sf_admin_content fieldset#sf_fieldset_none input#product_search_index {
+	width: 100%;
+}
+
+div#sf_admin_content fieldset#sf_fieldset_none textarea {
+	width: 40.0em;
+	height: 10.0em;
+}
+
+div#sf_admin_content td.sf_admin_list_td_WrongWordsCount {
+	text-align: right;
+}
+
+div#login table {
+	color: #fff;
+	font-size: 1.3em;
+	margin: 12.0em auto;
+}
+
+div#login table th {
+	margin: 1.0em 0;
+	width: 7.0em;
+	vertical-align: middle;
+}
+
+div#login table td input {
+	margin: 0.5em 0;
+	width: 10.0em;
+	vertical-align: middle;
+}
+
+div#login td#error_messages {
+	color: #f11;
+	text-align: center;
+	padding: 1.0em 0;
+}
+
+div#login table td#submit {
+	text-align: center;
+}
+
+div#login table td#submit input {
+	margin: 1.5em 0;
+}
+
+table#member th,
+table#product th,
+table.child_product th,
+table#mail th,
+table#mail_group th {
+	width: 25%;
+}
+
+table#member input#member_mail_pc,
+table#member input#member_mail_mobile {
+	width: 30.0em;
+}
+
+table#member input#member_address1,
+table#member input#member_address2 {
+	width: 40.0em;
+}
+
+table#product td.product_image {
+	text-align: center;
+}
+
+table#product td.product_image img {
+	border: solid 1px #000;
+}
+
+table#product textarea {
+	width: 99%;
+	_width: 96%;
+	height: 5.0em;
+}
+
+table#product ul.checkbox_list li,
+table#product ul.radio_list li {
+	display: inline;
+}
+
+table#product input#product_name,
+table.child_product input.child_product_name {
+	width: 99%;
+	_width: 96%;
+}
+
+table#product select#product_effects_list {
+	height: 10.0em;
+}
+
+div#child_products table.child_product {
+	margin-bottom: 0.5em;
+}
+
+
+table#mail input#mail_subject,
+table#mail_group input#mail_ {
+	width: 99%;
+	_width: 96%;
+}
+
+table#mail textarea#mail_body {
+	font-family: "ＭＳ ゴシック", monospace;
+	width: 99%;
+	_width: 96%;
+	height: 40.0em;
+}
+
+table#mail_author_list .mail_author_name,
+table#mail_author .mail_author_name {
+	width: 30%;
+}
+
+table#mail_author input#mail_author_name,
+table#mail_author input#mail_author_address,
+table#mail_group input#mail_group_name {
+	width: 99%;
+	_width: 90%;
+}
+
+table#mail_group input.mail_group_logic_term_value {
+	width: 40%;
+}

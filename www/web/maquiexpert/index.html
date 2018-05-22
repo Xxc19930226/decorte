@@ -1,0 +1,58 @@
+<?php slot('description', 'マキエクスペールのご紹介。肌は別人にも変われる。コスメデコルテ。コーセー。') ?>
+<?php slot('keywords', 'マキエクスペール,コスメデコルテ,DECORTE,オーガニック,毛穴,ニキビ,美白,ファンデーション,化粧下地,カバー力,UV,紫外線,乾燥,小ジワ') ?>
+<?php slot('title', 'MAQUIEXPERT') ?>
+<?php use_stylesheet('linetop.css') ?>
+<?php use_stylesheet('linetop-maquiexpert.css') ?>
+<script type="text/javascript">
+    var _dispItemList = '/product/maquiexpert/skincare/list';
+</script>
+
+<article>
+  <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+    <div class="l-container">
+      <h1><img src="/images/maquiexpert/sp/kv.jpg" alt="MAQUIEXPERT" class="sp"><img src="/images/maquiexpert/kv.jpg" alt="MAQUIEXPERT" class="pc"></h1>
+    </div>
+  </div>
+  <section class="concept l--fixed-submenu-anchor" data-name="Concept">
+    <div class="l-container">
+      <h1 class="concept__message__title">Concept</h1>
+      <div>
+        <p class="concept__message__lead">肌に、別人にも変われる。<br>
+        マキエクスペール</p>
+
+        <p class="concept__message__text">一瞬で、変わってゆく。<br>
+        好きな色に。<br>
+        思いのままの質感に。<br>
+        生きた肌の美しさを感じさせながら<br>
+        そう、まるで別人のように。<br>
+        ただのカバー効果では終わらない。<br>
+        変わる、という快楽を楽しむ<br>
+        すべてのひとに新しい肌を提案する<br>
+        先進のベースメイクアップ。</p>
+      </div>
+    </div>
+  </section>
+  <section class="product l--fixed-submenu-anchor" data-name="Products">
+    <div class="l-container">
+      <h1 class="product__title">Products</h1>
+        <div class="product__triggers" data-url="/product/maquiexpert/">
+            <div class="product__category m--select">
+                <select class="product__category__select">
+                    <option value="skincare">Skin Care</option>
+                    <option value="basemake">Base Makeup</option>
+                    <option value="accessory">Accessories</option>
+                </select>
+                <span>View More</span>
+            </div>
+            <div class="product__category m--list">
+                <ul class="product__category__list">
+                    <li class="product__category__item m--active" data-type="skincare">Skin Care</li>
+                    <li class="product__category__item" data-type="basemake">Base Makeup</li>
+                    <li class="product__category__item" data-type="accessory">Point Makeup</li>
+                </ul>
+            </div>
+        </div>
+      <div id="dispItemList"></div>
+    </div>
+  </section>
+</article>

@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/*--------------------------------------------------
+  Archive
+--------------------------------------------------*/
+
+body{
+	background:#00000;
+
+	}
+
+img{
+	border:none;
+	}
+
+div#archive{
+	text-align:center;
+	}
+
+div#archive div.wrapper{
+	width: 1085px;
+	margin:0 auto;
+	padding-top:35px;
+}
+
+div#archive div.wrapper div{
+	float:left;
+	}
+	
+div#archive div.wrapper div.y2011,
+div#archive div.wrapper div.y2012,
+div#archive div.wrapper div.y2013,
+div#archive div.wrapper div.y2014{
+	margin-right:10px;
+	}
+
+div#archive div.wrapper div.y2011 a,
+div#archive div.wrapper div.y2012 a,
+div#archive div.wrapper div.y2013 a,
+div#archive div.wrapper div.y2014 a,
+div#archive div.wrapper div.y2015 a{
+display:block;
+width:209px;
+height:212px;
+}
+
+div#archive div.wrapper div.y2011 {
+background:no-repeat URL(../images/archive/thum2011_on.jpg);
+}
+
+div#archive div.wrapper div.y2012 {
+background:no-repeat URL(../images/archive/thum2012_on.jpg);
+}
+
+div#archive div.wrapper div.y2013 {
+background:no-repeat URL(../images/archive/thum2013_on.jpg);
+}
+div#archive div.wrapper div.y2014 {
+background:no-repeat URL(../images/archive/thum2014_on.jpg);
+}
+div#archive div.wrapper div.y2015 {
+background:no-repeat URL(../images/archive/thum2015_on.jpg);
+}
+div#archive div.wrapper div a:hover img {
+visibility:hidden;
+}
+
+div#archive div.wrapper div a:hover {
+background-color:transparent;
+background-image:none;
+}

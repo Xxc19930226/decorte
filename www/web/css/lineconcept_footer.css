@@ -1,0 +1,33 @@
+/* smartphone layout break point*/
+/* max width device : iPhone6 plus(Landscape) */
+/* line 8, ../scss/lineconcept_footer.scss */
+.globalFooter {
+  margin-top: 0;
+  position: relative;
+}
+/* line 12, ../scss/lineconcept_footer.scss */
+.globalFooter__pagetop {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: -110px;
+}
+/* line 19, ../scss/lineconcept_footer.scss */
+.globalFooter__nav {
+  margin-top: 0;
+}
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@media screen and (max-width: 736px) {
+  /* line 32, ../scss/lineconcept_footer.scss */
+  .globalFooter__pagetop {
+    margin-left: -20px;
+    top: -55px;
+  }
+}
+
+/*# sourceMappingURL=lineconcept_footer.css.map */

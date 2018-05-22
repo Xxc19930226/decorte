@@ -1,0 +1,314 @@
+﻿.mainContainer {
+    padding-top: 50px;
+}
+.concept {
+}
+.concept .l-container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1160px
+}
+.concept__title {
+	@inlude clearfix;
+	position: relative;
+}
+.concept__title__logo {
+	padding-top: 118px
+}
+.concept__title__logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100px
+}
+.concept__title__text {
+	font-family: hy;
+	font-size: 32px;
+	margin-top: 30px;
+  text-align: center;
+}
+.concept__message {
+	background-image: url('/images/vice_virtue/bg_concept_02.jpg');
+	background-position: center 25%;
+	background-repeat: no-repeat;
+    height: 1522px;
+}
+.concept__message__title {
+	font-family: hy;
+	font-size: 32px;
+  line-height: 1.6em;
+	margin-top: 30px;
+  text-align: center;
+}
+.concept__message__lead {
+	font-family: hy;
+	font-size: 22px;
+	position:relative;
+  text-align: center;
+}
+.concept__message__text {
+	font-family: hy;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 50px;
+  text-align: center;
+  margin-bottom: 500px;
+}
+
+.concept__message__text span{
+	font-size:12px;
+}
+
+.concept__message__design__title {
+	font-family: hy;
+	font-size: 22px;
+  text-align: left;
+  width: 600px;
+  margin: 0 auto;
+}
+.concept__message__design__text {
+  margin-top: 20px;
+  width: 600px;
+  font-size: 12px;
+  line-height: 21px;
+  margin: 20px auto 0;
+}
+
+.concept__message__design .marcelwanders {
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  overflow: hidden;
+  padding: 30px;
+  width: 340px;
+}
+.concept__message__design .marcelwanders__image {
+  float: left;
+  width: 100px;
+}
+.concept__message__design .marcelwanders__image img {
+  width: 100%;
+}
+.concept__message__design .marcelwanders__about {
+  float: right;
+  text-align: left;
+}
+.concept__message__design .marcelwanders__about__name {
+    font-family: hy;
+    font-size: 12px;
+}
+.concept__message__design .marcelwanders__about__name strong {
+  font-size: 16px;
+}
+.concept__message__design .marcelwanders__prof {
+  font-size: 12px;
+  text-align: right;
+}
+.concept__message__design .marcelwanders__prof a {
+  color: #000;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+
+.concept__fragrance .l-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.concept__fragrance__title {
+	font-family: hy;
+    font-size: 32px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.concept__fragrance__lead {
+    font-size: 16px;
+    line-height: 1.75;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.concept__fragrance__list {
+    overflow: hidden;
+    padding-top: 75px;
+    margin-left: -40px;
+}
+
+.concept__fragrance__list__item {
+    font-size: 12px;
+    float: left;
+    line-height: 1.75;
+    margin-left: 40px;
+    text-align: justify;
+    width: 265px;
+}
+.concept__fragrance__list__item img {
+    display: block;
+    margin: 0 auto 15px;
+}
+.productLink {
+    clear: both;
+    margin-top: 150px;
+    text-align: center;
+}
+.productLink a {
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+	font-family: hy;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+
+
+@media screen and (max-width: 736px) {
+.concept {
+	background-image: none
+}
+
+.concept .l-container {
+  width: auto;
+}
+
+.concept .sp_bg {
+  height: auto;
+  width: 100%;
+}
+.concept__title__logo {
+    padding-top: 60px;
+}
+.concept__title__logo img {
+    width: 50px;
+}
+.concept__title__text {
+    font-size: 17px;
+    margin-top: 15px;
+}
+.concept__message {
+    text-align: center;
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: 320px auto;
+    background-image: url('/images/vice_virtue/sp/bg_concept_02.jpg');
+
+}
+
+.concept__message__title {
+	font-family: hy;
+	font-size: 16px;
+  line-height: 1.6em;
+	width: auto;
+	margin-top: 15px;
+  float: none;
+}
+.concept__message__lead {
+	font-family: hy;
+	font-size: 22px;
+	width: auto;
+	position:relative;
+  float: none;
+}
+.concept__message__text {
+    font-family: hy;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 25px;
+    width: auto;
+    float: none;
+    margin-bottom: 280px;
+}
+
+.concept__message__text span{
+	font-size:12px;
+}
+.concept__message__design__title ,
+.concept__message__design__text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.concept__message__design__title {
+    text-align: center;
+}
+.concept__message__design__text {
+    text-align: left;
+}
+
+.concept__fragrance {
+    padding-bottom: 50px;
+}
+.concept__fragrance .l-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.concept__fragrance__title {
+	font-family: hy;
+    font-size: 17px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.concept__fragrance__lead {
+    font-size: 13px;
+    line-height: 1.75;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.concept__fragrance__list {
+    padding-top: 30px;
+    margin-left: 0;
+}
+
+.concept__fragrance__list__item {
+    font-size: 12px;
+    float: left;
+    line-height: 1.75;
+    text-align: justify;
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.concept__fragrance__list__item img {
+    display: block;
+    margin: 0 auto 15px;
+    width: 70px;
+}
+.productLink {
+    margin-top: 60px;
+}
+.productLink a {
+    display: block;
+    font-size: 13px;
+    margin: auto;
+    padding: 10px 0;
+    width: 90%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*body {
+	background-image: url('/images/cellgenie/bg_concept_base_02.jpg?1457857842');
+	background-position: center top;
+	background-repeat: no-repeat
+}
+*/

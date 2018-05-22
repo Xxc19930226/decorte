@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+
+
+.btn a.ui-link {
+    letter-spacing: 0;
+}
+
+
+p.logo img{
+	width:83%;
+	height:auto;
+	max-width:530px;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+/*	margin:10px;*/
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #CCCCCC;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0 0 3px;
+}
+
+
+
+.ttl02{
+	font-size:20px;
+	color:#da4612;
+	font-weight:bold;
+	text-align:center;	
+	padding-top:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:640px;
+	}
+
+img.fit100{
+		width:100%;
+		max-width:640px;
+	}
+
+section{
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	width:70%;
+	max-width:450px;
+	color:#666666;
+	text-align:left;
+	margin:0 auto 20px;
+	}
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+section .top{
+	margin:0;
+	padding:0;
+}
+
+/*section .fleft{
+	float:left;
+	margin:10px;
+	}
+
+section .fright{
+	float:right;
+	margin:10px;
+	}*/
+
+section .acenter{
+	text-align:center;
+	}
+
+
+
+section div.content img{
+	width:100%;
+	max-width:640px;
+	margin:0 auto;
+	}
+
+
+/*div.content{
+	position:relative;
+	}*/
+
+
+.page01 div.content a,
+.page02 div.content a,
+.page03 div.content a,
+.page04 div.content a,
+.page05 div.content a,
+.page06 div.content a{
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+/*	background-color:#666666;
+	opacity:0.6;*/
+}
+
+
+.page01_1,
+.page01_2{
+	position:relative;
+}
+
+.page01_1 a.JGOL{
+    height: 5%;
+    left: 11%;
+    top: 93.5%;
+    width: 18%;
+	}
+
+.page01_1 a.JGBH{
+    height: 5%;
+    left: 31%;
+    top: 93.5%;
+    width: 21%;
+	}
+	
+.page01_2 a.JGKD{
+    height: 17%;
+    left: 79%;
+    top: 14%;
+    width: 19%;
+	}
+
+.page02_1,
+.page02_2{
+	position:relative;
+	}
+
+.page02_1 a.JVWN{
+    height: 7%;
+    left: 75%;
+    top: 42%;
+    width: 18%;
+	}
+
+.page02_1 a.JGEI{
+    height: 10%;
+    left: 47%;
+    top: 64%;
+    width: 18%;
+	}
+
+
+.page02_1 a.JGRX{
+    height: 9%;
+    left: 75%;
+    top: 89%;
+    width: 18%;
+	}
+
+.page02_2 a.JGRO{
+    width: 18%;
+    height: 7%;
+    left: 3%;
+    top: 82%;
+	}
+
+
+.page02_2 a.JGAN{
+    width: 20%;
+    height: 7%;
+    left: 3%;
+    top: 89%;
+	}
+
+.page02_2 a.JGZY{
+    width: 18%;
+    height: 7%;
+    left: 25%;
+    top: 82%;
+	}
+
+
+.page02_2 a.JGBH{
+    width: 18%;
+    height: 7%;
+    left: 25%;
+    top: 89%;
+	}
+
+.page03_1,
+.page03_2{
+	position:relative;
+	}
+
+.page03_1 a.JGBH{
+    height: 6%;
+    left: 58%;
+    top: 52%;
+    width: 18%;
+}
+
+
+.page03_1 a.JGBJ{
+    height: 5%;
+    left: 79%;
+    top: 54%;
+    width: 15%;
+}
+.page03_1 a.JGBU{
+    height: 6%;
+    left: 53%;
+    top: 85%;
+    width: 19%;
+}
+
+.page03_1 a.JIRT{
+   height: 6%;
+    left: 73%;
+    top: 85.5%;
+    width: 25%;
+}
+
+
+.page03_2 a.JGAG{
+    height: 5.5%;
+    left: 66%;
+    top: 48%;
+    width: 22%;
+}
+
+
+.page03_2 a.JKLI{
+    height: 7%;
+    left: 68%;
+    top: 73%;
+    width: 23%;
+}
+
+.page03_2 a.JBLG{
+    height: 5.5%;
+    left: 6%;
+    top: 89.5%;
+    width: 29%;
+}
+
+.page03_2 a.JQCK{
+   height: 4%;
+    left: 66%;
+    top: 92%;
+    width: 21%;
+}
+
+
+
+.page04_1,
+.page04_2{
+	position:relative;
+}
+
+.page04_1 a.JIZC{
+    height: 4%;
+    left: 48%;
+    top: 94%;
+    width: 16%;
+}
+.page04_1 a.JGIU{
+    height: 7%;
+    left: 81%;
+    top: 91%;
+    width: 17%;
+}
+
+
+
+.page04_2 a.JGFH{
+    height: 15%;
+    left: 6%;
+    top: 12%;
+    width: 27%;
+}
+
+.page04_2 a.JGGO{
+    height: 13.5%;
+    left: 6%;
+    top: 28.5%;
+    width: 27%;
+}
+
+.page04_2 a.JGDQ{
+    height: 9.5%;
+    left: 9%;
+    top: 80%;
+    width: 23%;
+	}
+	
+.page04_2 a.JKEE{
+    height: 14%;
+    left: 51%;
+    top: 77%;
+    width: 26%;
+	}
+
+
+.page05_1,
+.page05_2{
+	position:relative;
+	}
+	
+
+.page05_1 a.JVYL{
+    height: 4%;
+    left: 70%;
+    top: 84%;
+    width: 24%;
+	}
+
+.page05_1 a.JVYL_movie{
+    height: 7.5%;
+    left: 21.5%;
+    top: 82.5%;
+    width: 14%;
+	}
+

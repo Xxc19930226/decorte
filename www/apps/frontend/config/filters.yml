@@ -1,0 +1,18 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/12-Filters
+
+rendering: ~
+security:  ~
+
+# insert your own filters here
+https:
+  class: HttpsFilter
+c3_image_conv:
+  class: C3ImageConvFilter
+access_history:
+  class: AccessHistoryFilter
+content_type:
+  class: ContentTypeFilter
+
+cache:     ~
+execution: ~

@@ -1,0 +1,948 @@
+@charset "UTF-8";
+@import "compass";
+@import "mixin";
+@import "media-queries";
+@import "vars";
+
+body {
+}
+.bg1 {
+    background-image: image-url('aq_mw/bg_concept_point_02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-width: 1200px;
+}
+.pointmake_concept {
+    min-width: 1200px;
+    
+    .l-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1140px;
+    }
+
+    &__title {
+        @inlude clearfix;
+        position: relative;
+        top: 50px;
+        &__logo {
+            padding-top: 100px;
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 162px;
+            }
+        }
+        &__text {
+            color: #000;
+            font-family: $mincho;
+            font-size: 32px;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+
+    &__message {
+        height: 509px;
+        margin-top: 175px;
+        text-align: center;
+        color: #000;
+        &__title {
+            font-family: $mincho;
+            font-size: 22px;
+            width: 660px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 22px;
+            margin-top: 30px;
+            width: 660px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 40px;
+            width: 660px;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+
+    &__design {
+        background-color: #FFF;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    
+        .l-container {
+            background-image: image-url('aq_mw/pointmake.jpg');
+            background-position: right top;
+            background-repeat: no-repeat;
+            margin-left: auto;
+            margin-right: auto;
+            width: 910px;
+        }
+
+        .design {
+            &__header {
+                &__title {
+                    font-family: $mincho;
+                    font-size: 32px;
+                }
+                &__lead {
+                    font-family: $mincho;
+                    font-size: 22px;
+                    margin-top: 10px;
+                }
+            }
+            &__image {
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 21px;
+                margin-top: 25px;
+                width: 471px;
+                &-sign {
+                    text-align: right;
+                    font-size: 12px;
+                    margin-top: 25px;
+                    width: 471px;
+                }
+            }
+        }
+        .marcelwanders {
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            padding: 30px;
+            margin-left: 0;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 340px;
+            @include clearfix;
+
+            &__image {
+                float: left;
+                width: 100px;
+                img {
+                    width: 100%;
+                }
+            }
+            &__about {
+                float: right;
+                text-align: left;
+                &__name {
+                    font-family: $mincho;
+                    font-size: 12px;
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__prof {
+                text-align: right;
+                font-size: 12px;
+                a {
+                    margin-top: 50px;
+                    color: #000;
+                    display: inline-block;
+                }
+            }
+            
+        }
+    }
+    /* design */
+}
+.makeuppattern {
+    margin-top: 80px;
+    &__title {
+        font-family: $mincho;
+        font-size: 30px;
+        text-align: center;
+    }
+    &__theme {
+        font-family: $mincho;
+        font-size: 24px;
+        margin-top: 80px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    &__list {
+        @include clearfix;
+        margin-top: 50px;
+        text-align: center;
+        &__item {
+            display: inline-block;
+            margin: 0 40px;
+            text-align: center;
+
+            font-family: $mincho;
+            font-size: 14px;
+            .img {
+                img {
+                    width: 260px;
+                }
+            }
+            em {
+                display: block;
+                font-size: 18px;
+                line-height: 30px;
+                margin-top: 5px;
+                text-align: center;
+            }
+
+            span {
+                border: 1px solid #e6e6e6;
+                display: block;
+                margin-top: 10px;
+                img {
+                    vertical-align: bottom;
+                }
+            }
+        }
+    }
+}
+.dispModal {
+    background-color: #FFF;
+    .maketheme {
+        @include clearfix;
+        box-sizing: border-box;
+        padding: 50px;
+        &__title {
+            font-family: $mincho;
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.2;
+            margin-bottom: 50px;
+            em {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+        }
+        .l-left {
+            float: left;
+        }
+        .l-right {
+            float: right;
+        }
+        >.l-left {
+            width: 38%;
+        }
+        >.l-right {
+            width: 56%;
+        }
+        .abouttheme {
+
+            &__image {
+                border: 1px solid #e6e6e6;
+                display: block;
+                img {
+                    vertical-align: bottom;
+                    width: 100%;
+                }
+            }
+
+            &__text {
+                font-size: 12px;
+                line-height: 20px;
+                margin-top: 27px;
+            }
+        }
+        .abouteyecolor {
+            @include clearfix;
+            &__image {
+                width: 50%;
+                text-align: center;
+                img {
+                    width: 70%;
+                }
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 20px;
+                width: 50%;
+                text-indent: -1em;
+            }
+        }
+        .makedata {
+            @include clearfix;
+            margin-top: 80px;
+            .l-left {
+                width: 100%;
+                float: none;
+            }
+            .l-right {
+                width: 100%;
+                float: none;
+            }
+            &__title {
+                border-bottom: 1px solid #000;
+                font-size: 12px;
+                line-height: 30px;
+                text-align: center;
+            }
+            &__cat {
+                font-size: 12px;
+                margin-top: 20px;
+                width: 100%;
+            }
+            &__list {
+                width: 100%;
+                &__item {
+                    font-size: 12px;
+                    line-height: 20px;
+                    img {
+                        zoom: 0.75;
+                        -moz-transform:
+                            scale(0.75,0.75)
+                            translate(5px,5px);
+                        padding-left: 10px;
+                    }
+                }
+            }
+            .limited_color {
+                color: #b9181a;
+            }
+        }
+        &.mc5 {
+            .abouteyecolor {
+                text-align: center;
+                &__image {
+                    margin-bottom: 20px;
+                    width: auto;
+                }
+                &__text {
+                    width: auto;
+                }
+            }
+            .makedate {
+                margin-top: 50px;
+            }
+        }
+    }
+
+
+
+    .eyeline-technic {
+        padding: 60px;
+        h1 {
+            font-size: 16px;
+            width: 200px;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #000000;
+        }
+        img {
+            width: 100%;
+        }
+        .technic--list {
+            overflow: hidden;
+            width: 90%;
+            margin: 0 auto;
+            .technic {
+                float: left;
+                width: 30%;
+                margin-right: 5%;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &__title {
+                    font-family: hy;
+                    font-size: 20px;
+                    text-align: center;
+                    height: 40px;
+                    span {
+                      font-size: 12px;
+                    }
+                }
+                &__thumb {
+                    width: 70%;
+                    margin: 0 auto 20px;
+                }
+                &__lbl {
+                    padding: 10px;
+                    border: 1px solid #000000;
+                    width: calc(100% - 22px);
+                    font-size: 14px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                &__lbl2 {
+                    font-size: 14px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .step {
+                    overflow: hidden;
+                    padding-bottom: 30px;
+                    background-image: image-url('aq_mw/2016_autumn/eyeline-technic/arrow.png');
+                    background-position: bottom center;
+                    background-size: 20px 10px;
+                    background-repeat: no-repeat;
+                    margin-bottom: 20px;
+                    &:last-child {
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                        background: none;
+                    }
+                    &__thumb {
+                        float: left;
+                        width: 28%;
+                        margin-right: 12%;
+                    }
+                    &__txt {
+                        width: 57%;
+                        float: left;
+                        font-size: 14px;
+                        text-align: 1.6;
+                        text-indent: -1em;
+                    }
+                }
+            }
+        }
+    }
+}
+.l--modal-clone {
+    background-color: #FFFFFF\9;
+}
+
+.link_wrap {
+        clear: both;
+        text-align: center;
+        overflow: hidden;
+        width: 580px;
+        margin: 150px auto 0;
+
+    .productLink {
+        float: left;
+        margin: 0 20px 0 0;
+        margin-right:20px;
+        a {
+            min-width: 208px;
+            border: 1px solid #000;
+            color: #000;
+            display: inline-block;
+            font-family: hy;
+            font-size: 16px;
+            padding: 20px 30px;
+        }
+    }
+    .technicLink {
+        float: left;
+        margin-left:20px;
+        a {
+            min-width: 208px;
+            border: 1px solid #000;
+            color: #000;
+            display: inline-block;
+            font-family: hy;
+            font-size: 16px;
+            padding: 20px 30px;
+        }
+    }
+}
+
+
+/*
+
+sp---------------------------------------------------------------------------------------------
+
+*/
+@include max-screen($sp_width) {
+
+body {
+    background-image: none;
+}
+.bg1 {
+    background-image: none;
+    min-width: inherit;
+}
+.pointmake_concept {
+    background-image: none;
+    min-width: 320px;
+    .sp_bg {
+        height: auto;
+        width: 100%;
+    }
+    
+    .l-container {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+
+
+    &__title {
+        @inlude clearfix;
+        position: absolute;
+        top: 45px;
+        width: 100%;
+
+        &__logo {
+            padding-top: 30px;
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 72px;
+            }
+        }
+        &__text {
+            font-size: 17.5px;
+            margin-top: 13px;
+        }
+    }
+
+    &__message {
+        color: #000;
+        height: auto;
+        margin-top: 45px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        &__title {
+            font-family: $mincho;
+            font-size: 25px;
+            width: auto;
+        }
+        &__lead {
+            font-family: $mincho;
+            font-size: 20px;
+            margin-top: 45px;
+            width: auto;
+        }
+        &__text {
+            font-family: $mincho;
+            font-size: 13px;
+            line-height: 30px;
+            margin-top: 25px;
+            width: auto;
+        }
+    }
+
+    &__design {
+        background-image: none;
+        background-position: center top;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        .l-container {
+            background-image: none;
+            background-position: right top;
+            background-repeat: no-repeat;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        .design {
+            &__header {
+                &__title {
+                    font-family: $mincho;
+                    font-size: 25px;
+                    width: auto;
+                    text-align: center;
+                }
+                &__lead {
+                    font-family: $mincho;
+                    font-size: 20px;
+                    margin-top: 10px;
+                    width: auto;
+                    text-align: center;
+                }
+            }
+            &__image {
+                margin-top: 25px;
+                text-align: center;
+                img {
+                    height: auto;
+                    width: 50%;
+                }
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 21px;
+                margin-top: 25px;
+                width: auto;
+                &-sign {
+                    text-align: right;
+                    font-size: 12px;
+                    margin-top: 25px;
+                    width: auto;
+                }
+            }
+        }
+        .marcelwanders {
+
+            border: 1px solid #e5e5e5;
+            box-sizing: border-box;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            width: 100%;
+            @include clearfix;
+
+            &__image {
+                float: left;
+                max-width: 100px;
+                width: 30%;
+            }
+            &__about {
+                float: right;
+                text-align: left;
+                width: 65%;
+                &__name {
+                    font-family: $mincho;
+                    font-size: 12px;
+                    strong {
+                        font-size: 16px;
+                    }
+                }
+            }
+            &__prof {
+                text-align: right;
+                font-size: 12px;
+                a {
+                    margin-top: 50px;
+                    color: #000;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+.makeuppattern {
+    margin-top: 80px;
+    &__title {
+        font-family: $mincho;
+        font-size: 25px;
+        text-align: center;
+    }
+    &__theme {
+        font-family: $mincho;
+        font-size: 17px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    &__list {
+        @include clearfix;
+        margin-top: 35px;
+        text-align: center;
+        &__item {
+            display: inline-block;
+            margin: 0 0 45px;
+            text-align: center;
+            width: 250px;
+            a {
+                color: #000;
+                font-family: $mincho;
+                font-size: 10px;
+                em {
+                    font-size: 15px;
+                    line-height: 2;
+                }
+            }
+            .img {
+                display: block;
+                margin-top: 10px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.dispModal {
+    background-color: #FFF;
+
+
+    &::-webkit-scrollbar {
+      width: 3px;
+    }
+    &::-webkit-scrollbar-track {
+      border-radius: 3px;
+      background: #eee;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 3px;
+      background: #666;
+    }
+
+    .maketheme {
+        @include clearfix;
+        border: 1px solid #e6e6e6;
+        box-sizing: border-box;
+        padding: 15px;
+        width: auto;
+        &__title {
+            font-family: $mincho;
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            em {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+        }
+        .l-left {
+            float: none;
+        }
+        .l-right {
+            float: none;
+        }
+        >.l-left {
+            width: auto;
+        }
+        >.l-right {
+            width: auto;
+        }
+        .abouttheme {
+
+            &__image {
+                border: 1px solid #e6e6e6;
+                display: block;
+                img {
+                    vertical-align: bottom;
+                    width: 100%;
+                }
+            }
+
+            &__text {
+                font-size: 12px;
+                line-height: 20px;
+                margin-top: 27px;
+            }
+        }
+        .abouteyecolor {
+            @include clearfix;
+            &__image {
+                display: block;
+                width: auto;
+                text-align: center;
+                margin-bottom: 25px;
+                margin-top: 25px;
+                img {
+                    width: 200px;
+                }
+            }
+            &__text {
+                font-size: 12px;
+                line-height: 20px;
+                width: auto;
+            }
+        }
+        .makedata {
+            @include clearfix;
+            margin-top: 50px;
+            .l-left {
+                width: auto;
+            }
+            .l-right {
+                width: auto;
+            }
+            &__title {
+                border-bottom: 1px solid #000;
+                font-size: 12px;
+                line-height: 30px;
+                text-align: left;
+            }
+            &__cat {
+                font-size: 12px;
+                margin-top: 20px;
+                width: 100%;
+            }
+            &__list {
+                width: 100%;
+                &__item {
+                    font-size: 10px;
+                    line-height: 20px;
+                    img {
+                        zoom: .5;
+                    }
+                }
+            }
+            .limited_color {
+                color: #b9181a;
+            }
+
+        }
+         &.mc5 {
+            .abouteyecolor {
+                &__image {
+                    margin-bottom: 20px;
+                    width: auto;
+                    img {
+                        width: 70%;
+                        max-width: 640px;
+                    }
+                }
+                &__text {
+                    text-align: left;
+                    width: auto;
+                }
+            }
+            .makedate {
+                margin-top: 50px;
+            }
+        }
+
+        .news__detail__body__close {
+            background-color: #7f7f7f;
+            background-image: url(../images/parts/close_white.png);
+            background-position: 20% center;
+            background-repeat: no-repeat;
+            background-size: 12px;
+            color: #fff;
+            cursor: pointer;
+            font-family: $mincho;
+            font-size: 10px;
+            margin: 40px auto 0;
+            padding: 10px;
+            text-align: center;
+            width: 50%;
+        }
+    }
+
+    .eyeline-technic {
+        padding: 10%;
+        h1 {
+            font-size: 20px;
+            width: auto;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #000000;
+        }
+        img {
+            width: 100%;
+        }
+        .news__detail__body__close {
+            cursor: pointer;
+            text-align: center;
+            background-image: url(../images/news/sp/close.png);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: 12px;
+            font-size: 10px;
+            margin-top: 25px;
+            padding-bottom: 5px;
+            padding-top: 20px;
+        }
+        .technic--list {
+            overflow: hidden;
+            width: 100%;
+            margin: 0 auto;
+            .technic {
+                float: none;
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 50px;
+                &:last-child {
+                    margin-right: 0;
+                    margin-bottom: 0;
+                }
+                &__title {
+                    font-family: hy;
+                    font-size: 16px;
+                    text-align: center;
+                    height: 40px;
+                    span {
+                      font-size: 12px;
+                    }
+                }
+                &__thumb {
+                    width: 70%;
+                    margin: 0 auto 20px;
+                }
+                &__lbl {
+                    padding: 10px;
+                    border: 1px solid #000000;
+                    width: calc(100% - 22px);
+                    font-size: 14px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                &__lbl2 {
+                    font-size: 14px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .step {
+                    overflow: hidden;
+                    padding-bottom: 30px;
+                    background-image: image-url('aq_mw/2016_autumn/eyeline-technic/arrow.png');
+                    background-position: bottom center;
+                    background-size: 20px 10px;
+                    background-repeat: no-repeat;
+                    margin-bottom: 20px;
+                    &:last-child {
+                        padding-bottom: 0;
+                        margin-bottom: 0;
+                        background: none;
+                    }
+                    &__thumb {
+                        float: left;
+                        width: 28%;
+                        margin-right: 12%;
+                    }
+                    &__txt {
+                        width: 57%;
+                        float: left;
+                        font-size: 14px;
+                        text-align: 1.6;
+                        text-indent: -1em;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+.link_wrap {
+        clear: both;
+        text-align: center;
+        overflow: hidden;
+        width: 100%;
+        margin: 100px auto 0;
+
+    .productLink {
+        float: none;
+        margin: 0 0 40px;
+        a {
+          display: block;
+          font-size: 13px;
+          margin: auto;
+          padding: 10px 0;
+          width: 90%;
+        }
+    }
+    .technicLink {
+        float: none;
+        margin-left: 0;
+        a {
+          display: block;
+          font-size: 13px;
+          margin: auto;
+          padding: 10px 0;
+          width: 90%;
+        }
+    }
+}
+
+
+}

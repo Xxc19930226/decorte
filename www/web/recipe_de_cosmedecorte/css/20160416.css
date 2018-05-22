@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+
+/* tab */
+
+.coda-nav{
+	text-align:center;
+}
+
+.coda-nav ul{
+width:900px;
+margin:0 auto 40px;
+text-align: center;
+}
+
+
+.coda-nav ul li{
+	display:inline-block;
+	float:none;
+}
+
+.coda-nav ul li a{
+display:inline-block;
+color:#000000;
+border-top:1px solid #FFFFFF;
+padding:12px 4px;
+margin-right:10px;
+}
+
+.coda-nav ul li.tab6 a{
+margin-right:0;
+}
+
+
+.coda-nav ul li a:hover{
+border-top:1px solid #00aacb;
+color:#00aacb;
+}
+
+.coda-nav ul li a.current{
+border-top:1px solid #00aacb;	
+color:#00aacb;
+}
+
+
+/* anchor */
+
+
+.p1 a,
+.p2 a,
+.p3 a,
+.p4 a,
+.p5 a,
+.p6 a{
+	overflow:hidden;
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+/*	background-color:#000000;
+	opacity:0.5;*/
+}
+
+.p1 a:hover,
+.p2 a:hover,
+.p3 a:hover,
+.p4 a:hover,
+.p5 a:hover,
+.p6 a:hover{
+	background-color:#000000;
+	opacity:0.4;
+}
+
+
+
+.p2 a.JKWI{
+  left: 563px;
+  top: 551px;
+  width: 111px;
+  height: 57px;
+}
+
+.p2 a.JKWC{
+  left: 563px;
+  top: 477px;
+  width: 111px;
+  height: 74px;
+}
+.p2 a.JYEA{
+  left: 771px;
+  top: 514px;
+  width: 111px;
+  height: 48px;
+	}
+
+.p2 a.JYLA{
+  left: 771px;
+  top: 562px;
+  width: 111px;
+  height: 48px;
+	}
+	
+.p3 a.JIUU{
+  left: 118px;
+  top: 511px;
+  width: 74px;
+  height: 58px;
+	}	
+
+.p3 a.JGSM{
+  left: 318px;
+  top: 503px;
+  width: 80px;
+  height: 58px;
+	}	
+
+.p3 a.JLWT{
+  left: 658px;
+  top: 590px;
+  width: 93px;
+  height: 96px;
+}
+
+
+
+.p3 a.JLSW{
+  left: 785px;
+  top: 351px;
+  width: 84px;
+  height: 59px;
+}	
+
+.p4 a.JGKN{
+  left: 194px;
+  top: 659px;
+  width: 118px;
+  height: 44px;
+}
+
+.p4 a.JLMA{
+  left: 658px;
+  top: 232px;
+  width: 103px;
+  height: 31px;
+}
+
+	
+.p5 a.JLMY{
+  left: 298px;
+  top: 658px;
+  width: 93px;
+  height: 27px;
+}
+	
+.p5 a.JGKE{
+  left: 747px;
+  top: 280px;
+  width: 121px;
+  height: 51px;
+}
+.p5 a.JVYL {
+  left: 744px;
+  top: 574px;
+  width: 131px;
+  height: 42px;
+}
+
+.p6 a.JGCJ{
+    height: 56px;
+    left: 145px;
+    top: 327px;
+    width: 93px;
+}
+
+.p6 a.JYCP{
+  left: 142px;
+  top: 622px;
+  width: 93px;
+  height: 47px;
+}
+
+
+.p6 a.JGHK{
+  left: 592px;
+  top: 336px;
+  width: 93px;
+  height: 47px;
+}
+
+.p6 a.JKCE{
+    height: 43px;
+    left: 592px;
+    top: 617px;
+    width: 93px;
+	}

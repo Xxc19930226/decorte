@@ -1,0 +1,33 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           SalonShopMenu
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          salon_shop_menu
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        shop_id: { label: 店舗 }
+        Shop: { label: 店舗 }
+        name: { label: メニュー名 }
+        mb_name: { label: メニュー名(フィーチャーフォン用) }
+        priority: { label: 優先度 }
+        created_at: { label: 作成日時 }
+        updated_at: { label: 更新日時 }
+      list:
+        title: 店舗メニュー 一覧
+        display: [ Shop, name, priority, created_at, updated_at ]
+      filter:
+        display: [ shop_id, name ]
+      form:    ~
+      edit:
+        title: 店舗メニュー情報 編集
+      new:
+        title: 店舗メニュー情報 新規登録

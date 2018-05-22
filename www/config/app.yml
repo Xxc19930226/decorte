@@ -1,0 +1,120 @@
+all:
+  # 商品関連の設定
+  product:
+    # 消費税率
+    tax: 5
+    # アクセスランキングに表示する最大数
+    ranking_max: 3
+    # アクセスランキングの集計対象となる直近の日数
+    ranking_period: 7
+    # サイドバーのアクセスランキングに表示する最大数
+    ranking_side_max: 5
+    # サイドバーのマイリストに表示する最大数
+    mylist_side_max: 5
+    # 「最近チェックした商品」の最大数
+    view_history_max: 9
+    # 「この商品を見た人はこんな商品も見ています」の最大数
+    great_friends_max: 7
+    # ライン別カテゴリ別商品一覧をページングする際に1頁あたりに表示する最大件数
+    line_categorized_max: 5
+    # 検索結果ページに1頁あたりに表示する最大件数(PC)
+    search_result_max: 20
+    # サムネイルキャッシュの最大有効秒数
+    thumbnail_cache_lifetime: 600
+    # モバイル用画像キャッシュの最大有効秒数
+    mobile_cache_lifetime: 0
+
+  # 会員関連の設定
+  member:
+    # 仮登録フラグ
+    temp_flg: 1
+    # 本登録フラグ
+    register: 0
+    # 本登録の有効時間
+    regist_effective_time: 48
+    # パスワードリマインダ有効時間
+    effective_time: 5
+    # 会員向けメール差出人アドレス
+    from_mail: info@cosmedecorte.com
+    # 認証フラグ on
+    approval: 1
+    # 認証フラグ off
+    approval_off: 0
+    # システム向けメールアドレス
+    manage_bcc_mail: bt-manage@cosmedecorte.com
+
+  # 店舗関連の設定
+  shop:
+    # 店舗検索ASPサービス(PC)のURL
+    asp_pc_url: http://www.e-map.ne.jp/asp/decorte/
+    # 店舗検索ASPサービス(フィーチャー・フォン)のURL
+    asp_mb_url: http://www.e-map.ne.jp/mobile/decorte/
+    # 店舗検索ASPサービス(スマートフォン)のURL
+    asp_sp_url: http://www.e-map.ne.jp/smt/decorte/
+    # 店舗検索ASPサービス(スマートフォン・フリーワード指定)のURL
+    asp_sp_word_url: http://www.e-map.ne.jp/smt/decorte/search_fw.htm
+    # 店舗検索ASPサービス(スマートフォン・現在位置から検索)のURL
+    asp_sp_gps_url: http://www.e-map.ne.jp/smt/decorte/n.htm
+
+  # お問い合わせ
+  contact:
+    # 会員向けメール差出人アドレス
+    from_mail: info@cosmedecorte.com
+    # お問い合わせ送信先
+    to_mail: info@cosmedecorte.com
+    # KOSE様用のアドレス
+    from_admin_mail: info_cosmedecorte@qa.cosmedecorte.com
+    to_admin_mail: info_cosmedecorte@qa.cosmedecorte.com
+
+  # メッセージの設定
+  message:
+    error01: URLが正しくありません。
+    error02: 本登録の有効期限が切れています。
+    error03: 仮登録されていないか、退会されている可能性があります。
+    error04: 恐れ入りますが、再度最初から操作を行ってください。
+    error05: 既に本登録、Eメールアドレス認証が完了しています。
+    error06: パスワード変更の有効期限が切れています。
+    error07: ご登録されていないか、退会されている可能性があります。
+    error08: 本登録を行ってからパスワードを変更ください。
+    error09: 登録内容が重複しております。
+    error10: PCメールアドレスの認証が完了しました。
+    error11: モバイルメールアドレスの認証が完了しました。
+    error12: 既に退会している可能性があります。
+
+  # ファイル本番反映の設定
+  liveup:
+    # rsync コマンドのパス
+    rsync_cmd: /usr/bin/rsync
+    # rsync コマンドで本番反映する際の反映先のホスト
+    rsync_dist_host: 10.255.202.21
+    # rsync コマンドで本番反映する際の反映先のユーザ
+    rsync_dist_user: root
+    # rsync コマンドで本番反映する際の反映先のルートディレクトリ
+    rsync_dist_root: /var/www/cosmedecorte/html/live_product/web
+
+  # symfony プラグイン関連の設定(設定変更禁止)
+  sf_guard_plugin:
+    routes_register: false
+
+  # ご予約・お問合せ
+  reserve:
+    # 会員向けメール差出人アドレス
+    from_mail: salondebeaute@cosmedecorte.com
+
+  # FAQ関連の設定
+  faq:
+    popular_max_pc: 0
+    popular_max_mb: 10
+    popular_max_sp: 0
+
+    subcategory_detail_max_pc: 0
+    subcategory_detail_max_mb: 10
+    subcategory_detail_max_sp: 0
+
+    content_detail_max_pc: 0
+    content_detail_max_mb: 10
+    content_detail_max_sp: 0
+
+    search_result_max_pc: 0
+    search_result_max_mb: 10
+    search_result_max_sp: 0

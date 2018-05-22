@@ -1,0 +1,974 @@
+<?php slot('description', 'DECORTE、コスメデコルテ（コーセー）Webサイトの商品情報がご覧いただけます。新製品の一覧から商品を検索することができます。') ?>
+<?php slot('keywords', 'DECORTE、コスメデコルテ,コーセー,Webサイトの情報,商品を探す,新製品から探す') ?>
+<?php slot('title', '最新情报') ?>
+<?php slot('page_id', 'news') ?>
+<?php use_stylesheet('news.css') ?>
+<?php use_stylesheet('vendor/perfect-scrollbar.min.css') ?>
+<?php use_javascript('vendor/jquery.mousewheel.js') ?>
+<?php use_javascript('vendor/perfect-scrollbar.jquery.min.js') ?>
+
+<style>
+dd.news__detail__body__kit__item {
+  display: table;
+}
+div.news__detail__body__kit__item__thumbnail {
+  float: left;
+}
+img.news__detail__body__kit__item__thumbnail__img {
+  width: 100px;
+  height: 100px;
+}
+div.news__detail__body__kit__item__text {
+  display: inline-block;
+}
+@media screen and (max-width: 736px) {
+  .news__thumbnail__image img{
+    margin-left: 0;
+  }
+  .skinclear{
+    width: 100%;
+    height: auto !important;
+  }
+}
+</style>
+
+<article class="newsindex">
+  <div class="news__container">
+    <header class="news__header">
+      <h1 class="news__title">最新情报</h1>
+      <div class="news__nav">
+        <div class="news__nav__container">
+          <ul class="news__nav__desktop">
+            <!--<li class="news__nav__item m--all m--active">All</li>-->
+            <li class="news__nav__item m--newitem">最新消息</li>
+            <!--<li class="news__nav__item m--campaign">Sales Campaign</li>
+            <li class="news__nav__item m--event">Events</li>-->
+          </ul>
+          <div class="news__nav__mobile">
+            <select class="news__nav__mobile__select">
+              <!--<option value="all">All</option>-->
+              <option value="newitem">最新消息</option>
+              <!--<option value="campaign">Sales Campaign</option>
+              <option value="event">Events</option>-->
+            </select>
+            <span>View More</span> </div>
+        </div>
+      </div>
+    </header>
+    <section class="newitem" id="category__newitem">
+      <div class="category__container">
+        <h1 class="category__title">最新消息</h1>
+
+        <div class="date-container">
+          <p class="date">2018年5月1日上市</p>
+          <div class="news-container">
+            <div class="l-row">
+
+              <div class="news__thumbnail" id="newitem-20180522">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20180522.png" alt="" class="pc"><img src="/images/news/newitem-20180522.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">黛珂<br>
+                    AQMW 宝石光璨眼影</p>
+                  <div class="news__thumbnail__about__seemore"><a href="/product/aq_mw/JGZY">View More</a></div>
+                </div>
+              </div>
+
+            </div>
+            <!-- /row -->
+          </div>
+        </div>
+        <!-- /date -->
+
+        <div class="date-container">
+          <p class="date">2017年4月1日上市</p>
+          <div class="news-container">
+            <div class="l-row">
+
+              <div class="news__thumbnail" id="newitem-20170401a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170401a.png" alt="" class="pc"><img src="/images/news/newitem-20170401a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">黛珂<br>
+                    AQMW魅艺唇膏新增2色</p>
+                  <div class="news__thumbnail__about__seemore"><a href="/product/aq_mw/JGRO">View More</a></div>
+                </div>
+              </div>
+
+              <div class="news__thumbnail fullbg" id="newitem-20170322a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170322a.png" alt="" class="pc"><img src="/images/news/newitem-20170322a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">通过脂质的湿润，<br>
+                    让肌肤焕然一新吧。<br>
+                    只有现在才可以买到的<br>
+                    限定组合。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20170322a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__thumbnail" id="newitem-20170401c">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170401c.png" alt="" class="pc"><img src="/images/news/newitem-20170401c.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">花漾美白限定套组</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20170401c" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__thumbnail" id="newitem-20170401d">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170401d.png" alt="" class="pc"><img src="/images/news/newitem-20170401d.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">AQ珍萃精颜双重洁净限定套装</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20170401d" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__thumbnail" id="newitem-20170401e">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170401e.png" alt="" class="pc"><img src="/images/news/newitem-20170401e.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">黛珂<br>
+                    紫苏精华水大容量限定</p>
+                  <div class="news__thumbnail__about__seemore"><a href="http://cn-cosmedecorte.com/product-563.html" target="_blank">View More</a></div>
+                </div>
+              </div>
+
+              <div class="news__thumbnail" id="newitem-20170401f">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170401f.png" alt="" class="pc"><img src="/images/news/newitem-20170401f.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">黛珂<br>
+                    优循美容液大容量限定</p>
+                  <div class="news__thumbnail__about__seemore"><a href="http://cn-cosmedecorte.com/product-461.html" target="_blank">View More</a></div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-newitem-20170322a widedetail">
+                <div class="news__detail__image fullimg"><img src="/images/news/newitem-20170322a_open.png" alt="" class="pc"><img src="/images/news/newitem-20170322a_open.png" alt="" class="sp"></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">5月1日上市</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span>
+                      <!--
+                      <span class="title">以曲酸成就出类拔萃的美白，上乘之白。<br>
+                      你的清辉，傲然众人，如此闪耀。</span>
+                      -->
+                    </p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">黛珂 花漾保湿经典套组  CNY890<br>
+                      <br>
+                      保湿美容液 60mL<br>
+                      赋活精华露 30mL<br>
+                    </p>
+                    <p class="news__detail__body__lead">无数个0.1微米的多重层微脂囊体， <br>
+                      成就了让肌肤拥有持久之润的精华——保湿美容液。<br>
+                      透过全系列的使用，缔造一整天都丝毫不觉干燥的透润美肌。
+                    </p>
+                    <p class="news__detail__body__link"><a href="http://cn-cosmedecorte.com/product-581.html" target="_blank">在线购买</a></p>
+                    <!--<p class="news__detail__body__note">＊价格显示的是建议零售价。</p>-->
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-newitem-20170401c widedetail">
+                <div class="news__detail__image"><img src="/images/news/newitem-20170401c.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">4月1日上市</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span>
+                      <!--
+                      <span class="title">以曲酸成就出类拔萃的美白，上乘之白。<br>
+                      你的清辉，傲然众人，如此闪耀。</span>
+                      -->
+                    </p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">黛珂 花漾美白限定套组  CNY 1050<br>
+                      <br>
+                      黛珂莹润粹白菁华液 40mL<br>
+                      黛珂AQMW角质晶透美容液 20mL<br>
+                      黛珂AQMW 倍护防晒乳 15g SPF30+/PA+++</p>
+                    <p class="news__detail__body__lead">莹润粹白菁华液，饱含天然美白有效成分——曲酸。<br>
+                      以品牌引以为傲的集中美白美容液为中心，<br>
+                      结合了3款AQMW系列人气保养品，由内而外成就「更净白的肌肤」。<br>
+                      专注、持久的早晚保养，真正让肌肤提升一个色度，更清亮、更白皙。</p>
+                    <p class="news__detail__body__link"><a href="http://cn-cosmedecorte.com/product-569.html" target="_blank">在线购买</a></p>
+                    <!--<p class="news__detail__body__note">＊价格显示的是建议零售价。</p>-->
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-newitem-20170401d widedetail">
+                <div class="news__detail__image"><img src="/images/news/newitem-20170401d.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">4月1日上市</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span>
+                      <!--
+                      <span class="title">只为甄选而得的肌肤，无与伦比的闪耀。</span>
+                      -->
+                    </p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">黛珂AQ 珍萃精颜 双重洁净限定套装 CNY 800<br>
+                      <br>
+                      黛珂 AQ 珍萃精颜悦活洁肤霜 150g  价值 CNY 800<br>
+                      黛珂 AQ珍萃精颜悦活洗颜露 50mL  价值 CNY 200<br>
+                      （总价值RMB 1000）</p>
+                    <p class="news__detail__body__lead">以醇厚的质感包裹肌肤，深入洁净彩妆和皮脂，让肌肤悦现清透光泽的洁肤霜。<br>
+                      所含丰沛美容成分奢华如精华液的洗颜露，温和洗净，细腻调理角质层。<br>
+                      两款产品都奢华地配合了双重胜肽（保湿）成分，获得深层洁净的肌肤，就连张力感都如经过细致保养般充盈，让肌肤更柔弹、透明。</p>
+                    <p class="news__detail__body__link"><a href="http://cn-cosmedecorte.com/product-405.html" target="_blank">在线购买</a></p>
+                    <!--<p class="news__detail__body__note">＊价格显示的是建议零售价。</p>-->
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- /row -->
+          </div>
+        </div>
+        <!-- /date -->
+
+
+        <div class="date-container">
+          <p class="date">2017年2月1日上市</p>
+          <div class="news-container">
+            <div class="l-row">
+
+              <div class="news__thumbnail" id="newitem-20170201a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20170201a.png" alt="" class="pc"><img src="/images/news/newitem-20170201a.png" alt="" class="sp skinclear"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">黛珂<br>
+                    AQMW 全新底妆</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20170201a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-newitem-20170201a widedetail">
+                <div class="news__detail__image"><img src="/images/news/newitem-20170201a-modal.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">上市日期2/1</p>
+                    <p class="news__detail__header__title"><span class="label">新品</span><span class="title"></span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">黛珂  <br class="sp">AQMW 全新底妆</p>
+                    <!--
+                    <p class="news__detail__body__lead">执着追求达到的是“珍珠光泽”<br>
+                      给予肌肤柔和的光辉</p>
+                    -->
+                    <dl class="news__detail__body__kit">
+                      <dd class="news__detail__body__kit__item">
+                        <div class="news__detail__body__kit__item__wrapper">
+                        	<div class="news__detail__body__kit__item__thumbnail">
+                            <img class="news__detail__body__kit__item__thumbnail__img" src="/images/news/newitem-20170201a-child-1.png"/>
+                          </div>
+                          <div class="news__detail__body__kit__item__text">
+                            <span>
+                              黛珂 AQMW 润净基底乳<br>
+                              30mL  SPF25/PA++  CNY 530 <br>
+                              <br>
+                              仿佛乳液一般的温润的质地，赋予肌肤充盈的张力感。<br>
+                              提亮肤色的同时自然遮盖暗沉·肤色不均·毛孔的基底。
+                            </span>
+                          </div>
+                        </div>
+                      </dd>
+                      <dd class="news__detail__body__kit__item">
+                        <div class="news__detail__body__kit__item__wrapper">
+                        	<div class="news__detail__body__kit__item__thumbnail">
+                            <img class="news__detail__body__kit__item__thumbnail__img" src="/images/news/newitem-20170201a-child-2.png"/>
+                          </div>
+                          <div class="news__detail__body__kit__item__text">
+                            <span>
+                              黛珂  AQMW 醇亮基底液<br>
+                              30mL  SPF30/PA++  CNY 530<br>
+                              <br>
+                              浓醇柔滑如美容精油的触感，解决肌肤干燥问题。<br>
+                              提亮肤色的同时自然遮盖暗沉·肤色不均·毛孔的基底。
+                            </span>
+                          </div>
+                        </div>
+                      </dd>
+                      <dd class="news__detail__body__kit__item">
+                        <div class="news__detail__body__kit__item__wrapper">
+                        	<div class="news__detail__body__kit__item__thumbnail">
+                            <img class="news__detail__body__kit__item__thumbnail__img" src="/images/news/newitem-20170201a-child-3.png"/>
+                          </div>
+                          <div class="news__detail__body__kit__item__text">
+                            <span>
+                              黛珂 AQMW 沁雅水光粉底液<br>
+                              30mL  SPF25/PA++  CNY 800   4色可选<br>
+                              <br>
+                              浓密的质感，涂抹时却是水润的延伸触感。<br>
+                              解放出来的天然珍珠的光辉瞬间遮盖介意的部位。
+                            </span>
+                          </div>
+                        </div>
+                      </dd>
+                      <dd class="news__detail__body__kit__item">
+                        <div class="news__detail__body__kit__item__wrapper">
+                        	<div class="news__detail__body__kit__item__thumbnail">
+                            <img class="news__detail__body__kit__item__thumbnail__img" src="/images/news/newitem-20170201a-child-4.png"/>
+                          </div>
+                          <div class="news__detail__body__kit__item__text">
+                            <span>
+                              黛珂 AQMW 沁雅水光粉饼<br>
+                              11g SPF25/PA++  CNY 680 （含粉盒附粉扑）4色可选<br>
+                              <br>
+                              仿佛溶入般的触感的薄膜柔软覆盖肌肤。<br>
+                              解放出来的天然珍珠的光辉瞬间遮盖介意的部位。
+                            </span>
+                          </div>
+                        </div>
+                      </dd>
+                      <dd class="news__detail__body__kit__item">
+                        <div class="news__detail__body__kit__item__wrapper">
+                        	<div class="news__detail__body__kit__item__thumbnail">
+                            <img class="news__detail__body__kit__item__thumbnail__img" src="/images/news/newitem-20170201a-child-5.png"/>
+                          </div>
+                          <div class="news__detail__body__kit__item__text">
+                            <span>
+                              黛珂 AQMW 蜜粉（便携式）<br>
+                              7gX2个<附粉扑>  CNY 800<br>
+                              <br>
+                              仿佛羽毛般的轻柔感触，<br>
+                              轻柔地包裹肌肤，实现仿佛由内渗出般的自然光泽和透明感的蜜粉。
+                            </span>
+                          </div>
+                        </div>
+                      </dd>
+                    </dl>
+
+                    <!--
+                    <p class="news__detail__body__link"><a href="/aq_mw/b_itemconcept.html">点击查看关于商品的详细信息</a></p>
+                    <p class="news__detail__body__linelink"><a href="/aq_mw/">AQ MW ラインTOPへ</a></p>
+                  -->
+                    <!--<div class="l-togglebox">
+                          <div class="togglebox togglebox-close">
+                            <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                            <div class="togglebox__text-container">
+                              <p class="togglebox__text"></p>
+                            </div>
+                          </div>
+                        </div>-->
+                    <!--<p class="news__detail__body__note">＊价格显示的是建议零售价。</p>-->
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+
+          </div>
+        </div>
+        <!-- /date -->
+
+        <?php /*
+        <div class="date-container">
+          <p class="date">12月1日発売</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail fullbg txt_white" id="event-20160715a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20160715a.png" alt="" class="pc"><img src="/images/news/sp/newitem-20160715a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">マルセル・ワンダース<br>
+                    コレクション<br>
+                    コスメデコルテ<br>
+                    フェイスパウダー VI</p>
+                  <div class="news__thumbnail__about__seemore"><a href="/marcelwanders_collection">View More</a></div>
+                </div>
+              </div>
+
+              <div class="news__thumbnail txt_white" id="newitem-20161016b">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161016b.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161016b.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">まとうオーラは、<br>宝石のきらめき。<br>“なめらかフェイスパウダー”<br>限定デザインコフレ。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161016b" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-newitem-20161016b widedetail">
+                <div class="news__detail__image fullimg"><img src="/images/news/newitem-20161016b_open.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161016b_open.png" alt="" class="sp"></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">12月1日発売</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span><span class="title">まとうオーラは、<br>宝石（ジュエル）のきらめき。<br>“なめらかフェイスパウダー”<br>限定デザインコフレ。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">コスメデコルテ　<br class="sp">AQ MW　フェイスパウダー　<br class="sp">ダズリング ジュエル<br>2種　各5,500円（税抜）</p>
+                    <p class="news__detail__body__lead">オーガニックシルクパウダー<span class="news__detail__body__note">＊</span>を美容成分でコーティング。<br class="pc">
+                      ふんわり、なめらかな質感をかなえるフェイスパウダー。<span class="news__detail__body__note">＊基材</span></p>
+                    <dl class="news__detail__body__kit">
+                      <dt class="news__detail__body__kit__name">&lt;セット内容&gt;</dt>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_mw/JGBP">AQ MW  フェイスパウダー【11 or 80】　既存色・限定デザイン（本品サイズ） 20g</a><br>
+                        （色はどちらかお選びいただけます。）</dd>
+                      <dd class="news__detail__body__kit__item">AQ MW  フェイスパウダー　限定色・限定デザイン （コンパクトタイプ） 5g</dd>
+                    </dl>
+                    <p class="news__detail__body__linelink"><a href="/aq_mw">AQ MW ラインTOPへ</a></p>
+                    <div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text ingred__text"> <strong>011（既存色）</strong><br>
+                            タルク・（ビニルジメチコン／メチコンシルセスキオキサン）クロスポリマー・メタクリル酸メチルクロスポリマー・合成金雲母・ラウロイルリシン・シリカ・窒化ホウ素・カニナバラ果実エキス・シア脂・シラカバ樹皮エキス・シラカンバ樹液・トコフェロール・ビャクダン木エキス・ムラサキ根エキス・ヤグルマギク花エキス・ラベンダー花エキス・レモン果実エキス・ローズマリーエキス・BG・エタノール・クエン酸・クエン酸Na・グリセリン・シルク・セルロース・トリエチルヘキサノイン・ホウケイ酸（Ca／Al）・レシチン・合成サファイア・酸化スズ・水・水添レシチン・麻セルロース・メチルパラベン・香料・（＋／－）・グンジョウ・マイカ・酸化チタン・酸化鉄 </p>
+                          <p class="togglebox__text ingred__text"> <strong>080（既存色）</strong><br>
+                            タルク・（ビニルジメチコン／メチコンシルセスキオキサン）クロスポリマー・メタクリル酸メチルクロスポリマー・合成金雲母・ラウロイルリシン・シリカ・窒化ホウ素・カニナバラ果実エキス・シア脂・シラカバ樹皮エキス・シラカンバ樹液・トコフェロール・ビャクダン木エキス・ムラサキ根エキス・ヤグルマギク花エキス・ラベンダー花エキス・レモン果実エキス・ローズマリーエキス・BG・エタノール・クエン酸・クエン酸Na・グリセリン・シルク・セルロース・トリエチルヘキサノイン・ホウケイ酸（Ca／Al）・レシチン・合成サファイア・酸化スズ・水・水添レシチン・麻セルロース・メチルパラベン・香料・（＋／－）・グンジョウ・マイカ・酸化チタン・酸化鉄・赤226 </p>
+                          <p class="togglebox__text ingred__text"> <strong>02（限定色）</strong><br>
+                            （ビニルジメチコン／メチコンシルセスキオキサン）クロスポリマー・メタクリル酸メチルクロスポリマー・タルク・合成金雲母・ラウロイルリシン・シリカ・窒化ホウ素・カニナバラ果実エキス・シア脂・シラカンバ樹液・シラカンバ樹皮エキス・トコフェロール・ビャクダン木エキス・ムラサキ根エキス・ヤグルマギク花エキス・ラベンダー花エキス・レモン果実エキス・ローズマリーエキス・BG・エタノール・グリセリン・コハク酸・コハク酸2Na・シルク・セルロース・トリエチルヘキサノイン・ホウケイ酸（Ca／Al）・レシチン・合成サファイア・酸化スズ・水・水添レシチン・麻セルロース・メチルパラベン・香料・グンジョウ・マイカ・酸化チタン・酸化鉄 </p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。<br>
+                      ＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- row -->
+
+            <div class="l-row">
+              <div class="news__thumbnail" id="newitem-20161201a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161201a.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161201a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">頬にハリ。<br>瞬時に<ruby>時肌<rp>(</rp><rt>とき</rt><rp>)</rp></ruby>に立ち向かう力。<br>着圧４Ｄマスク。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161201a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-newitem-20161201a widedetail">
+                <div class="news__detail__image"><img src="/images/news/newitem-20161201a.png" alt="" class="pc"><img src="/images/news/newitem-20161201a.png" alt="" class="sp"></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">12月1日発売</p>
+                    <p class="news__detail__header__title"><span class="label">新商品</span><span class="title">頬にハリ。<br class="sp">瞬時に<ruby>時肌<rp>(</rp><rt>とき</rt><rp>)</rp></ruby>に立ち向かう力。<br class="sp">着圧４Ｄマスク。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">コスメデコルテ　<br class="sp">AQ MW　レプリション マスク　<br class="sp">20mL×6枚入　10,000円（税抜）</p>
+                    <p class="news__detail__body__lead">弾力感がありながら、すっきりと引き締まった印象の肌へ──<br>“着圧４Ｄマスク効果”を実現する美容成分＆超伸縮 新素材マスク。</p>
+                    <p class="news__detail__body__link"><a href="/product/aq_mw/JGKG">商品の詳細はこちら</a></p>
+                    <p class="news__detail__body__linelink"><a href="/aq_mw">AQ MW ラインTOPへ</a></p>
+                    <!--<div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text ingred__text"></p>
+                        </div>
+                      </div>
+                    </div>-->
+                    <p class="news__detail__body__note">＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- row -->
+          </div>
+        </div>
+        <!-- date -->
+
+        <div class="date-container">
+          <p class="date">11月1日発売</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail" id="newitem-20161016c">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161016c_s.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161016c.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">贅沢な潤いを楽しめる、<br>
+                    年に一度の限定ボトル。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161016c" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__thumbnail fullbg txt_white" id="newitem-20161016a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161016a.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161016a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">たいせつな人と過ごす、<br>
+                    聖夜のパーティーへ。<br>
+                    限定メイクアップコフレ。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161016a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-newitem-20161016c widedetail">
+                <div class="news__detail__image fullimg"><img src="/images/news/newitem-20161016c_open.png" alt="" class="pc"><img src="/images/news/newitem-20161016c.png" alt="" class="sp"></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">11月1日発売</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span><span class="title">贅沢な潤いを楽しめる、<br class="sp">
+                      年に一度の限定ボトル。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__lead"></p>
+                    <p class="news__detail__body__name">コスメデコルテ 化粧液 &lt;限定ボトル&gt;<br>
+                      85mL　15,000円（税抜）</p>
+                    <p class="news__detail__body__lead">肌運命さえ変える潤い効果で、人生になくてはならない美容液とまで言われる モイスチュア リポソーム。<br>
+                      愛し続けてくださるファンの方々、また、リポソームの潤いをたっぷり堪能してみたい方々に向けて、<br class="for_pc">
+                      この時期にしか出逢えない限定ボトルが登場。<br>
+                      秋冬の肌が喜ぶ、たっぷり使えるサイズです。<br>
+                      最愛の肌に、潤いのご褒美を。</p>
+                    <p class="news__detail__body__link"><a href="/product/moisture_liposome/JVWA">通常サイズの詳細はこちら</a></p>
+                    <p class="news__detail__body__linelink"><a href="/moisture_liposome">モイスチュア リポソームTOPへ</a></p>
+                    <!--<div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text"></p>
+                        </div>
+                      </div>
+                    </div>-->
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。<br>
+                      ＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-newitem-20161016a widedetail">
+                <div class="news__detail__image fullimg"><img src="/images/news/newitem-20161016a_open.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161016a_open.png" alt="" class="sp"></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">11月1日発売</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span><span class="title">たいせつな人と過ごす、<br>
+                      聖夜のパーティーへ。<br>
+                      限定メイクアップコフレ。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">コスメデコルテ　<br class="sp">
+                      AQ MW　メイクアップ コフレ Ⅴ<br>
+                      7,000円（税抜）</p>
+                    <dl class="news__detail__body__kit">
+                      <dt class="news__detail__body__kit__name">&lt;セット内容&gt;</dt>
+                      <dd class="news__detail__body__kit__item">AQ MW  グラデーション アイシャドウ　102<br>
+                        <span>ライトゴールド×カシミアホワイト×ヘーゼルブラウン×スモーキーブラウンのブラウン系セット。</span></dd>
+                      <dd class="news__detail__body__kit__item">AQ MW  ルージュ バーム　RD401　love forever<br>
+                        <span>ゴールドパールが瞬く、華麗なフランボワーズレッド。</span></dd>
+                      <dd class="news__detail__body__kit__item">AQ MW  ルースパウダー ブラッシュ Ａ<br>
+                        <span>透明感と艶めきを演出するルミナスレッド。</span></dd>
+                      <dd class="news__detail__body__kit__item">AQ MW  ネイルエナメル　SV048　fabulous party<br>
+                        <span>レッドパールが繊細にのぞくシルバー。</span></dd>
+                    </dl>
+                    <p class="news__detail__body__linelink"><a href="/aq_mw">AQ MW ラインTOPへ</a></p>
+                    <div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text ingred__text"> <strong>グラデーション アイシャドウ　102</strong><br>
+                            タルク・リンゴ酸ジイソステアリル・合成金雲母・エチルヘキサン酸セチル・ジメチコン・水添ポリイソブテン・トリエチルヘキサノイン・カニナバラ果実エキス・シア脂・シラカンバ樹液・シラカンバ樹皮エキス・トコフェロール・ビャクダン木エキス・ムラサキ根エキス・ヤグルマギク花エキス・ラベンダー花エキス・レモン果実エキス・ローズマリーエキス・BG・BHT・（スチレン／DVB）コポリマー・イソドデカン・エタノール・グリセリン・コハク酸・コハク酸2Na・シリカ・ジエチルヘキサン酸ネオペンチルグリコール・スクワラン・セスキイソステアリン酸ソルビタン・セスキステアリン酸ソルビタン・トリフルオロプロピルシクロテトラシロキサン・トリフルオロプロピルシクロペンタシロキサン・ヘキサ（ヒドロキシステアリン酸／ステアリン酸／ロジン酸）ジペンタエリスリチル・ホウケイ酸（Ca／Al）・ポリメタクリル酸メチル・ミネラルオイル・メタクリル酸メチルクロスポリマー・ラウリン酸亜鉛・レシチン・ワセリン・合成サファイア・合成ワックス・酸化スズ・水・窒化ホウ素・麻セルロース・メチルパラベン・香料・グンジョウ・マイカ・酸化チタン・酸化亜鉛・酸化鉄<br>
+                          </p>
+                          <p class="togglebox__text ingred__text"> <strong>ルージュ バーム　RD401</strong><br>
+                            リンゴ酸ジイソステアリル・水添ポリイソブテン・トリエチルヘキサノイン・（パルミチン酸／エチルヘキサン酸）デキストリン・酢酸ラノリン・ワセリン・シリカ・パルミチン酸デキストリン・アスコルビン酸・アンズ核油・オリーブ果実油・カニナバラ果実油・シア脂・シラカンバ樹液・シラカンバ樹皮エキス・ジパルミチン酸アスコルビル・トコフェロール・ビャクダン木エキス・ムラサキ根エキス・ヤグルマギク花エキス・ラウロイルグルタミン酸ジ（オクチルドデシル／フィトステリル／ベヘニル）・ラベンダー花エキス・レモン果実エキス・ローズマリーエキス・水溶性コラーゲン・BG・BHT・DPG・（エチレン／プロピレン）コポリマー・エタノール・グリセリン・コハク酸・コハク酸2Na・ジメチコン・セスキオレイン酸ソルビタン・トリイソステアリン酸ポリグリセリル－2・ハイドロゲンジメチコン・パーフルオロオクチルトリエトキシシラン・ホウケイ酸（Ca／Al）・ミネラルオイル・メチコン・レシチン・合成サファイア・合成金雲母・酸化スズ・水・炭酸Ca・麻セルロース・フェノキシエタノール・香料・酸化チタン・酸化鉄・硫酸Ba・黄4・赤202・赤226 </p>
+                          <p class="togglebox__text ingred__text"> <strong>ルースパウダー ブラッシュ A</strong><br>
+                            タルク・窒化ホウ素・ジメチコン・ミネラルオイル・シリカ・（ビニルジメチコン／メチコンシルセスキオキサン）クロスポリマー・ナイロン－12・カニナバラ果実エキス・シア脂・シラカンバ樹液・シラカンバ樹皮エキス・トコフェロール・ビャクダン木エキス・ムラサキ根エキス・ヤグルマギク花エキス・ラベンダー花エキス・レモン果実エキス・ローズマリーエキス・BG・BHT・（ジメチコン／ビニルジメチコン）クロスポリマー・エタノール・グリセリン・コハク酸・コハク酸2Na・スクワラン・トリエチルヘキサノイン・ヘキサ（ヒドロキシステアリン酸／ステアリン酸／ロジン酸）ジペンタエリスリチル・ホウケイ酸（Ca／Al）・ミツロウ・メチコン・レシチン・ワセリン・合成サファイア・合成金雲母・酸化スズ・水・麻セルロース・メチルパラベン・香料・グンジョウ・マイカ・酸化チタン・酸化鉄・黄4・赤202<br>
+                          </p>
+                          <p class="togglebox__text ingred__text"> <strong>ネイルエナメル SV048</strong><br>
+                            酢酸ブチル・酢酸エチル・ニトロセルロース・イソプロパノール・クエン酸アセチルトリブチル・（無水フタル酸／安息香酸／グリセリン）コポリマー・イソ酪酸酢酸スクロース・（トシルアミド／エポキシ）樹脂・（アクリレーツ／メタクリル酸トリス（トリメチルシロキシ）シリルプロピル）コポリマー・ステアラルコニウムヘクトライト・カンフル・安息香酸スクロース・ホウケイ酸（Ca／Al）・アンズ核油・カニナバラ果実油・シア脂・シラカンバ樹液・シラカンバ樹皮エキス・ジパルミチン酸アスコルビル・トコフェロール・ビャクダン木エキス・ローズマリーエキス・酢酸トコフェロール・BG・（アクリレーツ／ジメチコン）コポリマー・（無水フタル酸／無水トリメリト酸／グリコールズ）コポリマー・アクリル酸アルキルコポリマー・エタノール・オキシベンゾン－3・グリセリン・コハク酸・コハク酸2Na・シメチコン・シリカ・パーフルオロオクチルトリエトキシシラン・ヘプタン・ミネラルオイル・リンゴ酸・合成サファイア・合成金雲母・酸化スズ・水・水酸化Al・（PET／Al）ラミネート・グンジョウ・酸化チタン・酸化鉄・黄4・赤226 </p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。<br>
+                      ＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="date-container">
+          <p class="date">10月16日発売</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail" id="newitem-20161001a">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161001a.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161001a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">肌は、未来の力を手に入れた。<br>
+                    iP.Shot誕生。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161001a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__thumbnail txt_white" id="newitem-20161001b">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161001b.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161001b.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">肌が夢をみる。<br>
+                    揺るぎない自信へ。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161001b" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-newitem-20161001a widedetail">
+                <div class="news__detail__image"><img src="/images/news/newitem-20161001a.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">10月16日発売</p>
+                    <p class="news__detail__header__title"><span class="label">新商品</span><span class="title">肌は、未来の力を手に入れた。<br>
+                      iP.Shot誕生。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">コスメデコルテ　<br class="sp">
+                      iP.Shot　<br class="sp">
+                      20g　 10,000円（税抜）<br>
+                      <span class="news__detail__body__note">販売名　コスメデコルテ　iP ショット</span> </p>
+                    <p class="news__detail__body__lead">年齢のサイン<span class="news__detail__body__note">※1</span>が
+                      刻まれやすい部分に狙いをさだめ、瞬時にハリ・ツヤをもたらす高機能 未来型美容液。<br>
+                      新開発 独自複合成分 iP-Solution<span class="news__detail__body__note">※2</span>（アイピーソリューション）採用。<br>
+                      目もと・口もとなどの気になる部分にアプローチします。</p>
+                    <p class="news__detail__body__link"><a href="/product/ip_shot/JVSH">商品の詳細はこちら</a></p>
+                    <p class="news__detail__body__linelink"><a href="/ip_shot">iP.Shot ラインTOPへ</a></p>
+                    <!--<div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text"></p>
+                        </div>
+                      </div>
+                    </div>-->
+                    <p class="news__detail__body__note">※1 ハリ・ツヤ・うるおいの低下<br>
+                      ※2 トコトリエノール・イブキトラノオ根エキス・ジャニアルベンスエキス・グリセリン（保湿）配合</p>
+                    <p class="news__detail__body__note">＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-newitem-20161001b widedetail">
+                <div class="news__detail__image fullimg"><img src="/images/news/newitem-20161001b_open.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161001b_open.png" alt="" class="sp"></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">10月16日発売</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span><span class="title">肌が夢をみる。揺るぎない自信へ。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">コスメデコルテ　<br class="sp">
+                      AQ ミリオリティ　ラグジュリアス コフレ<br>
+                      20,000円（税抜）</p>
+                    <p class="news__detail__body__lead">クレンジングからアイクリームまで、総てを堪能したあとに訪れる至高の肌。<br>
+                      それはAQ ミリオリティだけに許された、圧倒的な輝き。<br>
+                      夜はひとつひとつ、その浸透感<span class="news__detail__body__note">※</span>に酔いしれながら。<br>
+                      翌朝は、自信に満ちた肌をじっくりと確かめながら、感動のつづきのお手入れを。</p>
+                    <dl class="news__detail__body__kit">
+                      <dt class="news__detail__body__kit__name">&lt;セット内容&gt;</dt>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGCJ">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　リペア クレンジングクリーム　30g</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGFJ">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　リペア フォーミングウォッシュ　50mL</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGED">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　リペア エマルジョン　75mL</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGIL">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　リペア ローション　75mL</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGCX">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　インテンシブ クリーム　2.5g</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGRX">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　インテンシブ アイクリーム　2g</a></dd>
+                    </dl>
+                    <p class="news__detail__body__linelink"><a href="/aq_meliority">AQ ミリオリティ ラインTOPへ</a></p>
+                    <!--<div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text"></p>
+                        </div>
+                      </div>
+                    </div>-->
+                    <p class="news__detail__body__note">※角層まで。<br>
+                      ＊数に限りがございますので、品切れの際はご容赦ください。<br>
+                      ＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+
+            <div class="l-row">
+              <div class="news__thumbnail" id="newitem-20161001c">
+                <div class="news__thumbnail__image"><img src="/images/news/newitem-20161001c.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161001c.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">弾力感がありながら、<br>
+                    すっきり引き締まった<br>
+                    印象の肌へ。</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161001c" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-newitem-20161001c widedetail">
+                <div class="news__detail__image"><img src="/images/news/newitem-20161001c.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">10月16日発売</p>
+                    <p class="news__detail__header__title"><span class="label">限定品</span><span class="title">弾力感がありながら、すっきり引き締まった印象の肌へ。</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__name">コスメデコルテ　<br class="sp">
+                      AQ MW　レプリション 4D キット<br>
+                      15,000円（税抜）</p>
+                    <p class="news__detail__body__lead">肌の内側から持ち上げるようにホールドする「レプリション マスク」（12月1日発売）。<br>
+                      ハリのある肌をひと足早く体感できる限定キット。<br>
+                      レプリション1本分のステムライズiPG<span class="news__detail__body__note">※</span>（保湿）配合</p>
+                    <dl class="news__detail__body__kit">
+                      <dt class="news__detail__body__kit__name">&lt;キット内容&gt;</dt>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_mw/JGKE">コスメデコルテ　<br class="sp">
+                        AQ MW　レプリション 〈美容液〉　30mL（本品）</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_mw/JGKG">コスメデコルテ　<br class="sp">
+                        AQ MW　レプリション マスク　2枚（12月1日発売）</a></dd>
+                    </dl>
+                    <!--<p class="news__detail__body__link"><a href="">商品の詳細はこちら</a></p>-->
+                    <p class="news__detail__body__linelink"><a href="/aq_mw">AQ MW ラインTOPへ</a></p>
+
+                    <!--<div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text"></p>
+                        </div>
+                      </div>
+                    </div>-->
+                    <p class="news__detail__body__note"> ※ステムライズiPGは、タイソウエキス・チョウジエキス・ショウブ根エキス・グリセリンです。 </p>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。<br>
+                      ＊价格显示的是建议零售价。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+
+          </div>
+        </div>
+        <!-- /date -->
+        */ ?>
+
+      </div>
+    </section>
+    <!-- /new item -->
+
+    <?php /*
+    <section class="campaign" id="category__campaign">
+      <div class="category__container">
+        <h1 class="category__title">Sales Campaign</h1>
+        <div class="date-container">
+          <p class="date">12月1日より</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail" id="campaign-20161201a">
+                <div class="news__thumbnail__image"><img src="/images/news/campaign-20161201a.png" alt="" class="pc"><img src="/images/news/sp/campaign-20161201a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">乳液・化粧水<br class="sp">セットご購入特典</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-campaign-20161201a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__thumbnail" id="campaign-20161201b">
+                <div class="news__thumbnail__image"><img src="/images/news/campaign-20161201b.png" alt="" class="pc"><img src="/images/news/sp/campaign-20161201b.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">ML クリーム<br class="sp">ご購入特典</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-campaign-20161201b" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+
+              <div class="news__detail l--news-display-campaign-20161201a widedetail">
+                <div class="news__detail__image"><img src="/images/news/campaign-20161201a.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">12月1日</p>
+                    <p class="news__detail__header__title"><span class="label">数量限定</span><span class="title">乳液・化粧水セットご購入特典</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__lead">対象商品の乳液＆化粧水を含む20,000円（税抜）以上ご購入の方にコスメデコルテオリジナルミラー進呈</p>
+                    <div class="news__detail__body__targetitems">
+                      <p class="news__detail__body__targetitems__title">対象商品</p>
+                      <ul class="news__detail__body__targetitems__list">
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/liposome/JVYL">リポソーム トリートメント リキッド</a></li>
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/aq_mw/JGDQ">AQMW　リペア エマルジョン / ER</a></li>
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/aq_mw/JGRL">AQMW　リペア ローション</a></li>
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/cellgenie/JBEA">セルジェニー　エマルジョン / ER</a></li>
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/cellgenie/JBLG">セルジェニー　ローション / ER</a></li>
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/phytotune/JKEE">フィトチューン　リファイニング ソフナー / ER</a></li>
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/phytotune/JKLI">フィトチューン　ハイドロ チューナー</a></li>
+                      </ul>
+                    </div>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-campaign-20161201b widedetail">
+                <div class="news__detail__image"><img src="/images/news/campaign-20161201b.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">12月1日</p>
+                    <p class="news__detail__header__title"><span class="label">数量限定</span><span class="title">ML クリームご購入特典</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__lead">ML クリームをお買い上げのお客様に、ML アイクリーム 2.5gをプレゼント。<br>目元の薄い皮ふのために、濃密な潤いを。</p>
+                    <div class="news__detail__body__targetitems">
+                      <p class="news__detail__body__targetitems__title">対象商品</p>
+                      <ul class="news__detail__body__targetitems__list">
+                        <li class="news__detail__body__targetitems__list__item"><a href="/product/moisture_liposome/JVWC">コスメデコルテ　ML クリーム</a></li>
+                      </ul>
+                    </div>
+                    <p class="news__detail__body__link"><a href="/product/moisture_liposome/JVWN">プレゼント商品の通常サイズはこちら</a></p>
+                    <p class="news__detail__body__linelink"><a href="/moisture_liposome">モイスチュア リポソーム ラインTOPへ</a></p>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+            <!-- /row -->
+
+          </div>
+        </div>
+        <!-- /date -->
+
+        <div class="date-container">
+          <p class="date">11月16日より</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail txt_white" id="campaign-20161101a">
+                <div class="news__thumbnail__image"><img src="/images/news/campaign-20161101a.png" alt="" class="pc"><img src="/images/news/sp/campaign-20161101a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">AQ ミリオリティ<br>
+                    「リペア エマルジョン」<br>
+                    「リペア ローション」<br>
+                    セットご購入特典</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-campaign-20161101a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__thumbnail txt_white" id="campaign-20161101b">
+                <div class="news__thumbnail__image"><img src="/images/news/campaign-20161101b.png" alt="" class="pc"><img src="/images/news/sp/campaign-20161101b.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">AQ ミリオリティ<br>
+                    <span class="mgn-r_m06 lt-spc">「ダブル コンセントレイション」</span><br>
+                    <span class="mgn-r_m06 lt-spc">「インテンシブ アイクリーム」</span><br>
+                    ご購入特典</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-campaign-20161101b" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-campaign-20161101a  widedetail">
+                <div class="news__detail__image"><img src="/images/news/campaign-20161101a_open.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">11月16日</p>
+                    <p class="news__detail__header__title"><span class="label">数量限定</span><span class="title">AQ ミリオリティ　<br class="sp">
+                      「リペア エマルジョン」<br class="sp">
+                      「リペア ローション」<br>
+                      セットご購入特典</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__lead">AQ ミリオリティ「リペア エマルジョン」と「リペア ローション」を<br class="pc">
+                      セットでお買い上げいただいた方に、下記のサンプルセットを差し上げます。</p>
+                    <dl class="news__detail__body__kit">
+                      <dt class="news__detail__body__kit__name">&lt;サンプルセット内容&gt;</dt>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGCX">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　インテンシブ クリーム　2g</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGRX">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　インテンシブ アイクリーム　2g</a></dd>
+                    </dl>
+                    <p class="news__detail__body__link"><a href="/product/aq_meliority/JGED">『AQ ミリオリティ　リペア エマルジョン』の詳細はこちら</a></p>
+                    <p class="news__detail__body__link"><a href="/product/aq_meliority/JGIL">『AQ ミリオリティ　リペア ローション』の詳細はこちら</a></p>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-campaign-20161101b  widedetail">
+                <div class="news__detail__image"><img src="/images/news/campaign-20161101b_open.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">11月16日</p>
+                    <p class="news__detail__header__title"><span class="label">数量限定</span><span class="title">AQ ミリオリティ　<br class="sp">
+                      「ダブル コンセントレイション」<br>
+                      「インテンシブ アイクリーム」<br class="sp">
+                      ご購入特典</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__lead">AQ ミリオリティ「ダブル コンセントレイション」または「インテンシブ アイクリーム」を<br class="pc">
+                      お買い上げいただいた方に、下記のサンプルセットを差し上げます。</p>
+                    <dl class="news__detail__body__kit">
+                      <dt class="news__detail__body__kit__name">&lt;サンプルセット内容&gt;</dt>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGED">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　リペア エマルジョン　18mL</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGIL">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　リペア ローション　18mL</a></dd>
+                      <dd class="news__detail__body__kit__item"><a href="/product/aq_meliority/JGCX">コスメデコルテ　<br class="sp">
+                        AQ ミリオリティ　インテンシブ クリーム　2g</a></dd>
+                    </dl>
+                    <p class="news__detail__body__link"><a href="/product/aq_meliority/JGDT">『AQ ミリオリティ　ダブル コンセントレイション』の詳細はこちら</a></p>
+                    <p class="news__detail__body__link"><a href="/product/aq_meliority/JGRX">『AQ ミリオリティ　インテンシブ アイクリーム』の詳細はこちら</a></p>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+
+          </div>
+        </div>
+        <!-- /date -->
+
+        <!--<div class="date-container">
+          <p class="date">10月16日より</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail txt_white" id="campaign-20161001a">
+                <div class="news__thumbnail__image"><img src="/images/news/campaign-20161001a.png" alt="" class="pc"><img src="/images/news/sp/campaign-20161001a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">「iP.Shot」ご購入特典</p>
+                  <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-campaign-20161001a" data-pc-fix-width="1200">View More</div>
+                </div>
+              </div>
+              <div class="news__detail l--news-display-campaign-20161001a  widedetail">
+                <div class="news__detail__image"><img src="/images/news/campaign-20161001a_open.png" alt=""></div>
+                <div class="news__detail__about">
+                  <div class="news__detail__header">
+                    <p class="news__detail__header__date">10月16日</p>
+                    <p class="news__detail__header__title"><span class="label">数量限定</span><span class="title">「iP.Shot」ご購入特典</span></p>
+                  </div>
+                  <div class="news__detail__body">
+                    <p class="news__detail__body__lead">「iP.Shot」をお買い上げいただいた方に、<br>
+                      12月1日発売　「AQ MW　レプリション マスク」（1枚）を差し上げます。</p>
+                    <p class="news__detail__body__link"><a href="/product/ip_shot/JVSH">『iP.Shot』の詳細はこちら</a></p>
+                    <p class="news__detail__body__link"><a href="/product/aq_mw/JGKG">『AQ MW　レプリション マスク』の詳細はこちら</a></p>
+                    <p class="news__detail__body__note">＊数に限りがございますので、品切れの際はご容赦ください。</p>
+                    <p class="news__detail__body__close sp">CLOSE</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+        <!-- /date -->
+
+      </div>
+    </section>
+    */ ?>
+    <?php /*
+    <!-- /campaign -->
+    <section class="event" id="category__event">
+      <div class="category__container">
+        <h1 class="category__title">Events</h1>
+        <div class="date-container">
+          <p class="date">11月1日より</p>
+          <div class="news-container">
+            <div class="l-row">
+              <div class="news__thumbnail fullbg txt_white" id="event-20161001a">
+                <div class="news__thumbnail__image"><img src="/images/news/event-20161001a.png" alt="" class="pc"><img src="/images/news/sp/event-20161001a.png" alt="" class="sp"></div>
+                <div class="news__thumbnail__about">
+                  <p class="news__thumbnail__about__text">最愛の肌に、贅沢な潤い。<br>
+                    モイスチュア リポソームを<br>
+                    体感できるイベントです。</p>
+                  <div class="news__thumbnail__about__seemore"><a href="/event/#event20161001a">View More</a></div>
+                </div>
+              </div>
+            </div>
+            <!-- /row -->
+          </div>
+        </div>
+        <!-- /date -->
+
+      </div>
+    </section>
+    <!-- /event -->
+    */ ?>
+  </div>
+  <!-- /news__container -->
+</article>

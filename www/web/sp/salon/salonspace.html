@@ -1,0 +1,160 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'Salon de beaute') ?>
+<?php slot('page_id', 'salon_space') ?>
+<?php slot('back_link', '/sp/salon/') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<?php use_javascript('sp/jquery.innerfade.js') ?>
+<?php use_javascript('flexslider.js') ?>
+<?php use_stylesheet('flexslider.css') ?>
+<script type="text/javascript">
+$(window).load(function() {
+  // The slider being synced must be initialized first
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 148,
+    itemMargin: 5,
+	directionNav:false,
+    asNavFor: '#slider'
+  });
+   
+  var innerfade         = [];
+  var innerfade_timer   = [];
+  var innerface_setting = {
+      interval: 5000, 
+      fading:   1000
+  };
+  var innerfade_targets = $('#slider ul.innerfade');
+  for (var i=0,j=innerfade_targets.length; i<j; i++){
+      innerfade_timer.push(null);
+      innerfade.push((function(counter){
+          return function(stop) {
+              if (stop == true){
+                  clearInterval(innerfade_timer[counter]);
+              }
+              else {
+                  innerfade_timer[counter] = setInterval(function(){
+                      // fadeIn fadeOut
+                      var lis = $(innerfade_targets[counter]).find('>li'), next = 0;
+                      if (lis.length >= 2) {
+                          for (var i=0,j=lis.length; i<j; i++){
+                              if ($(lis.get(i)).css('display') != 'none'){
+                                  $(lis.get(i)).fadeOut(innerface_setting.fading);
+                                  next = i + 1;
+                                  if (next >= lis.length) next = 0;
+                                  $(lis.get(next)).fadeIn(innerface_setting.fading);
+                                  break;
+                              }
+                          }
+                      }
+                  }, innerface_setting.interval);
+              }
+          };
+      }(i)));
+  }
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel",
+    before: function(e){
+        var cslide = e.slides.get(e.currentSlide);
+        var ul = $(cslide).find('>ul');
+        var index = innerfade_targets.index(ul);
+        if (typeof(innerfade[index]) == "function"){
+            innerfade[index](true);
+        }
+    },
+    after: function(e){
+        var cslide = e.slides.get(e.currentSlide);
+        var ul = $(cslide).find('>ul');
+        var index = innerfade_targets.index(ul);
+        if (typeof(innerfade[index]) == "function"){
+            innerfade[index](false);
+        }
+    },
+    start: function(e){
+        var initial_slide = e.slides.get(0);
+    }
+  }).find('ul.innerfade').each(function(i, ul){
+      var lis = $(ul).find('li');
+      if (lis.length >= 2){
+          for (var i=1,j=lis.length; i<j; i++){
+              $(lis.get(i)).hide();
+          }
+      }
+  });
+  innerfade[0](false); // kickoff
+});
+</script>
+<style>
+ul.innerfade {
+	position: relative;
+	height: 340px;
+}
+ul.innerfade li {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+</style>
+<section class="line space">  <p class="logo"><a href="/sp/salon/"><img src="/images/sp/salon/logo.png" alt=""></a></p>
+  <h2 class="title">サロン空間</h2>
+  <div id="slider" class="flexslider">
+    <ul class="slides">
+      <li>
+        <p class="ttl"><img src="/salon/images/20130201/flow/ttl_counseling.gif" alt="カウンセリング" /></p>
+        <p class="txt">ゆったりとしたスペースで、スペシャリストと一対一のコミュニケーションを、細部まで行き届いた採寸にも似たオートクチュールカウンセリングで、最適なトリートメントをご提案。</p>
+        <ul class="innerfade">
+          <li><img src="/salon/images/20130201/flow/01.jpg" class="salon_img" /></li>
+          <li><img src="/salon/images/20130201/flow/02.jpg" class="salon_img" /></li>
+        </ul>
+      </li>
+      <li>
+        <p class="ttl"><img src="/salon/images/20130201/flow/ttl_treatment.gif" alt="トリートメント" /></p>
+        <p class="txt">ゆったりとくつろげるトリートメントルームで、最上級の心地よさに身をゆだねてください。</p>
+        <ul class="innerfade">
+          <li><img src="/salon/images/20130201/flow/03.jpg" class="salon_img" /></li>
+          <li><img src="/salon/images/20130201/flow/04.jpg" class="salon_img" /></li>
+        </ul>
+      </li>
+      <li>
+        <p class="ttl"><img src="/salon/images/20130201/flow/ttl_self.gif" alt="セルフメイク" /></p>
+        <p class="txt">トリートメントの後は、シンプルかつ華やかな、純白のメイクスペースへ。<br />
+          美しさの仕上げをご満喫下さい。</p>
+        <ul class="innerfade">
+          <li><img src="/salon/images/20130201/flow/05.jpg" class="salon_img" /></li>
+        </ul>
+      </li>
+      <li>
+        <p class="ttl"><img src="/salon/images/20130201/flow/ttl_after.gif" alt="アフターカウンセリング" /></p>
+        <p class="txt">お一人お一人へ肌本来の美しさを保たれるよう今後にむけた、最適なアドバイスをさせていただきます。</p>
+        <ul class="innerfade">
+          <li><img src="/salon/images/20130201/flow/06.jpg" class="salon_img" /></li>
+        </ul>
+      </li>
+      <!-- items mirrored twice, total of 12 -->
+    </ul>
+  </div>
+  <p class="sub"><img src="/salon/images/20130201/flow/sub_flow.gif" alt="ご来店からの流れ　※下の写真をそれぞれクリックしますと、詳細が表示されます。" /></p>
+  <div class="thumb">
+    <div id="carousel" class="flexslider clearfix">
+      <ul class="slides">
+        <li id="space01"> <span class="thumbnail"></span><br />
+          カウンセリング </li>
+        <li id="space02"> <span class="thumbnail"></span><br />
+          トリートメント </li>
+        <li id="space03"> <span class="thumbnail"></span><br />
+          セルフメイク </li>
+        <li id="space04"> <span class="thumbnail"></span><br />
+          アフターカウンセリング </li>
+        <!-- items mirrored twice, total of 12 -->
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,339 @@
+
+.fascia .fascia__container {
+    position: relative
+}
+
+.fascia .fascia__container .fascia__carousel .fascia__carousel__container {
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.fascia .fascia__container .fascia__carousel .fascia__carousel__container img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.fascia .fascia__container .fascia__carousel .fascia__carousel__container img:nth-child(2) {
+    left: 100%
+}
+
+.fascia .fascia__container .fascia__controller {
+    bottom: 16px;
+    left: 0;
+    padding: 16px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%
+}
+
+.fascia .fascia__container .fascia__controller .fascia__controller__switch {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+*vertical-align:auto;
+*zoom:1;
+*display:inline;
+    background-color: #ffffff;
+    cursor: pointer;
+    height: 8px;
+    margin: 0 8px;
+    width: 8px
+}
+
+.fascia .fascia__container .fascia__controller .fascia__controller__switch.m--current {
+    background-color: #000000
+}
+
+.philosophy .philosophy__container {
+    overflow: hidden;
+*zoom:1;
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+.philosophy .philosophy__container .philosophy__block {
+    float: left;
+    height: 370px;
+    margin: 112px auto;
+    text-align: center;
+    width: 50%
+}
+
+.philosophy .philosophy__container .philosophy__block img {
+    max-width: 100%
+}
+
+.philosophy .philosophy__container .philosophy__block .philosophy__45th {
+    margin-top: 42px
+}
+
+.philosophy .philosophy__container .philosophy__block .philosophy__know {
+    margin-top: 32px
+}
+/*
+.l--poster .l--poster__container {
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 600px;
+    position: relative
+}
+
+.l--poster .l--poster__container .l--poster__text {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+    overflow: hidden;
+    position: absolute;
+    table-layout: fixed;
+    text-indent: 200%;
+    white-space: nowrap;
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#000000ff, EndColorStr=#000000ff)
+}
+
+.l--poster .l--poster__container .l--poster__text .l--poster__text__container {
+    display: table-cell;
+    padding: 0 16px;
+    vertical-align: middle
+}
+
+.marcel .l--poster__container .l--poster__text {
+    background-image: url("/images/home/top/news_text1.png");
+    bottom: 64px;
+    height: 272px;
+    right: 64px;
+    width: 700px
+}
+
+.meliority .l--poster__container .l--poster__text {
+    background-image: url("/images/home/top/news_text2.png");
+    bottom: 64px;
+    height: 169px;
+    left: 64px;
+    width: 386px
+}
+
+.phytotune .l--poster__container .l--poster__text {
+    background-image: url("/images/home/top/news_text3.png");
+    bottom: 64px;
+    height: 288px;
+    right: 64px;
+    width: 647px
+}
+*/
+
+.whatsNewLink {
+    background-color: #000000
+}
+
+.whatsNewLink .whatsNewLink__container {
+    text-align: center
+}
+
+.whatsNewLink .whatsNewLink__container a {
+    color: #ffffff;
+    display: block;
+    line-height: 96px;
+    position: relative;
+    text-decoration: none
+}
+
+.whatsNewLink .whatsNewLink__container a:after {
+    border-bottom: 0.4em solid transparent;
+    border-left: 0.8em solid #ffffff;
+    border-top: 0.4em solid transparent;
+    content: '';
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -0.3em;
+    position: absolute;
+    top: 50%
+}
+
+.line {
+    margin-top: 128px
+}
+
+.line .line__container .line__title {
+    background-image: url("/images/home/top/LINE_title.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap
+}
+
+.line .line__container .line__menu .line__menu__container {
+    display: table;
+    margin: 16px auto 0 auto;
+    position: relative;
+    table-layout: fixed;
+    text-align: center;
+    width: 1200px
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 12px;
+    cursor: pointer;
+    display: table-cell;
+    font-size: .8em;
+    line-height: 64px;
+    margin: 0 4px;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+    width: 9%
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(1) {
+    background-image: url("/images/home/top/line_menu01.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(2) {
+    background-image: url("/images/home/top/line_menu02.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(3) {
+    background-image: url("/images/home/top/line_menu03.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(4) {
+    background-image: url("/images/home/top/line_menu04.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(5) {
+    background-image: url("/images/home/top/line_menu05.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(6) {
+    background-image: url("/images/home/top/line_menu06.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(7) {
+    background-image: url("/images/home/top/line_menu07.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(8) {
+    background-image: url("/images/home/top/line_menu08.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(9) {
+    background-image: url("/images/home/top/line_menu09.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(10) {
+    background-image: url("/images/home/top/line_menu10.png");
+    background-size: auto 30px
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger:nth-child(11) {
+    background-image: url("/images/home/top/line_menu11.png")
+}
+
+.line .line__container .line__menu .line__menu__container .line__menu__trigger-underline {
+    background-color: #363636;
+    bottom: 8px;
+    display: none;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 40px
+}
+
+.line .line__container .line__contents {
+    padding: 64px 0
+}
+
+.line .line__container .line__contents .line__contents__container {
+    height: 0px;
+    margin: 0 auto;
+    max-width: 1232px;
+    overflow: hidden;
+    position: relative
+}
+
+.line .line__container .line__contents .line__contents__container .l--product-block {
+    cursor: pointer;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+.line .line__container .line__contents .line__contents__container .l--product-block .l--product-block__image img {
+    max-width: 100%;
+    width: 100%
+}
+
+.line .line__container .line__contents .line__contents__container .l--product-block .l--product-block__text {
+    padding-top: 8px
+}
+
+.line .line__container .line__contents .line__contents__container .l--product-block .l--product-block__text img {
+    max-width: 100%
+}
+/*
+.image-base {
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.image1 {
+    background-image: url("/images/home/top/news_bg1.png")
+}
+
+.image2 {
+    background-image: url("/images/home/top/news_bg2.png")
+}
+
+.image3 {
+    background-image: url("/images/home/top/news_bg3.png")
+}
+*/
+.l--movie {
+    background-color: #000000;
+    display: none;
+    margin: 32px 0
+}
+
+.l--movie .l--movie__container {
+    height: 512px;
+    overflow: hidden
+}
+
+.l--movie .l--movie__container .l--movie__source img {
+    width: 100%
+}
+
+.l--movie .l--movie__text-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    position: relative;
+    text-align: center
+}
+
+.l--movie .l--movie__text-container .l--movie__text {
+    bottom: -2em;
+    position: absolute;
+    right: 0
+}

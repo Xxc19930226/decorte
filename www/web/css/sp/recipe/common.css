@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+	margin:10px;
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #382070;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0;
+}*/
+
+.btn{
+	width:85%;
+	margin:0 auto;
+	text-align:left;
+	padding:5px;
+	margin-top:40px;
+	background-color: #737373;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	border-color: #fff;
+	}
+
+.btn a {
+    display:block;
+	padding:5px 15px 5px 5px;
+	color:#FFFFFF;
+	font-size:14px;
+	letter-spacing:-1px;
+	background:URL(/images/sp/recipe/arrow_next.png) right center no-repeat;
+	}
+
+.btn_back{
+	width:90%;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+.btn_back li{
+	text-align:left;
+	padding:2px 5px 2px 12px;	
+	}
+
+.btn_back a{
+    display:block;
+	padding:8px 8px 8px 16px;
+	color:#666666;
+	font-size:12px;
+	background:URL(/images/sp/recipe/arrow_back.png) left center no-repeat;
+	}
+
+.price_notes{
+	font-size:10px;
+	text-align:right;
+	margin:10px;
+	}
+
+
+/*BuckNumber*/
+
+div.menu {
+	/*margin-top: 10px;*/
+}
+div.menu ul {
+	border-top:1px solid #ccc;
+}
+div.menu ul li {
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+	line-height:1.4em;
+}
+div.menu ul li:last-child {
+	border-bottom: none;
+}
+
+div.menu ul li.child {
+	padding-left:25px;
+}
+
+div.menu ul li.headding span ,
+div.menu ul li a {
+	display: block;
+	padding: 15px 20px;
+	background: url(/images/sp/common/arrow1.png) right 50% no-repeat;
+}
+div.menu ul li.headding span {
+	background: none;
+	color:#666666;
+}
+
+div.menu ul li.concept_category span {
+	display: block;
+	padding: 15px 20px 8px 20px;
+	background:none;
+	border-top: 1px dotted #ccc;
+}
+div.menu ul li em {
+	font-size: 11px;
+	margin-left: 10px;
+	font-style:normal;
+}
+div.menu ul ul {
+	margin: auto 10px;
+	padding: 0;
+	border: none;
+}
+div.menu ul li li {
+	border: none;
+	padding: 0;
+}
+div.menu ul li li a {
+	border-top:1px dotted #ccc;
+	padding: 13px 20px;
+	background: url(/images/sp/common/arrow2.png) right 50% no-repeat;
+	color:#666666;
+}

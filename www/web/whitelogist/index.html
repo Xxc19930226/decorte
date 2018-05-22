@@ -1,0 +1,178 @@
+<?php slot('description', 'ホワイトロジストのご紹介。内面の充実と外見の自信、どちらも最高の状態へ導くことがコスメデコルテの願いです。あたらしく変わろうとする意思と、色褪せることのない価値。美しさという気品は、あなたの中に。ひとと、気品と、コスメデコルテ。DECORTE。') ?>
+<?php slot('keywords', 'ホワイトロジスト, 化粧液, 美容液, コスメデコルテ, DECORTE,クリーム,保湿,毛穴,ニキビ,美白,エイジング,アイケア,コウジ酸,美肌') ?>
+<?php slot('title', 'WHITELOGIST') ?>
+<?php use_stylesheet('linetop.css') ?>
+<?php use_stylesheet('linetop-whitelogist.css') ?>
+<?php use_stylesheet('news.css') ?>
+<style>
+div.kouji__detail {
+  width: 850px;
+}
+div.kouji__detail p.kouji__detail__text {
+  width: 500px;
+}
+.product .itemlist {
+  width: 300px;
+}
+@media screen and (max-width: 736px) {
+  div.kouji__detail{
+    width: 100%;
+  }
+  div.kouji__detail p.kouji__detail__text{
+    width: 100%;
+  }
+  .kouji__detail__image{
+    width: 100%;
+  }
+  .product .itemlist__item{
+    width: 100%;
+  }
+}
+</style>
+<script type="text/javascript">
+    var _dispItemList = '/product/whitelogist/skincare/list';
+</script>
+
+<article>
+  <?php /*
+  <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+    <div class="keyvisual__container">
+      <div class="keyvisual__movie">
+        <div class="keyvisual__movie__container">
+          <?php include_partial('global/flvmp4', array('flashFile' => '/movies/201606_whitelogist.swf', 'mp4File' => '/movies/201606_whitelogist.mp4', 'poster' => '/images/whitelogist/sp/movie_image.jpg', 'controls' => 'false')) ?>
+          <div class="keyvisual__movie__coat">
+            <div class="keyvisual__movie__coat__arrow"> <img src="/images/parts/arrow_movie_slide.png" alt="" /> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  */ ?>
+  <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+      <div class="l-container">
+          <h1><img src="/images/whitelogist/kv.jpg" alt="whitelogist" class="sp"><img src="/images/whitelogist/kv.jpg" alt="whitelogist" class="pc"></h1>
+          <!--<p class="bestcosme"><a href="/product/moisture_liposome/JVWA"><img src="/images/bestcosme/logo_best_cosme.png" alt="ベストコスメ受賞"></a></p>-->
+      </div>
+  </div>
+
+  <!--    <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+        <div class="l-container">
+            <h1><img src="/images/whitelogist/sp/kv.jpg" alt="ホワイトロジスト" class="sp"><img src="/images/whitelogist/kv.jpg" alt="ホワイトロジスト" class="pc"></h1>
+        </div>
+    </div>-->
+  <?php /*
+  <section class="news l--fixed-submenu-anchor" data-name="Latest News">
+    <div class="l-container">
+      <h1 class="news__title">Latest News</h1>
+      <div class="news-container">
+        <div class="l-row">
+          <div class="news__thumbnail" id="newitem-20161128a">
+            <div class="news__thumbnail__image"><img src="/images/news/newitem-20161128a.png" alt="" class="pc"><img src="/images/news/sp/newitem-20161128a.png" alt="" class="sp"></div>
+            <div class="news__thumbnail__about">
+              <p class="news__thumbnail__about__text">メラニン研究の結晶。<br>
+                次世代型ホワイトニング。</p>
+              <div class="news__thumbnail__about__seemore l--modal-trigger" data-target="l--news-display-newitem-20161128a" data-pc-fix-width="1200">View More</div>
+            </div>
+          </div>
+          <div class="news__thumbnail">
+            <div class="news__thumbnail__image"><img src="/images/news/newitem-20160516a.png" alt="" class="pc"><img src="/images/news/sp/newitem-20160516a.png" alt="" class="sp"></div>
+            <div class="news__thumbnail__about">
+              <p class="news__thumbnail__about__bescos">ベストコスメ受賞商品</p>
+              <p class="news__thumbnail__about__title">ベストコスメ受賞情報</p>
+              <p class="news__thumbnail__about__text">ホワイロジスト　スティックセラム</p>
+              <div class="news__thumbnail__about__seemore"><a href="/product/whitelogist/JLSW">View More</a></div>
+            </div>
+          </div>
+          <div class="news__detail l--news-display-newitem-20161128a widedetail">
+            <div class="news__detail__image"><img src="/images/news/newitem-20161128a_open.png" alt=""></div>
+            <div class="news__detail__about">
+              <div class="news__detail__header">
+                <p class="news__detail__header__date">2017年2月16日発売</p>
+                <p class="news__detail__header__title"><span class="label">新商品</span><span class="title">メラニン研究の結晶。<br>
+                  次世代型ホワイトニング。</span></p>
+              </div>
+              <div class="news__detail__body">
+                <p class="news__detail__body__name">コスメデコルテ　<br class="pc">
+                  ホワイトロジスト　　<br class="sp">
+                  ブライト エクスプレス　［医薬部外品］<br>
+                  40mL　15,000円（税抜）<br>
+                  ≪付けかえ用≫ 40mL　14,500円（税抜） </p>
+                <p class="news__detail__body__lead"> ホワイトロジストがたどり着いたのは、<br>
+                  『シミを断ち、色ムラにさせない』という、<br class="sp">新たなアプローチ。<br>
+                  点も、面も。気になるシミや色ムラの原因は、<br>
+                  メラニンの塊「メラノコア」であることに着目。<br>
+                  美白の新領域へ挑むため、コウジ酸とともに、<br>
+                  新開発した独自複合成分ブライトイコライザーを配合しました。 </p>
+                <p class="news__detail__body__lead"> —-Bright Express-— <br>
+                  頬にじわじわと広がるシミ。<br class="sp">濃淡があり色ムラに見えるシミ。<br>
+                  年々、濃くなる目の下のしつこいシミ。<br>
+                  すべてのシミ悩みを一瞬で晴らし、<br class="sp">すみずみまで美しく。 </p>
+                <p class="news__detail__body__linelink"><a href="/whitelogist/">ホワイトロジスト ラインTOPへ</a></p>
+                <!--<div class="l-togglebox">
+                      <div class="togglebox togglebox-close">
+                        <p class="togglebox__title">全成分表示を見る<i class="icon-chevron-thin-down"></i></p>
+                        <div class="togglebox__text-container">
+                          <p class="togglebox__text"></p>
+                        </div>
+                      </div>
+                    </div>-->
+                <p class="news__detail__body__link"><a href="/product/whitelogist/JLJW">商品の詳細はこちら</a></p>
+                <p class="news__detail__body__note">※美白有効成分コウジ酸配合。メラニンの生成を抑え、シミ・ソバカスを防ぎます。</p>
+                <p class="news__detail__body__note">＊价格显示的是建议零售价。</p>
+                <p class="news__detail__body__close sp">CLOSE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+    </div>
+  </section>
+  */ ?>
+  <section class="kouji l--fixed-submenu-anchor" data-name="Benefits of Kojic Acid">
+    <div class="l-container">
+      <h1 class="kouji__title">曲酸美白的奥秘</h1>
+      <p class="kouji__lead">黛珂引以为豪的，<br class="sp">自然美白活性成分曲酸</p>
+      <div class="kouji__detail">
+        <p class="kouji__detail__text">直指存积在肌肤深层的黑斑根源——黑色素生成细胞。将天然美白有效成分曲酸和含羞草决明提取物复合化形成独创性的“曲酸EW”，再结合以“m-closer”而构成的美白精华液，让黑斑和色斑再无可乘之机。顷刻消失于肌肤内部那般全然融合，令肌肤净润皙白。<br>
+          过剩的活性化黑色素生成细胞，就像长在黑斑里、伸展着的大手，向表皮不停传送着大量黑色素。<br>
+          让这个制造黑色素的“巨大工厂”细胞运作趋于正常化，不再是黑斑的根源，也不让其显现于肌肤，正是莹润粹白菁华液的功效所在。<br>
+          尤为适合因年龄增长、受少许紫外线侵袭就易出现黑斑的肌肤。同时，对讲求美白精华液卓尔渗透力的女性也不失为上佳选择。<br>
+          <!--
+          以三大美容成分构成m-closer。<br>
+          沁润肌肤，为之缔造美白成分更易发挥作用的优越环境，令肌肤日益澄白。<br>
+          更进阶的递送技术——阳离子脂质体W。<br>
+          阳离子脂质体W，是由予以肌肤透明感的油酸、向日葵卵磷脂和磷脂质所构成。不仅柔软肌肤，更能将精华成分迅速递送至黑色素生成细胞并针对其发挥美白功效。<br>
+          触感水润、更易渗透的精华液，好似美容成分都被悉数般全面融入肌肤。<br>
+          让人顿觉清爽的清新香草味之中融入了充实美好的丝丝花香。
+          -->
+        </p>
+        <p class="kouji__detail__image"><img src="/images/whitelogist/image_kouji.jpg" alt=""></p>
+      </div>
+    </div>
+  </section>
+  <!--
+  <section class="concept l--fixed-submenu-anchor" data-name="Concept">
+    <div class="l-container">
+      <h1 class="concept__title">Concept</h1>
+      <ul class="concept__list">
+        <li class="concept__list__item a_itemconcept bl"><span class="title">スティックセラム コンセプト</span><span class="copy">もう、濃いシミをつくらせない。</span><img src="/images/whitelogist/sp/thumb_concept_stick.jpg" alt="" class="sp"><a href="concept_stick.html">View More</a></li>
+        <li class="concept__list__item w_itemconcept bl"><span class="title">MX コンセプト</span><span class="copy">一刻も早く、肌に白さを。</span><img src="/images/whitelogist/sp/thumb_concept.jpg" alt="" class="sp"><a href="concept.html">View More</a></li>
+      </ul>
+    </div>
+  </section>
+-->
+  <section class="product l--fixed-submenu-anchor" data-name="Products">
+    <div class="l-container">
+      <h1 class="product__title">产品</h1>
+      <div class="product__triggers" data-url="/product/whitelogist/">
+        <div class="product__category">
+          <ul class="product__category__list">
+            <li class="product__category__item load-skincare m--active" data-type="skincare">护肤</li>
+          </ul>
+        </div>
+      </div>
+      <div id="dispItemList"></div>
+    </div>
+  </section>
+</article>

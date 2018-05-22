@@ -1,0 +1,693 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+
+
+.btn a.ui-link {
+    letter-spacing: 0;
+}
+
+
+p.logo img{
+	zoom:50%;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+/*	margin:10px;*/
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #924898;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0;
+}
+
+
+
+.ttl02{
+	font-size:20px;
+	color:#da4612;
+	font-weight:bold;
+	text-align:center;	
+	padding-top:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:640px;
+	}
+
+img.fit100{
+		width:100%;
+		max-width:640px;
+	}
+
+section{
+	padding-bottom:30px;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	width:70%;
+	max-width:450px;
+	color:#666666;
+	text-align:left;
+	margin:0 auto 20px;
+	}
+
+section .ttl{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+section .top{
+	margin:0;
+	padding:0;
+}
+
+/*section .fleft{
+	float:left;
+	margin:10px;
+	}
+
+section .fright{
+	float:right;
+	margin:10px;
+	}*/
+
+section .acenter{
+	text-align:center;
+	}
+
+section.page01 .wrap{
+	width:90%;
+	max-width:450px;
+	margin:0 auto;
+	padding:10px;
+	}
+
+
+section.page01 .serum img{
+	width:37%;
+	max-width:168px;
+	margin-bottom:10px;	
+	}
+
+section.page01 .point p{
+	float:left;
+	color:#c14d97;
+	margin-bottom:20px;
+}
+
+section.page01 .point p.fleft{
+	width:30%;
+	margin-right:3%;
+	}
+
+
+section.page01 .point p.fright{
+	width:65%;
+}
+
+
+section.page01 .point p img{
+	width:100%;
+	max-width:146px;
+}
+
+section.page01 .mail{
+	background:URL(/images/sp/recipe/20131016/mail_bg.gif) 0 0 ;
+	margin:0 auto;
+	padding:10px;
+	position:relative;
+	width:90%;
+	}
+
+section.page01 .mail .sub{
+	position:absolute;
+	top:0;
+	left:20px;
+	width:32%;
+	padding-left:10px;
+	}
+
+section.page01 .mail .bg{
+	background-color:#FFFFFF;
+}
+
+section.page01 .mail .bg .fleft{
+	float:left;
+	padding-top:30%;
+	padding-left:10px;
+	padding-bottom:20px;
+	width:32%;
+	}
+
+section.page01 .mail .bg .fleft img{
+	margin-bottom:10px;
+	}
+
+section.page01 .mail .bg .fleft p{
+	color:#666666;
+	font-size:10px;
+}
+
+
+section.page01 .mail .bg .fright{
+	float:left;
+	padding-top:30px;
+	width:58%;
+	}
+
+section.page01 .mail .bg .fleft img{
+	width:100%;
+	max-width:123px;
+}
+
+section.page01 .mail .bg .sub img{
+	width:80%;
+	max-width:123px;
+	}
+
+section.page01 .mail .bg .fright .q{
+	background:URL(/images/sp/recipe/20131016/page01_q01.png) 0 0 no-repeat;
+	background-size:30px auto;
+	padding-left:40px;
+	color:#666666;
+	margin-bottom:20px;
+	font-size:16px;
+	}
+
+section.page01 .mail .bg .fright .a{
+	background:URL(/images/sp/recipe/20131016/page01_a01.png) 0 0 no-repeat;
+	background-size:30px auto;
+	padding-left:40px;
+	color:#333333;
+	margin-bottom:20px;
+	}
+
+section.page01 .mail .bg .fright .a strong{
+	font-size:16px;
+	color:#ef857d;
+	font-weight:normal;
+	}
+
+section.page02 .check{
+	background-color:#f5f2e6;
+	width:80%;
+	margin:0 auto;
+	border-radius:10px;
+	padding:30px 10px 10px;
+}
+
+section.page02 .check .bg{
+	background-color:#ffffff;
+	border-radius:10px;
+	text-align:center;
+	padding:20px 10px;
+}
+
+section.page02 .clip{
+	text-align:center;
+	}
+	
+section.page02 .clip img{
+	width:20%;
+	margin-bottom:-20px;
+}
+	
+
+section.page02 .check hr{
+	width:100%;
+	height:1px;
+	margin:0 auto 10px;
+	border:none;
+	background:URL(/images/sp/recipe/20131016/page02_line.gif) 0 0;
+	}
+	
+
+section.page02 .check .fleft,
+section.page02 .check .fright{
+	float:left;
+}
+
+section.page02 .check .fleft{
+	width:15%;
+	}
+
+section.page02 .check .fleft img{
+	width:100%;
+	max-width:60px;
+	margin-bottom:15px;
+}
+
+
+section.page02 .check .fright{
+	width:85%;
+	padding-top:5px;
+	}
+
+
+section.page02 .check .fright p{
+	padding-left:5%;
+	text-align:left;
+	margin-bottom:10px;
+}
+
+section.page02 .check .fright p span{
+	display:block;
+}
+
+
+section.page02 .ui-checkbox input {
+    height: 20px;
+    margin: 0;
+    outline: 0 none !important;
+    position: relative;
+    width: 20px;
+    z-index: 1;
+	display:inline;
+	top:-2px;
+	left:0;
+}
+
+section.page02 .ui-checkbox{
+	margin:0;
+	float:left;
+	padding-right:5px;
+	}
+
+
+section.page02 .check ul li{
+	width:15%;
+	float:left;
+    margin: 0 5%;
+	}
+
+section.page02 .check ul li img{
+	width:100%;
+	max-width:76px;
+}
+
+
+section.page03 .wrap{
+	width:90%;
+	max-width:450px;
+	margin:0 auto;
+	}
+
+section.page03 .item{
+	background:URL(/images/sp/recipe/20131016/page03_bg.png) #d5c0b4 0 0 no-repeat;
+	background-size: 100% auto;
+	padding:20px 15px;
+	}
+
+section.page03 .item .detail{
+	padding-top: 107%;
+}
+
+section.page03 .item img{
+	width:100%;	
+}
+
+section.page03 .item .fleft{
+	float:left;
+	width:45%;
+	}
+
+section.page03 .item .fleft img{
+	max-width:192px;
+	}
+
+section.page03 .item .fright{
+	float:right;
+	width:50%;
+	}
+
+section.page03 .item .fright p{
+	margin-bottom:20px;
+	}
+
+
+
+section.page03 .item .small{
+	font-size:10px;
+	margin-top:20px;
+	}
+
+
+section.page04 .wrap{
+	width:90%;
+	max-width:450px;
+	margin:10px auto 0;
+	}
+
+section.page04 .item{
+	background:URL(/images/sp/recipe/20131016/page04_bg.png) #e8dbd5 0 0 no-repeat;
+	background-size: 100% auto;
+	padding:20px 15px;
+	}
+
+section.page04 .item img{
+	width:100%;	
+}
+
+section.page04 .item .detail{
+	padding-top: 95%;
+}
+
+section.page04 .item .fright{
+	float:right;
+	width:50%;
+	}
+
+section.page04 .item .fright p{
+	margin-bottom:20px;
+	}
+	
+
+section.page04 .item .small{
+	font-size:10px;
+	margin-top:20px;
+	}
+
+
+section.page05 .wrap{
+	width:90%;
+	max-width:450px;
+	margin:10px auto 0;
+	background-color:#fffcf6;
+	}
+
+
+
+section.page05 .item01{
+	background:URL(/images/sp/recipe/20131016/page05_bg01.png) transparent 0 20px no-repeat;
+	background-size: 100% auto;
+	padding:20px 15px;
+	min-height:290px;
+	}
+
+section.page05 .item01 .sub,
+section.page05 .item02 .sub{
+	width:66%;
+	margin-bottom:20px;
+}
+
+section.page05 .item01 .sub{
+	float:right;
+}
+
+
+section.page05 .item01 .sub img,
+section.page05 .item02 .sub img{
+	width:100%;
+	max-width:286px;
+}
+
+section.page05 .item01 .fright{
+	float:right;
+	width:48%;
+	}
+
+section.page05 .item01 .fright p{
+	margin-bottom:20px;
+	}
+
+section.page05 .item02{
+	background:URL(/images/sp/recipe/20131016/page05_bg02.png) transparent 0 100px no-repeat;
+	background-size: 100% auto;
+	padding:20px 15px;
+	min-height:250px;
+	}
+
+
+section.page05 .item02 .fleft{
+	width:48%;
+	}
+
+section.page05 .item02 .fleft p{
+	}
+
+section.page05 .small{
+	font-size:10px;
+	margin-top:20px;
+	}
+
+section.page05 .item02 .small{
+	letter-spacing:-0.1em;
+}
+
+
+section.page05 .mail{
+	background:URL(/images/sp/recipe/20131016/mail_bg.gif) 0 0 ;
+	margin:0 auto;
+	padding:10px;
+	position:relative;
+	width:90%;
+	}
+
+section.page05 .mail .bg{
+	background-color:#FFFFFF;
+}
+
+section.page05 .mail .bg .fright{
+	float:left;
+	padding-top:30px;
+	width:60%;
+	}
+
+section.page05 .mail .sub{
+	position:absolute;
+	top:0;
+	left:20px;
+	width:28%;
+	padding-left:10px;
+	}
+
+
+section.page05 .mail .bg .fleft{
+	float:left;
+	padding-top:20%;
+	padding-left:0;
+	width:35%;
+	}
+
+
+section.page05 .mail .bg .fleft2{
+	padding:28% 10px 10px;
+}
+
+section.page05 .mail .bg .sub img{
+	width:80%;
+	max-width:123px;
+	}
+	
+section.page05 .mail .bg .keiko img{
+	width:100%;
+	max-width:123px;
+	}
+
+
+section.page05 .mail .bg .q2,
+section.page05 .mail .bg .q3{
+	padding-left:40px;
+	color:#666666;
+	margin-bottom:20px;
+	font-size:16px;
+	}
+	
+section.page05 .mail .bg .q2{
+	background:URL(/images/sp/recipe/20131016/page05_q02.png) 0 0 no-repeat;
+	background-size:30px auto;
+}
+
+section.page05 .mail .bg .q3{
+	background:URL(/images/sp/recipe/20131016/page05_q03.png) 0 0 no-repeat;
+	background-size:30px auto;
+}
+
+section.page05 .mail .bg .a2,
+section.page05 .mail .bg .a3{
+	padding-left:40px;
+	color:#333333;
+	margin-bottom:20px;
+	}
+
+section.page05 .mail .bg .a2{
+	background:URL(/images/sp/recipe/20131016/page05_a02.png) 0 0 no-repeat;
+	background-size:30px auto;
+}
+
+section.page05 .mail .bg .a3{
+	background:URL(/images/sp/recipe/20131016/page05_a03.png) 0 0 no-repeat;
+	background-size:30px auto;
+}
+
+section.page05 .mail .bg .a2 strong,
+section.page05 .mail .bg .a3 strong{
+	font-size:16px;
+	color:#ef857d;
+	font-weight:normal;
+	}
+
+
+section.page05 .mail .bg .keiko{
+	float:right;
+	}
+	
+
+section.page06 .wrap{
+	width:91%;
+	max-width:450px;
+	margin:10px auto 0;
+
+	}
+	
+section.page06 .wrap img.sub01{
+	width:100%;
+}
+	
+section.page06 .wrap .bg{
+	background:URL(/images/sp/recipe/20131016/page06_bg03.png) #fffeee 0 0 repeat-y;
+	background-size:100% auto;	
+	width:100%;
+}
+
+
+section.page06 .wrap .lead{
+	padding-top:20px;
+	margin-bottom:0;
+}
+
+
+section.page06 .wrap .sub02{
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#c14d97;
+	text-align:center;
+	
+	
+}
+section.page06 .wrap .basic{
+	text-align:center;
+	}
+section.page06 .wrap .basic p{
+	padding-bottom:10px;
+}
+
+section.page06 .wrap .basic img{
+	width:90%;
+	max-width:430px;
+	margin:0 auto;
+	
+	}
+
+section.page06 .wrap .item{
+	padding-top:20px;
+	width:98%;
+	margin: 0 auto;
+	}
+
+
+section.page06 .wrap .item img{
+	width:18%;
+	max-width:80px;
+	float:left;
+	padding-right:1%;
+	}
+
+
+
+section.page06 .wrap .emulsion,
+section.page06 .wrap .lotion{
+	padding-left:80px;
+	padding-top:20px;
+	max-width:430px;
+	margin:0 auto;
+	}
+
+section.page06 .wrap .emulsion{
+	border-bottom:1px dotted #333333;
+	padding-bottom:20px;
+	}
+
+
+section.page06 .wrap .emulsion{
+	background:URL(/images/sp/recipe/20131016/page06_sub03.png) 20px 20px no-repeat;
+	background-size:59px auto;
+	}
+
+
+section.page06 .wrap .lotion{
+	background:URL(/images/sp/recipe/20131016/page06_sub04.png) 20px 20px no-repeat;
+	background-size:59px auto;
+	}
+	
+section.page06 .wrap .emulsion p,
+section.page06 .wrap .lotion p{
+	padding-bottom:10px;
+	width:250px;
+	
+}
+
+
+
+section.page06 .wrap .emulsion a,
+section.page06 .wrap .lotion a{
+	font-size:10px;
+	display:block;
+	line-height:1.2em;
+}
+
+section.page06 .wrap .emulsion strong{
+	font-size:12px;
+	line-height:1.2em;
+	color:#c14d97;
+	}
+
+section.page06 .wrap .lotion strong{
+	font-size:12px;
+	line-height:1.2em;
+	color:#4fbaa1;
+}
+
+
+
+
+
+
+
+
+
+
+

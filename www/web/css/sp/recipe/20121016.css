@@ -1,0 +1,513 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* recipe de cosmedecorte
+-------------------------------------------------------------------*/
+
+/*section img,
+p.logo img,
+p.ttl02 img{
+	zoom:50%;
+	}
+*/
+
+p.logo img{
+	zoom:50%;
+	}
+
+
+p{
+	font-size:14px;
+	line-height:1.5em;
+	color:#000000;
+	}
+
+.logo {
+	text-align:center;
+	border-bottom:1px solid #5e1c0d;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+	
+.btn img{
+	width:100%;
+	}
+
+.ttl02{
+	text-align:center;	
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+.ttl02 img{
+	width:100%;
+	max-width:640px;
+	}
+
+
+section{
+	padding-bottom:30px;
+	text-align:center;
+	max-width:660px;
+	margin:0 auto;
+	}
+
+section .main {
+	text-align:center;
+	padding-top:10px;
+}
+
+section .main img {
+	width:90%;
+	max-width:450px;
+
+}
+
+section .lead{
+	color:#5e1c0d;
+	text-align:center;
+	}
+
+section .ttl01{
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	}
+	
+.ttl01 img{
+	width:100%;
+	max-width:538px;
+	}
+
+section.page01 .sub01 {
+	margin-bottom:1em;	
+}
+section.page01 .sub01 img {
+	width:100%;
+}
+section.page01 .txt01 {
+	width:90%;
+	margin:0 auto 1em;
+	text-align:left;
+}
+section.page01 .sub02 {
+	margin-bottom:1em;	
+}
+section.page01 .sub02 img {
+	width:100%;
+}
+
+section.page01 .yumi01 {
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+section.page01 .yumi01 img {
+	zoom:50%;
+}
+section.page01 .txt02 {
+	width:90%;
+	margin:0 auto 1em;
+	text-align:left;
+}
+section.page01 .txt02 .brown {
+	background-color:#5c1317;
+	color:#FFFFFF;
+}
+
+section.page01 .checkbtn,
+section.page01 .check{
+	margin:0;
+	padding:0;
+	}
+
+
+section.page01 .check img,
+section.page01 .checkbtn img {
+	width:90%;
+}
+
+section.page02 .shindan {
+	width:90%;
+	margin:1em auto;
+	text-align:left;
+}
+section.page02 .shindan img {
+	width:22%;
+}
+section.page02 .sub01 {
+	margin-bottom:1.5em;	
+}
+section.page02 .sub01 img {
+	width:100%;
+}
+
+section.page02 .txt_shin{
+	width:90%;
+	margin:0 auto 2em;
+	text-align:left;
+}
+section.page02 .color01 p {
+	color:#d45327;
+}
+section.page02 .color02 p {
+	color:#df0522;
+}
+section.page02 .color03 p {
+	color:#b14634;
+}
+section.page02 .txt_shin .txtblock {
+	width:70%;
+	float:left;
+}
+section.page02 .txt_shin .subtitle {
+	font-size:1.1em;
+}
+
+section.page02 .txt_shin .txt {
+	margin-bottom:1em;
+}
+section.page02 .txt_shin .illust {
+	float:left;
+	margin-left:1em;
+	margin-bottom:1em;
+	width:23%;
+}
+section.page02 .txt_shin .illust img {
+	width:100%;
+}
+section.page02 .txt_shin p{
+	margin:0;
+}
+section.page02 .txt_shin .btn_shin a {
+	background:url(/images/sp/recipe/20121016/arrow01.png) #fd740e 5em center no-repeat; 
+	padding:5px;
+	color:#FFFFFF;
+	display:inline;
+	border-radius:4px;
+	background-size:10px;
+	padding-right:2em;
+	margin-top:1em;
+}
+
+section.page02 .illust04 img {
+	width:100%;
+}
+
+section.page03 .illust01 {
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+section.page03 .illust01 img {
+	width:100%;
+}
+section.page03 .txtblock {
+	width:70%;
+	margin:0 auto 1em;
+}
+
+
+section.page03 .txt01 {
+	color:#d45327;
+	text-align:left;
+}
+section.page03 .illust02 {
+	margin-bottom:1.5em;
+}
+section.page03 .illust02 img {
+	width:100%;
+}
+section.page03 .howto {
+	margin-bottom:1em;
+}
+section.page03 .howto img {
+	width:100%;
+}
+section.page03 .howtoblock {
+	width:90%;
+	margin:0 auto 1.5em;
+}
+section.page03 .howtoblock .left {
+	width:49%;
+	float:left;
+}
+section.page03 .howtoblock .right {
+	width:49%;
+	float:right;
+}
+section.page03 .howtoblock p {
+	color:#d35328;
+	margin-bottom:1em;
+}
+
+section.page03 .howtoblock p.image {
+	text-align:left;
+}
+section.page03 .howtoblock p.image img {
+	width:100%;
+}
+section.page03 .howtoblock p.txt {
+	text-align:left;
+	width:95%;
+	margin:0 auto;
+	font-size:0.9em;
+	
+}
+section.page03 .ginger {
+	background:url(/images/sp/recipe/20121016/page03_framebg.gif) center top repeat-y;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+}
+section.page03 .ginger .frametitle {
+	background:url(/images/sp/recipe/20121016/page03_frametitle.gif) center top no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+	padding-bottom:1em;
+	margin:0;
+}
+
+section.page03 .ginger .frametitle img {
+	width:100%;
+}
+section.page03 .ginger .illust03 {
+	float:right;
+	margin-left:1em;
+	margin-right:3em;
+	margin-bottom:3em;
+}
+section.page03 .ginger .illust03 img {
+	zoom:50%;
+}
+section.page03 .ginger_under {
+	background:url(/images/sp/recipe/20121016/page03_framebottom.gif) center bottom no-repeat;
+	background-size:100%;
+	-webkit-background-size :100% auto;
+-moz-background-size:100% auto;
+	padding-bottom:2em;
+}
+
+section.page03 .ginger_under .txt {
+	width:80%;
+	margin:0 auto 1em;
+	text-align:left;
+}
+section.page03 .ginger_under .txtsmall {
+	width:80%;
+	margin:0 auto;
+	font-size:0.6em;
+	text-align:left;
+}
+section.page03 .ginger_under .txtsmall .leftmgn{
+	margin-left:6em;
+}
+
+section.page03 .illust04 {
+	margin-top:10px;
+}
+section.page03 .illust04 img {
+	width:90%;
+}
+
+
+
+section.page04 .illust01 {
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+}
+section.page04 .illust01 img {
+	width:100%;
+}
+section.page04 .txtblock {
+	width:90%;
+	margin:0 auto 1em;
+}
+section.page04 .txt01 {
+	color:#df0522;
+	text-align:left;
+}
+section.page04 .illust02 {
+	margin-bottom:1.5em;
+}
+section.page04 .illust02 img {
+	width:100%;
+}
+section.page04 .howto {
+	margin-bottom:1em;
+}
+section.page04 .howto img {
+	width:100%;
+}
+section.page04 .howtoblock {
+	width:90%;
+	margin:0 auto 1.5em;
+}
+section.page04 .howtoblock .left {
+	width:49%;
+	float:left;
+}
+section.page04 .howtoblock .right {
+	width:49%;
+	float:right;
+}
+section.page04 .howtoblock p {
+	color:#df0522;
+	margin-bottom:1em;
+}
+
+section.page04 .howtoblock p.image {
+	text-align:left;
+}
+section.page04 .howtoblock p.image img {
+	width:100%;
+}
+section.page04 .howtoblock p.txt {
+	text-align:left;
+	width:95%;
+	margin:0 auto;
+	font-size:0.9em;
+	
+}
+
+section.page04 .qa {
+	width:90%;
+	margin:0 auto 1.5em;
+}
+section.page04 .qa .q {
+	margin-bottom:1em;
+}
+section.page04 .qa .q img {
+	width:100%;
+}
+section.page04 .qa .a {
+	padding-left:9%;
+	background:url(/images/sp/recipe/20121016/page04_a.gif) left top no-repeat;
+	background-size:8%;
+	text-align:left;
+}
+
+section.page04 .sub01 {
+	margin-bottom:1em;
+}
+section.page04 .sub01 img {
+	width:100%;
+}
+section.page04 .itemblock {
+	width:90%;
+	margin:0 auto 1em;
+}
+
+section.page04 .itemblock p{
+	margin:0;
+	
+}
+section.page04 .itemblock .item {
+	width:60%;
+	float:left;
+}
+section.page04 .itemblock .item img {
+	width:100%;
+}
+section.page04 .itemblock .yumi01 {
+	width:35%;
+	float:right;
+}
+
+section.page04 .itemblock .yumi01 img {
+	width:100%;
+	padding-top:20%;
+	}
+
+section.page05 .p01 {
+	padding-top:10px;
+	margin-bottom:1em;
+}
+section.page05 .p01 img {
+	width:80%;
+	max-width:458px;
+}
+section.page05 .txt01 {
+	width:90%;
+	margin:0 auto 1em;
+	text-align:left;
+	color:#b14634;	
+}
+section.page05 .illust01a,
+section.page05 .illust01b {
+	margin:0;
+}
+section.page05 .illust01a img {
+	width:100%;
+	max-width:640px;
+}
+section.page05 .illust01b {
+	margin-bottom:1.5em;
+}
+section.page05 .illust01b img {
+	width:100%;
+	max-width:640px;
+}
+section.page05 .howto {
+	margin-bottom:1em;
+}
+section.page05 .howto img {
+	width:100%;
+}
+section.page05 .howtotxt {
+	margin:0 auto 1.5em;
+	width:90%;
+}
+section.page05 .howtotxt .left {
+	text-align:left;
+	color:#d35328;
+}
+section.page05 .howtotxt .right {
+	width:40%;
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+	
+}
+section.page05 .howtotxt .right img {
+	width:100%;
+}
+
+section.page05 .qa {
+	width:90%;
+	margin:0 auto 1em;
+}
+section.page05 .qa .q {
+	margin-bottom:1em;
+}
+section.page05 .qa .q img {
+	width:100%;
+}
+section.page05 .qa .a {
+	padding-left:9%;
+	background:url(/images/sp/recipe/20121016/page05_a.gif) left top no-repeat;
+	background-size:8%;
+	text-align:left;
+}
+
+
+section.page05 .qa2 {
+	width:100%;
+	margin:0 auto 1.5em;
+}
+section.page05 .qa2 .power {
+	color:#d35328;
+}
+
+section.page05 .qa2 .yumi01 {
+	float:right;
+	width:40%;
+}
+section.page05 .qa2 .yumi01 img {
+	width:100%;
+}
+
+

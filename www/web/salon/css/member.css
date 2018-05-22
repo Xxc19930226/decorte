@@ -1,0 +1,642 @@
+@charset "utf-8";
+/* ******************************************************
+Title: member.css
+Created: 2011-06-15
+Last Modified: 2011-06-15
+****************************************************** */
+
+
+/* ========== registry ========== */
+#registry p.registyflow {
+	width:613px;
+	padding:5px 0px 20px 33px;
+}
+
+#registry p.caution {
+    color: #CC0033;
+    line-height: 1.5em;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#registry input {
+	vertical-align:center;
+}
+#registry table {
+	border:#CCC solid 3px;
+	border-bottom:#CCC solid 2px;
+}
+#registry th {
+	width:240px;
+	padding:8px;
+	font-size:12px;
+	color:#666;
+	border-top:#FFF solid 2px;
+	border-left:#FFF solid 2px;
+	border-bottom:#CCC solid 1px;
+	font-weight:bold;
+	text-align:left;
+	background-color:#EEE;
+}
+#registry td {
+	
+	padding:8px;
+	font-size:12px;
+	color:#666;
+	border-bottom:#CCC solid 1px;
+}
+#registry td.mmtd {
+	width:180px;
+	padding:8px;
+	font-size:12px;
+	color:#666;
+
+	font-weight:bold;
+	text-align:left;
+	background-color:#CCC;
+}
+#registry td input {
+	padding:2px;
+	color:#666;
+	margin-top: 1px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left:  1px;
+	border: 1px solid #a5acb2;
+}
+#registry td input[type=text] {
+	width: 100px;
+}
+
+
+#registry input.focus {
+	border: 2px solid #94a0a9;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	background-color: #fffdee;
+}
+#registry input[type=radio] {
+	border: none;
+	vertical-align: middle;
+}
+#registry input#member_sex_1 ,
+#registry input#member_sex_2 ,
+#registry input#member_mail_pc_flag ,
+#registry input#member_mail_mobile_flag ,
+#registry input#member_mail_html_flag {
+	border: none;
+}
+
+#registry td select {
+	padding:2px;
+	color:#666;
+	margin-bottom:3px;
+	margin-right:3px;
+}
+.searchFloatleft {
+	float:left;
+}
+#registry span.postSearch {
+	
+	padding:2px;
+	display:block;
+	float:left;
+
+}
+.registrykiyaku {
+	padding:10px 0;
+}
+
+#kiyakuframe {
+	padding:19px;
+	border:#CCC solid 1px;
+	margin-bottom:15px;
+}
+#kiyakutxt {
+	overflow:auto;
+	width:640px;
+	height:200px;
+	font-size:1em;
+	color:#666;
+	
+}
+#kiyakutxt p {
+	margin-bottom:12px;
+}
+
+.txtCenter {
+	text-align:center;
+	width:680px;
+	margin-bottom:20px;
+	position:relative;
+}
+#reminderFrame .txtCenter {
+	text-align:center;
+	width:620px;
+	margin-bottom:20px;
+	position:relative;
+}
+.txtCenter ul.radio_list li {
+	font-size:1.1em;
+	float:left;
+	width:100px;
+	margin-right:15px;
+}
+#registry .floatright {
+	float:left;
+	height:25px;
+	width:350px;
+}
+#registry .widthBtngroup {
+	margin-top:15px;
+	text-align:center;
+	display:block;
+}
+.txtCenter td {
+	width:155px;
+	text-align:left;
+}
+.txtCenter table {
+	text-align:center;
+	margin:0 auto;
+}
+.deletealign {
+	position:absolute;
+	top:0px;
+	left:570px;
+}
+.right20px {
+	margin-right:20px;
+}
+.txtfinish {
+	width:560px;
+	margin:10px 40px 10px 40px;
+	padding:20px 10px;
+	color:#666;
+	text-align:center;
+	font-size:12px;
+	border: solid 9px #EEE;
+	line-height:18px;
+}
+.txtfinish2 {
+	width:578px;
+	margin:10px 40px 10px 40px;
+	padding:20px 10px;
+	color:#FFF;
+	text-align:center;
+	font-size:12px;
+	/*border: solid 9px #EEE;*/
+	line-height:18px;
+	font-weight:bold;
+	background:#4d0012;
+}
+.txtfinish_20120720 {
+	margin:0 auto;
+	width:500px;
+}
+.txtfinish p {
+	margin-bottom:6px;
+}
+#registry .widthBtngroup .btnReset {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -100px;
+	cursor:pointer;
+	border:0;
+	margin:0;
+}
+#registry .widthBtngroup .btnReset:hover {
+	background-position:-115px -100px;
+}
+#registry .widthBtngroup .btnSubmit {
+	text-indent:-3000px;
+	width:155px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -25px;
+	margin:0 0 0 10px;
+	cursor:pointer;
+	border:0;
+}
+#registry .widthBtngroup .btnSubmit:hover {
+	background-position:-155px -25px;
+}
+#registry .widthBtngroup td,
+#registry .widthBtngroup th,
+#registry .widthBtngroup table {
+	border:0;
+	padding:0;
+	
+}
+#registry .widthBtngroup table {
+width:280px;	
+}
+.errorMessage {
+	margin:0px auto 0px;
+	padding:2px;
+	text-align:center;
+	background-color:#FFF;
+	color:#F30;
+	font-weight:bold;
+	font-size:10px;
+	width:550px;
+	}
+#logInPane p.remind a {
+	width:200px;
+	text-align:center;
+	margin:0 auto;
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	padding:3px 5px;
+	background-color:#999;
+	font-size:10px;
+}
+#logInPane p.remind a:hover {
+	background-color:#666;
+}
+#logInPane p.loginTxt {
+	width:600px;
+	text-align:center;
+	padding:15px 0px 5px;
+}
+#reminderFrame {
+	border:solid 1px #CCC;
+	padding:25px;
+	margin-top:20px;
+	text-align:center;
+	width:620px;
+	font-size:12px;
+	line-height:24px;
+}
+#reminderFrame th {
+	width:180px;
+}
+#reminderFrame td {
+	text-align:left;
+}
+#reminderFrame input.btnRegister {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -150px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none;
+}
+#reminderFrame input.btnRegister:hover {
+	background-position:-115px -150px;
+}
+.reminderCenter {
+	text-align:center;
+}
+.reminderCenter table {
+	width:480px;
+	text-align:center;
+	margin:0 auto 10px;
+}
+.reminderCenter th {
+	background-color:#CCC;
+	padding:5px;
+}
+.reminderCenter td {
+	background-color:#EEE;
+	padding:5px;
+}
+.reminderTxt {
+	width:304px;
+}
+reminderTxt.focus {
+	background-color: #F2F2F2;
+}
+.errorTxt {
+	margin-bottom:10px;
+	font-size:10px;
+	color:#F30;
+}
+
+input.btnConfirm {
+	text-indent:-3000px;
+	width:155px;
+	height:25px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -25px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none !important;
+
+}
+input.btnConfirm:hover {
+	background-position:-155px -25px;
+}
+input.btnModify {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -75px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none;
+}
+input.btnModify:hover {
+	background-position:-115px -75px;
+}
+input.btnRegister {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -125px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none;
+}
+input.btnRegister:hover {
+	background-position:-115px -125px;
+}
+input.btnRegister2 {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -125px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none;
+}
+input.btnRegister2:hover {
+	background-position:-115px -125px;
+}
+input.btnBack {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px 0px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none;
+}
+input.btnBack:hover {
+	background-position:-115px 0px;
+}
+input.btnDelete {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -50px;
+	margin:0 auto;
+	cursor:pointer;
+	border:none;
+	float:right;
+}
+input.btnDelete:hover {
+	background-position:-115px -50px;
+}
+input.btnReset {
+	text-indent:-3000px;
+	width:115px;
+	height:25px;
+	display:block;
+	overflow:hidden;
+	background:url(/images/member/formBtn.gif);
+	background-position:0px -100px;
+	cursor:pointer;
+	border:none !important;
+}
+input.btnReset:hover {
+	background-position:-115px -100px;
+}
+.txtfinish p.red {
+	color:#C30;
+}
+
+/*0708add*/
+ul.error_list {
+	color:#F30;
+	list-style-type:none;
+	padding:0px;
+	margin-bottom:3px;
+}
+
+#registry .floatleft .radioLeft {
+	float:left;
+}
+#registry .radioLeft {
+	font-size:12px;
+}
+#registry .floatleft ul.error_list {
+	padding-left:5px;
+	padding-top:4px;
+	color:#F30;
+	float:left;
+	display:inline;
+
+}
+#registry .comment {
+	padding:20px 0px 10px;
+}
+#registry .checkMust {
+	color:#F30;
+	padding-left:1em;
+}
+#registry #address1,
+#registry #address2,
+#registry #mail_pc,
+#registry #mail_pc2,
+#registry #mail_mobile,
+#registry #mail_mobile2 {
+	width:280px;
+}
+#registry #zip_code {
+	width:70px;
+}
+/*0708add_end*/
+/*
+.checkboxStyle label {
+	padding:5px;
+	display:block;
+	float:left;
+	
+}
+*/
+/* addmember */
+#addMember div.errorMessage {
+	margin:-10px auto 5px;
+	padding:10px;
+	text-align:center;
+	background-color:#FFF;
+	color:#F30;
+	font-weight:bold;
+	font-size:10px;
+	width:550px;
+	}
+.addmemberNote {
+	font-size:12px;
+	color:#666;
+	padding-bottom:20px;
+	width:680px;
+	text-align:left;
+	line-height:20px;
+	
+}
+#addMember {
+
+	border:#CCC 1px solid;
+
+}
+#addMemberFrame {
+	width:660px;
+	border:#EEE 9px solid;
+}
+#addMember .box {
+	text-align:center;
+	width:620px;
+	padding:40px 20px;
+	
+}
+#addMember .box2 {
+	text-align:left;
+	width:610px;
+	padding:30px 25px;
+}
+
+#addMember .box p {
+	margin-bottom:25px;
+	font-size:12px;
+	line-height:18px;
+}
+#addMember .box2 p {
+	margin-bottom:15px;
+	font-size:12px;
+	line-height:18px;
+}
+#addMember p.title {
+	font-size:16px;
+	font-weight:bold;
+	line-height:22px;
+	width:610px;
+	text-align:center;
+	color:#666;
+}
+#addMember p.subtitle {
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px;
+	width:510px;
+	text-align:center;
+	color:#FFF;
+	padding:6px;
+	background-color:#666;
+	margin:25px 30px 25px 50px;
+}
+#addMember div.btn {
+	width:260px;
+	text-align:center;
+	color:#FFF;
+	margin:25px 175px 5px;
+}
+#addMember p.red {
+	color:#C30;
+}
+#addMember #addlogin {
+	background:url(/images/addmember/addmember_input.gif);
+	width:480px;
+	height:89px;
+	display:block;
+	margin:15px 80px;
+	position:relative;
+}
+.addmemberNote span.captxt {
+	font-size:12px;
+	background-color:#EEE;
+	padding:12px;
+	text-align:left;
+	margin-top:10px;
+	line-height:20px;
+	display:block;
+}
+#addMember p.note {
+	font-size:12px;
+	color:#C30;
+}
+#addMember p.remind {
+	margin-bottom:0px;
+}
+#addMember p.remind a {
+	width:200px;
+	text-align:center;
+	margin:0 auto;
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	padding:3px 5px;
+	background-color:#999;
+	font-size:10px;
+	
+}
+#addMember p.remind a:hover {
+	background-color:#666;
+}
+#addMember ul,
+#addMember li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#addMember li input.addemail {
+	position:absolute;
+	top:20px;
+	left:190px;
+	text-align:left;
+	border:none;
+}
+#addMember li input.addpass {
+	position:absolute;
+	top:55px;
+	left:190px;
+	text-align:left;
+	border:none;
+}
+#addMember .sitetop {
+	margin-bottom:0px;
+}
+
+/* attention */
+#attention {
+	width:660px;
+	background-color:#FFF;
+	text-align:center;
+	border:#EEE solid 5px;
+	padding:25px 0px;
+}
+#attention p {
+	margin-bottom:20px
+}
+

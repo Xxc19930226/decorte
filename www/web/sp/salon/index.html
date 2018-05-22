@@ -1,0 +1,87 @@
+<?php decorate_with('layout_sp') ?>
+<?php slot('description', 'サロン ド ボーテ　コスメデコルテのご紹介。最上の心地よさがはじまる') ?>
+<?php slot('keywords', 'サロン ド ボーテ,エステティック,コスメデコルテ,コーセー,サロン,フェイシャル,プランタン,銀座') ?>
+<?php slot('title', 'Salon de beaute') ?>
+<?php slot('page_id', 'salon') ?>
+<?php slot('back_link', '/') ?>
+<?php use_stylesheet('sp/base.css') ?>
+<?php use_stylesheet('sp/salon/common.css') ?>
+<?php use_javascript('sp/jquery.innerfade.js') ?>
+<script type="text/javascript">
+ $(function() {
+	// アイテムアコーディオンメニュー開閉処理
+
+$("li.headding span.accordion_head").click(function(){
+     $(this).next("ul").slideToggle();
+    /* $(this).next("ul").siblings("ul").slideUp();*/
+     $(this).toggleClass("open");
+     $(this).siblings("li").removeClass("open");
+ });
+ });
+</script>
+<style type="text/css">
+.acordion_menu {
+	display: none;
+}
+</style>
+<section class="line">
+  <p class="logo"><a href="/sp/salon/"><img src="/images/sp/salon/logo.png" alt=""></a></p>
+  <div class="fador" style="background-color:#FFFFFF;">
+    <ul class="salontop">
+      <li><img src="/images/sp/salon/top_main_sp.jpg" alt="">
+        <p><a class="omotesando" href="/sp/salon/flow.html">表参道店</a></p>
+        <p><a class="ginza" href="/sp/salon/flow_2.html">プランタン銀座店</a></p>
+      </li>
+    </ul>
+  </div>
+  <p class="reserve_caution" style="padding:10px 0; margin:10px 0; background-color:#d2cfd7; text-align:center; font-size:12px; line-height:150%; color:#3a2d4d;"> salon de beaute DECORT&Eacute; プランタン銀座店は、<br>
+    2017年1月1日より　<br>
+    「salon de beaute DECORT&Eacute; マロニエゲート銀座3店」<br>
+    となり、名称変更いたします。 </p>
+  
+  <!--  <p class="reserve_caution" style="padding:10px 0; margin:10px 0; background-color:#EEEEEE; text-align:center; font-size:12px; line-height:150%;"> <span style="color:#CC0000;">【　年末年始の営業時間のご案内　】</span><br>
+    ■表参道店　12月31日（木）～ 1月4日（月）<span style="color:#CC0000;">店休日</span><br>
+    <br>
+    ■プランタン銀座店　1月1日（金） <span style="color:#CC0000;">店休日</span><br>
+    ※12月31日（木）～1月4日（月）までは、<br>
+    通常の営業時間を一部変更し、営業いたします。<br>
+    詳しくはサロンスタッフへお尋ね下さい。 </p>-->
+  <div style="margin-bottom:10px;" class="clearfix">
+    <p style="padding:5px 10px;"><a style="float:right; border:1px solid #CCC; font-size:10px; padding:5px 10px;line-height:1.5em;" href="/salon/reservation"> ご予約はこちらから </a> </p>
+  </div>
+  <div class="menu">
+    <ul>
+      <li class="headding"> <a class="ui-link" href="/sp/salon/news.html">新着情報<em>news</em></a> </li>
+      <li class="headding"><a class="ui-link" href="/salon/reservation"> WEB予約 <em>online reservation</em> </a> </li>
+      <li class="headding"><span>サロン ド ボーテ コスメデコルテとは <em>salon de beaute DECORT&Eacute;</em></span>
+        <ul>
+          <li><a href="/sp/salon/salonconcept.html">サロンコンセプト</a></li>
+          <li><a href="/sp/salon/flow.html">ご来店からの流れ</a></li>
+        </ul>
+      </li>
+      <li class="headding"><span>コースメニュー<em>course menu</em></span>
+        <ul>
+          <li class="headding"><span class="accordion_head">フェイシャル コース</span>
+            <ul class="acordion_menu">
+              <li><a href="/sp/salon/course_aqme.html">AQ ミリオリティ コース</a></li>
+              <li><a href="/sp/salon/course_basic.html">ベーシック コース</a></li>
+              <li><a href="/sp/salon/course_healing.html">ヒーリング コース</a></li>
+              <li><a href="/sp/salon/course_ml.html">モイスチュアリポソームコース</a></li>
+              <li><a href="/sp/salon/course_first.html">ファースト コスメデコルテコース</a></li>
+              <li><a href="/sp/salon/course_option.html">オプション</a></li>
+              <li><a href="/sp/salon/course_bridal.html">ブライダルコース</a></li>
+            </ul>
+          </li>
+          <li><a href="/sp/salon/course_body.html">ボディ コース（表参道店オリジナル）</a> </li>
+        </ul>
+      </li>
+      <li class="headding"><span>メンバーサービス<em>member</em></span>
+        <ul>
+          <li><a href="/sp/salon/member_new.html">入会初年度特典</a></li>
+          <li><a href="/sp/salon/member_program.html">メンバーズプログラム</a></li>
+        </ul>
+      </li>
+      <li class="headding"><a class="ui-link" href="/sp/salon/access.html">アクセス<em>access</em></a> </li>
+    </ul>
+  </div>
+</section>

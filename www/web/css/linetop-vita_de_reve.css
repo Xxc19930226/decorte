@@ -1,0 +1,131 @@
+.mainContainer {
+    padding-top: 50px;
+}
+/*
+.keyvisual h1 {
+	text-indent: -119988px;
+	overflow: hidden;
+	text-align: left;
+	text-transform: capitalize;
+	background-image: url('/images/vita_de_reve/kv.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 1200px;
+	height: 700px
+}
+*/
+.news {
+    padding-bottom: 100px;
+}
+.concept__message__title{
+	font-family: hy;
+	font-size: 32px;
+	line-height: 48px;
+	text-align: center;
+}
+.concept__message__lead{
+	font-family: hy;
+	font-size: 22px;
+	margin-top: 50px;
+	text-align: center;
+  display: block;
+}
+
+.concept__message__text{
+	font-family: hy;
+	font-size: 16px;
+	margin-top: 55px;
+	text-align: center;
+	line-height: 2.0em;
+}
+
+.concept {
+  margin: 0;
+  padding: 150px 0;
+	background-image: url('/images/vita_de_reve/bg_concept_01.jpg');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: cover;
+}
+
+.concept .l-container {
+  margin: 0 auto auto;
+  color: #000;
+  padding: 0;
+}
+.concept__message__lead {
+  font-size: 32px;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+.concept__message__text {
+  line-height: 28px;
+}
+
+.product {
+}
+.product .l-container {
+  border-top: none;
+}
+.product .itemlist {
+}
+.product .itemlist {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+
+@media screen and (max-width: 736px) {
+.l-container {
+    margin-top: 0;
+    width: 90%;
+}
+.news {
+    padding-bottom: 0;
+}
+.keyvisual .l-container {
+	width: auto
+}
+.keyvisual h1 {
+	background-image: none;
+	text-indent: 0;
+	height: auto;
+	width: 100%
+}
+.keyvisual h1 img {
+	height: auto;
+	width: 100%
+}
+
+.concept {
+  margin: 0;
+  padding: 80px 0;
+	background-image: url('/images/vita_de_reve/sp/bg_concept_01.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+  background-size: 100% auto;
+}
+
+.concept__message__title{
+	font-size: 20px;
+  line-height: normal;
+  width: 100%;
+  margin: 0 auto 50px;
+}
+
+.concept__message__lead{
+	font-size: 20px;
+  margin: 0 auto 50px;
+  width: 100%;
+}
+.concept__message__text{
+	font-size: 14px;
+  margin: 0 auto;
+  width: 100%;
+}
+.product .itemlist {
+    width: 100%;
+}
+
+}

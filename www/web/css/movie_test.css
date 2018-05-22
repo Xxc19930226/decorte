@@ -1,0 +1,29 @@
+html, body { height:100%; background-color: #ffffff;}
+body { margin:0; padding:0; overflow:hidden; }
+
+
+
+
+
+.keyvisual__movie__container_test video {
+  width: 100%;
+}
+
+.keyvisual__movie__container_test.movie_yt,
+.keyvisual__movie__container_test.movie_swf {
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+}
+
+.keyvisual__movie__container_test.movie_yt iframe,
+.keyvisual__movie__container_test.movie_swf iframe,
+.keyvisual__movie__container_test.movie_swf object,
+.keyvisual__movie__container_test.movie_swf embed {
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
+

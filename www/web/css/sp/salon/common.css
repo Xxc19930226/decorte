@@ -1,0 +1,672 @@
+/* salon
+-------------------------------------------------------------------*/
+
+
+
+.title{
+line-height:1.2em;
+	}
+
+.salontop{
+	position:relative;
+	}
+
+.salontop a.weblimited{
+    display: block;
+    height: 7%;
+    left: 6.5%;
+    position: absolute;
+    text-indent: -99999px;
+    top: 37%;
+    width: 86%;
+	}
+	
+.salontop a.webreserve{
+/*	background-color:#000000;*/
+    display: block;
+    height: 7%;
+    left: 6.5%;
+    position: absolute;
+    text-indent: -99999px;
+    top: 30.5%;
+    width: 86%;
+	}
+
+.salontop a.anniversary{
+/*	background-color:#000000;*/
+    display: block;
+    height: 7%;
+    left: 6.5%;
+    position: absolute;
+    text-indent: -99999px;
+    top: 30.5%;
+    width: 86%;
+	}
+
+
+.salontop a.omotesando,
+.salontop a.ginza{
+/*	background-color:#000000;*/
+	display:block;
+    width: 86%;
+	height:35%;
+	position:absolute;
+    left: 6.5%;
+	text-indent:-99999px;
+	}
+
+
+.salontop a.omotesando{
+	top: 26%;
+	}
+
+.salontop a.ginza{
+	top: 63%;
+	}
+
+.line div.news{
+	background-color: #fae9f2;
+	padding: 10px;
+	margin: 30px 10px 10px;
+	text-align: center;
+	font-size: 14px;
+	color: #cc0033;
+	line-height: 1.6em;
+	font-family: hy ;
+}
+
+
+.line div.news a{
+	color: #cc0033;
+}
+
+.saloncourse{
+	font-size:12px;
+	line-height:1.4em;
+
+	}
+.saloncourse .contents{
+	padding:10px;
+}
+
+
+.saloncourse .btn a{
+	padding:8px;
+	border-radius:4px;	
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background:#666666;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+	}
+	
+.saloncourse .btn a.ml{
+	padding:5px;
+	border-radius:4px;	
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background:#666666;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 5px;
+    text-align: center;
+	font-size:10px;
+	width:22em;
+	}
+
+
+
+
+.saloncourse .paragraph{
+	margin-bottom:30px;
+	}
+
+.saloncourse .paragraph img{
+	width:40%;
+	max-width:255px;
+	margin-left:10px;
+}
+.saloncourse .lineup,
+.saloncourse .flow{
+	background:#e6e6e6;
+	padding:10px;
+}
+
+.saloncourse .course h3,
+.saloncourse .flow h3{
+	background:#8f9395;
+	padding:10px;
+	color:#FFFFFF;
+}
+
+
+section.line .course h3 a {
+    color: #FFFFFF;
+}
+
+
+.saloncourse .ml h3,
+.saloncourse .ml_special h3{
+	background:#998dab;
+}
+
+.saloncourse .flow h4{
+	padding-top:10px;
+	}
+	
+.saloncourse .flow h4.facial{
+	padding-top:40px;
+}
+
+.saloncourse .course a.ui-link{color:#FFFFFF;}
+
+.saloncourse .course p{
+	background:#FFFFFF;
+	padding:10px;
+	margin-bottom:10px;
+	}
+
+.saloncourse .course table{
+	background:#FFFFFF;
+	width:100%;
+	margin:5px 0 20px 0;
+	}
+	
+.saloncourse .course table th,
+.saloncourse .course table td{
+	padding:5px;
+	font-size:12px;
+	vertical-align:middle;
+	}
+
+.saloncourse .course table th.ttl,
+.saloncourse .course table td.ttl{
+	width:30%;
+	border-right:1px solid #CCCCCC;
+	}
+
+.saloncourse .course table tr{
+	border-bottom:1px dotted #CCCCCC;
+	}
+
+.saloncourse .course table tr.noborder{
+	border-bottom:none;
+	}
+
+
+.saloncourse .lineup img{
+	margin-left:10px;
+	}
+
+
+.saloncourse .onetime,
+.saloncourse .threetimes{
+	background:#FFFFFF;
+	}
+
+
+.saloncourse .onetime p, 
+.saloncourse .threetimes p{
+	margin:10px;
+	padding:0;
+	padding-bottom:5px;
+	}
+
+.saloncourse .right{
+	float:right;
+	}
+
+
+.saloncourse .flow .step02{
+	margin:10px;
+	padding:10px;
+	border:1px dotted #CCCCCC;	
+
+	}
+
+.saloncourse .flow .step{
+	background:#FFFFFF;
+	padding:5px;
+	margin-top:5px;
+}
+
+.saloncourse .flow .ml{
+	background:#f5f1fc;
+	border:1px solid #FFFFFF;	
+
+}
+
+.saloncourse .flow .arrow{
+	text-align:center;
+	line-height:1.0em;
+	}
+
+.saloncourse .flow .step .ttl02{
+	background:#EEEEEE;
+	padding:2px;
+	}
+
+.saloncourse .flow .step .ttl{
+	font-size:14px;
+	padding-bottom:3px;
+	border-bottom:1px dotted #CCCCCC;
+	}
+	
+.saloncourse .flow .ml .ttl{
+	color:#4c2d79;
+}	
+
+
+.saloncourse .flow .body .step .ttl{
+	border-bottom:none;
+}
+.saloncourse .flow .step .txt{
+	padding-top:5px;
+	}
+
+.saloncourse th{
+	width:8em;
+	} 
+	
+.saloncourse h3.bridal{
+	background:#EEEEEE;
+	padding:3px;
+	}
+
+.salonmember .block{
+	border:1px solid #dddddd;
+	margin:10px;
+	}
+
+
+.salonmember .paragraph,
+.salonmember .lead{
+	padding:10px;
+	font-size:12px;
+	line-height:1.4em;
+	}
+.salonmember .lead{	
+	text-align:left;
+}
+
+.salonmember h3{
+	background:#e1e6e8;
+	font-size:13px;
+	padding:10px;
+	}
+
+.salonmember h3.ttl{
+	margin-top:20px;
+}
+
+.salonmember .notice{
+	font-size:12px;
+	line-height:1.4em;
+	margin-left:1.0em;
+	text-align:left;
+	}
+	
+.salonmember .notice_txt{
+	font-size:12px;
+	line-height:1.4em;
+	margin-left:2.0em;
+	text-align:left;
+	}
+.salonmember .notice span{
+	margin-left:-1.0em;
+}
+.salonmember .attention{
+	color:#FF0000;
+}
+.salonmember table.member_new{
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+
+.salonmember table.member_new th{
+	background:#ebebeb;
+	border-bottom:1px solid #CCCCCC;
+	}
+	
+	
+.salonmember table.member_new td{
+	border-bottom:1px dotted #CCCCCC;
+}
+
+.salonmember table.member_new th.times{
+	width:6em;
+	}
+	
+.salonmember table.member_new td,
+.salonmember table.member_new th{
+	border-right:1px solid #CCCCCC;
+	font-size:12px;
+	padding:5px;
+	}
+.salonmember table.member_new td.noborder{
+	border-bottom:none;
+	}
+	
+	
+.salonmember table.member_program{
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	width:100%;
+	margin-top:20px;
+	margin-bottom:30px;
+
+	}
+
+.salonmember table.member_program tr{
+	border-bottom:1px solid #CCCCCC;
+	}
+
+.salonmember table.member_program tr.noborder{
+	border-bottom:none;
+	}
+
+.salonmember table.member_program td,
+.salonmember table.member_program th{
+	border-right:1px solid #CCCCCC;
+	font-size:12px;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+	}
+.salonmember table.member_program th{	
+	background:#ebebeb;
+}
+	
+.salonmember table.member_program td.noborder,
+.salonmember table.member_program th.noborder{
+
+	}
+
+
+.salonmember table.member_program th.stage{
+	width:40%;
+	}
+	
+.salonmember table.member_program img.fit{
+	width:60%;
+	max-width:151px;
+	}
+	
+.salonmember table.member_program th.point{
+	width:17%;
+	}
+
+.salonmember .present{
+	margin:10px 10px 20px 10px;
+	padding:8px;
+	border-radius:4px;	
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	border:1px solid #666666;
+	}
+
+.salonmember .present .ttl{
+	text-align:center;
+	font-size:14px;
+}
+
+.salonmember .present .ttl span{
+	background:#FFFFFF;
+	display:block;
+	width:15em;
+	margin:0 auto;
+	margin-top:-1.5em;
+	padding:5px;
+}
+
+
+.salonmember .notes{
+	margin:10px;
+	padding:10px;
+	border-left:7px solid #CCCCCC;
+	}
+
+
+.salonmember ol,
+.salonmember ul{
+	margin:10px;
+	padding-left:2em;
+	font-size:12px;
+	line-height:1.4em;
+	}
+
+.salonmember ol{
+	padding-left:2em;
+	}
+.salonmember ul{
+	padding-left:1em;
+	}
+.salonmember ol li{
+	list-style-type:decimal;
+}
+
+.salonmember ul li{
+	list-style-type:disc;
+}
+
+.salonmember ul li span{
+	font-size:12px;
+}
+
+.salonmember .schedule{
+	margin:20px 10px;
+	text-align:center;
+	}
+
+.salonmember .schedule img{
+	width:100%;
+	max-width:400px;
+	}
+
+
+
+.salonmember .notice_txt{
+	margin-bottom:20px;
+	}
+
+.concept .main{
+	text-align:center;
+	}
+	
+.concept .main img{
+	width:60%;
+	margin:0 auto;
+	max-width:591px;
+	}
+
+.concept .btn a{
+	padding:8px;
+	border-radius:4px;	
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background:#666666;
+	color: #FFFFFF;
+	margin-top:10px;
+	display:block;
+	width:150px;
+	text-align:center;
+	float:right;
+	}
+
+.salonaccess .saloncontact{
+	border:1px solid #dddddd;
+	width:95%;
+	margin:10px auto;
+	}
+
+.salonaccess h3{
+	background:#e1e6e8;
+	font-size:13px;
+	padding:10px;
+	}
+
+.salonaccess h4{
+	font-size:13px;
+	}
+
+.salonaccess .paragraph{
+	padding:10px;	
+	}
+	
+.salonaccess .paragraph p{
+	font-size:12px;	
+	}
+
+.salonaccess .shop{
+	font-size:14px;
+	line-height:1.4em;
+	margin-bottom:10px;
+	}
+	
+.salonaccess .paragraph .tel{
+	font-size:20px;
+	line-height:1.4em;
+	margin-bottom:10px;
+	}
+	
+.salonaccess h4,
+.salonaccess dl,
+.salonaccess .address{
+	font-size:12px;	
+	line-height:1.4em;
+	}
+	
+.salonaccess dl{
+	margin-bottom:10px;
+	}
+	
+.salonaccess dl dd span{
+	width:6em;
+	display:block;
+	float:left;
+	}
+	
+.salonaccess .banner,
+.salonaccess .map{
+	text-align:center;
+	margin:10px 0;
+	}
+
+.salonaccess .notice{
+	font-size:12px;
+	line-height:1.4em;
+	margin-left:1.0em;
+	}
+	
+.salonaccess .notice span{
+	margin-left:-1.0em;
+}
+
+.salonaccess dl dt,
+.salonaccess dl dd{
+	font-size:12px;
+	line-height:1.4em;
+	}
+	
+.salonaccess dl dt{
+	margin-top:10px;
+	}
+	
+.salonaccess .map{
+	width:98%;
+	height:200px;
+	margin:0 auto 20px;
+}
+	
+	
+
+.paragraph .salonBtn01 a {
+	padding:9px 9px 9px 29px;
+	margin:0 auto;
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background: url(/sp/salon/images/arrow01.png) no-repeat 10px #fff;
+	color: #333;
+	border:solid 1px #CCC;
+	width:240px;
+	margin-top:10px;
+	display:block;
+}
+.paragraph .salonBtn02 a {
+	padding:9px 9px 9px 29px;
+	margin:0 auto;
+	-webkit-border-radius: 4px;	/* Safari,Google Chrome用 */
+	-moz-border-radius: 4px;	/* Firefox用 */
+	background: url(/sp/salon/images/arrow02.png) no-repeat 10px #475359;
+	color: #fff;
+	border:solid 1px #CCC;
+	width:240px;
+	margin-top:10px;
+	display:block;
+}
+
+#salon_skincareline p{
+	text-align:center;
+	}
+
+#saloncourse h3, #saloncourse h4, #saloncontact h4 {
+	color:#475359;
+	padding:30px 20px 10px;
+}
+#saloncourse h5,
+#saloncontact h5 {
+	color:#666;
+	font-weight:bold;
+	border-bottom:dotted 1px #CCC;
+	margin:10px 20px;
+	padding-bottom:10px;
+	font-size:12px;
+}
+#saloncourse p.subsub,
+#saloncontact p.subsub {
+	color:#475359;
+	margin:10px 20px 0px;
+}
+#saloncourse p.txt,
+#saloncontact p.txt {
+	margin:0px 20px;
+}
+#saloncourse p.txt2,
+#saloncontact p.txt2 {
+	font-size:10px;
+	margin:0px 20px;
+}
+#saloncourse h3.optionmenu {
+	color:#FFF;
+	background:#475359;
+	font-size:12px;
+	padding:8px;
+	margin:10px 20px;
+}
+#saloncontact p.tel a {
+	font-weight:bold;
+	color:#475359;
+	font-size:18px;
+}
+
+
+#salon_space .fador li{
+	width:100%;
+	}
+
+#salon_space .fador img{
+	width:100%;
+	}
+
+#salon_space .txt li{
+	font-size:12px;
+	margin:5px;
+}
+

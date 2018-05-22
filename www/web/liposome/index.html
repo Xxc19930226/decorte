@@ -1,0 +1,79 @@
+<?php slot('description', 'LIPOSOME Treatment Liquidのご紹介。肌がはじめて出逢う、新次元の化粧水。コスメデコルテ。') ?>
+<?php slot('keywords', 'リポソーム,多重層リポソーム,コスメデコルテ, DECORTE,保湿,潤い,乾燥,肌アレ,キメ,毛穴,エイジング,透明感,ツヤ,くすみ,スキンケア,化粧水,コーセー') ?>
+<?php slot('title', 'LIPOSOME Treatment Liquid') ?>
+<?php use_stylesheet('linetop.css') ?>
+<?php use_stylesheet('linetop-liposome.css') ?>
+<?php use_stylesheet('news.css') ?>
+<script type="text/javascript">
+    var _dispItemList = '/product/liposome/skincare/list';
+</script>
+
+<article>
+  <?php /*
+  <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+    <div class="keyvisual__container">
+      <div class="keyvisual__movie">
+        <div class="keyvisual__movie__container">
+          <?php include_partial('global/flvmp4', array('flashFile' => '/movies/201609_decorte_ltl.swf', 'mp4File' => '/movies/201609_decorte_ltl.mp4', 'poster' => '/images/liposome/sp/movie_image_2.jpg', 'controls' => 'false')) ?>
+          <div class="keyvisual__movie__coat">
+            <div class="keyvisual__movie__coat__arrow"> <img src="/images/parts/arrow_movie_slide.png" alt="" /> </div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+            <div class="keyvisual__image l-container">
+                <h1 class="keyvisual__image__container"><img src="/images/liposome/sp/kv.jpg" alt="リポソーム トリートメント リキッド" class="sp"><img src="/images/liposome/kv.jpg" alt="リポソーム トリートメント リキッド" class="pc"></h1>
+                <p class="bestcosme"><a href="/product/liposome/JVYL"><img src="/images/bestcosme/logo_best_cosme.png" alt="ベストコスメ受賞"></a></p>
+            </div>
+            -->
+    </div>
+  </div>
+  */ ?>
+    <div class="keyvisual l--fixed-submenu-anchor" data-name="TOP">
+        <div class="l-container">
+            <h1><img src="/images/liposome/kv.jpg" alt="liposome" class="sp"><img src="/images/liposome/kv.jpg" alt="liposome" class="pc"></h1>
+            <!--<p class="bestcosme"><a href="/product/liposome/JVYL"><img src="/images/bestcosme/logo_best_cosme.png" alt="ベストコスメ受賞"></a></p>
+            動画が入ります。 </div>-->
+    </div>
+
+  <section class="news l--fixed-submenu-anchor" data-name="Latest News">
+    <div class="l-container">
+      <h1 class="news__title">最新情报</h1>
+      <div class="news-container">
+        <div class="l-row">
+          <div class="news__thumbnail widethumb">
+            <div class="news__thumbnail__image"><img src="/images/news/bescos-liposome.png" alt="" class="pc"><img src="/images/news/sp/bescos-liposome_bg_sp.png?0624" alt="" class="sp"></div>
+            <div class="news__thumbnail__about">
+              <p class="news__thumbnail__about__bescos">获奖信息</p>
+              <p class="news__thumbnail__about__title">获奖信息</p>
+              <p class="news__thumbnail__about__bescostext">黛珂<br class="sp">赋活精华露</p>
+              <div class="news__thumbnail__about__seemore"><a href="/product/liposome/JVYL">View More</a></div>
+            </div>
+          </div>
+        </div>
+        <!-- /row -->
+      </div>
+    </div>
+  </section>
+  <section class="concept l--fixed-submenu-anchor" data-name="Concept">
+    <div class="l-container bl">
+      <h1 class="concept__message__title">概念</h1>
+      <p class="concept__message__lead">扩充「肌肤内部容量」， 真正的超越和改变。</p>
+      <p class="concept__message__link"><a href="concept.html">View More</a></p>
+    </div>
+  </section>
+  <section class="product l--fixed-submenu-anchor" data-name="Products">
+    <div class="l-container">
+      <h1 class="product__title">产品</h1>
+      <div class="product__triggers" data-url="/product/liposome/">
+        <div class="product__category">
+          <ul class="product__category__list">
+            <li class="product__category__item load-skincare m--active" data-type="skincare">护肤</li>
+          </ul>
+        </div>
+      </div>
+      <div id="dispItemList"></div>
+    </div>
+  </section>
+</article>

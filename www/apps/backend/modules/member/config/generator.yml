@@ -1,0 +1,38 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Member
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          member
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        name_sei: { label: 姓 }
+        name_mei: { label: 名 }
+        name_sei_kana: { label: せい }
+        name_mei_kana: { label: めい }
+        mail_pc: { label: PCメールアドレス }
+        mail_mobile: { label: 携帯メールアドレス }
+        temp_flag: { label: 仮登録 }
+        created_at: { label: 登録日時 }
+        updated_at: { label: 更新日時 }
+      list:
+        title: 会員情報 一覧
+        display: [ name_sei, name_mei, name_sei_kana, name_mei_kana, mail_pc, mail_mobile, temp_flag ]
+        actions: {}
+        object_actions:
+          _edit:   { label: 編集 }
+          _delete: { label: 削除, confirm: "本当に削除してもよろしいですか?" }
+      filter:
+        display: [ name_sei, name_mei, name_sei_kana, name_mei_kana, mail_pc, mail_mobile ]
+      form:    ~
+      edit:
+        title: 会員情報 編集
+      new:     ~

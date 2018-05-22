@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/*------------------
+2014 marcel wandars
+------------------*/
+
+.coda-nav ul li a{
+display:block;
+overflow:hidden;
+}
+
+.coda-nav ul li.tab1 a{
+width:66px;
+height:33px;
+}
+
+.coda-nav ul li.tab1 {
+background:no-repeat URL(../images/2014/no1_on.gif) 0 0;
+}
+
+
+.coda-nav ul li.tab2 a {
+width:70px;
+height:33px;
+}
+
+.coda-nav ul li.tab2 {
+background:no-repeat URL(../images/2014/no2_on.gif) 0 0;
+}
+
+.coda-nav ul li.tab3 a{
+width:167px;
+height:33px;
+}
+
+.coda-nav ul li.tab3 {
+background:no-repeat URL(../images/2014/no3_on.gif) 0 0;
+}
+
+
+
+.coda-nav ul li.tab4 a{
+width:123px;
+height:33px;
+}
+
+.coda-nav ul li.tab4 {
+background:no-repeat URL(../images/2014/no4_on.gif) 0 0;
+}
+
+
+.coda-nav ul li.tab5 a{
+width:168px;
+height:33px;
+}
+
+.coda-nav ul li.tab5 {
+background:no-repeat URL(../images/2014/no5_on.gif) 0 0;
+}
+
+.coda-nav ul li.tab6 a{
+width:107px;
+height:33px;
+}
+
+.coda-nav ul li.tab6 {
+background:no-repeat URL(../images/2014/no6_on.gif) 0 0;
+}
+
+.coda-nav ul li.tab7 a{
+width:141px;
+height:33px;
+}
+
+
+.coda-nav ul li.tab7 {
+background:no-repeat URL(../images/2014/no7_on.gif) 0 0;
+}
+
+.coda-nav ul li.tab8 a{
+width:50px;
+height:33px;
+}
+
+
+.coda-nav ul li.tab8 {
+background:no-repeat URL(../images/2014/no8_on.gif) 0 0;
+}
+
+
+
+.coda-nav ul li a.current img {
+visibility: hidden;
+}
+
+.coda-nav ul li a.current  {
+background-color:transparent;
+background-image:none;
+}
+
+.coda-nav ul li a:hover img {
+visibility:hidden;
+}
+
+.coda-nav ul li a:hover {
+background-color:transparent;
+background-image:none;
+}

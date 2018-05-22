@@ -1,0 +1,154 @@
+Member:
+  oda:
+    name_sei:         小田
+    name_mei:         和明
+    name_sei_kana:    おだ
+    name_mei_kana:    かずあき
+    mail_pc:          oda@broadtech.co.jp
+    mail_pc_flag:     true
+    mail_mobile:      bsddaemon@docomo.ne.jp
+    mail_mobile_flag: true
+    mail_html_flag:   true
+    mail_block_flag:  false
+    password:         BR8461hr
+    sex:              男性
+    zip_code:         153-0062
+    prefecture:       東京都
+    address1:         目黒区三田1-11-1
+    address2:         YTタナカビルディング
+    job:              会社員
+    tel:              03-3710-1851
+    nick_name:         ダンディー小田ゲッツ！！
+    birthday:         '1974-03-04'
+    mobile_device_id:
+    temp_flag:        false
+    mail_pc_approval_flag: true
+    mail_mobile_approval_flag: true
+  namekawa:
+    name_sei:         滑川
+    name_mei:         哲弘
+    name_sei_kana:    なめかわ
+    name_mei_kana:    てつひろ
+    mail_pc:          namekawa@broadtech.co.jp
+    mail_pc_flag:     true
+    mail_mobile:
+    mail_mobile_flag: false
+    mail_html_flag:   false
+    mail_block_flag:  false
+    password:         BR8461hr
+    sex:              男性
+    zip_code:         153-0062
+    prefecture:       東京都
+    address1:         目黒区三田1-11-1
+    address2:         YTタナカビルディング
+    job:              会社員
+    tel:              03-3710-1851
+    nick_name:         ゲッチュなめなめ
+    birthday:         '1980-03-01'
+    mobile_device_id:
+    temp_flag:        false
+    mail_pc_approval_flag: true
+    mail_mobile_approval_flag: false
+<?php for ($i = 1; $i <= 100; $i++): ?>
+  dummy_member_<?php echo $i ?>:
+    name_sei:         小田
+    name_mei:         和明
+    name_sei_kana:    おだ
+    name_mei_kana:    かずあき
+    mail_pc:          test1@aliceblue.jp
+    mail_pc_flag:     true
+    mail_mobile:      bsddaemon@docomo.ne.jp
+    mail_mobile_flag: true
+    mail_html_flag:   true
+    mail_block_flag:  false
+    password:         BR8461hr
+    sex:              男性
+    zip_code:         153-0062
+    prefecture:       東京都
+    address1:         目黒区三田1-11-1
+    address2:         YTタナカビルディング
+    job:              会社員
+    tel:              03-3710-1851
+    birthday:         '1974-03-04'
+    mobile_device_id:
+    temp_flag:        false
+<?php endfor ?>
+
+Mail:
+<?php for ($i = 1; $i <= 35; $i++): ?>
+  dummy_mail<?php echo $i ?>:
+    subject:      テストメール<?php echo "$i\n" ?>
+    body: |
+
+      ${name_sei}　${name_mei}  様
+
+      これはテストメールです。
+
+      ──────────────────────────────────
+      発行：コスメデコルテWEBサイト サポート事務局 info@cosmedecorte.com
+      このメールの無断転載を禁止します。
+      Copyright(C) COSME DECORTE. All Rights Reserved.
+    delivered_at: '2011-05-18 20:10:00'
+    address_type: 1
+    status:       未送信
+    Author:       info_cosmedecorte
+    Group:        pc
+<?php endfor ?>
+
+MailAuthor:
+  info_cosmedecorte:
+    name:    COSME DECORTE
+    address: info@cosmedecorte.com
+
+MailGroup:
+  all:
+    name: 全登録者
+  pc:
+    name: PCメール配信希望者
+  mobile:
+    name: モバイルメール配信希望者
+  test:
+    name: テスト配信
+
+MailGroupLogic:
+  pc_logic:
+    operator: AND
+    Group:    pc
+  mobile_logic:
+    operator: AND
+    Group:    mobile
+  test_logic:
+    operator: OR
+    Group:    test
+
+MailGroupLogicTerm:
+  pc_term:
+    operator:    EQUAL
+    column_name: mail_pc_flag
+    value:       1
+    Logic:       pc_logic
+  mobile_term:
+    operator:    EQUAL
+    column_name: mail_mobile_flag
+    value:       1
+    Logic:       mobile_logic
+  test_term1:
+    operator:    EQUAL
+    column_name: mail_pc
+    value:       oda@broadtech.co.jp
+    Logic:       test_logic
+  test_term2:
+    operator:    EQUAL
+    column_name: mail_pc
+    value:       namekawa@broadtech.co.jp
+    Logic:       test_logic
+  test_term3:
+    operator:    EQUAL
+    column_name: mail_pc
+    value:       kizuka@broadtech.co.jp
+    Logic:       test_logic
+  test_term4:
+    operator:    EQUAL
+    column_name: mail_pc
+    value:       fukushima@broadtech.co.jp
+    Logic:       test_logic

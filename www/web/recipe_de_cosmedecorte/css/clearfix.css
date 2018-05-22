@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* ******************************************************
+Title: clearfix.css
+Created: 2010-09-23
+Last Modified: 2010-09-23
+****************************************************** */
+
+/* float clearfix */
+
+#headerArea:after,
+#gNavArea ul:after,
+.slideshow:after,
+#slidesWrap:after,
+#accRanking:after,
+.rankBox:after,
+.recomBox:after,
+#top_rightBox:after,
+#topSub:after,
+#subLinks ul:after,
+#footLinks:after,
+#footLinks .footCNA:after,
+.resultProductgroup:after,
+#lineContents:after,
+#contents:after,
+#others:after,
+.labelBox:after,
+.lineBox:after,
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+* html #headerArea,
+* html #gNavArea ul,
+* html .slideshow,
+* html #slidesWrap,
+* html #accRanking,
+* html .rankBox,
+* html .recomBox,
+* html #top_rightBox,
+* html #topSub,
+* html #subLinks,
+* html #footLinks,
+* html #footLinks,
+* html .footCNA,
+* html #lineContents,
+* html #contents,
+* html #others,
+* html .labelBox,
+* html .resultProductgroup,
+* html .lineBox,
+* html .clearfix {
+	zoom: 1;
+} /* IE6 */
+
+
+
+*:first-child+html #headerArea,
+*:first-child+html #gNavArea ul,
+*:first-child+html .slideshow,
+*:first-child+html #slidesWrap,
+*:first-child+html #accRanking,
+*:first-child+html .rankBox,
+*:first-child+html .recomBox,
+*:first-child+html #top_rightBox,
+*:first-child+html #topSub,
+*:first-child+html #subLinks,
+*:first-child+html #footLinks,
+*:first-child+html #footLinks,
+*:first-child+html .footCNA,
+*:first-child+html #lineContents,
+*:first-child+html #contents,
+*:first-child+html #others,
+*:first-child+html .labelBox,
+*:first-child+html .resultProductgroup,
+*:first-child+html .lineBox,
+*:first-child+html .clearfix {
+	zoom: 1;
+} /* IE7 */
+

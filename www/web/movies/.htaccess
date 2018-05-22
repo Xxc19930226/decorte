@@ -1,0 +1,4 @@
+<Files ~ "\.mp4$">
+Satisfy any
+Allow from all
+</Files>

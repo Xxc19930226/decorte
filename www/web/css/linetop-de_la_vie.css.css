@@ -1,0 +1,60 @@
+
+.steplink .l-steplink__container {
+    height: 80px
+}
+
+.steplink .l-step1__link1 {
+    left: 41px;
+    top: 0
+}
+
+.steplink .l-step2__link1 {
+    left: 267px;
+    top: 0
+}
+
+.steplink .l-step3__link1 {
+    left: 493px;
+    top: 0
+}
+
+.steplink .l-step4__link1 {
+    left: 719px;
+    top: 0
+}
+
+
+@media screen and (max-width: 736px) {
+
+
+
+
+.steplink .l-steplink__container {
+    height: 460px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto
+}
+.steplink .l-step1__link1 {
+    left: 10px;
+    top: 45px
+}
+
+.steplink .l-step2__link1 {
+    left: 10px;
+    top: 155px
+}
+
+.steplink .l-step3__link1 {
+    left: 10px;
+    top: 254px
+}
+
+.steplink .l-step4__link1 {
+    left: 10px;
+    top: 370px
+}
+
+
+
+}
