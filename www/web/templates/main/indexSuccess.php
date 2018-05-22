@@ -177,7 +177,7 @@
     <div class="l-container">
         <ul class="news__list">
             <li class="news__list__item bl news__20161201a" id="news__20161201a"><a href="news.html?section=newitem/#newitem-20170401a"><br><span style="border-bottom:1px solid black;padding:0">新色</span><br>黛珂<br>AQMW<br>魅艺唇膏<br></a></li>
-            <li class="news__list__item bl news__20161016c" id="news__20161016c"><a href="news.html?section=newitem/#newitem-20180522" style="color:black"><br><span style="border-bottom:1px solid black;padding:0">新商品</span><br>黛珂<br>AQMW<br>全新底妆</a></li>
+            <li class="news__list__item bl news__20161016c" id="news__20161016c"><a href="news.html?section=newitem/#newitem-20180522" style="color:black"><br><span style="border-bottom:1px solid black;padding:0">新商品</span><br>黛珂<br>AQMW<br>宝石光璨眼影</a></li>
         </ul>
         <!--<ul class="news__list">
             <li class="news__list__item bl news__20161001b" id="news__20161016a"><img src="/images/home/news/list_item/news_bg_20161001b.jpg" alt="" class="ie8"><a href="/aq_meliority/#newitem-20161001b"><span class="type">限定品</span><br>コスメデコルテ<br>AQ ミリオリティ<br>ラグジュリアス コフレ</a></li>
