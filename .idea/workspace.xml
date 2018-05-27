@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eab94a6-8295-4a80-aebc-cd585a3f29eb" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/web/images/home/news/list_item/news2.jpg" afterPath="$PROJECT_DIR$/www/web/images/home/news/list_item/news2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/web/templates/main/indexSuccess.php" afterPath="$PROJECT_DIR$/www/web/templates/main/indexSuccess.php" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/web/shop.html" afterPath="$PROJECT_DIR$/www/web/shop.html" />
+>>>>>>> 徐欣辰
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
+              <first_editor relative-caret-position="161">
                 <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="17" />
                 <folding />
               </first_editor>
@@ -29,18 +33,61 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="newitem-20180522.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20180522.png">
           <provider selected="true" editor-type-id="images">
             <state />
+=======
+      <file leaf-file-name="indexSuccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/web/templates/main/indexSuccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4117">
+              <caret line="179" column="133" lean-forward="false" selection-start-line="179" selection-start-column="117" selection-end-line="179" selection-end-column="133" />
+              <folding>
+                <marker date="1526995813144" expanded="true" signature="6855:7707" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="7734:7878" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="7886:15554" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="15595:15697" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="15606:15685" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="15721:16055" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="15765:15830" ph="{...}" />
+                <marker date="1526995813144" expanded="true" signature="15872:15937" ph="{...}" />
+                <marker date="1526995813144" expanded="true" signature="15982:16047" ph="{...}" />
+                <marker date="1526995813144" expanded="true" signature="16085:17791" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="16126:17780" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="16215:17616" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="16864:17143" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="17372:17600" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="17818:20105" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="17855:20094" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="17890:18280" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="18316:19395" ph="..." />
+                <marker date="1526995813144" expanded="false" signature="18342:18373" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="18374:18622" ph="..." />
+                <marker date="1526995813144" expanded="false" signature="18441:18452" ph="..." />
+                <marker date="1526995813144" expanded="false" signature="18481:18520" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="18521:18603" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="18640:19379" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="19434:19522" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="19488:19507" ph="..." />
+                <marker date="1526995813144" expanded="true" signature="19536:20081" ph="..." />
+              </folding>
+            </state>
+>>>>>>> 徐欣辰
           </provider>
         </entry>
       </file>
       <file leaf-file-name="indexSuccess.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/web/templates/main/indexSuccess.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="253">
               <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+=======
+            <state relative-caret-position="1541">
+              <caret line="67" column="158" lean-forward="false" selection-start-line="67" selection-start-column="158" selection-end-line="67" selection-end-column="158" />
+>>>>>>> 徐欣辰
               <folding />
             </state>
           </provider>
@@ -125,11 +172,14 @@
         <option value="$PROJECT_DIR$/www/web/line.html" />
         <option value="$PROJECT_DIR$/www/web/images/product/aq_mw/color/JGZY/JGZY.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/www/web/shop.html" />
         <option value="$PROJECT_DIR$/www/web/templates/product/custom_detail/aq_mw/JGZY.html" />
         <option value="$PROJECT_DIR$/www/web/aq_mw/index.html" />
         <option value="$PROJECT_DIR$/www/web/news.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/www/web/templates/main/indexSuccess.php" />
+=======
+        <option value="$PROJECT_DIR$/www/web/shop.html" />
+>>>>>>> 徐欣辰
       </list>
     </option>
   </component>
@@ -140,9 +190,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-86" />
     <option name="y" value="210" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="y" value="3" />
+>>>>>>> 徐欣辰
     <option name="width" value="1920" />
     <option name="height" value="1030" />
   </component>
@@ -169,6 +225,7 @@
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="decorte_git" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
@@ -187,6 +244,8 @@
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+>>>>>>> 徐欣辰
             </path>
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
@@ -199,15 +258,28 @@
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="decorte_git" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="decorte_git" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+>>>>>>> 徐欣辰
+            </path>
+            <path>
+              <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="decorte_git" type="2a2b976b:PhpTreeStructureProvider$1" />
+<<<<<<< HEAD
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
@@ -226,17 +298,21 @@
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="decorte_git" type="2a2b976b:PhpTreeStructureProvider$1" />
+=======
+>>>>>>> 徐欣辰
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="decorte_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="decorte_git" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="main" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="footer" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -251,7 +327,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\little project\decorte\decorte_git\www\web\images\home\news\list_item" />
+=======
+      <recent name="D:\little project\decorte\decorte_git\www\web\images\home\footer" />
+>>>>>>> 徐欣辰
       <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\images\news" />
       <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\images\home\news\list_item\sp" />
       <recent name="D:\little project\decorte\decorte-cn-official-site-master\www\web\templates\main" />
@@ -340,11 +420,16 @@
       <workItem from="1526870447348" duration="624000" />
       <workItem from="1526907050827" duration="259000" />
       <workItem from="1526958591087" duration="7871000" />
+<<<<<<< HEAD
       <workItem from="1526991208936" duration="965000" />
+=======
+      <workItem from="1527430062510" duration="1385000" />
+>>>>>>> 徐欣辰
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="110634000" />
   </component>
   <component name="ToolWindowManager">
@@ -352,6 +437,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26145834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="111054000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="3" width="1920" height="1030" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639327" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 徐欣辰
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -467,6 +560,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/www/web/shop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7199">
@@ -474,12 +568,9 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 徐欣辰
     <entry file="file://$PROJECT_DIR$/www/web/images/home/footer/map.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/web/images/home/footer/map2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -502,6 +593,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
           <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> 徐欣辰
         </state>
       </provider>
     </entry>
@@ -613,6 +715,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="24" column="147" lean-forward="false" selection-start-line="24" selection-start-column="147" selection-end-line="24" selection-end-column="147" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/news/newitem-20180522.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/templates/main/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4117">
+          <caret line="179" column="133" lean-forward="false" selection-start-line="179" selection-start-column="117" selection-end-line="179" selection-end-column="133" />
+          <folding>
+            <marker date="1526995813144" expanded="true" signature="6855:7707" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="7734:7878" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="7886:15554" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="15595:15697" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="15606:15685" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="15721:16055" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="15765:15830" ph="{...}" />
+            <marker date="1526995813144" expanded="true" signature="15872:15937" ph="{...}" />
+            <marker date="1526995813144" expanded="true" signature="15982:16047" ph="{...}" />
+            <marker date="1526995813144" expanded="true" signature="16085:17791" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="16126:17780" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="16215:17616" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="16864:17143" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="17372:17600" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="17818:20105" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="17855:20094" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="17890:18280" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="18316:19395" ph="..." />
+            <marker date="1526995813144" expanded="false" signature="18342:18373" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="18374:18622" ph="..." />
+            <marker date="1526995813144" expanded="false" signature="18441:18452" ph="..." />
+            <marker date="1526995813144" expanded="false" signature="18481:18520" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="18521:18603" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="18640:19379" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="19434:19522" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="19488:19507" ph="..." />
+            <marker date="1526995813144" expanded="true" signature="19536:20081" ph="..." />
+          </folding>
+>>>>>>> 徐欣辰
         </state>
       </provider>
     </entry>
@@ -620,13 +766,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3195">
           <caret line="42" column="187" lean-forward="false" selection-start-line="42" selection-start-column="187" selection-end-line="42" selection-end-column="187" />
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1541">
+          <caret line="67" column="158" lean-forward="false" selection-start-line="67" selection-start-column="158" selection-end-line="67" selection-end-column="158" />
+          <folding />
+>>>>>>> 徐欣辰
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/images/home/footer/map2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/web/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="156" column="458" lean-forward="false" selection-start-line="156" selection-start-column="458" selection-end-line="156" selection-end-column="458" />
+          <folding>
+            <marker date="1527430558390" expanded="true" signature="8126:8234" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="8248:8302" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="8371:8425" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="8494:8507" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="9147:9255" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="9269:9323" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="9398:9411" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="10053:10161" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="10175:10188" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="10838:10946" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="10960:10973" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="11614:11722" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="11736:11749" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="12393:12501" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="12515:12528" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="13275:13383" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="13397:13451" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="14205:14313" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="14327:14381" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="15137:15245" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="15259:15313" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="16048:16156" ph="..." />
+            <marker date="1527430558390" expanded="true" signature="16170:16224" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
+          <first_editor relative-caret-position="161">
             <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="17" />
             <folding />
           </first_editor>
