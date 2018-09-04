@@ -42,10 +42,10 @@
                     <img src="/images/home/top/sp/kv1.jpg" alt="" class="fascia__carousel__node__image">
                 </a>
               -->
-                <a href="/aq_meliority/" class="fascia__carousel__node l--center pc">
+                <a href="http://cosmedecorte.com.cn/product/aq_meliority/JGCX" class="fascia__carousel__node l--center pc">
                     <img src="/images/home/top/kv4.jpg" alt="" class="fascia__carousel__node__image">
                 </a>
-                <a href="/aq_meliority/" class="fascia__carousel__node l--center sp">
+                <a href="http://cosmedecorte.com.cn/product/aq_meliority/JGCX" class="fascia__carousel__node l--center sp">
                     <img src="/images/home/top/sp/kv4.jpg" alt="" class="fascia__carousel__node__image">
                 </a>
                 <a href="/moisture_liposome/" class="fascia__carousel__node pc">
