@@ -115,7 +115,7 @@
 <div class="right_first">
     <div class="news__20160715a l--poster white" id="news__20160715a">
         <div class="l--poster__container">
-            <a href="/ip_shot/">
+            <a href="/product/ip_shot/JVSH?log=n0V0AIylkG8">
                 <div class="image-base"></div>
             </a>
         </div>
@@ -176,7 +176,7 @@
 <div class="news">
     <div class="l-container">
         <ul class="news__list">
-            <li class="news__list__item bl news__20161201a" id="news__20161201a"><a href="news.html?section=newitem/#newitem-20180922"><br><!--<span style="border-bottom:1px solid black;padding:0">新色</span>--><br>黛珂 <br>抗皱抚痕精华液</a></li>
+            <li class="news__list__item bl news__20161201a" id="news__20161201a"><a href="news.html?section=newitem/#newitem-20180922"><br><!--<span style="border-bottom:1px solid black;padding:0">新色</span>--><span style="border-bottom:1px solid black;padding:0">新商品</span><br>黛珂 <br>抗皱抚痕精华液</a></li>
             <li class="news__list__item bl news__20161016c" id="news__20161016c"><a href="news.html?section=newitem/#newitem-20170901a" style="color:black"><br><span style="border-bottom:1px solid black;padding:0">新商品</span><br>黛珂<br>多重防晒乳<br>（防晒乳液）</a></li>
         </ul>
         <!--<ul class="news__list">
